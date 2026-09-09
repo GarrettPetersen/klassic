@@ -13,9 +13,9 @@ The first production source is **Erich Fromm on The Mike Wallace Interview (May 
 - 24fps playback with 72 authored Krusty in-between cels covering all 36 mouth-pose pairs, encoded as H.264/AAC MP4, burned captions, SRT, contact sheet, editable JSON camera timeline, and a local HTML review page.
 - Input hashes, retained takes, deterministic compositing, and errors for missing inputs or invalid timelines. No automatic replacement with a different voice provider.
 
-The complete first short episode is **The Personality Market**, a concise adaptation of Fromm's argument with original Krusty framing and a closing sign-off. It uses the preferred Cartoon Studio Krusty voice reference and a separate Fromm reference from his 1958 interview. The portrait has a foreground nose, guest-specific skin treatment, and all 72 authored mouth transitions. See [the production recipe](episodes/fromm/README.md).
+**The full-length episode is not finished.** The target is the entire roughly half-hour interview. **The Personality Market** is a 101-second dialogue production test with adapted discussion and original framing. It uses the preferred Cartoon Studio Krusty voice reference and a separate Fromm reference from his 1958 interview. The portrait has a foreground nose, guest-specific skin treatment, and all 72 authored mouth transitions. See [the production recipe](episodes/fromm/README.md).
 
-The film is 4:3 at 1440×1080 and 24 fps, with a title card, clean picture, and optional SRT captions. Close-ups crop the master set; the drinking pose changes across cuts. Blinks and full arm animation are not implemented.
+The production test is 4:3 at 1440×1080 and 24 fps, with a jazz opening, clean picture, optional SRT captions, and end credits. Close-ups crop the master set; the drinking pose changes across cuts. Blinks and full arm animation are not implemented.
 
 ## Run the included proof
 

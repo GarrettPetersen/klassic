@@ -1,0 +1,28 @@
+{
+  "full_episode_complete": false,
+  "target": "Entire approximately half-hour interview; preserve long answers and pauses.",
+  "source_duration_seconds": 1769.856,
+  "source_transcript_words": 4441,
+  "source_transcript_downloaded": true,
+  "full_length_synthesis_started": false,
+  "blocker": "Awaiting a user-supplied transcript for the full-text transformation; the remotely retrieved archive transcript is already present.",
+  "production_test": {
+    "dialogue_seconds": 101.01,
+    "with_music_and_credits_seconds": 147.26,
+    "build": "build/fromm-music-review"
+  },
+  "completed": [
+    "Approved Krusty voice and separate Fromm historical reference",
+    "Layered guest portrait and authored mouth transitions",
+    "Silence-aware lip sync",
+    "Licensed jazz cue with source record",
+    "Requested creator, model, source, and music credits",
+    "Voice and assembly scripts accept a separate full-length episode"
+  ],
+  "next_steps": [
+    "Receive user-supplied transcript",
+    "Prepare complete script without shortening its discussion",
+    "Generate and review all full-length voice takes",
+    "Edit full camera timeline, render, and inspect full film"
+  ]
+}

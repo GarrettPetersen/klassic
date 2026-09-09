@@ -1,0 +1,14 @@
+{
+  "review": "Short production test with music and credits; not the full interview.",
+  "duration_seconds": 147.26,
+  "intro_and_credits_preview": "build/fromm-music-review/intro-and-credits.mp4",
+  "episode_sha256": "2f8199a2cecd7244e518030452c819ed42286d3204ea9168741421694486c0b4",
+  "music_sha256": "15ee9995e01ffe91678db6ba072ec13cf0bf258f17c01677c5367009932b9c07",
+  "credit_cards": 5,
+  "credit_duration_seconds": 40,
+  "unit_tests_passed": 28,
+  "resume_check": "All nine existing takes validated and retained without loading the voice model.",
+  "visual_check": "Inspected all six title/credit cards and encoded creator/music frames.",
+  "decode_check": "Full 147.26-second export decoded without errors.",
+  "audio_sample_peak_dbfs": -0.3
+}

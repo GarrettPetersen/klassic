@@ -1,14 +1,18 @@
 """Write word-timed ASR comparisons for human review; this does not grade voice similarity."""
 from pathlib import Path
-import json, re, difflib
+import argparse, json, re, difflib
 from faster_whisper import WhisperModel
 
-episode=json.loads(Path('episodes/fromm/episode.json').read_text())
+parser=argparse.ArgumentParser(description=__doc__)
+parser.add_argument('episode',type=Path)
+parser.add_argument('--takes',required=True,type=Path)
+args=parser.parse_args()
+episode=json.loads(args.episode.read_text())
 model=WhisperModel('small.en',device='cpu',compute_type='int8',cpu_threads=2,local_files_only=True)
 def words(text):
     return re.findall(r"[a-z]+(?:'[a-z]+)?",text.lower())
 for turn in episode['turns']:
-    path=Path('voices/takes/fromm-episode-01')/f"{turn['id']}.wav"
+    path=args.takes/f"{turn['id']}.wav"
     if not path.is_file():
         raise FileNotFoundError(path)
     segments, info=model.transcribe(str(path),beam_size=5,word_timestamps=True)
