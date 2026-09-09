@@ -1,0 +1,12 @@
+{
+  "person": "Erich Fromm",
+  "date": "1958-05-25",
+  "source_url": "https://hrc.contentdm.oclc.org/digital/collection/p15878coll90/id/64/rec/26",
+  "source_media_url": "https://server15878.contentdm.oclc.org/dmwebservices/index.php?q=dmGetStreamingFile/p15878coll90/65.mp4/byte/json",
+  "start_seconds": 232,
+  "end_seconds": 241.5,
+  "reference_sha256": "87ca08c13b2095ac3e7a51f269cedbf7ef99b8a1f6aa25dd60af6ac92d91d65b",
+  "processing": "mono 24kHz PCM16, highpass 75Hz, lowpass 7500Hz, peak normalization -3dBFS; no pitch shift",
+  "speaker_verification": "Same speaker throughout 30-second source window; transcript matches Fromm turn about work, no Wallace interruption.",
+  "source_media_sha256": "7d032507139f29d7f79390f7824e9b569de0c8faff250c7eb6c636b2b5ff3abd"
+}

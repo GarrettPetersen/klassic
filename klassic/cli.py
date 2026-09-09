@@ -9,6 +9,7 @@ from .reference import build_reference
 from .cels import bake_transitions
 from .transition_review import review_transitions
 from .guest import review_guest
+from .staging import stage_fromm
 
 
 def main():
@@ -36,6 +37,7 @@ def main():
     film.add_argument("build", type=Path)
     film.add_argument("--rig", required=True, type=Path)
     film.add_argument("--width", type=int, default=960)
+    film.add_argument("--no-captions", action="store_true", help="Export a clean picture; still save an SRT sidecar")
     ref = sub.add_parser("reference", help="Prepare selected isolated game lines from a ZIP")
     ref.add_argument("archive", type=Path)
     ref.add_argument("--clips", nargs="+", required=True)
@@ -60,6 +62,9 @@ def main():
     guest = sub.add_parser("review-guest", help="Fit shared mouth drawings to a layered guest portrait")
     guest.add_argument("spec", type=Path)
     guest.add_argument("--out", required=True, type=Path)
+    stage = sub.add_parser("stage-fromm", help="Fit the approved Fromm portrait to the interview set")
+    stage.add_argument("spec", type=Path)
+    stage.add_argument("--out", required=True, type=Path)
     args = parser.parse_args()
     try:
         if args.command == "import":
@@ -82,11 +87,13 @@ def main():
         elif args.command == "prepare":
             prepare(args.episode, args.out, args.voice_mode, args.rhubarb, args.voices, args.takes, args.device, args.scratch)
         elif args.command == "render":
-            render(args.build, args.rig, args.width)
+            render(args.build, args.rig, args.width, burn_captions=not args.no_captions)
         elif args.command == "review-transitions":
             print(review_transitions(args.rig,args.out,args.speaker))
         elif args.command == "review-guest":
             print(review_guest(args.spec, args.out))
+        elif args.command == "stage-fromm":
+            print(stage_fromm(args.spec, args.out))
         elif args.command == "bake-transitions":
             print(bake_transitions(args.spec, args.out))
         elif args.command == "reference":

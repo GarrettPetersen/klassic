@@ -128,7 +128,8 @@ def srt_time(seconds):
 
 
 class Compositor:
-    def __init__(self, timeline, rig_path, width):
+    def __init__(self, timeline, rig_path, width, burn_captions=True):
+        self.burn_captions = burn_captions
         self.timeline = timeline
         self.rig_path = Path(rig_path).resolve()
         self.rig = read_json(rig_path)
@@ -206,7 +207,6 @@ class Compositor:
             raise ValueError("Width must be >=320 and divisible by 8 for even 4:3 output")
         self.width, self.height = width, width*3//4
         self.font = ImageFont.load_default(size=round(width / 37))
-        self.small = ImageFont.load_default(size=round(width / 62))
         self.subtitles = [c for turn in timeline["turns"] for c in subtitle_chunks(turn)]
         self.turn_starts = [t["start"] for t in timeline["turns"]]
         self.shot_starts = [s["start"] for s in timeline["shots"]]
@@ -238,11 +238,7 @@ class Compositor:
         image = image.crop(tuple(round(v * image.size[i % 2]) for i, v in enumerate(box)))
         image = image.resize((self.width, self.height), Image.Resampling.LANCZOS)
         draw = ImageDraw.Draw(image)
-        # Disclosure survives reposting and cropping of the surrounding post text.
-        label = "FAN PARODY / AI ANIMATION" + (" / SCRATCH VOICES" if self.timeline["scratch"] else "")
-        draw.rectangle((0, 0, self.width, round(self.width*.032)), fill=15)
-        draw.text((self.width/2, 5), label, font=self.small, fill=220, anchor="mt")
-        active = next((c for c in self.subtitles if c["start"] <= at < c["end"]), None)
+        active = next((c for c in self.subtitles if c["start"] <= at < c["end"]), None) if self.burn_captions else None
         if active:
             text = active["text"]
             box = draw.multiline_textbbox((0, 0), text, font=self.font, spacing=5)
@@ -252,10 +248,10 @@ class Compositor:
         return image.convert("RGB")
 
 
-def render(build, rig, width=960):
+def render(build, rig, width=960, burn_captions=True):
     build = Path(build).resolve()
     timeline = load_build(build)
-    comp = Compositor(timeline, rig, width)
+    comp = Compositor(timeline, rig, width, burn_captions=burn_captions)
     ffmpeg = executable("ffmpeg")
     final = build / "preview.mp4"
     temporary = build / "preview.partial.mp4"
@@ -298,6 +294,7 @@ def render(build, rig, width=960):
                                for speaker, mouth in comp.rig["mouths"].items() if mouth["kind"] == "cels"},
                 "transitions": comp.transition_hashes,
                 "animation_fps": 24, "output_fps": 24, "width": width, "height": comp.height,
+                "burned_captions": burn_captions,
                 "ffmpeg_version": run([ffmpeg, "-version"]).splitlines()[0]})
     title, disclosure = html.escape(timeline["title"]), html.escape(timeline["disclosure"])
     rows = "".join(f"<tr><td>{t['start']:.2f}</td><td>{html.escape(t['speaker'])}</td><td>{html.escape(t['provenance'])}</td><td>{html.escape(t['text'])}</td></tr>" for t in timeline["turns"])

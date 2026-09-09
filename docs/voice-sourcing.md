@@ -73,3 +73,7 @@ HF_HUB_OFFLINE=1 .venv-voice/bin/python -m klassic audition \
 Offline mode requires the already-downloaded model cache. Omit it on a fresh machine to obtain the official weights.
 
 The user reported the Cartoon Studio CPU audition (`d-cartoon-cpu.wav`) sounded much better and shifted review to the animation. Use its reference and settings as the working Krusty voice. The matching LEGO CPU take also completed; it has not been preferred by the user.
+
+## Fromm production reference
+
+The full short episode uses a separate 9.5-second Erich Fromm reference from his 1958 Mike Wallace interview. [The source record](../episodes/fromm/voice-reference.json) gives the archive URL, exact 232–241.5-second interval, processing, and hashes. [The production recipe](../episodes/fromm/README.md) documents saved takes and CPU synthesis.

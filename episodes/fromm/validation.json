@@ -1,0 +1,18 @@
+{
+  "episode_sha256": "974fd63e8062f368c4705f01b4a749dd34910a47b08a33ad6ee9c9050fe43b0b",
+  "duration_seconds": 104.026,
+  "width": 1440,
+  "height": 1080,
+  "fps": 24,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "sample_rate": 48000,
+  "unit_tests_passed": 28,
+  "shot_setups_visually_inspected": 15,
+  "guest_endpoints_visually_inspected": 9,
+  "quiet_intervals_checked": 17,
+  "listener_turns_checked": 9,
+  "asr_result": "No missing/repeated script words after retake; Doctor/Dr and Erich/Eric spelling differences only.",
+  "inspection": "Inspected staged mouth sheet, camera contact sheet, encoded film screenshots and encoded title. Browser loaded the complete 104.026-second movie without a media error.",
+  "limitations": "Limited animation; no blink or continuous arm animation. Voice likeness remains a listening judgment."
+}

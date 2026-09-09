@@ -1,0 +1,242 @@
+{
+  "version": 1,
+  "canvas": [
+    268,
+    314
+  ],
+  "inbetweens_per_pair": 2,
+  "endpoint_sha256": {
+    "B": "350dd043d217b97af8de1f9e85f31f87fd930dc220c8dda43b11027d00f807a4",
+    "E": "8ad6ba5e089905d88c9fbb9bec648bc3da330baa712b50f37f70b89ead33648a",
+    "F": "897f731e1e85bec4c3169aa5d76997e588648424a617f403de5cd68e2accc537",
+    "G": "c9ce01e233a4654652eb5bd893a7dfccab92597f08ad9642f101499f552bff34",
+    "H": "58b6d816bbc885f8555c7138714f90d8e273ade422d82dabc62a6e87f663f5c6",
+    "X": "77eaa3ee49ed5177398ec08c2000d7438f1b467b055cf735899c1ed1b1d9b8cb",
+    "D": "fb7d0ff043f83c4d333aef659feddb6e933b7eb7d8863d3273cd279e3a978b7e",
+    "A": "6cf95ce8e592c47e2c0709863d62cc30ca67ee79ec908be1ddd8b590097dbb2e",
+    "C": "383d15b54ab67675447bb57701d7e8c9e2c18327670c80c4a380a909249628cc"
+  },
+  "pairs": {
+    "AB": [
+      "AB-1.png",
+      "AB-2.png"
+    ],
+    "AC": [
+      "AC-1.png",
+      "AC-2.png"
+    ],
+    "AD": [
+      "AD-1.png",
+      "AD-2.png"
+    ],
+    "AE": [
+      "AE-1.png",
+      "AE-2.png"
+    ],
+    "AF": [
+      "AF-1.png",
+      "AF-2.png"
+    ],
+    "AG": [
+      "AG-1.png",
+      "AG-2.png"
+    ],
+    "AH": [
+      "AH-1.png",
+      "AH-2.png"
+    ],
+    "AX": [
+      "AX-1.png",
+      "AX-2.png"
+    ],
+    "BC": [
+      "BC-1.png",
+      "BC-2.png"
+    ],
+    "BD": [
+      "BD-1.png",
+      "BD-2.png"
+    ],
+    "BE": [
+      "BE-1.png",
+      "BE-2.png"
+    ],
+    "BF": [
+      "BF-1.png",
+      "BF-2.png"
+    ],
+    "BG": [
+      "BG-1.png",
+      "BG-2.png"
+    ],
+    "BH": [
+      "BH-1.png",
+      "BH-2.png"
+    ],
+    "BX": [
+      "BX-1.png",
+      "BX-2.png"
+    ],
+    "CD": [
+      "CD-1.png",
+      "CD-2.png"
+    ],
+    "CE": [
+      "CE-1.png",
+      "CE-2.png"
+    ],
+    "CF": [
+      "CF-1.png",
+      "CF-2.png"
+    ],
+    "CG": [
+      "CG-1.png",
+      "CG-2.png"
+    ],
+    "CH": [
+      "CH-1.png",
+      "CH-2.png"
+    ],
+    "CX": [
+      "CX-1.png",
+      "CX-2.png"
+    ],
+    "DE": [
+      "DE-1.png",
+      "DE-2.png"
+    ],
+    "DF": [
+      "DF-1.png",
+      "DF-2.png"
+    ],
+    "DG": [
+      "DG-1.png",
+      "DG-2.png"
+    ],
+    "DH": [
+      "DH-1.png",
+      "DH-2.png"
+    ],
+    "DX": [
+      "DX-1.png",
+      "DX-2.png"
+    ],
+    "EF": [
+      "EF-1.png",
+      "EF-2.png"
+    ],
+    "EG": [
+      "EG-1.png",
+      "EG-2.png"
+    ],
+    "EH": [
+      "EH-1.png",
+      "EH-2.png"
+    ],
+    "EX": [
+      "EX-1.png",
+      "EX-2.png"
+    ],
+    "FG": [
+      "FG-1.png",
+      "FG-2.png"
+    ],
+    "FH": [
+      "FH-1.png",
+      "FH-2.png"
+    ],
+    "FX": [
+      "FX-1.png",
+      "FX-2.png"
+    ],
+    "GH": [
+      "GH-1.png",
+      "GH-2.png"
+    ],
+    "GX": [
+      "GX-1.png",
+      "GX-2.png"
+    ],
+    "HX": [
+      "HX-1.png",
+      "HX-2.png"
+    ]
+  },
+  "cel_sha256": {
+    "AB-1.png": "446fb238a65bd6c63a298f3d6cbf721e976d1a4104f7291b2850a2e09819c586",
+    "AB-2.png": "01d796f9fbc4ed538710fb4867794ea0ca639487c4ff75d1ae4302212517f2e4",
+    "AC-1.png": "9620470ba4f149ec43abf7f38bff479828d532b2dcf75293a06bd1cd7e90848a",
+    "AC-2.png": "5df7847d43a8115599cf652bd8aa212b5153de82c2f7fb6f727e3def7a584eef",
+    "AD-1.png": "032e87b2b1b54daf24e37d7d42d7755b7944c231eed286beca539beb81aecf7f",
+    "AD-2.png": "0a137b473f81cedeed2df84a1bf6ed076e756b5212da8fea5b0f3b2b2c2fc16b",
+    "AE-1.png": "dfaa7aedf1a696fc760c2e0e16da9951cf1ea4fa500b5f90ba14e8e33445a071",
+    "AE-2.png": "0c69d5604c4bf180f78c7336f646eaf903c0033eadf3186f9efa5771412ec20e",
+    "AF-1.png": "0540da4d6f06e59c518021f679fc3f03dc923d1647bffe30e9d0ea413c5a1ec1",
+    "AF-2.png": "a356fa86b664f0c30ea7492b120b5e792780811af5a824f4ed35ece617850118",
+    "AG-1.png": "562d2dc506aa93509bfcecb874b3d74e6517e9124de891522f699225de772e4d",
+    "AG-2.png": "05cbc93a800f7bd57a23b8b255e2e6cf13e3b9c9075efd0b44c307d8b3c9d907",
+    "AH-1.png": "722b0528e95a6db208c2e7bfcc2208ae12c7ad43ce6085e7159f36d708fc5375",
+    "AH-2.png": "50687d99ba89194c3a324fd54cf97b008e464a1859529de383679340331b6e13",
+    "AX-1.png": "5d6007440189d6fb5174bb22b0467d6c09ef17dcd627ab890979a4e462fa6f38",
+    "AX-2.png": "ff0461836a168fadde41d36803307a29891bf20868efbf324334fb8c5c4f8ef5",
+    "BC-1.png": "a0af0054dd2660c9875bc0ccaf16f8b4fd5e04f636aa134a791ae16166ab1b14",
+    "BC-2.png": "89179b1fa1bba08cc7318e426afcfa94318d7acd946eaa0e49113e5917e44909",
+    "BD-1.png": "a0463f3ca4eaab2363d29b158281e4c68d627a9db762f23a93b05e877171fe89",
+    "BD-2.png": "16443f0a703d18717b62de916360c65e7d99c566cb0a5676d589d2a97eadbabf",
+    "BE-1.png": "2624761b94e0e0efe4ab70c02db6ee3e22e84dc4bb561370cdf40b0d3a51a1b8",
+    "BE-2.png": "9d035be8ab94b401beed52d467d8581c83e0779cecf848b36ce269301f9d2b57",
+    "BF-1.png": "37827b9411358ed3967b168ac146e888b1bd56bc4290602b6a59ef04bb5ca1d6",
+    "BF-2.png": "634026556240e7b190cef59dd5a9767589a8c5dc3d2c400d2e6366483277d424",
+    "BG-1.png": "cd6cc09452b15eef5c2ba0c8785c07e2653fafe72fb10efe141acaf4142445c8",
+    "BG-2.png": "a846527501178fc60470849604457b49a3d7906dc916438c3b16cd04b4d2ab51",
+    "BH-1.png": "1e6322be3fc188876df255ed9eb335e6a47e56088e96e9abacf0ab8158f94c2a",
+    "BH-2.png": "d6740ee8af13224b4c8a4dc21e5cb0bdc6397b287a3e153c7939fe96adfb279c",
+    "BX-1.png": "946a111c9cf1e12a68b16d42f40f574dd2eff229d9f8989f9e7cec122e326ee5",
+    "BX-2.png": "bfdac384bfc5f16bd2a00f1d0794d80226eb93b3e2230e5470cc57b1831a819a",
+    "CD-1.png": "f49429fc7a5070378fef176ff1d02e7155438664a98e9cce538ced24c665b8a4",
+    "CD-2.png": "422a577c2240480a1ce5d9de3860cb2160e07b90849456d2afcd8972165c849a",
+    "CE-1.png": "168bc9735b08ec8777437eb2f3a32e0d4c18da0f989926414fdb673720a47818",
+    "CE-2.png": "45da090579f568fd9ba05118fe592135e833a094cf28e5d6f5733cc8978a3b32",
+    "CF-1.png": "69ba721fb1be20736346d5a450a9e5e60fe960c600a5756084edfcecb66deef1",
+    "CF-2.png": "8718edc04e167029863d4fe89b263b7306a476220786a3e8481fd6a459392988",
+    "CG-1.png": "cdb312deb660b415ad693dffb80c92c2553db43694c301ebe27dd031519a8692",
+    "CG-2.png": "10f1efabf7836ccfd51510cfdd6cc62dd05959c58f00212bd7efcd8315f9f7d0",
+    "CH-1.png": "1e6ea8c86fdb8b3f0b0f6164ff27ceb922cf7514a46cffe95d0d98c3786b1c2c",
+    "CH-2.png": "364fec5c0ea0b17f13f98c0655b52b4abfaa09fa5711d30281a998eb6297ed39",
+    "CX-1.png": "f45c9d751276e253f8f81a9d8ed08136356072b03c1fc539e5593a0abcb49d7c",
+    "CX-2.png": "847097e3944b851d4ffbd101a9998d31ee2b9075adbcb00840fdfa1cbf6cb085",
+    "DE-1.png": "c03579f4156e6ed06e52f705a1813fcbef46040ee23e598337d5615570a5c901",
+    "DE-2.png": "c212e2e7a62901c8418ec075d739e4501245ea531f24bf9b744535654181b61a",
+    "DF-1.png": "9d394bf928e1ac322b6244b0afd1001bf0c9cdc23f3157df20d65bfe79288879",
+    "DF-2.png": "2042289b1d8b7a49be4037262488f51fe9615e21c16d4663fa8ca7145218e68a",
+    "DG-1.png": "eb88bdb37ae7cd5ef9a251787fdd6707080727467dae02ef6ec352a420d54fc1",
+    "DG-2.png": "d8dcbb3f76849122b3a711ff79718940fe7c640bf9c1d43c0b85d1fa2d6a9a8c",
+    "DH-1.png": "84712bcaa1a201e02b585ed3b6eb7a7342e724fc8fd0170b258621c9ce8c643b",
+    "DH-2.png": "325b8ee6d7fb128c649ac58e7db7504edaac554e5b420aa577fb6e55e61d6927",
+    "DX-1.png": "61315216d4f6385dc40d3fd772b722d7547eaac8a26ceb9c1899b89ee4cefdf7",
+    "DX-2.png": "a42677a8c42b728090df54dd2d38936993209038008c013729b29e60624d3ebe",
+    "EF-1.png": "0ccc0a3c7ffb627b412b9a0ba1441d15d145989c2250fdf1e73aef732b0ec35f",
+    "EF-2.png": "e2857d002853d6af675e502d60c97f60cd58bd8681f8630a99e3d9e0593f467b",
+    "EG-1.png": "72e38239c5b5ed49faf22b5a02b46be76b664d81ef2831526fc55ea250b90b9c",
+    "EG-2.png": "2161da65017cd86de1a4c062fa32a27f80dbfcfc28921993a531683bb08742e5",
+    "EH-1.png": "96cc6782ec2e7dac178f12e049b42bfc14a2dcfce0cab4855cc6cddb2494fe76",
+    "EH-2.png": "710bdb1767fa6f5cd05bf5fbe5b874840226c1b5c87c2ab73ca5fcaf12486601",
+    "EX-1.png": "1520e96089442e9112f468d4a6dcdd98fbbd9622584b7ec79bc42b1635ab977d",
+    "EX-2.png": "9c110b9145a4934abd1a372cbcbead5850812a59a104234be22233ee0cee9f9e",
+    "FG-1.png": "7f5877f59284aa75d3a003f17a571c5450463a0cd90d98bdcd24265a70658acc",
+    "FG-2.png": "1049c6c039ebca8bdb44467c17edee9a30f52e9c2211c1b70cef6acf9c8c7805",
+    "FH-1.png": "ba71e42f29fee76faa6e2a0615540f64282c0e3c563bbffe87ddd359987e6856",
+    "FH-2.png": "f415f66ff9958efd0f8e369d37ec13b3cb9c50fe7085b7feae51ae02b414c929",
+    "FX-1.png": "3624cb5ca6104498af23e328a92b3ed5ca9c45bde937f6bce0abf340e8ea6da2",
+    "FX-2.png": "25b5e289714f67e43c097d293120abff1396aca6401f2ad73435cbdbd3716957",
+    "GH-1.png": "da91ed1044a66ccf9daa4d929c861e98b0a7bc970b018d9b3fc4a8261b74bcb6",
+    "GH-2.png": "0e35e4410218b006b2ecd8db620953798ce215273f453ca0cf8afede8eac5e1b",
+    "GX-1.png": "b4e5d137fa331e476c71aebe2605215aad9f92d78ce9e6b80369c8c99f903c21",
+    "GX-2.png": "ac11a3e680319939a42e6b937dc22462c709759b508883691f5c58e18afb7371",
+    "HX-1.png": "5e2b1a9afe40e93d97d918634e69601527eed63de91506a0bb8f00cbb7700c13",
+    "HX-2.png": "9ca406aa0c8cf1288e6854755ae188d235c93b201e16f82055baa50404576cfe"
+  },
+  "processing": "Approved portrait and additive mouth masks, separate foreground nose, head matte, uniform offline scaling.",
+  "stage_spec_sha256": "be05a3034d987e997fef3b127517e7476f6687b681f63b5a8301eb1c82e6e81b",
+  "portrait_spec_sha256": "fe54fb8a93abb95916fee23dae9b59256c3f8f4e9ae6c5da3b36965a731c9ee9"
+}

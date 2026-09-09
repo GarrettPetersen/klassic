@@ -13,9 +13,9 @@ The first production source is **Erich Fromm on The Mike Wallace Interview (May 
 - 24fps playback with 72 authored Krusty in-between cels covering all 36 mouth-pose pairs, encoded as H.264/AAC MP4, burned captions, SRT, contact sheet, editable JSON camera timeline, and a local HTML review page.
 - Input hashes, retained takes, deterministic compositing, and errors for missing inputs or invalid timelines. No automatic replacement with a different voice provider.
 
-**Current deliverable is a short animatic, not a finished Krusty performance.** The tested audio uses Alex and Daniel from macOS. Neither is a Krusty or Jenkins imitation. Chatterbox generated a separate Krusty audition from isolated LEGO Dimensions game lines. Its words passed an automated transcription check, but the user rejected the voice as too high and smooth. The user preferred the subsequent Cartoon Studio CPU take, now the working Krusty voice. XTTS remains untested. See [voice sourcing](docs/voice-sourcing.md). The test contains a 23-word verified guest quotation and original host framing; it is not a downloaded full interview transcript.
+The complete first short episode is **The Personality Market**, a concise adaptation of Fromm's argument with original Krusty framing and a closing sign-off. It uses the preferred Cartoon Studio Krusty voice reference and a separate Fromm reference from his 1958 interview. The portrait has a foreground nose, guest-specific skin treatment, and all 72 authored mouth transitions. See [the production recipe](episodes/fromm/README.md).
 
-The generated character art is a first design pass. Krusty now uses generated PNG muzzle/jaw cels based on the supplied original chart. The guest sketch still has an explicitly marked prototype mouth rig. Close-ups are crops of the master, and the drinking pose appears across a camera cut. Separate angle drawings, blink cels, in-between arm drawings, and final voice direction are still production polish.
+The film is 4:3 at 1440×1080 and 24 fps, with a title card, clean picture, and optional SRT captions. Close-ups crop the master set; the drinking pose changes across cuts. Blinks and full arm animation are not implemented.
 
 ## Run the included proof
 
@@ -53,7 +53,7 @@ Imported lines remain quotations even when the host is recast as Krusty. If you 
 
 ## Produce the voices
 
-A clean Krusty reference has been prepared from selected LEGO Dimensions game lines. The source and reproducible preparation command are in [voice sourcing](docs/voice-sourcing.md). Fromm still needs a distinct guest performance and character design. The included Jenkins micro-pilot is only the earlier timing demonstration.
+The working Krusty reference uses isolated Cartoon Studio game lines; the earlier LEGO reference was rejected as too smooth and high. Fromm uses a separate 9.5-second reference from his 1958 interview. Sources and preparation details are in [voice sourcing](docs/voice-sourcing.md) and [the Fromm recipe](episodes/fromm/README.md).
 
 Chatterbox is the initial neural candidate; [XTTS has noncommercial model/output restrictions](https://huggingface.co/coqui/XTTS-v2/blob/main/LICENSE.txt). See [voice setup and direction](docs/production.md). Install either model's dependencies in its own environment using its official instructions, then install this repo there with `pip install -e .`. The base install intentionally does not download multi-gigabyte models. Model licensing is separate from rights in reference recordings or the voice performance.
 
@@ -76,7 +76,7 @@ python -m klassic prepare episodes/pilot/episode.json \
 python -m klassic render build/final-takes --rig assets/rig.json --width 1440
 ```
 
-Update the episode disclosure to accurately describe the finished audio. macOS builds always burn in “SCRATCH VOICES”; use `--scratch` to label supplied or neural draft takes. Supplied-file builds otherwise rely on the declared provenance of your audio. Reference and raw source recordings belong in ignored `voices/` and `inputs/` directories.
+Update the episode disclosure to accurately describe the finished audio. macOS builds retain scratch status in their metadata; use `--scratch` to mark supplied or neural draft takes. The picture has no burned disclosure banner; retain accurate disclosure with the shared post. Supplied-file builds otherwise rely on the declared provenance of your audio. Reference and raw source recordings belong in ignored `voices/` and `inputs/` directories.
 
 ## Editing and verification
 
@@ -93,6 +93,6 @@ Before sharing, watch the full film with audio and inspect `contact-sheet.jpg`. 
 
 ## Character and mouth study
 
-[Character design rules](docs/character-design.md) require a separately researched period portrait and mouth rig for every historical guest. The current guest sketch is not Fromm. The integrated Krusty study is `build/mouth-study-v2/preview.mp4`, with original test dialogue and the preferred Cartoon Studio voice. Reproduce it from `episodes/voice-test/episode.json` and the saved take through `--voice-mode files`; render with `assets/rig.json`.
+[Character design rules](docs/character-design.md) require a separately researched period portrait and mouth rig for every historical guest. The original `assets/rig.json` guest sketch is a prototype; the complete Fromm episode uses `assets/episodes/fromm/rig.json`. The integrated Krusty study is `build/mouth-study-v2/preview.mp4`, with original test dialogue and the preferred Cartoon Studio voice. Reproduce it from `episodes/voice-test/episode.json` and the saved take through `--voice-mode files`; render with `assets/rig.json`.
 
 [Authored mouth transitions](docs/mouth-transitions.md) documents the complete drawing library, saved imagegen prompts, deterministic baking, and the all-pairs flipbook. Runtime mouth warping has been removed.

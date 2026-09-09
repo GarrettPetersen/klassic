@@ -1,0 +1,201 @@
+{
+  "backend": "chatterbox",
+  "device": "cpu",
+  "takes": [
+    {
+      "text": "Good evening. Our guest tonight is Doctor Erich Fromm, the psychoanalyst and social critic. We will be discussing the personality market: what happens when making a living requires a person to sell more than his work.",
+      "speaker": "host",
+      "settings": {
+        "reference": "voices/krusty-reference-cartoon.wav",
+        "exaggeration": 0.3,
+        "cfg_weight": 0.7,
+        "temperature": 0.8,
+        "seed": 42
+      },
+      "reference_sha256": "f9aaa7041118e3dcb3e39e9d205418944035a288e09d3f8672f16a04bd3b3a7c",
+      "backend": "chatterbox",
+      "device": "cpu",
+      "cpu_compute_threads": 2,
+      "audio_sha256": "ad55914c402d7fa29a3c9eaf4d19ecedf2fdb756207a3c7bbfc5e9d98cc42538",
+      "duration": 11.94,
+      "id": "t001",
+      "asr_comparison": [
+        {
+          "kind": "replace",
+          "expected": [
+            "doctor",
+            "erich"
+          ],
+          "recovered": [
+            "dr",
+            "eric"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The problem begins when acceptance matters more than what a person actually is. He starts arranging his character for an audience, asking which version of himself will attract the best offer.",
+      "speaker": "guest",
+      "settings": {
+        "reference": "voices/fromm-reference-1958.wav",
+        "exaggeration": 0.2,
+        "cfg_weight": 0.65,
+        "temperature": 0.7,
+        "seed": 42
+      },
+      "reference_sha256": "87ca08c13b2095ac3e7a51f269cedbf7ef99b8a1f6aa25dd60af6ac92d91d65b",
+      "backend": "chatterbox",
+      "device": "cpu",
+      "cpu_compute_threads": 2,
+      "audio_sha256": "d010f69b6313ed13b18deb41b7269a7af918c0c7cb6f40eecbc32b214e5ec69f",
+      "duration": 12.5,
+      "id": "t002",
+      "asr_comparison": []
+    },
+    {
+      "text": "You distinguish between selling a useful skill and selling the person who possesses it.",
+      "speaker": "host",
+      "settings": {
+        "reference": "voices/krusty-reference-cartoon.wav",
+        "exaggeration": 0.3,
+        "cfg_weight": 0.7,
+        "temperature": 0.8,
+        "seed": 42
+      },
+      "reference_sha256": "f9aaa7041118e3dcb3e39e9d205418944035a288e09d3f8672f16a04bd3b3a7c",
+      "backend": "chatterbox",
+      "device": "cpu",
+      "cpu_compute_threads": 2,
+      "audio_sha256": "ee31be58bdccdd8197912a6e0a014e3a975bc4f4426684ef31d1d4051f3b493b",
+      "duration": 4.5,
+      "id": "t003",
+      "asr_comparison": []
+    },
+    {
+      "text": "Yes. Consider a craftsman. The quality of his work can speak for him. But in many occupations, success also requires a saleable manner: an attractive smile, agreeable opinions, the appearance of confidence. The employee must present himself as a desirable product.",
+      "speaker": "guest",
+      "settings": {
+        "reference": "voices/fromm-reference-1958.wav",
+        "exaggeration": 0.2,
+        "cfg_weight": 0.65,
+        "temperature": 0.7,
+        "seed": 42
+      },
+      "reference_sha256": "87ca08c13b2095ac3e7a51f269cedbf7ef99b8a1f6aa25dd60af6ac92d91d65b",
+      "backend": "chatterbox",
+      "device": "cpu",
+      "cpu_compute_threads": 2,
+      "audio_sha256": "01fb45adb41551912ecfe033d1889d9ff172531664c205aad9ffbe2a85ed3808",
+      "duration": 20.1,
+      "id": "t004",
+      "asr_comparison": []
+    },
+    {
+      "text": "And the price becomes a judgment on his worth?",
+      "speaker": "host",
+      "settings": {
+        "reference": "voices/krusty-reference-cartoon.wav",
+        "exaggeration": 0.3,
+        "cfg_weight": 0.7,
+        "temperature": 0.8,
+        "seed": 42
+      },
+      "reference_sha256": "f9aaa7041118e3dcb3e39e9d205418944035a288e09d3f8672f16a04bd3b3a7c",
+      "backend": "chatterbox",
+      "device": "cpu",
+      "cpu_compute_threads": 2,
+      "audio_sha256": "e4ceeb1a05b5ed7234f9dea1cd38002f261ecb2764d56bf5eff5d4c492429534",
+      "duration": 2.42,
+      "id": "t005",
+      "asr_comparison": []
+    },
+    {
+      "text": "That is the danger. If demand falls, he may conclude that there is something wrong with his existence. An unsold object has lost its market value. A human being has not thereby lost his human value. But the marketing outlook makes that distinction difficult to maintain.",
+      "speaker": "guest",
+      "settings": {
+        "reference": "voices/fromm-reference-1958.wav",
+        "exaggeration": 0.2,
+        "cfg_weight": 0.65,
+        "temperature": 0.7,
+        "seed": 42
+      },
+      "reference_sha256": "87ca08c13b2095ac3e7a51f269cedbf7ef99b8a1f6aa25dd60af6ac92d91d65b",
+      "backend": "chatterbox",
+      "device": "cpu",
+      "cpu_compute_threads": 2,
+      "audio_sha256": "a0dc7221481137aecd518b39e7363d5f2ac93195a293471c453bf1900949d9a3",
+      "duration": 17.58,
+      "id": "t006",
+      "asr_comparison": []
+    },
+    {
+      "text": "So the applause can tell us whether a performance sold. It cannot tell us what the performer is worth.",
+      "speaker": "host",
+      "settings": {
+        "reference": "voices/krusty-reference-cartoon.wav",
+        "exaggeration": 0.3,
+        "cfg_weight": 0.7,
+        "temperature": 0.8,
+        "seed": 42
+      },
+      "reference_sha256": "f9aaa7041118e3dcb3e39e9d205418944035a288e09d3f8672f16a04bd3b3a7c",
+      "backend": "chatterbox",
+      "device": "cpu",
+      "cpu_compute_threads": 2,
+      "audio_sha256": "815d7e42b8844cc9006a139e66916687afe2451743824952ed04155521decc41",
+      "duration": 5.78,
+      "id": "t007",
+      "asr_comparison": []
+    },
+    {
+      "text": "A person needs a basis for self-respect that survives changes in fashion and demand. Otherwise, his sense of himself is always at the mercy of his customers.",
+      "speaker": "guest",
+      "settings": {
+        "reference": "voices/fromm-reference-1958.wav",
+        "exaggeration": 0.2,
+        "cfg_weight": 0.65,
+        "temperature": 0.7,
+        "seed": 42
+      },
+      "reference_sha256": "87ca08c13b2095ac3e7a51f269cedbf7ef99b8a1f6aa25dd60af6ac92d91d65b",
+      "backend": "chatterbox",
+      "device": "cpu",
+      "cpu_compute_threads": 2,
+      "audio_sha256": "4de15cdd88b2eaeb477e6d2898e2368e0b4ca9812bad8a099d3a20859dd2e474",
+      "duration": 10.74,
+      "id": "t008",
+      "asr_comparison": []
+    },
+    {
+      "text": "Doctor Fromm, thank you for joining us. Our discussion of the individual and the institutions of modern society will continue next week. Good night.",
+      "speaker": "host",
+      "settings": {
+        "reference": "voices/krusty-reference-cartoon.wav",
+        "exaggeration": 0.3,
+        "cfg_weight": 0.7,
+        "temperature": 0.8,
+        "seed": 42
+      },
+      "reference_sha256": "f9aaa7041118e3dcb3e39e9d205418944035a288e09d3f8672f16a04bd3b3a7c",
+      "backend": "chatterbox",
+      "device": "cpu",
+      "cpu_compute_threads": 2,
+      "audio_sha256": "c5d22e0f67a1c8aa419bbe62818bd435bac6fcb3fc99e7de8949c923ab716047",
+      "duration": 9.1,
+      "id": "t009",
+      "asr_comparison": [
+        {
+          "kind": "replace",
+          "expected": [
+            "doctor"
+          ],
+          "recovered": [
+            "dr"
+          ]
+        }
+      ]
+    }
+  ],
+  "asr_model": "small.en",
+  "asr_note": "Doctor/Dr and Erich/Eric spelling differences only after the t004 retake. ASR does not validate voice similarity."
+}

@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "title": "Classic Krusty \u2014 The Personality Market",
+  "source": {
+    "url": "https://hrc.contentdm.oclc.org/digital/collection/p15878coll90/id/64/rec/26",
+    "notes": "Original fan-parody framing and concise paraphrase of the selected personality-market discussion, not a verbatim archival transcript. Fromm voice recreated using a reference from the same 1958 interview."
+  },
+  "disclosure": "Unofficial fan parody. AI animation and recreated voices. Erich Fromm discussion adapted from his 1958 Mike Wallace interview. Disclosure intended for accompanying post.",
+  "turns": [
+    {
+      "id": "t001",
+      "speaker": "host",
+      "text": "Good evening. Our guest tonight is Doctor Erich Fromm, the psychoanalyst and social critic. We will be discussing the personality market: what happens when making a living requires a person to sell more than his work.",
+      "provenance": "original",
+      "pause_after": 0.55,
+      "shot": "wide"
+    },
+    {
+      "id": "t002",
+      "speaker": "guest",
+      "text": "The problem begins when acceptance matters more than what a person actually is. He starts arranging his character for an audience, asking which version of himself will attract the best offer.",
+      "provenance": "adaptation",
+      "pause_after": 0.65,
+      "shot": "guest"
+    },
+    {
+      "id": "t003",
+      "speaker": "host",
+      "text": "You distinguish between selling a useful skill and selling the person who possesses it.",
+      "provenance": "adaptation",
+      "pause_after": 0.35,
+      "shot": "host"
+    },
+    {
+      "id": "t004",
+      "speaker": "guest",
+      "text": "Yes. Consider a craftsman. The quality of his work can speak for him. But in many occupations, success also requires a saleable manner: an attractive smile, agreeable opinions, the appearance of confidence. The employee must present himself as a desirable product.",
+      "provenance": "adaptation",
+      "pause_after": 0.7,
+      "shot": "guest"
+    },
+    {
+      "id": "t005",
+      "speaker": "host",
+      "text": "And the price becomes a judgment on his worth?",
+      "provenance": "adaptation",
+      "pause_after": 0.4,
+      "shot": "host"
+    },
+    {
+      "id": "t006",
+      "speaker": "guest",
+      "text": "That is the danger. If demand falls, he may conclude that there is something wrong with his existence. An unsold object has lost its market value. A human being has not thereby lost his human value. But the marketing outlook makes that distinction difficult to maintain.",
+      "provenance": "adaptation",
+      "pause_after": 0.7,
+      "shot": "guest"
+    },
+    {
+      "id": "t007",
+      "speaker": "host",
+      "text": "So the applause can tell us whether a performance sold. It cannot tell us what the performer is worth.",
+      "provenance": "original",
+      "pause_after": 0.6,
+      "shot": "host"
+    },
+    {
+      "id": "t008",
+      "speaker": "guest",
+      "text": "A person needs a basis for self-respect that survives changes in fashion and demand. Otherwise, his sense of himself is always at the mercy of his customers.",
+      "provenance": "adaptation",
+      "pause_after": 0.9,
+      "shot": "guest"
+    },
+    {
+      "id": "t009",
+      "speaker": "host",
+      "text": "Doctor Fromm, thank you for joining us. Our discussion of the individual and the institutions of modern society will continue next week. Good night.",
+      "provenance": "original",
+      "pause_after": 1.5,
+      "shot": "host"
+    }
+  ]
+}
