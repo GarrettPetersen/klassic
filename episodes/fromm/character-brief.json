@@ -1,0 +1,36 @@
+{
+  "person": "Erich Fromm",
+  "period": "1958-05-25",
+  "status": "Reference inspected; portrait and guest mouth cels not yet generated",
+  "source_url": "https://hrc.contentdm.oclc.org/digital/collection/p15878coll90/id/64/rec/26",
+  "reference_frame": {
+    "time_seconds": 240,
+    "local_path": "inputs/fromm-1958/portrait-240s.jpg",
+    "sha256": "4f49c7dac4f30851dc3830962644f1af299bfb0611e3b60e1dc9edcf7e57eb60"
+  },
+  "observed_features": [
+    "Rounded broad face and full cheeks",
+    "High forehead, receding hairline, short combed-back hair",
+    "Thin metal-rimmed glasses with rounded lenses",
+    "Small mouth, restrained lip movement, soft rounded chin",
+    "Light gray jacket, pale shirt, dark necktie"
+  ],
+  "construction": "Non-muzzle guest mouth, adapted from the shared Simpsons mouth shapes. Surrounding fill matches the grayscale tone of Simpson-yellow skin; no muzzle outline inside the face. Preserve Fromm's own face, nose, glasses, cheek and chin proportions.",
+  "next_assets": [
+    "Period caricature portrait and seated full-body design",
+    "Dedicated camera-angle drawings",
+    "Shared mouth keys/transitions adapted to guest proportions, separated into skin coverage and interior ink, with head silhouette and occlusion masks",
+    "Matching listening and drink poses"
+  ],
+  "mouth_compositing": {
+    "status": "Specified; guest portrait, masks and layered cels not yet produced",
+    "layers": [
+      "Clean plate without old moving jaw contour",
+      "Fixed head coverage excluding the moving jaw",
+      "Animated skin coverage in guest skin tone",
+      "Interior mouth ink, teeth and tongue",
+      "Foreground nose, hair, collar and props"
+    ],
+    "outline_rule": "Outline only the exposed boundary of the combined head and animated skin silhouette; suppress mouth-patch boundaries over the face."
+  }
+}

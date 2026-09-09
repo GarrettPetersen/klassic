@@ -1,0 +1,15 @@
+{
+  "character": "Erich Fromm, 1958",
+  "reference": "https://hrc.contentdm.oclc.org/digital/collection/p15878coll90/id/64/rec/26",
+  "reference_frame": "4:00",
+  "portrait_prompt": "../../../prompts/fromm-portrait.txt",
+  "clean_plate_prompt": "../../../prompts/fromm-clean-plate.txt",
+  "files": {
+    "portrait-green.png": "2746ac8f14dcd9a861b1d153e5c72398b42fbbaa0434f5f416e46eeec7ae9d2f",
+    "clean-green.png": "b0c55a9bd204c06405d6d4d72c6612c44cdd8b9c61ada02892bb356e6c14bc1c",
+    "clean-plate.png": "b7542e8b463e1fb0a995983b349a8242bf386c81f1d752ff8ffd03e872c2bed6",
+    "nose.png": "bc895e4f2e92286e2e1a6d7c4aa5d34a96dd11cb3e8a2b3e0d8db7f354158c0d",
+    "head-coverage.png": "600e51dc6b786b456d7789da1d88c715546f37ea5e8ea772588d2522e5fd60cf",
+    "portrait.json": "fe54fb8a93abb95916fee23dae9b59256c3f8f4e9ae6c5da3b36965a731c9ee9"
+  }
+}

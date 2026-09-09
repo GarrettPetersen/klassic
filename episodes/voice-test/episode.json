@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "title": "Classic Krusty \u2014 mouth and voice study",
+  "source": {
+    "url": "https://archive.org/details/simpsons-mouth-charts",
+    "notes": "Original test dialogue, not an archival interview quotation. Krusty neutral mouth-chart study. Current guest is a prototype sketch, not Erich Fromm."
+  },
+  "disclosure": "Unofficial fan parody. AI-generated art and recreated Krusty voice. Original test dialogue.",
+  "turns": [
+    {
+      "id": "t001",
+      "speaker": "host",
+      "text": "Tonight, we are discussing the institutions of industrial society. What happens when the interests of management and ownership diverge?",
+      "provenance": "original",
+      "pause_after": 0.65,
+      "shot": "host"
+    }
+  ]
+}

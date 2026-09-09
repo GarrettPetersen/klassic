@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "title": "Classic Krusty — The personality market",
+  "source": {
+    "url": "https://archive.org/details/simpsons-mouth-charts",
+    "notes": "Original host monologue written for a new mouth-animation example. Not a quotation from Fromm or any archival interview. Uses the existing Krusty art and authored transition library."
+  },
+  "disclosure": "Unofficial fan parody. AI-generated art and recreated Krusty voice. Original test dialogue.",
+  "turns": [
+    {
+      "id": "t001",
+      "speaker": "host",
+      "text": "Tonight, we examine the personality market. If a man must sell himself to earn a living, who owns the merchandise? And can a collective bargaining agreement guarantee him a more agreeable personality?",
+      "provenance": "original",
+      "pause_after": 0.85,
+      "shot": "host"
+    }
+  ]
+}

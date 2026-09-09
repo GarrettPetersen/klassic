@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "title": "Klassic Krusty — Can a union be a monopoly?",
+  "source": {
+    "url": "https://digitalcollections.hoover.org/objects/6008",
+    "notes": "Firing Line 074, The Union in Modern Society, Clive Jenkins, 1967. The guest's 23-word quotation is verified against the Hoover/AAPB catalog excerpt. Host lines are newly written parody framing, not Buckley's transcript. The full PDF could not be retrieved (HTTP 403). This is a technical proof, not the full interview adaptation."
+  },
+  "disclosure": "Unofficial fan parody. AI animation; scratch computer voices. Guest quotation from Firing Line (1967), with original parody host framing. Not an authentic Simpsons episode or historical recording.",
+  "turns": [
+    {
+      "id": "t001", "speaker": "host", "provenance": "original", "pause_after": 0.65,
+      "text": "Our guest is Clive Jenkins. Tonight: can a union be a monopoly?", "shot": "wide"
+    },
+    {
+      "id": "t002", "speaker": "guest", "provenance": "quotation", "pause_after": 1.1,
+      "text": "But of course there's no such thing as a monopoly labor union. This is one of the favorite tricks of the anti-working-class publicists."
+    },
+    {
+      "id": "t003", "speaker": "host", "provenance": "original", "pause_after": 1.3,
+      "text": "We shall return to the precise meaning of monopoly after this cigarette.", "shot": "host"
+    }
+  ]
+}

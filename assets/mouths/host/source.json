@@ -1,0 +1,20 @@
+{
+  "atlas_sha256": "5603db42647f46365239f5c08cc73c08d1de6bafab02561c1768fa8eafb296fc",
+  "layout": "ABCDEFGHX, row-major 3x3",
+  "processing": "Green matte removed; grayscale spill correction; no mouth redrawing.",
+  "cels": {
+    "A": "fe67f8a0df9bdefb630f6e0ad304619342396e9c5cf2e91a4ccc30be9c5617e7",
+    "B": "9e492f7d5f55db650732200b8232407f4cb6b5896b5c8956eaf2d66fbeb4a46e",
+    "C": "abfa050d1cdcc47256f334dae498177ecdedc01edcc61b8d3c827964c506997e",
+    "D": "8689d204cf119554cbe51c2a563ab0a0528437484457dae2b71bf79771c4b893",
+    "E": "082de770adc57b672aafa5428600693d5848533401c2659f8ab647dc5dde6728",
+    "F": "93344ccea9585ffeb484c6307413dbb146961e094d0671dbe28217ffa801b981",
+    "G": "6324a625ad0580b98cd2a2a85d4e0ee3a985d70344afec93ec912d220ac55a00",
+    "H": "c0140738686a814cc2a11aba22b9d93c67a85c62cb9b1329cc8d187e3643246a",
+    "X": "0c0b000fbe3ab1540771a7e4ea0185bec0aa6293646030ffa6bfcb2f769e8fe7"
+  },
+  "rounded_key_override": {
+    "source": "../rounded-correction/keys-source.json",
+    "atlas_sha256": "5ed8338eb03f6f1c050e2a7ae92d10917ad71fb2e3c6874ae33c1092e83fed05"
+  }
+}

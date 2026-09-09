@@ -1,0 +1,114 @@
+{
+  "version": 1,
+  "endpoints": "../host",
+  "atlases": [
+    {
+      "file": "atlases/01.png",
+      "pairs": [
+        "BC",
+        "BD",
+        null,
+        null
+      ]
+    },
+    {
+      "file": "atlases/02.png",
+      "pairs": [
+        "BG",
+        "BH",
+        "BX",
+        "AB"
+      ]
+    },
+    {
+      "file": "atlases/03.png",
+      "pairs": [
+        "AC",
+        "AD",
+        null,
+        null
+      ]
+    },
+    {
+      "file": "atlases/04.png",
+      "pairs": [
+        "AG",
+        "AH",
+        "AX",
+        "CD"
+      ]
+    },
+    {
+      "file": "atlases/05.png",
+      "pairs": [
+        null,
+        null,
+        "CG",
+        "CH"
+      ]
+    },
+    {
+      "file": "atlases/06.png",
+      "pairs": [
+        "CX",
+        null,
+        null,
+        "DG"
+      ]
+    },
+    {
+      "file": "atlases/07.png",
+      "pairs": [
+        "DH",
+        "DX",
+        null,
+        null
+      ]
+    },
+    {
+      "file": "atlases/09.png",
+      "pairs": [
+        null,
+        "GH",
+        "GX",
+        "HX"
+      ]
+    },
+    {
+      "file": "../rounded-correction/01.png",
+      "pairs": [
+        "AE",
+        "AF",
+        "BE",
+        "BF"
+      ]
+    },
+    {
+      "file": "../rounded-correction/02.png",
+      "pairs": [
+        "CE",
+        "CF",
+        "DE",
+        "DF"
+      ]
+    },
+    {
+      "file": "../rounded-correction/03.png",
+      "pairs": [
+        "EF",
+        "EG",
+        "EH",
+        "EX"
+      ]
+    },
+    {
+      "file": "../rounded-correction/04.png",
+      "pairs": [
+        "FG",
+        "FH",
+        "FX",
+        null
+      ]
+    }
+  ]
+}

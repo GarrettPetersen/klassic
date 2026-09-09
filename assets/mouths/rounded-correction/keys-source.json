@@ -1,0 +1,26 @@
+{
+  "atlas_sha256": "5ed8338eb03f6f1c050e2a7ae92d10917ad71fb2e3c6874ae33c1092e83fed05",
+  "cels": {
+    "E": {
+      "cel_sha256": "082de770adc57b672aafa5428600693d5848533401c2659f8ab647dc5dde6728",
+      "registration": {
+        "scale": 0.5198170731707317,
+        "offset": [
+          -26,
+          0
+        ]
+      }
+    },
+    "F": {
+      "cel_sha256": "93344ccea9585ffeb484c6307413dbb146961e094d0671dbe28217ffa801b981",
+      "registration": {
+        "scale": 0.5332302936630603,
+        "offset": [
+          -29,
+          -3
+        ]
+      }
+    }
+  },
+  "reason": "Single smooth upper muzzle contour flowing into the only rounded lip."
+}

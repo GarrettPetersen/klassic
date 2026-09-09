@@ -1,0 +1,11 @@
+.venv/
+.venv-*/
+__pycache__/
+*.pyc
+*.egg-info/
+.tools/
+build/
+voices/
+inputs/
+*.log
+.DS_Store

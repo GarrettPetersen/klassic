@@ -1,0 +1,13 @@
+Built-in imagegen prompts, September 9, 2026.
+
+ATLAS
+Reference 1: inputs/mouth-charts/page-21.png (Krusty neutral chart).
+Reference 2: the previous assets/set-rig.png (the original mouthless gray-oval host scene).
+Create a production animation sprite atlas for the Classic Krusty interview project. Faithfully use the original neutral chart's three-quarter-facing-right muzzle construction, broad overhanging upper lip, changing lower-jaw silhouette and corner placement. Match the target host's gray muzzle fill and black ink weight. Square 1536x1536 PNG, 3 columns by 3 rows of equal cells, no gutters, no text, no labels or grid lines. Only entire gray muzzle/lower-face replacements including outer silhouette, lip contour, lower jaw and mouth interior; no nose, eyes, hair, ears, neck, head, shoulders, cigarette or scenery. Common upper contour and attachment point. Gray #aaaaaa muzzle, off-white teeth, black mouth cavity, darker gray tongue. Right-facing opening intersects the outer silhouette under the upper lip. Row-major: CLOSED M/B/P; TEETH S/EE from I/J; MEDIUM OPEN AH from C; WIDE OPEN AH from D; ROUND O from F; SMALL PUCKER OO/W from G/H; LOWER LIP AGAINST UPPER TEETH F/V from O; OPEN tongue at upper tooth ridge L; NEUTRAL CLOSED REST from A. Distinct shapes rather than ellipse scaling.
+The requested transparent result contained a painted checkerboard. A second built-in edit prepared a green-screen atlas for conventional alpha compositing.
+
+GREEN SCREEN EDIT
+Preserve all nine drawings, placement, size, gray fills, teeth, line art and grid arrangement. Change only the background. Replace the checkerboard outside the drawings with uniform pure green #00FF00. No green inside muzzle, teeth, tongue or mouth cavities. No shadows, gradients or checkerboard. Same square canvas and exact 3x3 layout. Every cell surrounded by green. Do not redraw or reinterpret the cels.
+
+CLEAN PLATE EDIT
+Preserve the complete original image at the same 1448x1086 framing. Only edit Krusty's gray muzzle/lower-face region, approximately x300–445, y305–410. Remove the entire gray muzzle and black outer outline. Reconstruct pale face/neck to its left and acoustic-panel background behind its right edge so replacement sprites can cover it. No mouth, gray oval or black jaw outline in the removed region. Keep nose, eyes, ear, upper head silhouette, hair, suit, collar, hands, cigarette, guest, table, chairs and scenery unchanged. Intentionally incomplete animation clean plate; grayscale only.

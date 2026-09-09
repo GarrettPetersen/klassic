@@ -1,0 +1,9 @@
+Edit this four-column, four-row animation sheet. The first three rows each have a starting mouth in column1 and its corrected ending mouth in column4. Fill ONLY the two empty middle columns with two beautifully inked in-between cels, at one-third and two-thirds of each row's motion. Preserve outer columns. Exact 4x4 evenly spaced square grid, no labels or borders, pure green #00FF00 background.
+Match the character's gray Krusty muzzle, crisp black ink, right-facing three-quarter view, fixed upper attachment apex and left cheek, same scale and registration inside each cell. Every drawing is a complete coherent muzzle/jaw, not a stretched image.
+ANATOMY: Rounded mouth contours must flow from the top of the muzzle SMOOTHLY into the ONLY upper lip. No second beak/shelf above the mouth, no notch or S-bend above the lip, no separate pucker pasted underneath a normal upper lip. As the mouth rounds, the old extended upper lip curls continuously into that same single lip. The corrected round endpoint is one smooth convex outline, as shown. No extra crease above a round opening. Jaw and lip volume changes should be drawn naturally, teeth become occluded behind closing lips.
+Rows top to bottom:
+1 small rounded oo -> lower lip touching upper teeth (F/V).
+2 small rounded oo -> open jaw with tongue raised to upper teeth (L).
+3 small rounded oo -> closed relaxed lips.
+4 entirely blank green; leave all four cells empty.
+Create only six new drawings in the middle columns of the first three rows. Gradually widen the round hole and retract the lips to normal mouth pose. Keep the single smooth muzzle contour into the only upper lip; do not introduce a second ridge or pucker.

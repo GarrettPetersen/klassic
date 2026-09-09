@@ -1,0 +1,4 @@
+{
+  "host": {"reference": "../../voices/krusty-reference-v2.wav", "exaggeration": 0.4, "cfg_weight": 0.5},
+  "guest": {"reference": "../../voices/guest-reference.wav", "exaggeration": 0.25, "cfg_weight": 0.5}
+}

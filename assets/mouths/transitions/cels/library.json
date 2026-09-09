@@ -1,0 +1,761 @@
+{
+  "version": 1,
+  "canvas": [
+    418,
+    418
+  ],
+  "inbetweens_per_pair": 2,
+  "processing": "Green matte removal; grayscale spill correction; uniform scale and top/left registration once at bake time. No local warping or blending.",
+  "spec_sha256": "3a1acab6753008f831d20f227a77f8c457c8260d741db1291bc03eae4dbefd8b",
+  "atlas_sha256": {
+    "atlases/01.png": "6296c625ab8c330b09577eaea067030b21e5331fabdb7a5485b684782df886b4",
+    "atlases/02.png": "cd62d80af4acdbf758fd245fb0963c472c33c2d7712011e8b6ae8240468fcf10",
+    "atlases/03.png": "27f5e13cbdcc2a3e44a303ddd9d2c0e103a3ab43bd390b9ea1069418bcef6717",
+    "atlases/04.png": "067ff1d2c2f1ef8cf9002f58c7a40486fae14cd672d0604d7a0e0cccb426dfe2",
+    "atlases/05.png": "c4e6d13548d05ba3aae2a3df602e8456f51c29cb6d7d8e96b8023b03b95abc4f",
+    "atlases/06.png": "959c6a49e04f1c88280f51685d2db15d111620906a0a4b45d5b16c26cb50b7dc",
+    "atlases/07.png": "6aeba515cca0c4dfe9f9263f5af613aae7c4a914cf049f7522306adde38b9247",
+    "atlases/09.png": "57dc0698214725b78ed8232059c9b40c338d04f4380deba6c952b4c979028210",
+    "../rounded-correction/01.png": "e27aaaaf32d76c4cc9bce33fd26dc6e597270893f862b92e75adfea990192b32",
+    "../rounded-correction/02.png": "fd5a0febc6834243e0294f7160d225d7ac6464f4fccc0fa97a5fddcce0963017",
+    "../rounded-correction/03.png": "ae60cb60e3e9e3577cdf370bb4529d60e52f8aecc2c52ef33054b3291986c683",
+    "../rounded-correction/04.png": "5d2c13d87b9c6ccd9b8b75a4c93deb65b4393fc85af8db89bd56e04f44f3a968"
+  },
+  "endpoint_sha256": {
+    "A": "fe67f8a0df9bdefb630f6e0ad304619342396e9c5cf2e91a4ccc30be9c5617e7",
+    "B": "9e492f7d5f55db650732200b8232407f4cb6b5896b5c8956eaf2d66fbeb4a46e",
+    "C": "abfa050d1cdcc47256f334dae498177ecdedc01edcc61b8d3c827964c506997e",
+    "D": "8689d204cf119554cbe51c2a563ab0a0528437484457dae2b71bf79771c4b893",
+    "E": "082de770adc57b672aafa5428600693d5848533401c2659f8ab647dc5dde6728",
+    "F": "93344ccea9585ffeb484c6307413dbb146961e094d0671dbe28217ffa801b981",
+    "G": "6324a625ad0580b98cd2a2a85d4e0ee3a985d70344afec93ec912d220ac55a00",
+    "H": "c0140738686a814cc2a11aba22b9d93c67a85c62cb9b1329cc8d187e3643246a",
+    "X": "0c0b000fbe3ab1540771a7e4ea0185bec0aa6293646030ffa6bfcb2f769e8fe7"
+  },
+  "pairs": {
+    "AB": [
+      "AB-1.png",
+      "AB-2.png"
+    ],
+    "AC": [
+      "AC-1.png",
+      "AC-2.png"
+    ],
+    "AD": [
+      "AD-1.png",
+      "AD-2.png"
+    ],
+    "AE": [
+      "AE-1.png",
+      "AE-2.png"
+    ],
+    "AF": [
+      "AF-1.png",
+      "AF-2.png"
+    ],
+    "AG": [
+      "AG-1.png",
+      "AG-2.png"
+    ],
+    "AH": [
+      "AH-1.png",
+      "AH-2.png"
+    ],
+    "AX": [
+      "AX-1.png",
+      "AX-2.png"
+    ],
+    "BC": [
+      "BC-1.png",
+      "BC-2.png"
+    ],
+    "BD": [
+      "BD-1.png",
+      "BD-2.png"
+    ],
+    "BE": [
+      "BE-1.png",
+      "BE-2.png"
+    ],
+    "BF": [
+      "BF-1.png",
+      "BF-2.png"
+    ],
+    "BG": [
+      "BG-1.png",
+      "BG-2.png"
+    ],
+    "BH": [
+      "BH-1.png",
+      "BH-2.png"
+    ],
+    "BX": [
+      "BX-1.png",
+      "BX-2.png"
+    ],
+    "CD": [
+      "CD-1.png",
+      "CD-2.png"
+    ],
+    "CE": [
+      "CE-1.png",
+      "CE-2.png"
+    ],
+    "CF": [
+      "CF-1.png",
+      "CF-2.png"
+    ],
+    "CG": [
+      "CG-1.png",
+      "CG-2.png"
+    ],
+    "CH": [
+      "CH-1.png",
+      "CH-2.png"
+    ],
+    "CX": [
+      "CX-1.png",
+      "CX-2.png"
+    ],
+    "DE": [
+      "DE-1.png",
+      "DE-2.png"
+    ],
+    "DF": [
+      "DF-1.png",
+      "DF-2.png"
+    ],
+    "DG": [
+      "DG-1.png",
+      "DG-2.png"
+    ],
+    "DH": [
+      "DH-1.png",
+      "DH-2.png"
+    ],
+    "DX": [
+      "DX-1.png",
+      "DX-2.png"
+    ],
+    "EF": [
+      "EF-1.png",
+      "EF-2.png"
+    ],
+    "EG": [
+      "EG-1.png",
+      "EG-2.png"
+    ],
+    "EH": [
+      "EH-1.png",
+      "EH-2.png"
+    ],
+    "EX": [
+      "EX-1.png",
+      "EX-2.png"
+    ],
+    "FG": [
+      "FG-1.png",
+      "FG-2.png"
+    ],
+    "FH": [
+      "FH-1.png",
+      "FH-2.png"
+    ],
+    "FX": [
+      "FX-1.png",
+      "FX-2.png"
+    ],
+    "GH": [
+      "GH-1.png",
+      "GH-2.png"
+    ],
+    "GX": [
+      "GX-1.png",
+      "GX-2.png"
+    ],
+    "HX": [
+      "HX-1.png",
+      "HX-2.png"
+    ]
+  },
+  "cel_sha256": {
+    "BC-1.png": "a3c12ad6b11d0b9e64dca16d7e3abd6525bcf51f460d3410ac555444fa499a3b",
+    "BC-2.png": "331bb0e622c579c5dd03ba24308357bf27717fbe270b0d3e41f5fdd5b7a5aaa7",
+    "BD-1.png": "cb3355af811ee4cd41007a40f00110ecce63c5780019ea06b44525f511ab138c",
+    "BD-2.png": "e69aabc3a1952b7d8b3e4afff02c741007f84be7f8e6bbebe85f8a18251538e7",
+    "BG-1.png": "e73a49c24e4cca2b0ee20c0a658d2e8fe80787a4751725508c75364797a13052",
+    "BG-2.png": "6d44f4606a1e95d7a15b4e4c9cfcdc61dba4c0a98c0e696247f5ee25f0608ddd",
+    "BH-1.png": "0039828f498606d227d68d1c0886a642d668e4841fa374782ff9949d46c890c7",
+    "BH-2.png": "061eeb8f22f1d3c8b80814c9b43e9d2f400f29b5ebda58a5b98955ffe49ef95f",
+    "BX-1.png": "56bc20e40be946e37f7d2a69fba232cd9edabea002b101ffb6b0d90ec9c37e42",
+    "BX-2.png": "236baa2127e9716e30e13038ea4b0e1b9e0e145fb3a05b36e61c4ae0b32ab25d",
+    "AB-1.png": "58bed92e08bfe712355c1edc09d06bd42162fc1e227d647fcd4235fb2f223480",
+    "AB-2.png": "352aef75e48f1bc62e011904c4d969f571e7391c0522f6e83e98ece16e67a779",
+    "AC-1.png": "03587a8e966522314ab3218ae0e2966f65d0410ce6851772fb40bc1c2594c3b0",
+    "AC-2.png": "8236a6fd6d623a0516830100df4734d3d3408e59a21aae0c0a2aa57369d08095",
+    "AD-1.png": "679b3d84964be2548dbd3ca531831a13cf322266dd2592b15df2498f467ffaf4",
+    "AD-2.png": "eb686bcd782be8151a69d9de6faf0092fea506fe5f50e3d3ba8147ba9d7f91a8",
+    "AG-1.png": "a2eb5f18d1c29d21346e752f081d255b6d2505ce563d21be6ee659f58d077847",
+    "AG-2.png": "476482c1fd0ab390a6b316d70a0f34b8b9ab1ebe28d1a52b0b22dbafb1988e57",
+    "AH-1.png": "2e30af0b6fb5fa8019e2dea961657bf6ad67e138254610b15872f5a585600e7c",
+    "AH-2.png": "af504616e14c01ed3b167e028aa5bdbf5698b9fb32d1121c59f1b8372e6aa8ff",
+    "AX-1.png": "3ff2e8791477710cc14eb57b5cd931127a42042eb99c17b7a791c3dcfede6f9a",
+    "AX-2.png": "790bda47def200e10d481b6d9329f1c6176af91629516db8c8aab05134c7bac0",
+    "CD-1.png": "ce2b0335265ae1d2e53b1f35b7a7ca6141631c1e6abcd363a0dd9ad93abf74b8",
+    "CD-2.png": "02a68b2a7cfa4093bb5abe443a7473865cdd86a6583db025a046f76290bacb9d",
+    "CG-1.png": "1c7f06e28d57e9419a923486a8df8c0f3ec58cdc4f7eb4b4794cc20123479688",
+    "CG-2.png": "ba8ba4c1c30f385f49a05aeac04e1af3815ff916f8206f760319eb16181945e7",
+    "CH-1.png": "baea61b12dbf5b3c7e1377fb07ec0ad7f70fbeeaa624005a5f635d4151ca3657",
+    "CH-2.png": "195e86145ef1be1921bcc5ebb39d5cf28b59373a5ef0511ad6fdc775f86b1d89",
+    "CX-1.png": "e9d86f2ea89c28d6447c1be90556257a6dd3480dd672119ee9e21d59624c075e",
+    "CX-2.png": "1e9008e780b19a5c353d67362584cd0d39011dbf2900ffee72cb59cc855bd573",
+    "DG-1.png": "cc1bd91e75ea762614005f271803a7ec9e871e850ccef5e8777d6b28a96125df",
+    "DG-2.png": "07b484eb43202c8ffa418bfb8a10821f8ad05fb37dfc0119c1af529370546983",
+    "DH-1.png": "191c235160bdacdc67038698dc3e847ccf72032258d9177bccd71094c51ae6f9",
+    "DH-2.png": "ccae426b3ba1df3574b3ad461ef6c0a062b054c3ad07573df44b9099582366c6",
+    "DX-1.png": "77b4adb2c558e4e9698c1626cba1e8608d7d9b919dfdcb4d3fd8c49d087e008b",
+    "DX-2.png": "466c2aeea97bd3ee283ade141e0033b60418e69745c076510e57c19cd34a86d3",
+    "GH-1.png": "bbf29cc8f423e465a46e12c624594ff77df529f4112d13f5033c42963fa64e36",
+    "GH-2.png": "e8012d95709ab1911f0ff536d95f29a7f01921aeacea4e2aae0b3b872659c077",
+    "GX-1.png": "f2b4288c953be6cec5a9ff1e2300a3e24f4952f31e3a6340fcd1cc11bf31a1ff",
+    "GX-2.png": "134a838e683ddd8ef8c48791fa1c63fa606d7549448654b7cb7d12121d01e2e3",
+    "HX-1.png": "721021917de76b336f9158a3b63728859f867744b18064e6b67cf5612ecffb43",
+    "HX-2.png": "ef38372770ccc2f0264e6e658e7a79697abdf55d60727d135d48f94c3145e9ac",
+    "AE-1.png": "0e580ea14ab3ff733ae6b8bed97815f3dfd997352dc3db8c4c56de5e6357dfc1",
+    "AE-2.png": "a42a39c21099ef53c958683ad0ff189fe80a9672c0d0fd6c0b7b763970b74890",
+    "AF-1.png": "99039e3d7064205bb8b3b850c80f9776a644e556319d0278f054b05d718250d6",
+    "AF-2.png": "2c85ab416593250921243b254fa36219f6ee659ebe71423467b5abba85d6673a",
+    "BE-1.png": "5d0bad230fd49589e9c23dec37a6e39465ab2f22e6d49ff9ff79149e85f26462",
+    "BE-2.png": "a7bfbab6645cfd900421bd44f1cfd60c3a394165d918f4b05afea48125ea4f81",
+    "BF-1.png": "1d138babf250a1b24c83ee633610516b31fa8058cd98a1e2473abaed3ce8b53f",
+    "BF-2.png": "133356a901d3212c8d28546c2935e86915ce516329554f92ec397a978bd8206e",
+    "CE-1.png": "84c318a4efb93ae0a6a0af7e6992536b078f852f37c6edfededb573ebc9973a5",
+    "CE-2.png": "6f1943bb6782c86020b5320d620d7e30116fb07329ec8b00930d2334eb05f11d",
+    "CF-1.png": "9efbd595bda38e882928dce8a41f2b759e864b822f01196fb2ff04990cffd43f",
+    "CF-2.png": "bef12d9b494adcf9a4e8c56002ecd7cb92bd9c6250a3343aefbd20d0cc4b6482",
+    "DE-1.png": "81413452fad9589681e7bec23a86b32d0faddb9eee12c509be96270ffd5bf06f",
+    "DE-2.png": "1d32311126090c52c321687c2c104ce24b12931beaf4d4688eec3ccd2f8c638f",
+    "DF-1.png": "c7ca656da4ef2a2927a047d4754114ba1dc9fff8cce7e76575ae27b8a19402b4",
+    "DF-2.png": "a31de61e620192f800912e36df6d252cc59901d6d8952fdb424d3b878f8dbc52",
+    "EF-1.png": "51144c7c4d05cf5aa39b967fac1592aa5f42a6190319443503c6e795affbf797",
+    "EF-2.png": "e10e117e03c0684716d9a41bcc5f4985b6459ee8e3e0336c2caea0f83bf63ae4",
+    "EG-1.png": "f8b1d51bc0a1c5d431d0e3fc96bcf357e8c23de9026ba84857d7ee9713931238",
+    "EG-2.png": "8d2ceb7f2fe308a9daf43d24fb39c052b41eb5d018d045d1e78b5f5b262a0a89",
+    "EH-1.png": "010859c5834e31f634b6dc29ce27f3bb5cc505f4f8ffc6ae2365ddb31979fd67",
+    "EH-2.png": "806e0342e461837896b8f391bff58ccc4c272ffd9a1f22095eb47b2541b242a5",
+    "EX-1.png": "b156ac7eb86ce7c2439e33d85fa2ee43da3474d28408b9e9a813e3e1b60f1498",
+    "EX-2.png": "3272a0b41f672959ee8da8a26f8cd1c0a755a64bcbd155ce046ac3a2a470e6cf",
+    "FG-1.png": "4ec114cef18ea256e6dbcc7bc49deda29b88ea07dff58a4fe7dce23dedfeb8e3",
+    "FG-2.png": "a1dbe320c7961d34a47e060dff912082e89585eadca6551019954d651dcf7941",
+    "FH-1.png": "108cefa9931f78b442166faf1a2dfb3ccc7e7904376310399dd5d641756c6ced",
+    "FH-2.png": "d2e20d26553ab8df4bf0f3f2d3d4aa72742cc2bb10da7d8ac2bb8317cde11fc9",
+    "FX-1.png": "b00d5b701e926eec22a0c0eaab83e930227ec5d10a7042a6b6239d7c890c3582",
+    "FX-2.png": "12ff4e8381d84745a098652d504f325a520c814794bcb4cb6c99be65c65152e8"
+  },
+  "registration": {
+    "BC-1": {
+      "scale": 1.3529411764705883,
+      "offset": [
+        -5,
+        -1
+      ]
+    },
+    "BC-2": {
+      "scale": 1.3568627450980393,
+      "offset": [
+        -1,
+        2
+      ]
+    },
+    "BD-1": {
+      "scale": 1.3611111111111112,
+      "offset": [
+        -5,
+        4
+      ]
+    },
+    "BD-2": {
+      "scale": 1.368,
+      "offset": [
+        1,
+        8
+      ]
+    },
+    "BG-1": {
+      "scale": 1.34765625,
+      "offset": [
+        0,
+        -2
+      ]
+    },
+    "BG-2": {
+      "scale": 1.34765625,
+      "offset": [
+        -1,
+        -1
+      ]
+    },
+    "BH-1": {
+      "scale": 1.34375,
+      "offset": [
+        1,
+        0
+      ]
+    },
+    "BH-2": {
+      "scale": 1.3543307086614174,
+      "offset": [
+        -1,
+        -1
+      ]
+    },
+    "BX-1": {
+      "scale": 1.3529411764705883,
+      "offset": [
+        -1,
+        -2
+      ]
+    },
+    "BX-2": {
+      "scale": 1.3515625,
+      "offset": [
+        -1,
+        -2
+      ]
+    },
+    "AB-1": {
+      "scale": 1.3636363636363635,
+      "offset": [
+        0,
+        -3
+      ]
+    },
+    "AB-2": {
+      "scale": 1.358267716535433,
+      "offset": [
+        0,
+        -3
+      ]
+    },
+    "AC-1": {
+      "scale": 1.3424124513618676,
+      "offset": [
+        6,
+        0
+      ]
+    },
+    "AC-2": {
+      "scale": 1.3410852713178294,
+      "offset": [
+        5,
+        1
+      ]
+    },
+    "AD-1": {
+      "scale": 1.3346303501945525,
+      "offset": [
+        6,
+        2
+      ]
+    },
+    "AD-2": {
+      "scale": 1.3307392996108949,
+      "offset": [
+        6,
+        1
+      ]
+    },
+    "AG-1": {
+      "scale": 1.3372093023255813,
+      "offset": [
+        4,
+        0
+      ]
+    },
+    "AG-2": {
+      "scale": 1.3372093023255813,
+      "offset": [
+        4,
+        1
+      ]
+    },
+    "AH-1": {
+      "scale": 1.3333333333333333,
+      "offset": [
+        2,
+        6
+      ]
+    },
+    "AH-2": {
+      "scale": 1.318007662835249,
+      "offset": [
+        10,
+        9
+      ]
+    },
+    "AX-1": {
+      "scale": 1.3269230769230769,
+      "offset": [
+        3,
+        3
+      ]
+    },
+    "AX-2": {
+      "scale": 1.3206106870229009,
+      "offset": [
+        7,
+        1
+      ]
+    },
+    "CD-1": {
+      "scale": 1.33852140077821,
+      "offset": [
+        4,
+        5
+      ]
+    },
+    "CD-2": {
+      "scale": 1.3053435114503817,
+      "offset": [
+        11,
+        13
+      ]
+    },
+    "CG-1": {
+      "scale": 1.3515625,
+      "offset": [
+        -1,
+        -1
+      ]
+    },
+    "CG-2": {
+      "scale": 1.3745019920318724,
+      "offset": [
+        -1,
+        -2
+      ]
+    },
+    "CH-1": {
+      "scale": 1.3745019920318724,
+      "offset": [
+        -1,
+        -4
+      ]
+    },
+    "CH-2": {
+      "scale": 1.3650793650793651,
+      "offset": [
+        -1,
+        -3
+      ]
+    },
+    "CX-1": {
+      "scale": 1.3463035019455254,
+      "offset": [
+        4,
+        -2
+      ]
+    },
+    "CX-2": {
+      "scale": 1.3568627450980393,
+      "offset": [
+        2,
+        -3
+      ]
+    },
+    "DG-1": {
+      "scale": 1.3372549019607842,
+      "offset": [
+        9,
+        2
+      ]
+    },
+    "DG-2": {
+      "scale": 1.3650793650793651,
+      "offset": [
+        7,
+        1
+      ]
+    },
+    "DH-1": {
+      "scale": 1.3478260869565217,
+      "offset": [
+        3,
+        -2
+      ]
+    },
+    "DH-2": {
+      "scale": 1.3464566929133859,
+      "offset": [
+        5,
+        -1
+      ]
+    },
+    "DX-1": {
+      "scale": 1.3411764705882352,
+      "offset": [
+        2,
+        0
+      ]
+    },
+    "DX-2": {
+      "scale": 1.3543307086614174,
+      "offset": [
+        5,
+        -1
+      ]
+    },
+    "GH-1": {
+      "scale": 1.3543307086614174,
+      "offset": [
+        2,
+        -1
+      ]
+    },
+    "GH-2": {
+      "scale": 1.34375,
+      "offset": [
+        10,
+        0
+      ]
+    },
+    "GX-1": {
+      "scale": 1.358267716535433,
+      "offset": [
+        2,
+        -1
+      ]
+    },
+    "GX-2": {
+      "scale": 1.3515625,
+      "offset": [
+        14,
+        -1
+      ]
+    },
+    "HX-1": {
+      "scale": 1.3490196078431373,
+      "offset": [
+        3,
+        -1
+      ]
+    },
+    "HX-2": {
+      "scale": 1.3529411764705883,
+      "offset": [
+        14,
+        -1
+      ]
+    },
+    "AE-1": {
+      "scale": 1.4040816326530612,
+      "offset": [
+        -7,
+        -6
+      ]
+    },
+    "AE-2": {
+      "scale": 1.4132231404958677,
+      "offset": [
+        -8,
+        -6
+      ]
+    },
+    "AF-1": {
+      "scale": 1.4375,
+      "offset": [
+        -9,
+        -6
+      ]
+    },
+    "AF-2": {
+      "scale": 1.513157894736842,
+      "offset": [
+        -19,
+        -14
+      ]
+    },
+    "BE-1": {
+      "scale": 1.4098360655737705,
+      "offset": [
+        -4,
+        -5
+      ]
+    },
+    "BE-2": {
+      "scale": 1.4430379746835442,
+      "offset": [
+        -4,
+        -4
+      ]
+    },
+    "BF-1": {
+      "scale": 1.4197530864197532,
+      "offset": [
+        -4,
+        -5
+      ]
+    },
+    "BF-2": {
+      "scale": 1.513157894736842,
+      "offset": [
+        -13,
+        -14
+      ]
+    },
+    "CE-1": {
+      "scale": 1.4024390243902438,
+      "offset": [
+        -8,
+        -8
+      ]
+    },
+    "CE-2": {
+      "scale": 1.4430379746835442,
+      "offset": [
+        -7,
+        -9
+      ]
+    },
+    "CF-1": {
+      "scale": 1.4476987447698744,
+      "offset": [
+        -18,
+        -13
+      ]
+    },
+    "CF-2": {
+      "scale": 1.5825688073394495,
+      "offset": [
+        -26,
+        -25
+      ]
+    },
+    "DE-1": {
+      "scale": 1.3934426229508197,
+      "offset": [
+        -6,
+        -3
+      ]
+    },
+    "DE-2": {
+      "scale": 1.444915254237288,
+      "offset": [
+        -18,
+        -8
+      ]
+    },
+    "DF-1": {
+      "scale": 1.4032921810699588,
+      "offset": [
+        -8,
+        -5
+      ]
+    },
+    "DF-2": {
+      "scale": 1.5707762557077625,
+      "offset": [
+        -26,
+        -19
+      ]
+    },
+    "EF-1": {
+      "scale": 1.3959183673469389,
+      "offset": [
+        -1,
+        -10
+      ]
+    },
+    "EF-2": {
+      "scale": 1.3983739837398375,
+      "offset": [
+        5,
+        -6
+      ]
+    },
+    "EG-1": {
+      "scale": 1.3790322580645162,
+      "offset": [
+        2,
+        -1
+      ]
+    },
+    "EG-2": {
+      "scale": 1.3983739837398375,
+      "offset": [
+        5,
+        -3
+      ]
+    },
+    "EH-1": {
+      "scale": 1.3805668016194332,
+      "offset": [
+        2,
+        2
+      ]
+    },
+    "EH-2": {
+      "scale": 1.4057377049180328,
+      "offset": [
+        5,
+        0
+      ]
+    },
+    "EX-1": {
+      "scale": 1.425,
+      "offset": [
+        -5,
+        -11
+      ]
+    },
+    "EX-2": {
+      "scale": 1.4256198347107438,
+      "offset": [
+        1,
+        -7
+      ]
+    },
+    "FG-1": {
+      "scale": 1.3911290322580645,
+      "offset": [
+        -2,
+        -7
+      ]
+    },
+    "FG-2": {
+      "scale": 1.4197530864197532,
+      "offset": [
+        0,
+        -8
+      ]
+    },
+    "FH-1": {
+      "scale": 1.3870967741935485,
+      "offset": [
+        -2,
+        -4
+      ]
+    },
+    "FH-2": {
+      "scale": 1.359683794466403,
+      "offset": [
+        1,
+        -1
+      ]
+    },
+    "FX-1": {
+      "scale": 1.3911290322580645,
+      "offset": [
+        -2,
+        -6
+      ]
+    },
+    "FX-2": {
+      "scale": 1.373015873015873,
+      "offset": [
+        -1,
+        -4
+      ]
+    }
+  }
+}

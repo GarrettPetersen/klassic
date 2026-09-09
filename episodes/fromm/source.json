@@ -1,0 +1,24 @@
+{
+  "title": "Interview with Erich Fromm",
+  "show": "The Mike Wallace Interview",
+  "date": "1958-05-25",
+  "archive": "Harry Ransom Center, University of Texas at Austin",
+  "identifier": "HRC_WAL0025",
+  "page_url": "https://hrc.contentdm.oclc.org/digital/collection/p15878coll90/id/64/rec/26",
+  "retrieval_url": "https://hrc.contentdm.oclc.org/digital/api/singleitem/collection/p15878coll90/id/64",
+  "verified_on": "2026-09-09",
+  "verification": "Retrieved full transcript including opening and closing announcements; source video not yet checked against transcript.",
+  "transcript_characters": 25223,
+  "transcript_words": 4441,
+  "transcript_utf8_sha256": "9e6db5edb0d271a4230dd32b61a2b0a786032da35069f68edc17255064d4d8a3",
+  "selection": {
+    "topic": "Personality as a product and market-dependent self-worth",
+    "start_character_inclusive": 5144,
+    "end_character_exclusive": 6632,
+    "words": 265,
+    "utf8_sha256": "6efa7223736aef90689109205e86a67953b98a43442d69182fe841db216ffdf0",
+    "speaker_blocks": 8,
+    "rough_duration_seconds_at_140_wpm": 114,
+    "timing_status": "Estimate only; obtain exact times from source video or generated takes."
+  }
+}

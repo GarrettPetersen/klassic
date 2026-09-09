@@ -1,0 +1,67 @@
+{
+  "character": "Erich Fromm, 1958",
+  "clean_plate": "clean-green.png",
+  "skin_tone": 205,
+  "skin_seeds": [
+    [
+      800,
+      580
+    ]
+  ],
+  "nose_polygon": [
+    [
+      647,
+      374
+    ],
+    [
+      696,
+      379
+    ],
+    [
+      697,
+      479
+    ],
+    [
+      708,
+      519
+    ],
+    [
+      663,
+      542
+    ],
+    [
+      582,
+      542
+    ],
+    [
+      546,
+      520
+    ],
+    [
+      542,
+      484
+    ],
+    [
+      580,
+      432
+    ]
+  ],
+  "mouth_position": [
+    515,
+    443
+  ],
+  "mouth_size": [
+    300,
+    300
+  ],
+  "front_outline": {
+    "center_x": 100,
+    "radius_x": 180,
+    "center_y_offset": -18,
+    "vertical_padding": 20,
+    "height_padding_ratio": 0.1,
+    "feather": 6
+  },
+  "endpoints": "../../mouths/host",
+  "transitions": "../../mouths/transitions/cels/library.json"
+}
