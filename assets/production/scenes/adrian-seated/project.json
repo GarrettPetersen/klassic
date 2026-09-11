@@ -1,0 +1,112 @@
+{
+  "version": 2,
+  "title": "Adrian Vale — seated performance reference",
+  "characters": {
+    "adrian": {}
+  },
+  "scenes": {
+    "waiting-room": {
+      "version": 1,
+      "title": "Seated performance reference",
+      "size": [
+        1448,
+        1086
+      ],
+      "background": {
+        "file": "scene/room.png",
+        "sha256": "8de22ff59f21a2c4e632a762c4890c916586b6ec704ae43c419d69bfac5cfff1"
+      },
+      "actors": [
+        {
+          "id": "host",
+          "character": "adrian",
+          "position": [
+            770,
+            960
+          ],
+          "scale": 1,
+          "z": 0,
+          "state": "seated"
+        }
+      ],
+      "furniture": [
+        {
+          "id": "chair",
+          "seat": "guest-chair",
+          "rear": {
+            "file": "scene/chair.png",
+            "sha256": "867444bb2052abba3d0ec8d3821f23b96bbcce11d561db5245d9a4ef669f7704",
+            "position": [
+              412.0,
+              221.0
+            ],
+            "z": 10
+          },
+          "front": {
+            "file": "scene/chair-front.png",
+            "sha256": "980055f32603462384baae4a3dbfa580f0579627bb98c190f84443a047126613",
+            "position": [
+              -437.69,
+              -409.23
+            ],
+            "z": 30
+          }
+        }
+      ],
+      "foregrounds": [],
+      "paths": {},
+      "seats": {
+        "guest-chair": {
+          "position": [
+            608,
+            696
+          ],
+          "activity": "seated",
+          "view": "three-quarter-right"
+        }
+      },
+      "interactions": {}
+    }
+  },
+  "initial_scene": "waiting-room",
+  "takes": {},
+  "story": {
+    "version": 1,
+    "start": "study",
+    "nodes": {
+      "study": {
+        "kind": "end",
+        "heading": "Adrian Vale",
+        "text": "Play the seated study, or open the gesture controls to perform Explain."
+      }
+    }
+  },
+  "performance": [
+    {
+      "id": "rest",
+      "at": 0,
+      "type": "caption",
+      "text": "Listen. Keep both hands resting naturally."
+    },
+    {
+      "id": "offer",
+      "at": 1,
+      "type": "gesture",
+      "actor": "host",
+      "intent": "offer"
+    },
+    {
+      "id": "explain",
+      "at": 1,
+      "type": "caption",
+      "text": "A deliberate offering gesture, then a return to rest."
+    },
+    {
+      "id": "settled",
+      "at": 4,
+      "type": "caption",
+      "text": "Same body, separate whole-arm drawings. Both feet and the seat remain planted."
+    }
+  ],
+  "review_file": "reviews.json"
+}

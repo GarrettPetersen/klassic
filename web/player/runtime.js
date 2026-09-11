@@ -3,6 +3,7 @@ export function requireValue(condition, message) {
   if (!condition) throw new Error(message);
 }
 const finitePoint = p => Array.isArray(p) && p.length === 2 && p.every(Number.isFinite);
+const add = (a,b) => a.map((v,i)=>v+b[i]);
 
 export function transformPoint(point, transform) {
   if (!transform) return [...point];
@@ -17,9 +18,15 @@ export function validateCharacter(spec) {
   requireValue(finitePoint(spec.origin), `${spec.id}: missing local origin`);
   requireValue(Number.isInteger(spec.fps) && spec.fps > 0, `${spec.id}: invalid frame rate`);
   requireValue(spec.states[spec.initial_state], `${spec.id}: missing initial state`);
+  requireValue(spec.activities && Object.keys(spec.activities).length, `${spec.id}: missing activities`);
+  for (const [name, activity] of Object.entries(spec.activities)) {
+    requireValue(typeof activity.label === 'string' && Array.isArray(activity.views) && activity.views.length && new Set(activity.views).size === activity.views.length, `${name}: invalid activity views`);
+  }
   for (const [name, drawing] of Object.entries(spec.drawings)) {
     requireValue(typeof drawing.file === 'string' && /^[a-f0-9]{64}$/.test(drawing.sha256), `${spec.id}/${name}: invalid drawing provenance`);
     requireValue(finitePoint(drawing.position), `${spec.id}/${name}: invalid local position`);
+    requireValue(Array.isArray(drawing.size) && drawing.size.length===2 && drawing.size.every(n=>Number.isInteger(n)&&n>0), `${name}: invalid drawing size`);
+    if (drawing.region) requireValue(drawing.region.length===4 && drawing.region.every(n=>Number.isInteger(n)&&n>=0) && drawing.region[2]===drawing.size[0] && drawing.region[3]===drawing.size[1], `${name}: invalid atlas region`);
   }
   for (const [name, pose] of Object.entries(spec.poses)) {
     requireValue(Array.isArray(pose.layers) && pose.layers.length, `${spec.id}/${name}: empty pose`);
@@ -28,22 +35,34 @@ export function validateCharacter(spec) {
       if (layer.transform) requireValue(finitePoint(layer.transform.origin) && finitePoint(layer.transform.position) && Number.isFinite(layer.transform.degrees), `${spec.id}/${name}: invalid rigid placement`);
     }
     requireValue(pose.attachments && Object.values(pose.attachments).every(finitePoint), `${spec.id}/${name}: invalid attachments`);
+    requireValue(pose.anchors && Object.values(pose.anchors).every(finitePoint), `${spec.id}/${name}: invalid anchors`);
+    requireValue(Array.isArray(pose.contacts) && new Set(pose.contacts.map(c=>c.id)).size===pose.contacts.length, `${name}: invalid contacts`);
+    for (const c of pose.contacts) requireValue(typeof c.id==='string' && ['foot','seat','hand'].includes(c.kind) && finitePoint(c.point) && typeof c.locked==='boolean', `${name}: invalid contact`);
     if (pose.overlay_offsets) for (const [overlay, offset] of Object.entries(pose.overlay_offsets)) {
       requireValue(spec.overlays[overlay] && finitePoint(offset), `${spec.id}/${name}: invalid face placement`);
     }
   }
   for (const [name, action] of Object.entries(spec.actions)) {
     requireValue(spec.states[action.from] && spec.states[action.to], `${spec.id}/${name}: unknown state`);
+    const capability=action.capability ?? spec.states[action.from];
+    requireValue(spec.activities[capability.activity]?.views.includes(capability.view), `${name}: unsupported action activity/view`);
     requireValue(typeof action.loop === 'boolean' && action.frames.length > 0, `${spec.id}/${name}: invalid clip`);
     requireValue(!action.loop || action.from === action.to, `${spec.id}/${name}: loop must retain state`);
     for (const frame of action.frames) {
       requireValue(spec.poses[frame.pose] && Number.isInteger(frame.ticks) && frame.ticks > 0, `${spec.id}/${name}: missing pose or invalid duration`);
+    }
+    if(action.navigation)requireValue(typeof action.navigation.family==='string'&&['stride','step','stop','approach','turn'].includes(action.navigation.kind),`${name}: invalid movement option`);
+    if (action.motion) {
+      requireValue(finitePoint(action.motion.displacement) && action.motion.roots?.length===action.frames.length && action.motion.roots.every(finitePoint), `${name}: invalid root motion`);
+      requireValue(action.motion.roots[0].every(v=>v===0), `${name}: motion must start at zero`);
+      if(!action.loop)requireValue(action.motion.roots.at(-1).every((v,i)=>v===action.motion.displacement[i]),`${name}: final drawing must meet the exit root`);
     }
     if (!action.loop) {
       requireValue(action.frames[0].pose === spec.states[action.from].pose && action.frames.at(-1).pose === spec.states[action.to].pose, `${spec.id}/${name}: clip must connect its entry and exit poses`);
     }
   }
   for (const [name, state] of Object.entries(spec.states)) {
+    requireValue(spec.activities[state.activity]?.views.includes(state.view), `${name}: unsupported activity/view`);
     const idle = spec.actions[state.idle];
     requireValue(spec.poses[state.pose] && idle?.loop && idle.from === name && idle.frames[0].pose === state.pose, `${spec.id}/${name}: invalid idle action`);
   }
@@ -61,7 +80,7 @@ export function sampleClip(action, fps, elapsed) {
   let local = action.loop ? ticks % total : Math.min(ticks, total - 1);
   for (let i = 0; i < action.frames.length; i++) {
     const frame = action.frames[i];
-    if (local < frame.ticks) return {pose: frame.pose, frame: i, done: !action.loop && elapsed >= total / fps, duration: total / fps};
+    if (local < frame.ticks) return {pose: frame.pose, frame: i, tick: ticks, cycles: action.loop ? Math.floor(ticks/total) : 0, done: !action.loop && elapsed >= total / fps, duration: total / fps};
     local -= frame.ticks;
   }
   throw new Error('Clip frame could not be sampled');
@@ -72,7 +91,8 @@ export class Actor {
     this.spec = validateCharacter(spec);
     requireValue(finitePoint(placement.position) && Number.isFinite(placement.scale) && placement.scale > 0 && Number.isFinite(placement.z), 'Invalid actor placement');
     this.placement = structuredClone(placement);
-    this.state = spec.initial_state;
+    this.state = placement.state ?? spec.initial_state;
+    requireValue(spec.states[this.state], 'Unknown initial placement state');
     this.current = spec.states[this.state].idle;
     this.started = 0;
     this.pending = null;
@@ -85,6 +105,7 @@ export class Actor {
     const sample = sampleClip(action, this.spec.fps, now - this.started);
     if (!sample.done) return sample;
     const ended = this.started + sample.duration;
+    if (action.motion) this.placement.position=add(this.placement.position,action.motion.displacement.map(v=>v*this.placement.scale));
     this.state = action.to;
     const next = this.pending ?? this.spec.states[this.state].idle;
     this.pending = null;
@@ -94,13 +115,16 @@ export class Actor {
     return this.advance(now);
   }
   request(name, now) {
-    this.advance(now);
+    const sample=this.advance(now);
     const target = this.spec.actions[name];
     requireValue(target, `Unknown action ${name} for ${this.spec.id}`);
     const current = this.spec.actions[this.current];
     const nextState = current.loop ? this.state : current.to;
     requireValue(target.from === nextState, `Action ${name} requires ${target.from}, actor will be ${nextState}`);
-    if (current.loop) { this.current = name; this.started = now; }
+    if (current.loop) {
+      this.placement.position=add(this.placement.position,this.motionOffset(sample).map(v=>v*this.placement.scale));
+      this.current = name; this.started = now;
+    }
     else this.pending = name; // Finish the drawn recovery before another action.
   }
   availableActions(now) {
@@ -117,6 +141,22 @@ export class Actor {
     this.advance(now);
     this.pending = null; // Speech may stop immediately; the short gesture completes.
   }
+  motionOffset(sample) {
+    const motion=this.spec.actions[this.current].motion;
+    return motion ? add(motion.roots[sample.frame],motion.displacement.map(v=>v*sample.cycles)) : [0,0];
+  }
+  save(now) {
+    this.advance(now);
+    return {state:this.state,current:this.current,started:this.started,pending:this.pending,lastTime:this.lastTime,placement:structuredClone(this.placement)};
+  }
+  static restore(spec,data,now) {
+    const actor=new Actor(spec,data.placement);
+    requireValue(spec.states[data.state] && spec.actions[data.current]?.from===data.state, 'Invalid saved actor state');
+    requireValue(Number.isFinite(data.started)&&data.started>=0&&data.started<=now&&Number.isFinite(data.lastTime)&&data.lastTime>=data.started&&data.lastTime<=now,'Invalid saved actor clock');
+    requireValue(data.pending===null || spec.actions[data.pending]?.from===spec.actions[data.current].to,'Invalid saved queued action');
+    for(const key of ['state','current','started','pending','lastTime'])actor[key]=data[key];
+    return actor;
+  }
   snapshot(now, overlays = {}) {
     const sample = this.advance(now);
     const pose = this.spec.poses[sample.pose];
@@ -128,7 +168,8 @@ export class Actor {
       layers.push({drawing: overlay.drawings[key], z: overlay.z,
         transform: {origin: [0, 0], position: offset, degrees: 0}});
     }
-    const point = p => [0, 1].map(i => this.placement.position[i] + (p[i] - this.spec.origin[i]) * this.placement.scale);
+    const root=this.motionOffset(sample);
+    const point = p => [0, 1].map(i => this.placement.position[i] + (p[i]+root[i] - this.spec.origin[i]) * this.placement.scale);
     return {
       action: this.current, pose: sample.pose, frame: sample.frame,
       layers: layers.map(layer => ({...this.spec.drawings[layer.drawing], id: layer.drawing,
@@ -136,6 +177,9 @@ export class Actor {
         degrees: layer.transform?.degrees ?? 0,
         scale: this.placement.scale, z: this.placement.z + layer.z})),
       attachments: Object.fromEntries(Object.entries(pose.attachments).map(([name, p]) => [name, point(p)]))
+      ,anchors: Object.fromEntries(Object.entries(pose.anchors).map(([name,p])=>[name,point(p)])),
+      contacts:pose.contacts.map(c=>({...c,point:point(c.point)})),
+      activity:(this.spec.actions[this.current].capability??this.spec.states[this.state]).activity,view:(this.spec.actions[this.current].capability??this.spec.states[this.state]).view,tick:sample.tick
     };
   }
 }
@@ -166,6 +210,11 @@ export class Conversation {
   constructor(story) { this.story = story; this.restart(); }
   restart() { this.id = this.story.start; this.values = {}; this.revision = (this.revision ?? 0) + 1; }
   get node() { return this.story.nodes[this.id]; }
+  save() {return {id:this.id,values:structuredClone(this.values),revision:this.revision};}
+  restore(data) {
+    requireValue(this.story.nodes[data.id] && data.values && typeof data.values==='object' && !Array.isArray(data.values) && Number.isInteger(data.revision)&&data.revision>0,'Invalid saved story');
+    this.id=data.id;this.values=structuredClone(data.values);this.revision=data.revision;
+  }
   choices() {
     requireValue(this.node.kind === 'choice', 'Current node has no choices');
     const result = this.node.choices.filter(c => !c.when || Object.entries(c.when).every(([k, v]) => this.values[k] === v));

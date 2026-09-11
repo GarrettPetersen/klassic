@@ -22,9 +22,10 @@ by warping pixels, stretching bones or crossfading two outlines.
 
 Choose animation units to preserve the drawing:
 
-- Seated conversations: body, complete arm/hand poses, face, eyes and legs.
+- Seated conversations: complete torso-and-leg drawings, separate whole arms,
+  head, mouth and eyes.
 - An arm gesture: usually replace the whole arm, including the hand and cuff.
-- A lean: replace the torso drawing; reuse approved whole arms with authored
+- A lean: replace the complete torso-and-leg drawing; reuse whole arms with authored
   rigid placements where their silhouettes still fit. Keep the arms separate.
 - A larger reaction: author additional arm poses only when the existing ones
   cannot express the new silhouette.
@@ -89,25 +90,26 @@ The chair and the person are separate assets. Split furniture into rear and
 foreground layers:
 
 1. Chair back, seat and far arm.
-2. Character's seated legs, hips and torso.
-3. Chair's near arm.
-4. Character's near hand/forearm when resting over that arm.
+2. Character's complete torso-and-leg drawing.
+3. Chair's cushion front and near arm, covering the seated butt.
+4. Foreground legs, masked from the same body drawing in exactly the same position.
+5. Character's near hand/forearm when resting over that arm.
 
 The body sits *inside* the chair arms. A hand can rest on the foreground arm.
 A pose can change its layer order when a gesture passes behind or in front of
 something. Trouser contours also render above far sleeves where they overlap.
 Joint and overlap contours are preserved in the source drawings and masks.
-An uncrossed lower body has separately authored rear and front drawings:
-the seat/waist behind the jacket, and the forward thighs above it. The front
-drawing excludes the rear hip mass and has its own continuous inked boundary.
-Its rear edge emerges at seat height and rises toward the knee; treating the
-whole hip as foreground makes the legs appear to grow from the abdomen.
-The rear drawing must include the entire seated butt down to cushion contact;
-cropping a waist strip leaves a visible hole beneath the jacket. It can persist
-unchanged while the forward leg drawings switch poses.
-The jacket must have a complete drawn hem, including fabric that was hidden
-by a crossed knee in the reference. A reclined torso has a broad collar opening
-matched to the unchanged head, plus a front-collar cutout above the neck base.
+For the seated MVP, author four complete torso-and-leg poses per character:
+upright/crossed, upright/spread, reclined/crossed and reclined/spread. Draw
+transitions as complete bodies too. The jacket, pelvis, butt and thighs share
+one silhouette and naturally inked overlaps; do not stitch independent torso,
+waist and thigh artwork together. A chair-occlusion mask exposes foreground
+legs from that exact body image above the cushion front. It changes depth only,
+never geometry or registration, and creates the occupied-cushion negative space
+without baking a particular chair into the character.
+The jacket has a complete drawn hem, including fabric hidden by a crossed knee
+in another pose. Each body has a broad collar opening matched to the head,
+plus a front-collar cutout above the neck base.
 The cutout includes the complete ink rim and sits below the animated jaw.
 Remove placeholder neck stubs from headless torso art, and remove old neck
 fragments outside a replacement portrait's silhouette, especially below ears.
@@ -160,12 +162,13 @@ The runtime is the small browser module in `web/player/`; Python is the offline
 adapter/exporter for the existing artwork and speech data. The old interview
 film compositor remains the film workflow, not a hidden mode of the game player.
 
-This MVP proves the package and action system; it does not implement walking,
-new character designs, arbitrary head turns, historical
-consequence simulation or save games. Walking will add stride displacement and
-foot-contact timing to authored action clips, with movement through scene paths.
-Existing local actor placement and full-body pose support provide the base;
-locomotion control itself remains future work.
+The shared runtime now includes activity/view capabilities, root displacement,
+contact review, scene paths/seats/interactions, session saves and deterministic
+blocking replay. The [production workflow](production-workflow.md) documents the
+individual-source packages, review workbench and gated atlas exporter. The
+[original-character arrival study](../examples/arrival/README.md) exercises a
+complete-body character in another room. Additional views, polished walking
+inbetweens and historical consequence simulation still require authored content.
 
 ## Art production and acceptance
 
@@ -184,6 +187,5 @@ complete animation assets from the outset.
 Review every clip at playback speed and frame by frame, at actual game size.
 Check hand identity, four-digit construction, continuous ink, stable scale,
 chair/hip depth and recovery to neutral. Test a second character with different
-proportions and a different scene placement using the same player. The next
-expansion after seated conversation is one complete entrance → walk → sit →
-talk → stand → exit sequence, rather than a large untested library of actions.
+proportions and a different scene placement using the same player. The arrival study exercises entrance → walk → sit → captioned dialogue/gesture →
+stand → exit. Its art remains a draft pending a complete visual acceptance pass.

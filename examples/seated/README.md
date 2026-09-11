@@ -11,6 +11,7 @@ From the repository root, with the project's Python/Pillow and FFmpeg available:
 
 ```sh
 npm run build:mvp
+npm run build:production
 npm test
 npm run serve:mvp
 ```
@@ -49,7 +50,8 @@ pauses sample audio as well as the animation clock.
 - `story.json`: choices, state conditions, source takes and semantic gestures.
 - `build.py`: exports independent character packages, furniture layers, audio,
   mouth-frame schedules and a hashed project manifest.
-- `postures.py`: composes drawn torso/leg cels with the approved separate arms.
+- `postures.py`: registers complete torso-and-leg drawings with separate heads
+  and whole arms, plus identical-pixel masks for chair overlap.
 - `../../assets/episodes/seated-postures/registration.json`: atlas placement,
   head masks, shoulder attachments and rigid arm angles for each drawn pose.
 - `../../web/player/runtime.js`: generic clip sampling, actor state and dialogue.
@@ -78,14 +80,24 @@ exported rear layer records the scene composition explicitly. A production set
 should supply a clean room plate and separately drawn furniture from the start.
 Character packages do not contain chair parts. Trouser-edge layers keep original
 ink in front of the far sleeve.
-Uncrossed cels render the seat/waist behind a complete jacket, then separately
-inked forward thighs above it. Rear hip mass stays beneath the jacket; the
-foreground edge emerges from seat height. Reclined collars fit the original heads;
-the rear pelvis includes the complete butt and cushion-contact outline.
-a separate front-collar cutout preserves the ink rim above the neck base and
-below the animated jaw. Fromm's open jacket reveals shirt between his thighs.
-His fitted neck connector follows the head during both lean drawings and covers
-the obsolete jaw-edge fragment where it joins the collar.
+Each character now has four complete torso-and-leg drawings, plus four complete
+transition drawings. Jackets, hips, butts and thighs are drawn together.
+The uncrossed upright, reclined and intermediate-lean bodies use the
+`*-bodies-uncrossed*.png` sheets, with distinct thigh contours and planted feet.
+Their prompts and source lineage are in
+[`UNCROSSED-PROMPTS.md`](../../assets/episodes/seated-postures/UNCROSSED-PROMPTS.md).
+The full body renders behind the chair foreground; a mask exposes the front
+legs above it using the exact same source pixels and position. This controls
+occlusion without joining separately generated anatomy. Masks follow the
+chair's existing inked foreground contour; an arbitrary cut through the cushion
+would create an unoutlined step in the hip. A production chair can supply its
+own drawn cushion lip in that foreground layer.
+A collar cutout from the body preserves the rim above the neck and below the
+animated jaw. Fromm's fitted neck repair covers the obsolete inner jaw edge;
+the back collar rim remains in front of the neck. His shirt ends above the crotch.
+Head sizing is baked uniformly around the registered neck anchor, including all
+mouth, eye and neck cels. Fromm uses a 90% head scale and a rearward placement
+adjustment across settled poses and transition drawings.
 Qualify uses corrected
 whole-arm drawings with the anatomical thumb on the viewer-facing side of
 the palm. The remaining arm bank is reused across all postures.
@@ -96,10 +108,12 @@ layer, above moving legs.
 
 The existing grayscale Krusty/Fromm artwork is a test cast, not the intended
 original game cast. There is one seated viewpoint, three gesture actions per
-character and four settled postures (upright/reclined × crossed/uncrossed).
-Walking, new view angles,
-original cast art, history simulation and save games are outside this MVP. They
-are covered by the [animation plan](../../docs/game-animation-pipeline.md).
+character and four settled postures (upright/reclined × crossed/spread).
+The shared runtime now supports session saves, replay, scene paths and whole-body
+locomotion. See the [production workflow](../../docs/production-workflow.md) and
+[original-character arrival study](../arrival/README.md). This seated cast still
+has only its authored viewpoint and postures; new views and history simulation
+require further content.
 
 ## Interface direction
 
@@ -130,12 +144,13 @@ The earlier seated MVP also passed all 45 existing Python tests. All four
 postures, held gestures and desktop/mobile layouts were visually inspected.
 
 `tests-js/boundary-review.cjs` uses the production renderer to save native-size
-compositions of all four postures and collar contact sheets for all nine mouth
-keys on both speakers, including the middle lean drawing. Run it with the same Playwright/Chrome setup as the
+compositions of all four postures and all four transition drawings, collar
+contact sheets for all nine mouth keys, and held-gesture galleries for both
+speakers. Run it with the same Playwright/Chrome setup as the
 browser checks. Review the hip origin, thigh ink, collar rim and ear/neck overlap
 in `build/seated-mvp/boundary-*.png` and `collars-*.png`; passing state-machine
 checks alone does not establish that these visual joins are correct.
-A second export through npm produced an identical project
-manifest, including every referenced character, drawing, furniture and audio hash.
+The project manifest records every referenced character, drawing, furniture
+and audio hash; the browser rejects assets that no longer match it.
 The new raster art used the built-in imagegen tool; its final prompts and source
 references are in [PROMPTS.md](../../assets/episodes/seated-postures/PROMPTS.md).

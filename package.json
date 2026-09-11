@@ -5,6 +5,9 @@
   "scripts": {
     "test": "node --test tests-js/*.test.mjs",
     "build:mvp": "PYTHONPATH=. python3 examples/seated/build.py",
-    "serve:mvp": "python3 -m http.server 8765 --bind 127.0.0.1"
+    "serve:mvp": "python3 -m http.server 8765 --bind 127.0.0.1",
+    "build:production": "python3 -m klassic.production bundle --project assets/production/scenes/seated/project.json --catalog-root assets/production --out build/seated-production --draft",
+    "build:arrival": "PYTHONPATH=. python3 examples/arrival/build.py",
+    "build:reference": "python3 -m klassic.production bundle --project assets/production/scenes/adrian-seated/project.json --catalog-root assets/production --out build/adrian-seated --draft"
   }
 }

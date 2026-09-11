@@ -1,0 +1,53 @@
+{
+  "version": 2,
+  "id": "adrian",
+  "character": "character.json",
+  "model": {
+    "file": "model.png",
+    "sha256": "0afaea5d63238ad3f44e04add76b57d74d7e7880cac33c8f1683df09521bdca2"
+  },
+  "design": "Original adult character Adrian Vale. Angular face, dark side part, pencil moustache, dark blazer and gray turtleneck. Four digits per hand. Complete drawings; three-quarter-right view only. Draft blocking study: refine stride inbetweens and planted feet before production approval.",
+  "workflow": "Model and complete poses in context → individual drawings → visual review → atlas export.",
+  "reviews": {
+    "pose:seated": {
+      "decision": "approved",
+      "reviewer": "Codex visual review",
+      "notes": "Inspected the complete seated composite at game size. Pelvis rests on cushion, both shoes stay on the floor, near hand rests on thigh and far hand overlays the far thigh through matching depth masks. Adult proportions and closed ink contours are consistent.",
+      "signature": "b5ad6beb1e39683c822de472fcfd20dc088e84946ac6307d8d3b4a7a4073f839",
+      "proof": {
+        "file": "proofs/797f37e258e87fe2-eb066934cd5093d6.png",
+        "sha256": "eb066934cd5093d6f54296c983b2458508991356074e7c1cad44868f7e8f09c6"
+      }
+    },
+    "pose:offer-anticipate": {
+      "decision": "approved",
+      "reviewer": "Codex visual review",
+      "notes": "Inspected the low anticipation cel after removing the stray lapel fragment. Same fixed head, torso and legs; rounded shoulder joins the jacket, cuff and visible finger contours remain intact.",
+      "signature": "933efb5635dc671852484c5c67dd6af00d250a4c9b50d3d850da331a95e18460",
+      "proof": {
+        "file": "proofs/0a8cdb5e45e668ea-c723d6fb2375547f.png",
+        "sha256": "c723d6fb2375547fba67290a0f022b44e247ed81eec02314b6d7419c33442b0d"
+      }
+    },
+    "pose:offer": {
+      "decision": "approved",
+      "reviewer": "Codex visual review",
+      "notes": "Inspected the held offering cel. Anatomical right hand retains a thumb and three fingers; sleeve closes at the shoulder. The other hand, pelvis, chair relationship and feet remain unchanged.",
+      "signature": "9b0d076a3b7e45e0f5280a26edbdc38445ab4d65cca3edf6a26582d6f3ab8831",
+      "proof": {
+        "file": "proofs/bc543281794b0aeb-1c3524475f57b896.png",
+        "sha256": "1c3524475f57b896c99e83f68b637eac7746bc1e05662725e6f5421b2654e467"
+      }
+    },
+    "clip:offer": {
+      "decision": "approved",
+      "reviewer": "Codex visual review",
+      "notes": "Inspected all three cels in the chair and completed normal-speed playback: 4 ticks at rest, 4 anticipation, 24 offering hold, 5 anticipation recovery and 7 rest. Deliberate silhouette changes without torso sway or foot movement. All 12 adjacent planted-contact comparisons remain fixed. Scope is this silent gesture only.",
+      "signature": "66a8918b752ef0ce3f12d2402e24b2f4c576542c4a5bb314c077d30aa80779c5",
+      "proof": {
+        "file": "proofs/9201eae29fbe2482-1c3524475f57b896.png",
+        "sha256": "1c3524475f57b896c99e83f68b637eac7746bc1e05662725e6f5421b2654e467"
+      }
+    }
+  }
+}

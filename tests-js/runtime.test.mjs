@@ -5,10 +5,10 @@ import {Actor, Conversation, sampleClip, validateCharacter, speechFrame, validat
 const hash = '0'.repeat(64);
 function character(id = 'different-proportions') {
   const frames = entries => entries.map(([pose,ticks]) => ({pose,ticks}));
-  return {version:1,id,origin:[100,200],fps:24,initial_state:'seated',
+  return {version:1,id,activities:{seated:{label:'Seated',views:['right']},standing:{label:'Standing',views:['right']}},origin:[100,200],fps:24,initial_state:'seated',
     drawings:Object.fromEntries(['neutral','turn','open','mouth'].map(name => [name,{file:name+'.png',sha256:hash,position:[30,40],size:[60,80]}])),
-    poses:Object.fromEntries(['neutral','turn','open'].map(name => [name,{layers:[{drawing:name,z:20}],attachments:{grip:[180,170]}}])),
-    states:{seated:{pose:'neutral',idle:'idle'}},
+    poses:Object.fromEntries(['neutral','turn','open'].map(name => [name,{layers:[{drawing:name,z:20}],anchors:{},contacts:[],attachments:{grip:[180,170]}}])),
+    states:{seated:{pose:'neutral',idle:'idle',activity:'seated',view:'right'}},
     actions:{idle:{from:'seated',to:'seated',loop:true,frames:frames([['neutral',24]])},
       offer:{intent:'offer',from:'seated',to:'seated',loop:false,frames:frames([['neutral',2],['turn',2],['open',20],['turn',2],['neutral',2]])}},
     overlays:{mouth:{z:50,drawings:{X:'mouth'}}}};
@@ -52,7 +52,7 @@ test('scene placement changes the whole character and prop attachment uniformly'
 
 test('full-body state transitions use the same player as layered seated gestures', () => {
   const spec=character('full-body-fixture');
-  spec.states.standing={pose:'open',idle:'stand'};
+  spec.states.standing={pose:'open',idle:'stand',activity:'standing',view:'right'};
   spec.actions.stand={from:'standing',to:'standing',loop:true,frames:[{pose:'open',ticks:24}]};
   spec.actions.stand_up={from:'seated',to:'standing',loop:false,frames:[{pose:'neutral',ticks:2},{pose:'turn',ticks:2},{pose:'open',ticks:2}]};
   const actor=new Actor(spec,{position:[0,0],scale:1,z:0});
@@ -126,7 +126,7 @@ test('reclined face anchors and rigid arm placement preserve drawings and prop d
 
 test('semantic actions resolve in the destination posture and queue through recovery', () => {
   const spec=character();spec.actions.offer.intent='offer';
-  spec.states.back={pose:'open',idle:'back-idle'};
+  spec.states.back={pose:'open',idle:'back-idle',activity:'seated',view:'right'};
   spec.actions['back-idle']={from:'back',to:'back',loop:true,frames:[{pose:'open',ticks:24}]};
   spec.actions.lean={intent:'lean_back',from:'seated',to:'back',loop:false,frames:[{pose:'neutral',ticks:2},{pose:'turn',ticks:2},{pose:'open',ticks:2}]};
   spec.actions['offer-back']={intent:'offer',from:'back',to:'back',loop:false,frames:[{pose:'open',ticks:2},{pose:'turn',ticks:2},{pose:'open',ticks:2}]};

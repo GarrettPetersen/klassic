@@ -1,0 +1,186 @@
+{
+  "version": 2,
+  "title": "Adrian Vale — arrival study",
+  "characters": {
+    "adrian": {}
+  },
+  "scenes": {
+    "waiting-room": {
+      "version": 1,
+      "title": "Waiting room",
+      "size": [
+        1448,
+        1086
+      ],
+      "background": {
+        "file": "scene/room.png",
+        "sha256": "8de22ff59f21a2c4e632a762c4890c916586b6ec704ae43c419d69bfac5cfff1"
+      },
+      "actors": [
+        {
+          "id": "host",
+          "character": "adrian",
+          "position": [
+            18,
+            890
+          ],
+          "scale": 0.65,
+          "z": 0
+        }
+      ],
+      "furniture": [
+        {
+          "id": "chair",
+          "seat": "guest-chair",
+          "rear": {
+            "file": "scene/chair.png",
+            "sha256": "7e765c6d4a02250336e29cf0e0b85dec7f0983c7785f290d940ab7652bf8f47c",
+            "position": [
+              552.3,
+              409.65
+            ],
+            "z": 10
+          },
+          "front": {
+            "file": "scene/chair-front.png",
+            "sha256": "c2153f77e11087fcb078ae38527fa83bef29791e3700e30cc87fec4405a66d0f",
+            "position": [
+              0,
+              0
+            ],
+            "z": 30
+          }
+        }
+      ],
+      "foregrounds": [],
+      "paths": {
+        "entrance": {
+          "view": "three-quarter-right",
+          "points": [
+            [
+              18,
+              890
+            ],
+            [
+              785,
+              890
+            ]
+          ]
+        },
+        "exit": {
+          "view": "three-quarter-right",
+          "points": [
+            [
+              785,
+              890
+            ],
+            [
+              1266,
+              890
+            ]
+          ],
+          "end_state": "front"
+        }
+      },
+      "seats": {
+        "guest-chair": {
+          "position": [
+            679.7,
+            718.4
+          ],
+          "activity": "seated",
+          "view": "three-quarter-right"
+        }
+      },
+      "interactions": {
+        "chair": {
+          "position": [
+            785,
+            890
+          ],
+          "radius": 8,
+          "intent": "sit"
+        }
+      }
+    }
+  },
+  "initial_scene": "waiting-room",
+  "takes": {},
+  "story": {
+    "version": 1,
+    "start": "study",
+    "nodes": {
+      "study": {
+        "kind": "end",
+        "heading": "Adrian Vale",
+        "text": "Open Save, replay and animation tools and choose Play scene study to play the entrance-to-exit performance."
+      }
+    }
+  },
+  "performance": [
+    {
+      "id": "intro",
+      "at": 0,
+      "type": "caption",
+      "text": "Adrian arrives. Authored strides end in a shorter stopping step."
+    },
+    {
+      "id": "entrance",
+      "at": 1,
+      "type": "path",
+      "actor": "host",
+      "path": "entrance",
+      "intent": "walk"
+    },
+    {
+      "id": "sit",
+      "at": 7,
+      "type": "interact",
+      "actor": "host",
+      "target": "chair"
+    },
+    {
+      "id": "seat",
+      "at": 8.1,
+      "type": "seat",
+      "actor": "host",
+      "seat": "guest-chair",
+      "state": "seated"
+    },
+    {
+      "id": "offer",
+      "at": 8.5,
+      "type": "gesture",
+      "actor": "host",
+      "intent": "offer"
+    },
+    {
+      "id": "conversation",
+      "at": 8.5,
+      "type": "caption",
+      "text": "A drawn gesture, with the same seated body."
+    },
+    {
+      "id": "rise",
+      "at": 11.2,
+      "type": "gesture",
+      "actor": "host",
+      "intent": "stand"
+    },
+    {
+      "id": "exit",
+      "at": 12.5,
+      "type": "path",
+      "actor": "host",
+      "path": "exit",
+      "intent": "walk"
+    },
+    {
+      "id": "end",
+      "at": 20,
+      "type": "caption",
+      "text": "The path ends with an authored turn toward the camera."
+    }
+  ],
+  "review_file": "reviews.json"
+}

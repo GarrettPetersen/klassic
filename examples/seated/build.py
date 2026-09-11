@@ -4,24 +4,14 @@ This adapter knows about the old film layout. The browser runtime does not.
 No mesh transforms, skeletal animation, morphs, or generated audio run here.
 """
 import argparse
-import json
 import math
-import os
-import platform
 from pathlib import Path
 import shutil
 import statistics
 import subprocess
-import sys
 
-# An Intel Node/npm process can launch universal Python under Rosetta while
-# Pillow's installed extension is native arm64. Select the native interpreter
-# before loading any extensions; genuine build failures still propagate.
-if sys.platform=='darwin' and platform.machine()=='x86_64':
-    translated=subprocess.run(['/usr/sbin/sysctl','-in','sysctl.proc_translated'],capture_output=True,text=True,check=True).stdout.strip()
-    if translated=='1':
-        print('Using native arm64 Python for the artwork export.',flush=True)
-        os.execv('/usr/bin/arch',['arch','-arm64',sys.executable,*sys.argv])
+from klassic.host import native_python
+native_python()
 
 from PIL import Image, ImageChops, ImageDraw, ImageFilter
 from klassic.cels import remove_green_matte
@@ -126,12 +116,6 @@ class CharacterBaker:
             outside=ImageChops.subtract(region,face)
             body.putalpha(ImageChops.subtract(body.getchannel('A'),outside))
         self.drawing('body',body)
-        self.drawing('lap-front',p.lap_fronts[s])
-        # Feet/trouser bottoms were previously flattened into the film backdrop.
-        legs=Image.new('RGBA',comp.scene.size);box=self.config['legs']
-        patch=comp.scene.crop(box).convert('RGBA')
-        mask=patch.convert('L').point(lambda v:255 if v<85 else 0).filter(ImageFilter.MaxFilter(3)).filter(ImageFilter.GaussianBlur(.35))
-        patch.putalpha(mask);legs.paste(patch,box[:2]);self.drawing('legs',legs)
         arm_drawings={};turn_tip=None
         for arm in ('free','cigarette'):
             library=p.arm_libraries[s][arm];bone=char['arms'][arm]
@@ -149,8 +133,7 @@ class CharacterBaker:
         for name,free,far in [('neutral','relaxed','relaxed'),('offer-turn','relaxed','turn'),
             ('offer','relaxed','up'),('concede','relaxed','down'),
             ('qualify-turn','turn','relaxed'),('qualify','up','relaxed')]:
-            layers=[('legs',0),(arm_drawings['cigarette',far],10),('body',20),
-                    ('lap-front',25),(arm_drawings['free',free],40)]
+            layers=[(arm_drawings['cigarette',far],10),(arm_drawings['free',free],40)]
             # Props remain attached to the selected drawing, not a global point.
             tip=turn_tip if far=='turn' else p.arm_libraries[s]['cigarette'].spec['poses'][far]['cigarette_tip']
             anchor=p.arm_libraries[s]['cigarette'].spec['poses']['relaxed']['anchor']
@@ -212,9 +195,12 @@ def build(output):
     background=ROOT/'assets/episodes/fromm-v3/clean-plate.png'
     shutil.copyfile(background,output/'scene/chair-backs-and-set.png')
     scene={'version':1,'id':'studio','size':list(comp.scene.size),
-        'background':{'file':'scene/chair-backs-and-set.png','sha256':digest(output/'scene/chair-backs-and-set.png')},'actors':placements,'furniture':[]}
+        'background':{'file':'scene/chair-backs-and-set.png','sha256':digest(output/'scene/chair-backs-and-set.png')},'actors':placements,'furniture':[],
+        'paths':{},'seats':{},'interactions':{}}
     scene['foregrounds']=[table_foreground(background,output)]
     for config in cast['characters']:
+        # Use the chair's actual inked foreground contour. Cutting an arbitrary
+        # polygon through the cushion would create an unoutlined step in the hip.
         speaker=config['source_speaker'];front=comp.puppet.chair_fronts[speaker]
         box=front.getchannel('A').getbbox();path=output/f'scene/{speaker}-chair-near-arm.png'
         front.crop(box).save(path)
@@ -227,6 +213,9 @@ def build(output):
             'rear':{'file':f'scene/{rear_path.name}','sha256':digest(rear_path),'position':list(rear_box[:2]),'z':-50},
             'front':{'file':f'scene/{path.name}','sha256':digest(path),'position':list(box[:2]),'z':30},
             'ordering':'Rear chair < legs/body/lap < near chair arm < resting near hand'})
+        placement=placements[len(scene['seats'])];spec=packages[config['actor']]
+        scene['seats'][config['actor']]={'position':[placement['position'][i]+([350,635][i]-spec['origin'][i])*placement['scale'] for i in range(2)],'activity':'seated',
+            'view':spec['states']['seated']['view']}
     turns={t['id']:t for t in timeline['turns']};takes={}
     (output/'audio').mkdir(exist_ok=True)
     for node in story['nodes'].values():
@@ -243,7 +232,7 @@ def build(output):
         captions=subtitle_chunks(local)
         takes[take_id]={'actor':actor,'file':f'audio/{audio.name}','sha256':digest(audio),'duration':duration,
             'fps':24,'frames':frames,'captions':captions,'text':turn['text']}
-    project={'version':1,'title':'On the record','characters':characters,'scene':scene,'story':story,'takes':takes,
+    project={'version':2,'title':'On the record','characters':characters,'scenes':{'studio':scene},'initial_scene':'studio','story':story,'takes':takes,
         'source_note':'Existing Krusty/Fromm test artwork and recreated voices. Game characters will be original.',
         'provenance':{'cast':digest(SOURCE/'cast.json'),'story':digest(SOURCE/'story.json'),
             'timeline':digest(SOURCE/cast['timeline']),'dialogue':digest(SOURCE/cast['dialogue']),

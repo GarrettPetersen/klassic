@@ -162,3 +162,47 @@ existing trousers. The neck's skin range maps to the portrait's flat gray 205,
 retaining dark ink and white collar pixels, so the patch has no diagonal color
 seam against the face. The visual review script includes the intermediate lean
 and all nine mouth keys, as well as the four settled postures.
+
+## Complete body poses — 2026-09-10
+
+The active v2 registration replaces stitched torso/pelvis/thigh artwork with
+four complete torso-and-leg drawings per character. Heads, facial cels and
+whole arms remain independent. Four additional complete drawings provide the
+uncross and lean transitions. All new raster art used the built-in imagegen tool.
+
+- `krusty-bodies.png`: `exec-351ac68d-0e12-4a0d-8284-5854611ea684.png`
+- `fromm-bodies.png`: `exec-cfb43ae5-a54a-4014-8c69-3a96178e8cc2.png`
+- `krusty-body-transitions.png`: `exec-abfc6f2f-a0a3-48c3-a8ce-e784b6698ca6.png`
+- `fromm-body-transitions.png`: `exec-3604ebd2-5311-4526-8f7b-711eb628d143.png`
+- `fromm-body-neck.png`: `exec-c99fa391-f041-4dfb-abf5-cac1b8c5c179.png`
+
+Body prompt: redraw the assembled registration guide as four coherent,
+headless, armless suit bodies, collar to shoes, in a 2×2 grid: upright/crossed,
+upright/spread, reclined/crossed, reclined/spread. Preserve neck/shoulder anchors,
+seat height, scale and shoes; remove all furniture fragments and cutout artifacts.
+Draw jacket, low hips, full seated butt and forward thighs together with a
+continuous jacket hem, adult anatomy, dark charcoal around RGB32, white shirt,
+black tie and clean Simpsons-style black outlines on flat #00ff00. Maintain
+Krusty's right-facing and Fromm's left-facing three-quarter views. No head,
+neck stub, arms, hands, furniture, text or detached fragments. Fully draw shoes
+that were occluded by the table. Fromm's shirt stays above his crotch.
+
+Transition prompt: use the corresponding finished body atlas for exact design
+and proportions. Four complete intermediate bodies: upright beginning uncross,
+reclined beginning uncross, halfway lean with crossed legs, halfway lean with
+spread legs. Preserve planted feet and hip contact; lift the crossed foot
+before uncrossing. Retain the same grayscale linework and green background.
+
+Neck prompt: preserve a two-panel crop of Fromm's upright/reclined collar joins;
+fill the background wedges between ear/neck and collar with matching flat skin.
+Draw one outer neck contour to the back collar point and erase the obsolete
+internal jaw edge. Preserve face, ear, collar, tie and shoulder positions.
+Export keeps only the registered skin/outline region, with the existing back
+collar ink above it. Skin maps to the portrait gray of 205.
+
+Atlas export normalizes resolution to authored 720×760 cells. An overscan and
+connected-component matte retain a shoe extending across a nominal cell boundary
+without collecting another cel's pixels. Foreground legs and collar rims are
+masked copies of the same body drawing, never separate anatomy. This lets chair
+foregrounds cover the butt while legs remain in front. The early separate-leg
+experiment from this pass was discarded and is not used by registration v2.

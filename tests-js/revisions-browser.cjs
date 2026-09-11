@@ -1,0 +1,43 @@
+const {chromium}=require('playwright');
+const assert=require('node:assert/strict');
+const fs=require('node:fs/promises');
+(async()=>{
+ const browser=await chromium.launch({channel:'chrome',headless:true,args:['--autoplay-policy=no-user-gesture-required']});
+ try{
+  const page=await browser.newPage({viewport:{width:1440,height:1100}}),errors=[];page.on('pageerror',e=>errors.push(e.message));
+  await page.goto('http://127.0.0.1:8765/web/review/');await page.waitForFunction(()=>window.workbench);
+  await page.selectOption('#registration-target','anchor:shoulder-right');
+  const before=await page.evaluate(()=>window.workbench.editors.values().next().value.patch());assert.equal(before.changes.length,0);
+  const x=Number(await page.inputValue('#registration-x'));await page.fill('#registration-x',String(x+12));await page.click('#registration-apply');
+  assert(await page.evaluate(()=>window.workbench.editors.values().next().value.dirty));
+  const patchEvent=page.waitForEvent('download');await page.click('#registration-export');const patch=JSON.parse(await fs.readFile(await (await patchEvent).path(),'utf8'));
+  assert.equal(patch.changes.length,1);assert.equal(patch.changes[0].after.anchors['shoulder-right'][0],x+12);
+  assert.notDeepEqual(patch.changes[0].before.layers,patch.changes[0].after.layers);
+  await page.fill('#reviewer','Browser integration');await page.fill('#notes','Test-only record. No visual acceptance.');await page.click('#changes');assert.match(await page.textContent('#error'),/registration edits/);
+  await page.click('#registration-undo');assert.equal(await page.evaluate(()=>window.workbench.editors.values().next().value.dirty),false);
+  await page.check('#edit-registration');await page.locator('#stage').scrollIntoViewIfNeeded();
+  const marker=await page.evaluate(()=>{const w=window.workbench,b=w.bundle,stage=document.getElementById('stage'),r=stage.getBoundingClientRect(),scene=b.project.scenes[document.getElementById('scene').value],a=scene.actors.find(a=>a.id===document.getElementById('actor').value),s=b.specs[a.character],pose=w.draw().pose,p=s.poses[pose].anchors['shoulder-right'],scale=Math.min(r.width/stage.width,r.height/stage.height);return {x:r.left+(r.width-stage.width*scale)/2+(a.position[0]+(p[0]-s.origin[0])*a.scale)*scale,y:r.top+(r.height-stage.height*scale)/2+(a.position[1]+(p[1]-s.origin[1])*a.scale)*scale};});
+  await page.mouse.move(marker.x,marker.y);await page.mouse.down();await page.mouse.move(marker.x+10,marker.y+5,{steps:3});await page.mouse.up();
+  assert(await page.evaluate(()=>window.workbench.editors.values().next().value.dirty));await page.click('#registration-undo');await page.uncheck('#edit-registration');
+  await page.selectOption('#review-scope','face');await page.click('#changes');assert.match(await page.textContent('#review-subject'),/face:.*changes/);
+  await page.selectOption('#review-scope','pose');assert.match(await page.textContent('#review-subject'),/unreviewed/);
+  await page.selectOption('#review-scope','clip');await page.click('#accept');assert.match(await page.textContent('#error'),/complete clip/);
+  await page.selectOption('#review-scope','scene');await page.click('#changes');const sceneEvent=page.waitForEvent('download');await page.click('#export-reviews');const sceneBundle=JSON.parse(await fs.readFile(await (await sceneEvent).path(),'utf8'));assert.equal(sceneBundle.character,undefined);assert(sceneBundle.reviews[0].subject.startsWith('scene:'));
+  console.log('Registration patches and independent review scopes passed.');
+  await page.goto('http://127.0.0.1:8765/web/player/');await page.waitForFunction(()=>window.mvp);await page.locator('#choices button').first().click();await page.waitForFunction(()=>document.getElementById('voice').currentTime>.3);
+  await page.evaluate(()=>document.getElementById('voice').currentTime=2);await page.waitForFunction(()=>window.mvp.game.events.some(e=>e.event.type==='speech_seek'&&e.event.offset>=2));
+  await page.waitForTimeout(400);await page.click('#pause');await page.locator('.session-tools summary').click();
+  const at=await page.evaluate(()=>window.mvp.clock),expected=await page.evaluate(()=>window.mvp.game.speechSample(window.mvp.clock));
+  const event=page.waitForEvent('download');await page.click('#recording-export');const file=await (await event).path(),recording=JSON.parse(await fs.readFile(file,'utf8'));
+  assert.equal(recording.version,2);assert(recording.events.some(e=>e.event.type==='choice'));assert(recording.events.some(e=>e.event.type==='speech_start'));assert(recording.events.some(e=>e.event.type==='speech_seek'));
+  await page.click('#skip');await page.setInputFiles('#recording-import',file);await page.waitForFunction(()=>document.getElementById('session-status').textContent.startsWith('Performance recording loaded'));
+  await page.locator('#replay-position').evaluate((el,at)=>{el.value=at-.05;el.dispatchEvent(new Event('change'));},at);
+  await page.waitForFunction(expected=>Math.abs(document.getElementById('voice').currentTime-(expected-.05))<.12,expected.at);
+  assert.equal(await page.evaluate(()=>window.mvp.game.speechSample(window.mvp.clock).take),expected.take);
+  assert.equal(await page.textContent('#caption'),expected.caption);
+  assert.equal(await page.evaluate(()=>document.getElementById('voice').paused),true);
+  await page.click('#pause');await page.waitForFunction(()=>document.getElementById('session-status').textContent==='Performance replay complete.');
+  assert.equal(await page.evaluate(()=>document.getElementById('voice').paused),true);
+  assert.deepEqual(errors,[]);console.log('Speech, seek, captions, story choices and timed replay passed.');
+ }finally{await browser.close();}
+})().catch(e=>{console.error(e);process.exit(1)});

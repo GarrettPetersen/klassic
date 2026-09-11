@@ -1,0 +1,6482 @@
+{
+  "version": 1,
+  "id": "krusty-study",
+  "name": "Krusty",
+  "fps": 24,
+  "origin": [
+    320,
+    585
+  ],
+  "initial_state": "seated",
+  "states": {
+    "seated": {
+      "pose": "upright-crossed-neutral",
+      "idle": "idle-seated",
+      "activity": "seated",
+      "view": "three-quarter-right"
+    },
+    "seated_uncrossed": {
+      "pose": "upright-open-neutral",
+      "idle": "idle-seated_uncrossed",
+      "activity": "seated",
+      "view": "three-quarter-right"
+    },
+    "reclined_crossed": {
+      "pose": "back-crossed-neutral",
+      "idle": "idle-reclined_crossed",
+      "activity": "seated",
+      "view": "three-quarter-right"
+    },
+    "reclined_uncrossed": {
+      "pose": "back-open-neutral",
+      "idle": "idle-reclined_uncrossed",
+      "activity": "seated",
+      "view": "three-quarter-right"
+    }
+  },
+  "drawings": {
+    "free-relaxed": {
+      "file": "drawings/free-relaxed.png",
+      "sha256": "39fbc8ef6fa5e94d28162631d3aa5b5530895817d2abc3c39fdd09b0bb01f3fc",
+      "position": [
+        55,
+        359
+      ],
+      "size": [
+        200,
+        271
+      ]
+    },
+    "free-turn": {
+      "file": "drawings/free-turn.png",
+      "sha256": "e0cf765444ae4f2ff593600bf2f13b43d7eac97ddcbcea067fcfd3acd6f8bd4a",
+      "position": [
+        51.900000000000006,
+        357.79
+      ],
+      "size": [
+        257,
+        242
+      ]
+    },
+    "free-up": {
+      "file": "drawings/free-up.png",
+      "sha256": "18f51fdc171f45b696c2ae9e7added7605b8a1fa47677a766cd4aa661cbbff4a",
+      "position": [
+        54.19000000000001,
+        357.79
+      ],
+      "size": [
+        247,
+        240
+      ]
+    },
+    "cigarette-relaxed": {
+      "file": "drawings/cigarette-relaxed.png",
+      "sha256": "ee9549baa22870795d93c3b68c1a147620c5f057744d60bc978fbe97ff475020",
+      "position": [
+        367,
+        372
+      ],
+      "size": [
+        246,
+        205
+      ]
+    },
+    "cigarette-up": {
+      "file": "drawings/cigarette-up.png",
+      "sha256": "27e6d00831593d2f88ac2b8f30deb8874ff6ebdeeeba0cdbd89ef7c7d70b214a",
+      "position": [
+        367,
+        371
+      ],
+      "size": [
+        257,
+        206
+      ]
+    },
+    "cigarette-down": {
+      "file": "drawings/cigarette-down.png",
+      "sha256": "b1b5df3c8dc9066fa664eee6f184f08a76b61680aa0be9cd18354a230c5820f5",
+      "position": [
+        367,
+        372
+      ],
+      "size": [
+        252,
+        205
+      ]
+    },
+    "cigarette-turn": {
+      "file": "drawings/cigarette-turn.png",
+      "sha256": "0902ab7d967d6c5e7436d57ead07f109f25c3c13997d1db770d8dfef38a17602",
+      "position": [
+        366,
+        372
+      ],
+      "size": [
+        242,
+        206
+      ]
+    },
+    "mouth-A": {
+      "file": "drawings/mouth-A.png",
+      "sha256": "d74625a76cd3bf4b3e2f448b20e669a9bb6813ae381b0b91ba137ba5003c9963",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        232
+      ]
+    },
+    "mouth-B": {
+      "file": "drawings/mouth-B.png",
+      "sha256": "f4a6eb42a3a7b8c43c89054308777a4a4b844db49cc4113a8af4d1d9a27a0f3f",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        232
+      ]
+    },
+    "mouth-C": {
+      "file": "drawings/mouth-C.png",
+      "sha256": "809d2971d84fc0d302c2f1dbf7e80afdd0e45878d031d00a0fceec8dc389bff6",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        233
+      ]
+    },
+    "mouth-D": {
+      "file": "drawings/mouth-D.png",
+      "sha256": "1a307850946ae34faabfd179d2742fb703141bc3a78fe7f79332731c6e5557fe",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        239
+      ]
+    },
+    "mouth-E": {
+      "file": "drawings/mouth-E.png",
+      "sha256": "9bc3eebee267f598f93f2da09b048f892dc629212a794330f8e795b36bf09186",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        241
+      ]
+    },
+    "mouth-F": {
+      "file": "drawings/mouth-F.png",
+      "sha256": "cbc7149cfc811c474631792a5855c10fb220f1f17222c7f2bd7cb1f9e1ce04be",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        244
+      ]
+    },
+    "mouth-G": {
+      "file": "drawings/mouth-G.png",
+      "sha256": "7c272927452052e972563a6183026cde02a5d242d1ddf65240e1f13a95293cbf",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        231
+      ]
+    },
+    "mouth-H": {
+      "file": "drawings/mouth-H.png",
+      "sha256": "c8acfb97147a746bdcaea365333184485fda29bbcc36acd002dc8c91c9ad2519",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        231
+      ]
+    },
+    "mouth-X": {
+      "file": "drawings/mouth-X.png",
+      "sha256": "0cf046203ecba4e3d3e9011a0ff838253d439646eb897109a536080e8f14a2cc",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        232
+      ]
+    },
+    "mouth-AB-1": {
+      "file": "drawings/mouth-AB-1.png",
+      "sha256": "6830138a1a82ee328aaa9e24c3e8330a2d9a109983773c95da4fbfa2c048f527",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        232
+      ]
+    },
+    "mouth-AB-2": {
+      "file": "drawings/mouth-AB-2.png",
+      "sha256": "d66cd00bf645f29a0c7b806c4588d95ca7868ab4fb9eaa1f628f1d792cb2b23c",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        232
+      ]
+    },
+    "mouth-AC-1": {
+      "file": "drawings/mouth-AC-1.png",
+      "sha256": "c20c35a383d1b1a20756eb85432899e6f94ac2751112bd8371e8f976fc8a8509",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        232
+      ]
+    },
+    "mouth-AC-2": {
+      "file": "drawings/mouth-AC-2.png",
+      "sha256": "884394d6db14d97edc88597db815f89f22d27fe0f07e9cda59b3104924685a2e",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        232
+      ]
+    },
+    "mouth-AD-1": {
+      "file": "drawings/mouth-AD-1.png",
+      "sha256": "d8b73cdd2c7de28efe41fc65498610db0b5399cb9d4395e8935fa99c93aa6a8f",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        232
+      ]
+    },
+    "mouth-AD-2": {
+      "file": "drawings/mouth-AD-2.png",
+      "sha256": "f2f8dfbcacd2a565b9a113eb0c61dca9179fe4197560dd1d51a9a6eb0e1e5421",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        232
+      ]
+    },
+    "mouth-AE-1": {
+      "file": "drawings/mouth-AE-1.png",
+      "sha256": "4d5d0758587eecba995122ce342959a7b3ac0e05b57f45478055c48ea529f247",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        234
+      ]
+    },
+    "mouth-AE-2": {
+      "file": "drawings/mouth-AE-2.png",
+      "sha256": "2448d4e21c6ef8060400ffe732f390fc029a5229d614de369321d6f426c4af36",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        235
+      ]
+    },
+    "mouth-AF-1": {
+      "file": "drawings/mouth-AF-1.png",
+      "sha256": "be08c6c1c2d6a6b28dbb6fc61e6b939b9df14037c5f83dbc5284e4179ab02e38",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        236
+      ]
+    },
+    "mouth-AF-2": {
+      "file": "drawings/mouth-AF-2.png",
+      "sha256": "2ed9b4eefc711945c117f58031dbb7f910f118d7a1f420f751fa19aebc618e13",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        238
+      ]
+    },
+    "mouth-AG-1": {
+      "file": "drawings/mouth-AG-1.png",
+      "sha256": "a2b01b8c63f1c36fb89a91bdcb9582888decdae5e6590f14e868fcdd05d93c71",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        232
+      ]
+    },
+    "mouth-AG-2": {
+      "file": "drawings/mouth-AG-2.png",
+      "sha256": "aaef9186ff7d19ba8df693cf01cc2ae7c113e2ceef34e1219b02568baf27ae81",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        231
+      ]
+    },
+    "mouth-AH-1": {
+      "file": "drawings/mouth-AH-1.png",
+      "sha256": "fa72e6832e74741e34f0912ac91053dd2da0ac0e9e437f6922234dc2a2550fda",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        233
+      ]
+    },
+    "mouth-AH-2": {
+      "file": "drawings/mouth-AH-2.png",
+      "sha256": "c21267f5fc86f2de3b7df7d714279a227621f9c965ffce8d51cda2abb05c79b6",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        235
+      ]
+    },
+    "mouth-AX-1": {
+      "file": "drawings/mouth-AX-1.png",
+      "sha256": "389eaa738f5944ac04ebdff4de7bff339c0cbced11dadf5ba7957842208ad4fd",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        231
+      ]
+    },
+    "mouth-AX-2": {
+      "file": "drawings/mouth-AX-2.png",
+      "sha256": "631a89b56f919b7788f3aa48053d8dae76198e7319536927402e7d69ea6b9ae5",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        229
+      ]
+    },
+    "mouth-BC-1": {
+      "file": "drawings/mouth-BC-1.png",
+      "sha256": "ab0b585df80060809177f726253e379bd87dc880c124b058582cbbf9988b2d74",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        231
+      ]
+    },
+    "mouth-BC-2": {
+      "file": "drawings/mouth-BC-2.png",
+      "sha256": "8c51f4fe280e0b38a5fb6c2b5b0fca0c13d0007a36b095ce79836373277ec1d5",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        235
+      ]
+    },
+    "mouth-BD-1": {
+      "file": "drawings/mouth-BD-1.png",
+      "sha256": "b11dca3ca66685df0da890ca8bd08171d551529a1672ceba55ad314c67881477",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        238
+      ]
+    },
+    "mouth-BD-2": {
+      "file": "drawings/mouth-BD-2.png",
+      "sha256": "08c96a3f1a7bd5845b03d6782a67798e18ba3977ec3c104d2fd22044c9c9b32f",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        246
+      ]
+    },
+    "mouth-BE-1": {
+      "file": "drawings/mouth-BE-1.png",
+      "sha256": "2d42c11533708adbd20cc803e2fe6c4929ef8dd7a3330b0e4fb3d9487db702cf",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        234
+      ]
+    },
+    "mouth-BE-2": {
+      "file": "drawings/mouth-BE-2.png",
+      "sha256": "95ebe98fa292e1217916dbded19502f568c63580b838e8370bcff261308ff469",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        238
+      ]
+    },
+    "mouth-BF-1": {
+      "file": "drawings/mouth-BF-1.png",
+      "sha256": "2a0e4cb1e247cb7cb2c27c17a05607b9ddf5eb2aa02b1131ae7f748bd1a2489f",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        234
+      ]
+    },
+    "mouth-BF-2": {
+      "file": "drawings/mouth-BF-2.png",
+      "sha256": "a42923f4d18d0862df42e8d6d20eaba8684e5c2ba60d570da3dfbf69eb7e3c5b",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        238
+      ]
+    },
+    "mouth-BG-1": {
+      "file": "drawings/mouth-BG-1.png",
+      "sha256": "c901af2823397abd1e2730246fc402f200bbb1af450400c032688006c410401f",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        233
+      ]
+    },
+    "mouth-BG-2": {
+      "file": "drawings/mouth-BG-2.png",
+      "sha256": "a40fd099cae5a6e0d49971c77c6d362af38b05c834c1f3c272ded6056cd4b7ba",
+      "position": [
+        302,
+        130
+      ],
+      "size": [
+        227,
+        231
+      ]
+    },
+    "mouth-BH-1": {
+      "file": "drawings/mouth-BH-1.png",
+      "sha256": "b5c9c8caef70b24c8e1d60cbe57b8267087217d6b557642690920915d242ec2e",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        232
+      ]
+    },
+    "mouth-BH-2": {
+      "file": "drawings/mouth-BH-2.png",
+      "sha256": "15176b3e9c56b91ee61e5a84e311469b35c2149c1e5f731cae2e2bba1ec28d4c",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        234
+      ]
+    },
+    "mouth-BX-1": {
+      "file": "drawings/mouth-BX-1.png",
+      "sha256": "281982814c4a53ab3f6768f6096a040c050564ab9ff6c6e113f82bf73446f6ca",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        230
+      ]
+    },
+    "mouth-BX-2": {
+      "file": "drawings/mouth-BX-2.png",
+      "sha256": "d02f2c29bccc7ae3d804f7a4a13f8fb9f3758676ed6966504c336957014c67f1",
+      "position": [
+        302,
+        130
+      ],
+      "size": [
+        227,
+        230
+      ]
+    },
+    "mouth-CD-1": {
+      "file": "drawings/mouth-CD-1.png",
+      "sha256": "0fed228460554a5991dc2325256481fec7db9f4294415a09e00ccb4906a3d45c",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        236
+      ]
+    },
+    "mouth-CD-2": {
+      "file": "drawings/mouth-CD-2.png",
+      "sha256": "97634ee284a3f34bbba2ed6c6e6770d85d7fa85ffd59a1e978e365419db2d4d7",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        240
+      ]
+    },
+    "mouth-CE-1": {
+      "file": "drawings/mouth-CE-1.png",
+      "sha256": "7c2622afae1774d4d547de962f50ed8ecab46920b8326633516adc39d6df1a62",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        235
+      ]
+    },
+    "mouth-CE-2": {
+      "file": "drawings/mouth-CE-2.png",
+      "sha256": "29952b8d9683148a49add69c4dad3a904d0afe845438c818b0949269d01e7506",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        240
+      ]
+    },
+    "mouth-CF-1": {
+      "file": "drawings/mouth-CF-1.png",
+      "sha256": "285de3e1d4ba47405c7475b109ae562d97df08e6e6b83bce2f49c3642fd7ea5e",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        235
+      ]
+    },
+    "mouth-CF-2": {
+      "file": "drawings/mouth-CF-2.png",
+      "sha256": "df805627a75cc73b7a09141351db20a0fd581fe1072d48ef6a3d75c484a0a8cd",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        244
+      ]
+    },
+    "mouth-CG-1": {
+      "file": "drawings/mouth-CG-1.png",
+      "sha256": "17507140800b7001dda6d6c22ba54dabc95d73e20bd138e170501689f1fc3e85",
+      "position": [
+        302,
+        130
+      ],
+      "size": [
+        227,
+        229
+      ]
+    },
+    "mouth-CG-2": {
+      "file": "drawings/mouth-CG-2.png",
+      "sha256": "afe31ec1851025a5a98ac1f514097edfa19f3aaedff9ee0d02afbfaca53e5eac",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        229
+      ]
+    },
+    "mouth-CH-1": {
+      "file": "drawings/mouth-CH-1.png",
+      "sha256": "dce378df33d9ff8a609f3d2eaa7a985939f721f5ca1c33cb4a5bb1edd0c5839d",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        232
+      ]
+    },
+    "mouth-CH-2": {
+      "file": "drawings/mouth-CH-2.png",
+      "sha256": "e18a2e865b5a654266803d9e921b13ad8ffe291eb95f8bd36983d3cc0053ff5a",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        230
+      ]
+    },
+    "mouth-CX-1": {
+      "file": "drawings/mouth-CX-1.png",
+      "sha256": "5ca2e9101c1d25bdd6ecffd591fac144b0b0c76d11f0e9da3103c78ba5323c12",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        231
+      ]
+    },
+    "mouth-CX-2": {
+      "file": "drawings/mouth-CX-2.png",
+      "sha256": "3208702c76351f1ebb99131dc9df0084cf4f3fead474a9b73a9468af095b3361",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        230
+      ]
+    },
+    "mouth-DE-1": {
+      "file": "drawings/mouth-DE-1.png",
+      "sha256": "3f33e433669c4fc7efde85f845cafd822bc328f02cac9f5087d404ff0b8664e5",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        240
+      ]
+    },
+    "mouth-DE-2": {
+      "file": "drawings/mouth-DE-2.png",
+      "sha256": "f7e1c5fb0528cfe91e590b7e8d80befc97dc1078fd76e5cf7de5b6aeb76ab65d",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        240
+      ]
+    },
+    "mouth-DF-1": {
+      "file": "drawings/mouth-DF-1.png",
+      "sha256": "f84d6731cad2b56230748686240d0a70e916d106fcaaf161a1720c2d85d08b7c",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        236
+      ]
+    },
+    "mouth-DF-2": {
+      "file": "drawings/mouth-DF-2.png",
+      "sha256": "418c0ae977935b06f3c9c2d4165f3de97b63bdf8234e2257e2dbc5c6da6ef878",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        247
+      ]
+    },
+    "mouth-DG-1": {
+      "file": "drawings/mouth-DG-1.png",
+      "sha256": "a41c16656144b5103701a4257d20efb5ff8d68cb8cd0aabe80436beaa97e3198",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        231
+      ]
+    },
+    "mouth-DG-2": {
+      "file": "drawings/mouth-DG-2.png",
+      "sha256": "163264bbad31299468dcb27efd7f1f17f48aff16b5bc6e683c9eae3f98bb37d7",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        232
+      ]
+    },
+    "mouth-DH-1": {
+      "file": "drawings/mouth-DH-1.png",
+      "sha256": "4a2ccdeb31fbc231a385e73a6974cbc67b5a8869287a63703bbc4ecd5e726c5d",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        236
+      ]
+    },
+    "mouth-DH-2": {
+      "file": "drawings/mouth-DH-2.png",
+      "sha256": "f26991b3ee1422d47046010f370a009cba142e490be4fd80a39a24497742fbc1",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        232
+      ]
+    },
+    "mouth-DX-1": {
+      "file": "drawings/mouth-DX-1.png",
+      "sha256": "124b4bee9d7f47db0b597cdb65dcc8ba7bda0d8d13226616b5746f64ba70726b",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        231
+      ]
+    },
+    "mouth-DX-2": {
+      "file": "drawings/mouth-DX-2.png",
+      "sha256": "07ba55ce9bb7e781093c3e77aaa2779a2c4c02f890ff351f9dac3e159d3b5352",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        225
+      ]
+    },
+    "mouth-EF-1": {
+      "file": "drawings/mouth-EF-1.png",
+      "sha256": "2e61a5ac1119428f3ca578b48c6e3942225b83acb9cc3fce80f34f2b5756efd2",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        241
+      ]
+    },
+    "mouth-EF-2": {
+      "file": "drawings/mouth-EF-2.png",
+      "sha256": "dc4e21e5a728fbb08ae762ed082fb586d5bfc19e82d8e2e1912287a3271b5047",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        244
+      ]
+    },
+    "mouth-EG-1": {
+      "file": "drawings/mouth-EG-1.png",
+      "sha256": "795aaa0a0619b3edda9c5f16e62e173575e579ec67161fdae0d8cf485ce6c1c4",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        240
+      ]
+    },
+    "mouth-EG-2": {
+      "file": "drawings/mouth-EG-2.png",
+      "sha256": "b26eb65fe064bdb91d07153a3d577aa73da125a37be1a72e9fd0f1d38a1affc1",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        241
+      ]
+    },
+    "mouth-EH-1": {
+      "file": "drawings/mouth-EH-1.png",
+      "sha256": "87e04e3d46eb1293520998639e562724e24337312cc17c6d02f1915a2dfd8cd6",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        241
+      ]
+    },
+    "mouth-EH-2": {
+      "file": "drawings/mouth-EH-2.png",
+      "sha256": "5f401776fa8db911c4babccc70211c373dd31dd5a4f13ac718307095fc75b396",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        244
+      ]
+    },
+    "mouth-EX-1": {
+      "file": "drawings/mouth-EX-1.png",
+      "sha256": "b8db8625b76cf278f48bcc898aceca6899980d64164c85d68283959d40e72773",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        238
+      ]
+    },
+    "mouth-EX-2": {
+      "file": "drawings/mouth-EX-2.png",
+      "sha256": "f4a5b6764aae3672a3d3c6d8daf7e4375bf7ae783614eec646a5f5311c7ef28b",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        240
+      ]
+    },
+    "mouth-FG-1": {
+      "file": "drawings/mouth-FG-1.png",
+      "sha256": "04df6e6f6f636ef4557a7ed5b1fda0e31f8e022defebd2c1203fb427020035cf",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        244
+      ]
+    },
+    "mouth-FG-2": {
+      "file": "drawings/mouth-FG-2.png",
+      "sha256": "280247e23b7495b1784141a4225dc139ac2c237e601e041895ba6a0fddff5554",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        246
+      ]
+    },
+    "mouth-FH-1": {
+      "file": "drawings/mouth-FH-1.png",
+      "sha256": "cebc3ef23bf9bf0e1a088f80475ec93f64b3a740360609664701c181362430dc",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        244
+      ]
+    },
+    "mouth-FH-2": {
+      "file": "drawings/mouth-FH-2.png",
+      "sha256": "dd8e2545e722b6928119c9ec89c90a0bf72ff80e804ddfd78692034b0ed2ad35",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        240
+      ]
+    },
+    "mouth-FX-1": {
+      "file": "drawings/mouth-FX-1.png",
+      "sha256": "6d66cd78c70b48fd073963a1c719c9fec12ead3d4e6809b1827784813bc2bfde",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        240
+      ]
+    },
+    "mouth-FX-2": {
+      "file": "drawings/mouth-FX-2.png",
+      "sha256": "8bb81dad27278541a42d7c35a925d3068cfb2f12946858ef607e1aea42ffebc4",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        238
+      ]
+    },
+    "mouth-GH-1": {
+      "file": "drawings/mouth-GH-1.png",
+      "sha256": "631a23b76d7c9eb6596bae5bdf527c3a56fe91027368b9b5af048d1b41317cc7",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        230
+      ]
+    },
+    "mouth-GH-2": {
+      "file": "drawings/mouth-GH-2.png",
+      "sha256": "a964ed8dafe88d1b7ba5d17574f8d01613a54ce746c337ac44cbbdbf844858c4",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        231
+      ]
+    },
+    "mouth-GX-1": {
+      "file": "drawings/mouth-GX-1.png",
+      "sha256": "fc2ada9f1b5e04ba1967854550d363bf52e5e14953934cff1f4aabb4b1695aa4",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        232
+      ]
+    },
+    "mouth-GX-2": {
+      "file": "drawings/mouth-GX-2.png",
+      "sha256": "f4e512a162f0a8e0b225fe78fc2b858e4f106fe2df1efaf11466dfe34225610e",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        230
+      ]
+    },
+    "mouth-HX-1": {
+      "file": "drawings/mouth-HX-1.png",
+      "sha256": "48e5db6147b04c7323e38b427a16e1d1ee3d6f096a29db4011cece9d4889d207",
+      "position": [
+        302,
+        130
+      ],
+      "size": [
+        227,
+        229
+      ]
+    },
+    "mouth-HX-2": {
+      "file": "drawings/mouth-HX-2.png",
+      "sha256": "a58f7281bbcd436021f558533779e2db4cb4bac1a7f74a0b09820d756d96662b",
+      "position": [
+        303,
+        130
+      ],
+      "size": [
+        226,
+        227
+      ]
+    },
+    "eyes-partner-open": {
+      "file": "drawings/eyes-partner-open.png",
+      "sha256": "568f8f85c1b681c186e29cd60eb275e08ed4b1b05f47c7275a117a93f3aaa891",
+      "position": [
+        326,
+        194
+      ],
+      "size": [
+        105,
+        66
+      ]
+    },
+    "eyes-partner-half": {
+      "file": "drawings/eyes-partner-half.png",
+      "sha256": "81301bebc044f0bc7165d94a3595f68f49a2fa6f1be91bdaaaf9164180c95e85",
+      "position": [
+        326,
+        194
+      ],
+      "size": [
+        105,
+        66
+      ]
+    },
+    "eyes-partner-closed": {
+      "file": "drawings/eyes-partner-closed.png",
+      "sha256": "a17f819d8ee91bb8646b3efd5657cd0b568e43303892512ff90abc48ec344b12",
+      "position": [
+        326,
+        194
+      ],
+      "size": [
+        105,
+        66
+      ]
+    },
+    "eyes-camera-open": {
+      "file": "drawings/eyes-camera-open.png",
+      "sha256": "2777d9bf43952329d5ef3075a7f7daadd9034dc17fa085f22f6352d1dc32323c",
+      "position": [
+        326,
+        194
+      ],
+      "size": [
+        105,
+        66
+      ]
+    },
+    "eyes-camera-half": {
+      "file": "drawings/eyes-camera-half.png",
+      "sha256": "3fd2dae35939342dd7faafdadce1ad50b45bf615829e5435914faf1393f1d4ac",
+      "position": [
+        326,
+        194
+      ],
+      "size": [
+        105,
+        66
+      ]
+    },
+    "eyes-camera-closed": {
+      "file": "drawings/eyes-camera-closed.png",
+      "sha256": "a17f819d8ee91bb8646b3efd5657cd0b568e43303892512ff90abc48ec344b12",
+      "position": [
+        326,
+        194
+      ],
+      "size": [
+        105,
+        66
+      ]
+    },
+    "posture-head": {
+      "file": "drawings/posture-head.png",
+      "sha256": "e2982abe31e42a64754a156058a74e42a0c009fc33b150c4b1d9dd1056799575",
+      "position": [
+        96,
+        57
+      ],
+      "size": [
+        433,
+        304
+      ]
+    },
+    "posture-body-upright-crossed": {
+      "file": "drawings/posture-body-upright-crossed.png",
+      "sha256": "35439773ffdbdd5ff8b7c7de630325506f50241f8bfda965182709300ae7d012",
+      "position": [
+        128,
+        306
+      ],
+      "size": [
+        552,
+        619
+      ]
+    },
+    "posture-legs-front-upright-crossed": {
+      "file": "drawings/posture-legs-front-upright-crossed.png",
+      "sha256": "9ef69c7a91dd803b9e0abb30a1c548f86240fcb998e3d7c970219566f2fb7ede",
+      "position": [
+        265,
+        480
+      ],
+      "size": [
+        415,
+        445
+      ]
+    },
+    "posture-collar-upright-crossed": {
+      "file": "drawings/posture-collar-upright-crossed.png",
+      "sha256": "9378c5ea7a65632ddd4bf4db2182ab9bde6f6222e0df00c117e55e4020c7f3fb",
+      "position": [
+        155,
+        306
+      ],
+      "size": [
+        276,
+        132
+      ]
+    },
+    "posture-body-upright-open": {
+      "file": "drawings/posture-body-upright-open.png",
+      "sha256": "76be8481a2c344453cc1257ba9b7db05972e338488bc7fbd5bf9d8456a22926a",
+      "position": [
+        126,
+        305
+      ],
+      "size": [
+        485,
+        626
+      ]
+    },
+    "posture-legs-front-upright-open": {
+      "file": "drawings/posture-legs-front-upright-open.png",
+      "sha256": "ab6d88a4e69b4bf3bbfc4abbc5031f37c625941aca22e6fa8f1eba4635a30622",
+      "position": [
+        265,
+        480
+      ],
+      "size": [
+        346,
+        451
+      ]
+    },
+    "posture-collar-upright-open": {
+      "file": "drawings/posture-collar-upright-open.png",
+      "sha256": "53f5682276656bfbc0ca21e7b07e43367c99e610db6e9c9d90333889463f8641",
+      "position": [
+        155,
+        305
+      ],
+      "size": [
+        276,
+        133
+      ]
+    },
+    "posture-body-back-crossed": {
+      "file": "drawings/posture-body-back-crossed.png",
+      "sha256": "c3b8740935a0e0657710bb4984c2d1890179f3028570e802137e45a6d5d0d460",
+      "position": [
+        80,
+        335
+      ],
+      "size": [
+        601,
+        592
+      ]
+    },
+    "posture-legs-front-back-crossed": {
+      "file": "drawings/posture-legs-front-back-crossed.png",
+      "sha256": "22e42b338a08257fbd90baf64690df02ad121bc34a5b7768c130b55e53b8dfc8",
+      "position": [
+        265,
+        480
+      ],
+      "size": [
+        416,
+        447
+      ]
+    },
+    "posture-collar-back-crossed": {
+      "file": "drawings/posture-collar-back-crossed.png",
+      "sha256": "ac86f9f604912dc62554f0fbba27871924d6d4761efde3443137f4f69acaf2a7",
+      "position": [
+        124,
+        335
+      ],
+      "size": [
+        276,
+        131
+      ]
+    },
+    "posture-body-back-open": {
+      "file": "drawings/posture-body-back-open.png",
+      "sha256": "1344a3eed5461b22bb9b6d577d74f8613b9bece70f54f0e2f132fdef419e2ead",
+      "position": [
+        88,
+        335
+      ],
+      "size": [
+        526,
+        592
+      ]
+    },
+    "posture-legs-front-back-open": {
+      "file": "drawings/posture-legs-front-back-open.png",
+      "sha256": "d00aaacbfacb54c5cc59a434fa1b1c58b0d6c7ca9e4633cde3913990fc5fa662",
+      "position": [
+        265,
+        480
+      ],
+      "size": [
+        349,
+        447
+      ]
+    },
+    "posture-collar-back-open": {
+      "file": "drawings/posture-collar-back-open.png",
+      "sha256": "047b2807198d6f13b123244bfdca2b502220331e3c024c19d0ace141629fd36f",
+      "position": [
+        127,
+        335
+      ],
+      "size": [
+        276,
+        131
+      ]
+    },
+    "posture-body-upright-lifting": {
+      "file": "drawings/posture-body-upright-lifting.png",
+      "sha256": "88dbe4c1ddbe07e9369be6596861c8ea47e76078ad440062a0c19a5596452178",
+      "position": [
+        128,
+        304
+      ],
+      "size": [
+        608,
+        622
+      ]
+    },
+    "posture-legs-front-upright-lifting": {
+      "file": "drawings/posture-legs-front-upright-lifting.png",
+      "sha256": "1e9b6dbf8ace40be131ee4c59c6964c3cf5c5fad83059b66a354e8cbb68d45c1",
+      "position": [
+        265,
+        480
+      ],
+      "size": [
+        471,
+        446
+      ]
+    },
+    "posture-collar-upright-lifting": {
+      "file": "drawings/posture-collar-upright-lifting.png",
+      "sha256": "9ca2c600959e111a4667c71f6701e0b6e4b2b41a7e836e43c1903e777370c0ec",
+      "position": [
+        155,
+        304
+      ],
+      "size": [
+        276,
+        134
+      ]
+    },
+    "posture-body-back-lifting": {
+      "file": "drawings/posture-body-back-lifting.png",
+      "sha256": "e360cfc41ff006ffaef12a19572ab30d694fbb0e033cfd3448f017520dc16694",
+      "position": [
+        94,
+        340
+      ],
+      "size": [
+        599,
+        617
+      ]
+    },
+    "posture-legs-front-back-lifting": {
+      "file": "drawings/posture-legs-front-back-lifting.png",
+      "sha256": "0b7779eb0b2625c903c475a99d7352d8d96cf6bc1290f3c6934136a463b46755",
+      "position": [
+        265,
+        480
+      ],
+      "size": [
+        428,
+        477
+      ]
+    },
+    "posture-collar-back-lifting": {
+      "file": "drawings/posture-collar-back-lifting.png",
+      "sha256": "a36b59952f41860fd2b7bb07b2bd2432bb3b378237bb6e7ebd1420d61e6084eb",
+      "position": [
+        124,
+        340
+      ],
+      "size": [
+        276,
+        126
+      ]
+    },
+    "posture-body-leaning-crossed": {
+      "file": "drawings/posture-body-leaning-crossed.png",
+      "sha256": "e60929b6cf6d65f3276473db3ed9fc3af193e9804b487db948b6a1319d4a784f",
+      "position": [
+        85,
+        316
+      ],
+      "size": [
+        611,
+        596
+      ]
+    },
+    "posture-legs-front-leaning-crossed": {
+      "file": "drawings/posture-legs-front-leaning-crossed.png",
+      "sha256": "eec6f602947de43c5d73f780cb776d7043c57be8c5ded20ed1885b2a03699dce",
+      "position": [
+        265,
+        480
+      ],
+      "size": [
+        431,
+        432
+      ]
+    },
+    "posture-collar-leaning-crossed": {
+      "file": "drawings/posture-collar-leaning-crossed.png",
+      "sha256": "7a6d517c5c070313cad9e502565aac088e8aa1065a457a887adc7a7d46161471",
+      "position": [
+        124,
+        316
+      ],
+      "size": [
+        276,
+        135
+      ]
+    },
+    "posture-body-leaning-open": {
+      "file": "drawings/posture-body-leaning-open.png",
+      "sha256": "474775052baf04e12555873ce338c86ca0019a04a44c76d5d2ed13c10dcde8b3",
+      "position": [
+        115,
+        322
+      ],
+      "size": [
+        499,
+        605
+      ]
+    },
+    "posture-legs-front-leaning-open": {
+      "file": "drawings/posture-legs-front-leaning-open.png",
+      "sha256": "1e22fbac819e8b8af02b33b8f1de38065219be371ba0a1a867aedaa18d020344",
+      "position": [
+        265,
+        480
+      ],
+      "size": [
+        349,
+        447
+      ]
+    },
+    "posture-collar-leaning-open": {
+      "file": "drawings/posture-collar-leaning-open.png",
+      "sha256": "7ae88775dc315c9dca6ee3fc6c5d96f0a05153bdc2b5d343016996e07903dd34",
+      "position": [
+        127,
+        322
+      ],
+      "size": [
+        276,
+        144
+      ]
+    }
+  },
+  "poses": {
+    "upright-crossed-neutral": {
+      "layers": [
+        {
+          "drawing": "posture-body-upright-crossed",
+          "z": 20
+        },
+        {
+          "drawing": "posture-legs-front-upright-crossed",
+          "z": 32
+        },
+        {
+          "drawing": "posture-head",
+          "z": 35,
+          "transform": {
+            "origin": [
+              0,
+              0
+            ],
+            "position": [
+              -15,
+              -13
+            ],
+            "degrees": 0
+          }
+        },
+        {
+          "drawing": "posture-collar-upright-crossed",
+          "z": 36
+        },
+        {
+          "drawing": "cigarette-relaxed",
+          "z": 10,
+          "transform": {
+            "origin": [
+              393,
+              372
+            ],
+            "position": [
+              412,
+              357
+            ],
+            "degrees": 0
+          }
+        },
+        {
+          "drawing": "free-relaxed",
+          "z": 40,
+          "transform": {
+            "origin": [
+              165,
+              362
+            ],
+            "position": [
+              142,
+              344
+            ],
+            "degrees": 0
+          }
+        }
+      ],
+      "anchors": {
+        "neck": [
+          312,
+          345
+        ],
+        "shoulder-right": [
+          142,
+          344
+        ],
+        "shoulder-left": [
+          412,
+          357
+        ]
+      },
+      "contacts": [
+        {
+          "id": "seat",
+          "kind": "seat",
+          "point": [
+            350,
+            635
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-0",
+          "kind": "foot",
+          "point": [
+            372.0,
+            924
+          ],
+          "locked": false
+        },
+        {
+          "id": "foot-1",
+          "kind": "foot",
+          "point": [
+            464.0,
+            924
+          ],
+          "locked": false
+        }
+      ],
+      "attachments": {
+        "cigarette": [
+          626.9333333333333,
+          403.6
+        ]
+      },
+      "overlay_offsets": {
+        "mouth": [
+          -15,
+          -13
+        ],
+        "eyes": [
+          -15,
+          -13
+        ]
+      },
+      "anchor_bindings": {
+        "neck": {
+          "layers": [
+            2
+          ],
+          "overlays": [
+            "mouth",
+            "eyes"
+          ],
+          "attachments": []
+        },
+        "shoulder-right": {
+          "layers": [
+            5
+          ],
+          "overlays": [],
+          "attachments": []
+        },
+        "shoulder-left": {
+          "layers": [
+            4
+          ],
+          "overlays": [],
+          "attachments": [
+            "cigarette"
+          ]
+        }
+      }
+    },
+    "upright-crossed-offer-turn": {
+      "layers": [
+        {
+          "drawing": "posture-body-upright-crossed",
+          "z": 20
+        },
+        {
+          "drawing": "posture-legs-front-upright-crossed",
+          "z": 32
+        },
+        {
+          "drawing": "posture-head",
+          "z": 35,
+          "transform": {
+            "origin": [
+              0,
+              0
+            ],
+            "position": [
+              -15,
+              -13
+            ],
+            "degrees": 0
+          }
+        },
+        {
+          "drawing": "posture-collar-upright-crossed",
+          "z": 36
+        },
+        {
+          "drawing": "cigarette-turn",
+          "z": 10,
+          "transform": {
+            "origin": [
+              393,
+              372
+            ],
+            "position": [
+              412,
+              357
+            ],
+            "degrees": 0
+          }
+        },
+        {
+          "drawing": "free-relaxed",
+          "z": 40,
+          "transform": {
+            "origin": [
+              165,
+              362
+            ],
+            "position": [
+              142,
+              344
+            ],
+            "degrees": 0
+          }
+        }
+      ],
+      "anchors": {
+        "neck": [
+          312,
+          345
+        ],
+        "shoulder-right": [
+          142,
+          344
+        ],
+        "shoulder-left": [
+          412,
+          357
+        ]
+      },
+      "contacts": [
+        {
+          "id": "seat",
+          "kind": "seat",
+          "point": [
+            350,
+            635
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-0",
+          "kind": "foot",
+          "point": [
+            372.0,
+            924
+          ],
+          "locked": false
+        },
+        {
+          "id": "foot-1",
+          "kind": "foot",
+          "point": [
+            464.0,
+            924
+          ],
+          "locked": false
+        }
+      ],
+      "attachments": {
+        "cigarette": [
+          621.5,
+          390.0
+        ]
+      },
+      "overlay_offsets": {
+        "mouth": [
+          -15,
+          -13
+        ],
+        "eyes": [
+          -15,
+          -13
+        ]
+      },
+      "anchor_bindings": {
+        "neck": {
+          "layers": [
+            2
+          ],
+          "overlays": [
+            "mouth",
+            "eyes"
+          ],
+          "attachments": []
+        },
+        "shoulder-right": {
+          "layers": [
+            5
+          ],
+          "overlays": [],
+          "attachments": []
+        },
+        "shoulder-left": {
+          "layers": [
+            4
+          ],
+          "overlays": [],
+          "attachments": [
+            "cigarette"
+          ]
+        }
+      }
+    },
+    "upright-crossed-offer": {
+      "layers": [
+        {
+          "drawing": "posture-body-upright-crossed",
+          "z": 20
+        },
+        {
+          "drawing": "posture-legs-front-upright-crossed",
+          "z": 32
+        },
+        {
+          "drawing": "posture-head",
+          "z": 35,
+          "transform": {
+            "origin": [
+              0,
+              0
+            ],
+            "position": [
+              -15,
+              -13
+            ],
+            "degrees": 0
+          }
+        },
+        {
+          "drawing": "posture-collar-upright-crossed",
+          "z": 36
+        },
+        {
+          "drawing": "cigarette-up",
+          "z": 10,
+          "transform": {
+            "origin": [
+              393,
+              372
+            ],
+            "position": [
+              412,
+              357
+            ],
+            "degrees": 0
+          }
+        },
+        {
+          "drawing": "free-relaxed",
+          "z": 40,
+          "transform": {
+            "origin": [
+              165,
+              362
+            ],
+            "position": [
+              142,
+              344
+            ],
+            "degrees": 0
+          }
+        }
+      ],
+      "anchors": {
+        "neck": [
+          312,
+          345
+        ],
+        "shoulder-right": [
+          142,
+          344
+        ],
+        "shoulder-left": [
+          412,
+          357
+        ]
+      },
+      "contacts": [
+        {
+          "id": "seat",
+          "kind": "seat",
+          "point": [
+            350,
+            635
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-0",
+          "kind": "foot",
+          "point": [
+            372.0,
+            924
+          ],
+          "locked": false
+        },
+        {
+          "id": "foot-1",
+          "kind": "foot",
+          "point": [
+            464.0,
+            924
+          ],
+          "locked": false
+        }
+      ],
+      "attachments": {
+        "cigarette": [
+          638.1818181818181,
+          424.9090909090909
+        ]
+      },
+      "overlay_offsets": {
+        "mouth": [
+          -15,
+          -13
+        ],
+        "eyes": [
+          -15,
+          -13
+        ]
+      },
+      "anchor_bindings": {
+        "neck": {
+          "layers": [
+            2
+          ],
+          "overlays": [
+            "mouth",
+            "eyes"
+          ],
+          "attachments": []
+        },
+        "shoulder-right": {
+          "layers": [
+            5
+          ],
+          "overlays": [],
+          "attachments": []
+        },
+        "shoulder-left": {
+          "layers": [
+            4
+          ],
+          "overlays": [],
+          "attachments": [
+            "cigarette"
+          ]
+        }
+      }
+    },
+    "upright-crossed-concede": {
+      "layers": [
+        {
+          "drawing": "posture-body-upright-crossed",
+          "z": 20
+        },
+        {
+          "drawing": "posture-legs-front-upright-crossed",
+          "z": 32
+        },
+        {
+          "drawing": "posture-head",
+          "z": 35,
+          "transform": {
+            "origin": [
+              0,
+              0
+            ],
+            "position": [
+              -15,
+              -13
+            ],
+            "degrees": 0
+          }
+        },
+        {
+          "drawing": "posture-collar-upright-crossed",
+          "z": 36
+        },
+        {
+          "drawing": "cigarette-down",
+          "z": 10,
+          "transform": {
+            "origin": [
+              393,
+              372
+            ],
+            "position": [
+              412,
+              357
+            ],
+            "degrees": 0
+          }
+        },
+        {
+          "drawing": "free-relaxed",
+          "z": 40,
+          "transform": {
+            "origin": [
+              165,
+              362
+            ],
+            "position": [
+              142,
+              344
+            ],
+            "degrees": 0
+          }
+        }
+      ],
+      "anchors": {
+        "neck": [
+          312,
+          345
+        ],
+        "shoulder-right": [
+          142,
+          344
+        ],
+        "shoulder-left": [
+          412,
+          357
+        ]
+      },
+      "contacts": [
+        {
+          "id": "seat",
+          "kind": "seat",
+          "point": [
+            350,
+            635
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-0",
+          "kind": "foot",
+          "point": [
+            372.0,
+            924
+          ],
+          "locked": false
+        },
+        {
+          "id": "foot-1",
+          "kind": "foot",
+          "point": [
+            464.0,
+            924
+          ],
+          "locked": false
+        }
+      ],
+      "attachments": {
+        "cigarette": [
+          627.2142857142857,
+          555.9285714285714
+        ]
+      },
+      "overlay_offsets": {
+        "mouth": [
+          -15,
+          -13
+        ],
+        "eyes": [
+          -15,
+          -13
+        ]
+      },
+      "anchor_bindings": {
+        "neck": {
+          "layers": [
+            2
+          ],
+          "overlays": [
+            "mouth",
+            "eyes"
+          ],
+          "attachments": []
+        },
+        "shoulder-right": {
+          "layers": [
+            5
+          ],
+          "overlays": [],
+          "attachments": []
+        },
+        "shoulder-left": {
+          "layers": [
+            4
+          ],
+          "overlays": [],
+          "attachments": [
+            "cigarette"
+          ]
+        }
+      }
+    },
+    "upright-crossed-qualify-turn": {
+      "layers": [
+        {
+          "drawing": "posture-body-upright-crossed",
+          "z": 20
+        },
+        {
+          "drawing": "posture-legs-front-upright-crossed",
+          "z": 32
+        },
+        {
+          "drawing": "posture-head",
+          "z": 35,
+          "transform": {
+            "origin": [
+              0,
+              0
+            ],
+            "position": [
+              -15,
+              -13
+            ],
+            "degrees": 0
+          }
+        },
+        {
+          "drawing": "posture-collar-upright-crossed",
+          "z": 36
+        },
+        {
+          "drawing": "cigarette-relaxed",
+          "z": 10,
+          "transform": {
+            "origin": [
+              393,
+              372
+            ],
+            "position": [
+              412,
+              357
+            ],
+            "degrees": 0
+          }
+        },
+        {
+          "drawing": "free-turn",
+          "z": 40,
+          "transform": {
+            "origin": [
+              165,
+              362
+            ],
+            "position": [
+              142,
+              344
+            ],
+            "degrees": 0
+          }
+        }
+      ],
+      "anchors": {
+        "neck": [
+          312,
+          345
+        ],
+        "shoulder-right": [
+          142,
+          344
+        ],
+        "shoulder-left": [
+          412,
+          357
+        ]
+      },
+      "contacts": [
+        {
+          "id": "seat",
+          "kind": "seat",
+          "point": [
+            350,
+            635
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-0",
+          "kind": "foot",
+          "point": [
+            372.0,
+            924
+          ],
+          "locked": false
+        },
+        {
+          "id": "foot-1",
+          "kind": "foot",
+          "point": [
+            464.0,
+            924
+          ],
+          "locked": false
+        }
+      ],
+      "attachments": {
+        "cigarette": [
+          626.9333333333333,
+          403.6
+        ]
+      },
+      "overlay_offsets": {
+        "mouth": [
+          -15,
+          -13
+        ],
+        "eyes": [
+          -15,
+          -13
+        ]
+      },
+      "anchor_bindings": {
+        "neck": {
+          "layers": [
+            2
+          ],
+          "overlays": [
+            "mouth",
+            "eyes"
+          ],
+          "attachments": []
+        },
+        "shoulder-right": {
+          "layers": [
+            5
+          ],
+          "overlays": [],
+          "attachments": []
+        },
+        "shoulder-left": {
+          "layers": [
+            4
+          ],
+          "overlays": [],
+          "attachments": [
+            "cigarette"
+          ]
+        }
+      }
+    },
+    "upright-crossed-qualify": {
+      "layers": [
+        {
+          "drawing": "posture-body-upright-crossed",
+          "z": 20
+        },
+        {
+          "drawing": "posture-legs-front-upright-crossed",
+          "z": 32
+        },
+        {
+          "drawing": "posture-head",
+          "z": 35,
+          "transform": {
+            "origin": [
+              0,
+              0
+            ],
+            "position": [
+              -15,
+              -13
+            ],
+            "degrees": 0
+          }
+        },
+        {
+          "drawing": "posture-collar-upright-crossed",
+          "z": 36
+        },
+        {
+          "drawing": "cigarette-relaxed",
+          "z": 10,
+          "transform": {
+            "origin": [
+              393,
+              372
+            ],
+            "position": [
+              412,
+              357
+            ],
+            "degrees": 0
+          }
+        },
+        {
+          "drawing": "free-up",
+          "z": 40,
+          "transform": {
+            "origin": [
+              165,
+              362
+            ],
+            "position": [
+              142,
+              344
+            ],
+            "degrees": 0
+          }
+        }
+      ],
+      "anchors": {
+        "neck": [
+          312,
+          345
+        ],
+        "shoulder-right": [
+          142,
+          344
+        ],
+        "shoulder-left": [
+          412,
+          357
+        ]
+      },
+      "contacts": [
+        {
+          "id": "seat",
+          "kind": "seat",
+          "point": [
+            350,
+            635
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-0",
+          "kind": "foot",
+          "point": [
+            372.0,
+            924
+          ],
+          "locked": false
+        },
+        {
+          "id": "foot-1",
+          "kind": "foot",
+          "point": [
+            464.0,
+            924
+          ],
+          "locked": false
+        }
+      ],
+      "attachments": {
+        "cigarette": [
+          626.9333333333333,
+          403.6
+        ]
+      },
+      "overlay_offsets": {
+        "mouth": [
+          -15,
+          -13
+        ],
+        "eyes": [
+          -15,
+          -13
+        ]
+      },
+      "anchor_bindings": {
+        "neck": {
+          "layers": [
+            2
+          ],
+          "overlays": [
+            "mouth",
+            "eyes"
+          ],
+          "attachments": []
+        },
+        "shoulder-right": {
+          "layers": [
+            5
+          ],
+          "overlays": [],
+          "attachments": []
+        },
+        "shoulder-left": {
+          "layers": [
+            4
+          ],
+          "overlays": [],
+          "attachments": [
+            "cigarette"
+          ]
+        }
+      }
+    },
+    "upright-lifting-neutral": {
+      "layers": [
+        {
+          "drawing": "posture-body-upright-lifting",
+          "z": 20
+        },
+        {
+          "drawing": "posture-legs-front-upright-lifting",
+          "z": 32
+        },
+        {
+          "drawing": "posture-head",
+          "z": 35,
+          "transform": {
+            "origin": [
+              0,
+              0
+            ],
+            "position": [
+              -15,
+              -13
+            ],
+            "degrees": 0
+          }
+        },
+        {
+          "drawing": "posture-collar-upright-lifting",
+          "z": 36
+        },
+        {
+          "drawing": "cigarette-relaxed",
+          "z": 10,
+          "transform": {
+            "origin": [
+              393,
+              372
+            ],
+            "position": [
+              412,
+              357
+            ],
+            "degrees": 0
+          }
+        },
+        {
+          "drawing": "free-relaxed",
+          "z": 40,
+          "transform": {
+            "origin": [
+              165,
+              362
+            ],
+            "position": [
+              142,
+              344
+            ],
+            "degrees": 0
+          }
+        }
+      ],
+      "anchors": {
+        "neck": [
+          312,
+          345
+        ],
+        "shoulder-right": [
+          142,
+          344
+        ],
+        "shoulder-left": [
+          412,
+          357
+        ]
+      },
+      "contacts": [
+        {
+          "id": "seat",
+          "kind": "seat",
+          "point": [
+            350,
+            635
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-0",
+          "kind": "foot",
+          "point": [
+            370.0,
+            925
+          ],
+          "locked": false
+        },
+        {
+          "id": "foot-1",
+          "kind": "foot",
+          "point": [
+            464.5,
+            925
+          ],
+          "locked": false
+        }
+      ],
+      "attachments": {
+        "cigarette": [
+          626.9333333333333,
+          403.6
+        ]
+      },
+      "overlay_offsets": {
+        "mouth": [
+          -15,
+          -13
+        ],
+        "eyes": [
+          -15,
+          -13
+        ]
+      },
+      "anchor_bindings": {
+        "neck": {
+          "layers": [
+            2
+          ],
+          "overlays": [
+            "mouth",
+            "eyes"
+          ],
+          "attachments": []
+        },
+        "shoulder-right": {
+          "layers": [
+            5
+          ],
+          "overlays": [],
+          "attachments": []
+        },
+        "shoulder-left": {
+          "layers": [
+            4
+          ],
+          "overlays": [],
+          "attachments": [
+            "cigarette"
+          ]
+        }
+      }
+    },
+    "upright-open-neutral": {
+      "layers": [
+        {
+          "drawing": "posture-body-upright-open",
+          "z": 20
+        },
+        {
+          "drawing": "posture-legs-front-upright-open",
+          "z": 32
+        },
+        {
+          "drawing": "posture-head",
+          "z": 35,
+          "transform": {
+            "origin": [
+              0,
+              0
+            ],
+            "position": [
+              -15,
+              -13
+            ],
+            "degrees": 0
+          }
+        },
+        {
+          "drawing": "posture-collar-upright-open",
+          "z": 36
+        },
+        {
+          "drawing": "cigarette-relaxed",
+          "z": 10,
+          "transform": {
+            "origin": [
+              393,
+              372
+            ],
+            "position": [
+              412,
+              357
+            ],
+            "degrees": 0
+          }
+        },
+        {
+          "drawing": "free-relaxed",
+          "z": 40,
+          "transform": {
+            "origin": [
+              165,
+              362
+            ],
+            "position": [
+              142,
+              344
+            ],
+            "degrees": 0
+          }
+        }
+      ],
+      "anchors": {
+        "neck": [
+          312,
+          345
+        ],
+        "shoulder-right": [
+          142,
+          344
+        ],
+        "shoulder-left": [
+          412,
+          357
+        ]
+      },
+      "contacts": [
+        {
+          "id": "seat",
+          "kind": "seat",
+          "point": [
+            350,
+            635
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-0",
+          "kind": "foot",
+          "point": [
+            290.0,
+            930
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-1",
+          "kind": "foot",
+          "point": [
+            367.5,
+            930
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-2",
+          "kind": "foot",
+          "point": [
+            552.0,
+            930
+          ],
+          "locked": true
+        }
+      ],
+      "attachments": {
+        "cigarette": [
+          626.9333333333333,
+          403.6
+        ]
+      },
+      "overlay_offsets": {
+        "mouth": [
+          -15,
+          -13
+        ],
+        "eyes": [
+          -15,
+          -13
+        ]
+      },
+      "anchor_bindings": {
+        "neck": {
+          "layers": [
+            2
+          ],
+          "overlays": [
+            "mouth",
+            "eyes"
+          ],
+          "attachments": []
+        },
+        "shoulder-right": {
+          "layers": [
+            5
+          ],
+          "overlays": [],
+          "attachments": []
+        },
+        "shoulder-left": {
+          "layers": [
+            4
+          ],
+          "overlays": [],
+          "attachments": [
+            "cigarette"
+          ]
+        }
+      }
+    },
+    "leaning-crossed-neutral": {
+      "layers": [
+        {
+          "drawing": "posture-body-leaning-crossed",
+          "z": 20
+        },
+        {
+          "drawing": "posture-legs-front-leaning-crossed",
+          "z": 32
+        },
+        {
+          "drawing": "posture-head",
+          "z": 35,
+          "transform": {
+            "origin": [
+              0,
+              0
+            ],
+            "position": [
+              -64,
+              0
+            ],
+            "degrees": 0
+          }
+        },
+        {
+          "drawing": "posture-collar-leaning-crossed",
+          "z": 36
+        },
+        {
+          "drawing": "cigarette-relaxed",
+          "z": 10,
+          "transform": {
+            "origin": [
+              393,
+              372
+            ],
+            "position": [
+              390,
+              369
+            ],
+            "degrees": -15
+          }
+        },
+        {
+          "drawing": "free-relaxed",
+          "z": 40,
+          "transform": {
+            "origin": [
+              165,
+              362
+            ],
+            "position": [
+              106,
+              382
+            ],
+            "degrees": -8
+          }
+        }
+      ],
+      "anchors": {
+        "neck": [
+          263,
+          358
+        ],
+        "shoulder-right": [
+          106,
+          382
+        ],
+        "shoulder-left": [
+          390,
+          369
+        ]
+      },
+      "contacts": [
+        {
+          "id": "seat",
+          "kind": "seat",
+          "point": [
+            350,
+            635
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-0",
+          "kind": "foot",
+          "point": [
+            371.5,
+            911
+          ],
+          "locked": false
+        },
+        {
+          "id": "foot-1",
+          "kind": "foot",
+          "point": [
+            465.0,
+            911
+          ],
+          "locked": false
+        }
+      ],
+      "attachments": {
+        "cigarette": [
+          609.6706250988411,
+          358.38330341103546
+        ]
+      },
+      "overlay_offsets": {
+        "mouth": [
+          -64,
+          0
+        ],
+        "eyes": [
+          -64,
+          0
+        ]
+      },
+      "anchor_bindings": {
+        "neck": {
+          "layers": [
+            2
+          ],
+          "overlays": [
+            "mouth",
+            "eyes"
+          ],
+          "attachments": []
+        },
+        "shoulder-right": {
+          "layers": [
+            5
+          ],
+          "overlays": [],
+          "attachments": []
+        },
+        "shoulder-left": {
+          "layers": [
+            4
+          ],
+          "overlays": [],
+          "attachments": [
+            "cigarette"
+          ]
+        }
+      }
+    },
+    "back-crossed-neutral": {
+      "layers": [
+        {
+          "drawing": "posture-body-back-crossed",
+          "z": 20
+        },
+        {
+          "drawing": "posture-legs-front-back-crossed",
+          "z": 32
+        },
+        {
+          "drawing": "posture-head",
+          "z": 35,
+          "transform": {
+            "origin": [
+              0,
+              0
+            ],
+            "position": [
+              -64,
+              15
+            ],
+            "degrees": 0
+          }
+        },
+        {
+          "drawing": "posture-collar-back-crossed",
+          "z": 36
+        },
+        {
+          "drawing": "cigarette-relaxed",
+          "z": 10,
+          "transform": {
+            "origin": [
+              393,
+              372
+            ],
+            "position": [
+              390,
+              384
+            ],
+            "degrees": -15
+          }
+        },
+        {
+          "drawing": "free-relaxed",
+          "z": 40,
+          "transform": {
+            "origin": [
+              165,
+              362
+            ],
+            "position": [
+              106,
+              397
+            ],
+            "degrees": -8
+          }
+        }
+      ],
+      "anchors": {
+        "neck": [
+          263,
+          373
+        ],
+        "shoulder-right": [
+          106,
+          397
+        ],
+        "shoulder-left": [
+          390,
+          384
+        ]
+      },
+      "contacts": [
+        {
+          "id": "seat",
+          "kind": "seat",
+          "point": [
+            350,
+            635
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-0",
+          "kind": "foot",
+          "point": [
+            372.0,
+            926
+          ],
+          "locked": false
+        },
+        {
+          "id": "foot-1",
+          "kind": "foot",
+          "point": [
+            462.0,
+            926
+          ],
+          "locked": false
+        }
+      ],
+      "attachments": {
+        "cigarette": [
+          609.6706250988411,
+          373.38330341103546
+        ]
+      },
+      "overlay_offsets": {
+        "mouth": [
+          -64,
+          15
+        ],
+        "eyes": [
+          -64,
+          15
+        ]
+      },
+      "anchor_bindings": {
+        "neck": {
+          "layers": [
+            2
+          ],
+          "overlays": [
+            "mouth",
+            "eyes"
+          ],
+          "attachments": []
+        },
+        "shoulder-right": {
+          "layers": [
+            5
+          ],
+          "overlays": [],
+          "attachments": []
+        },
+        "shoulder-left": {
+          "layers": [
+            4
+          ],
+          "overlays": [],
+          "attachments": [
+            "cigarette"
+          ]
+        }
+      }
+    },
+    "upright-open-offer-turn": {
+      "layers": [
+        {
+          "drawing": "posture-body-upright-open",
+          "z": 20
+        },
+        {
+          "drawing": "posture-legs-front-upright-open",
+          "z": 32
+        },
+        {
+          "drawing": "posture-head",
+          "z": 35,
+          "transform": {
+            "origin": [
+              0,
+              0
+            ],
+            "position": [
+              -15,
+              -13
+            ],
+            "degrees": 0
+          }
+        },
+        {
+          "drawing": "posture-collar-upright-open",
+          "z": 36
+        },
+        {
+          "drawing": "cigarette-turn",
+          "z": 10,
+          "transform": {
+            "origin": [
+              393,
+              372
+            ],
+            "position": [
+              412,
+              357
+            ],
+            "degrees": 0
+          }
+        },
+        {
+          "drawing": "free-relaxed",
+          "z": 40,
+          "transform": {
+            "origin": [
+              165,
+              362
+            ],
+            "position": [
+              142,
+              344
+            ],
+            "degrees": 0
+          }
+        }
+      ],
+      "anchors": {
+        "neck": [
+          312,
+          345
+        ],
+        "shoulder-right": [
+          142,
+          344
+        ],
+        "shoulder-left": [
+          412,
+          357
+        ]
+      },
+      "contacts": [
+        {
+          "id": "seat",
+          "kind": "seat",
+          "point": [
+            350,
+            635
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-0",
+          "kind": "foot",
+          "point": [
+            290.0,
+            930
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-1",
+          "kind": "foot",
+          "point": [
+            367.5,
+            930
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-2",
+          "kind": "foot",
+          "point": [
+            552.0,
+            930
+          ],
+          "locked": true
+        }
+      ],
+      "attachments": {
+        "cigarette": [
+          621.5,
+          390.0
+        ]
+      },
+      "overlay_offsets": {
+        "mouth": [
+          -15,
+          -13
+        ],
+        "eyes": [
+          -15,
+          -13
+        ]
+      },
+      "anchor_bindings": {
+        "neck": {
+          "layers": [
+            2
+          ],
+          "overlays": [
+            "mouth",
+            "eyes"
+          ],
+          "attachments": []
+        },
+        "shoulder-right": {
+          "layers": [
+            5
+          ],
+          "overlays": [],
+          "attachments": []
+        },
+        "shoulder-left": {
+          "layers": [
+            4
+          ],
+          "overlays": [],
+          "attachments": [
+            "cigarette"
+          ]
+        }
+      }
+    },
+    "upright-open-offer": {
+      "layers": [
+        {
+          "drawing": "posture-body-upright-open",
+          "z": 20
+        },
+        {
+          "drawing": "posture-legs-front-upright-open",
+          "z": 32
+        },
+        {
+          "drawing": "posture-head",
+          "z": 35,
+          "transform": {
+            "origin": [
+              0,
+              0
+            ],
+            "position": [
+              -15,
+              -13
+            ],
+            "degrees": 0
+          }
+        },
+        {
+          "drawing": "posture-collar-upright-open",
+          "z": 36
+        },
+        {
+          "drawing": "cigarette-up",
+          "z": 10,
+          "transform": {
+            "origin": [
+              393,
+              372
+            ],
+            "position": [
+              412,
+              357
+            ],
+            "degrees": 0
+          }
+        },
+        {
+          "drawing": "free-relaxed",
+          "z": 40,
+          "transform": {
+            "origin": [
+              165,
+              362
+            ],
+            "position": [
+              142,
+              344
+            ],
+            "degrees": 0
+          }
+        }
+      ],
+      "anchors": {
+        "neck": [
+          312,
+          345
+        ],
+        "shoulder-right": [
+          142,
+          344
+        ],
+        "shoulder-left": [
+          412,
+          357
+        ]
+      },
+      "contacts": [
+        {
+          "id": "seat",
+          "kind": "seat",
+          "point": [
+            350,
+            635
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-0",
+          "kind": "foot",
+          "point": [
+            290.0,
+            930
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-1",
+          "kind": "foot",
+          "point": [
+            367.5,
+            930
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-2",
+          "kind": "foot",
+          "point": [
+            552.0,
+            930
+          ],
+          "locked": true
+        }
+      ],
+      "attachments": {
+        "cigarette": [
+          638.1818181818181,
+          424.9090909090909
+        ]
+      },
+      "overlay_offsets": {
+        "mouth": [
+          -15,
+          -13
+        ],
+        "eyes": [
+          -15,
+          -13
+        ]
+      },
+      "anchor_bindings": {
+        "neck": {
+          "layers": [
+            2
+          ],
+          "overlays": [
+            "mouth",
+            "eyes"
+          ],
+          "attachments": []
+        },
+        "shoulder-right": {
+          "layers": [
+            5
+          ],
+          "overlays": [],
+          "attachments": []
+        },
+        "shoulder-left": {
+          "layers": [
+            4
+          ],
+          "overlays": [],
+          "attachments": [
+            "cigarette"
+          ]
+        }
+      }
+    },
+    "upright-open-concede": {
+      "layers": [
+        {
+          "drawing": "posture-body-upright-open",
+          "z": 20
+        },
+        {
+          "drawing": "posture-legs-front-upright-open",
+          "z": 32
+        },
+        {
+          "drawing": "posture-head",
+          "z": 35,
+          "transform": {
+            "origin": [
+              0,
+              0
+            ],
+            "position": [
+              -15,
+              -13
+            ],
+            "degrees": 0
+          }
+        },
+        {
+          "drawing": "posture-collar-upright-open",
+          "z": 36
+        },
+        {
+          "drawing": "cigarette-down",
+          "z": 10,
+          "transform": {
+            "origin": [
+              393,
+              372
+            ],
+            "position": [
+              412,
+              357
+            ],
+            "degrees": 0
+          }
+        },
+        {
+          "drawing": "free-relaxed",
+          "z": 40,
+          "transform": {
+            "origin": [
+              165,
+              362
+            ],
+            "position": [
+              142,
+              344
+            ],
+            "degrees": 0
+          }
+        }
+      ],
+      "anchors": {
+        "neck": [
+          312,
+          345
+        ],
+        "shoulder-right": [
+          142,
+          344
+        ],
+        "shoulder-left": [
+          412,
+          357
+        ]
+      },
+      "contacts": [
+        {
+          "id": "seat",
+          "kind": "seat",
+          "point": [
+            350,
+            635
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-0",
+          "kind": "foot",
+          "point": [
+            290.0,
+            930
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-1",
+          "kind": "foot",
+          "point": [
+            367.5,
+            930
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-2",
+          "kind": "foot",
+          "point": [
+            552.0,
+            930
+          ],
+          "locked": true
+        }
+      ],
+      "attachments": {
+        "cigarette": [
+          627.2142857142857,
+          555.9285714285714
+        ]
+      },
+      "overlay_offsets": {
+        "mouth": [
+          -15,
+          -13
+        ],
+        "eyes": [
+          -15,
+          -13
+        ]
+      },
+      "anchor_bindings": {
+        "neck": {
+          "layers": [
+            2
+          ],
+          "overlays": [
+            "mouth",
+            "eyes"
+          ],
+          "attachments": []
+        },
+        "shoulder-right": {
+          "layers": [
+            5
+          ],
+          "overlays": [],
+          "attachments": []
+        },
+        "shoulder-left": {
+          "layers": [
+            4
+          ],
+          "overlays": [],
+          "attachments": [
+            "cigarette"
+          ]
+        }
+      }
+    },
+    "upright-open-qualify-turn": {
+      "layers": [
+        {
+          "drawing": "posture-body-upright-open",
+          "z": 20
+        },
+        {
+          "drawing": "posture-legs-front-upright-open",
+          "z": 32
+        },
+        {
+          "drawing": "posture-head",
+          "z": 35,
+          "transform": {
+            "origin": [
+              0,
+              0
+            ],
+            "position": [
+              -15,
+              -13
+            ],
+            "degrees": 0
+          }
+        },
+        {
+          "drawing": "posture-collar-upright-open",
+          "z": 36
+        },
+        {
+          "drawing": "cigarette-relaxed",
+          "z": 10,
+          "transform": {
+            "origin": [
+              393,
+              372
+            ],
+            "position": [
+              412,
+              357
+            ],
+            "degrees": 0
+          }
+        },
+        {
+          "drawing": "free-turn",
+          "z": 40,
+          "transform": {
+            "origin": [
+              165,
+              362
+            ],
+            "position": [
+              142,
+              344
+            ],
+            "degrees": 0
+          }
+        }
+      ],
+      "anchors": {
+        "neck": [
+          312,
+          345
+        ],
+        "shoulder-right": [
+          142,
+          344
+        ],
+        "shoulder-left": [
+          412,
+          357
+        ]
+      },
+      "contacts": [
+        {
+          "id": "seat",
+          "kind": "seat",
+          "point": [
+            350,
+            635
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-0",
+          "kind": "foot",
+          "point": [
+            290.0,
+            930
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-1",
+          "kind": "foot",
+          "point": [
+            367.5,
+            930
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-2",
+          "kind": "foot",
+          "point": [
+            552.0,
+            930
+          ],
+          "locked": true
+        }
+      ],
+      "attachments": {
+        "cigarette": [
+          626.9333333333333,
+          403.6
+        ]
+      },
+      "overlay_offsets": {
+        "mouth": [
+          -15,
+          -13
+        ],
+        "eyes": [
+          -15,
+          -13
+        ]
+      },
+      "anchor_bindings": {
+        "neck": {
+          "layers": [
+            2
+          ],
+          "overlays": [
+            "mouth",
+            "eyes"
+          ],
+          "attachments": []
+        },
+        "shoulder-right": {
+          "layers": [
+            5
+          ],
+          "overlays": [],
+          "attachments": []
+        },
+        "shoulder-left": {
+          "layers": [
+            4
+          ],
+          "overlays": [],
+          "attachments": [
+            "cigarette"
+          ]
+        }
+      }
+    },
+    "upright-open-qualify": {
+      "layers": [
+        {
+          "drawing": "posture-body-upright-open",
+          "z": 20
+        },
+        {
+          "drawing": "posture-legs-front-upright-open",
+          "z": 32
+        },
+        {
+          "drawing": "posture-head",
+          "z": 35,
+          "transform": {
+            "origin": [
+              0,
+              0
+            ],
+            "position": [
+              -15,
+              -13
+            ],
+            "degrees": 0
+          }
+        },
+        {
+          "drawing": "posture-collar-upright-open",
+          "z": 36
+        },
+        {
+          "drawing": "cigarette-relaxed",
+          "z": 10,
+          "transform": {
+            "origin": [
+              393,
+              372
+            ],
+            "position": [
+              412,
+              357
+            ],
+            "degrees": 0
+          }
+        },
+        {
+          "drawing": "free-up",
+          "z": 40,
+          "transform": {
+            "origin": [
+              165,
+              362
+            ],
+            "position": [
+              142,
+              344
+            ],
+            "degrees": 0
+          }
+        }
+      ],
+      "anchors": {
+        "neck": [
+          312,
+          345
+        ],
+        "shoulder-right": [
+          142,
+          344
+        ],
+        "shoulder-left": [
+          412,
+          357
+        ]
+      },
+      "contacts": [
+        {
+          "id": "seat",
+          "kind": "seat",
+          "point": [
+            350,
+            635
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-0",
+          "kind": "foot",
+          "point": [
+            290.0,
+            930
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-1",
+          "kind": "foot",
+          "point": [
+            367.5,
+            930
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-2",
+          "kind": "foot",
+          "point": [
+            552.0,
+            930
+          ],
+          "locked": true
+        }
+      ],
+      "attachments": {
+        "cigarette": [
+          626.9333333333333,
+          403.6
+        ]
+      },
+      "overlay_offsets": {
+        "mouth": [
+          -15,
+          -13
+        ],
+        "eyes": [
+          -15,
+          -13
+        ]
+      },
+      "anchor_bindings": {
+        "neck": {
+          "layers": [
+            2
+          ],
+          "overlays": [
+            "mouth",
+            "eyes"
+          ],
+          "attachments": []
+        },
+        "shoulder-right": {
+          "layers": [
+            5
+          ],
+          "overlays": [],
+          "attachments": []
+        },
+        "shoulder-left": {
+          "layers": [
+            4
+          ],
+          "overlays": [],
+          "attachments": [
+            "cigarette"
+          ]
+        }
+      }
+    },
+    "leaning-open-neutral": {
+      "layers": [
+        {
+          "drawing": "posture-body-leaning-open",
+          "z": 20
+        },
+        {
+          "drawing": "posture-legs-front-leaning-open",
+          "z": 32
+        },
+        {
+          "drawing": "posture-head",
+          "z": 35,
+          "transform": {
+            "origin": [
+              0,
+              0
+            ],
+            "position": [
+              -36,
+              8
+            ],
+            "degrees": 0
+          }
+        },
+        {
+          "drawing": "posture-collar-leaning-open",
+          "z": 36
+        },
+        {
+          "drawing": "cigarette-relaxed",
+          "z": 10,
+          "transform": {
+            "origin": [
+              393,
+              372
+            ],
+            "position": [
+              403,
+              391
+            ],
+            "degrees": -8
+          }
+        },
+        {
+          "drawing": "free-relaxed",
+          "z": 40,
+          "transform": {
+            "origin": [
+              165,
+              362
+            ],
+            "position": [
+              140,
+              380
+            ],
+            "degrees": -4
+          }
+        }
+      ],
+      "anchors": {
+        "neck": [
+          291,
+          366
+        ],
+        "shoulder-right": [
+          140,
+          380
+        ],
+        "shoulder-left": [
+          403,
+          391
+        ]
+      },
+      "contacts": [
+        {
+          "id": "seat",
+          "kind": "seat",
+          "point": [
+            350,
+            635
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-0",
+          "kind": "foot",
+          "point": [
+            288.0,
+            926
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-1",
+          "kind": "foot",
+          "point": [
+            366.0,
+            926
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-2",
+          "kind": "foot",
+          "point": [
+            475.0,
+            926
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-3",
+          "kind": "foot",
+          "point": [
+            553.5,
+            926
+          ],
+          "locked": true
+        }
+      ],
+      "attachments": {
+        "cigarette": [
+          622.3270834129272,
+          407.2335535036738
+        ]
+      },
+      "overlay_offsets": {
+        "mouth": [
+          -36,
+          8
+        ],
+        "eyes": [
+          -36,
+          8
+        ]
+      },
+      "anchor_bindings": {
+        "neck": {
+          "layers": [
+            2
+          ],
+          "overlays": [
+            "mouth",
+            "eyes"
+          ],
+          "attachments": []
+        },
+        "shoulder-right": {
+          "layers": [
+            5
+          ],
+          "overlays": [],
+          "attachments": []
+        },
+        "shoulder-left": {
+          "layers": [
+            4
+          ],
+          "overlays": [],
+          "attachments": [
+            "cigarette"
+          ]
+        }
+      }
+    },
+    "back-open-neutral": {
+      "layers": [
+        {
+          "drawing": "posture-body-back-open",
+          "z": 20
+        },
+        {
+          "drawing": "posture-legs-front-back-open",
+          "z": 32
+        },
+        {
+          "drawing": "posture-head",
+          "z": 35,
+          "transform": {
+            "origin": [
+              0,
+              0
+            ],
+            "position": [
+              -61,
+              15
+            ],
+            "degrees": 0
+          }
+        },
+        {
+          "drawing": "posture-collar-back-open",
+          "z": 36
+        },
+        {
+          "drawing": "cigarette-relaxed",
+          "z": 10,
+          "transform": {
+            "origin": [
+              393,
+              372
+            ],
+            "position": [
+              403,
+              391
+            ],
+            "degrees": -15
+          }
+        },
+        {
+          "drawing": "free-relaxed",
+          "z": 40,
+          "transform": {
+            "origin": [
+              165,
+              362
+            ],
+            "position": [
+              115,
+              393
+            ],
+            "degrees": -8
+          }
+        }
+      ],
+      "anchors": {
+        "neck": [
+          266,
+          373
+        ],
+        "shoulder-right": [
+          115,
+          393
+        ],
+        "shoulder-left": [
+          403,
+          391
+        ]
+      },
+      "contacts": [
+        {
+          "id": "seat",
+          "kind": "seat",
+          "point": [
+            350,
+            635
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-0",
+          "kind": "foot",
+          "point": [
+            288.5,
+            926
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-1",
+          "kind": "foot",
+          "point": [
+            365.5,
+            926
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-2",
+          "kind": "foot",
+          "point": [
+            476.0,
+            926
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-3",
+          "kind": "foot",
+          "point": [
+            553.5,
+            926
+          ],
+          "locked": true
+        }
+      ],
+      "attachments": {
+        "cigarette": [
+          622.6706250988411,
+          380.38330341103546
+        ]
+      },
+      "overlay_offsets": {
+        "mouth": [
+          -61,
+          15
+        ],
+        "eyes": [
+          -61,
+          15
+        ]
+      },
+      "anchor_bindings": {
+        "neck": {
+          "layers": [
+            2
+          ],
+          "overlays": [
+            "mouth",
+            "eyes"
+          ],
+          "attachments": []
+        },
+        "shoulder-right": {
+          "layers": [
+            5
+          ],
+          "overlays": [],
+          "attachments": []
+        },
+        "shoulder-left": {
+          "layers": [
+            4
+          ],
+          "overlays": [],
+          "attachments": [
+            "cigarette"
+          ]
+        }
+      }
+    },
+    "back-crossed-offer-turn": {
+      "layers": [
+        {
+          "drawing": "posture-body-back-crossed",
+          "z": 20
+        },
+        {
+          "drawing": "posture-legs-front-back-crossed",
+          "z": 32
+        },
+        {
+          "drawing": "posture-head",
+          "z": 35,
+          "transform": {
+            "origin": [
+              0,
+              0
+            ],
+            "position": [
+              -64,
+              15
+            ],
+            "degrees": 0
+          }
+        },
+        {
+          "drawing": "posture-collar-back-crossed",
+          "z": 36
+        },
+        {
+          "drawing": "cigarette-turn",
+          "z": 10,
+          "transform": {
+            "origin": [
+              393,
+              372
+            ],
+            "position": [
+              390,
+              384
+            ],
+            "degrees": -15
+          }
+        },
+        {
+          "drawing": "free-relaxed",
+          "z": 40,
+          "transform": {
+            "origin": [
+              165,
+              362
+            ],
+            "position": [
+              106,
+              397
+            ],
+            "degrees": -8
+          }
+        }
+      ],
+      "anchors": {
+        "neck": [
+          263,
+          373
+        ],
+        "shoulder-right": [
+          106,
+          397
+        ],
+        "shoulder-left": [
+          390,
+          384
+        ]
+      },
+      "contacts": [
+        {
+          "id": "seat",
+          "kind": "seat",
+          "point": [
+            350,
+            635
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-0",
+          "kind": "foot",
+          "point": [
+            372.0,
+            926
+          ],
+          "locked": false
+        },
+        {
+          "id": "foot-1",
+          "kind": "foot",
+          "point": [
+            462.0,
+            926
+          ],
+          "locked": false
+        }
+      ],
+      "attachments": {
+        "cigarette": [
+          600.902489095943,
+          361.65296231856115
+        ]
+      },
+      "overlay_offsets": {
+        "mouth": [
+          -64,
+          15
+        ],
+        "eyes": [
+          -64,
+          15
+        ]
+      },
+      "anchor_bindings": {
+        "neck": {
+          "layers": [
+            2
+          ],
+          "overlays": [
+            "mouth",
+            "eyes"
+          ],
+          "attachments": []
+        },
+        "shoulder-right": {
+          "layers": [
+            5
+          ],
+          "overlays": [],
+          "attachments": []
+        },
+        "shoulder-left": {
+          "layers": [
+            4
+          ],
+          "overlays": [],
+          "attachments": [
+            "cigarette"
+          ]
+        }
+      }
+    },
+    "back-crossed-offer": {
+      "layers": [
+        {
+          "drawing": "posture-body-back-crossed",
+          "z": 20
+        },
+        {
+          "drawing": "posture-legs-front-back-crossed",
+          "z": 32
+        },
+        {
+          "drawing": "posture-head",
+          "z": 35,
+          "transform": {
+            "origin": [
+              0,
+              0
+            ],
+            "position": [
+              -64,
+              15
+            ],
+            "degrees": 0
+          }
+        },
+        {
+          "drawing": "posture-collar-back-crossed",
+          "z": 36
+        },
+        {
+          "drawing": "cigarette-up",
+          "z": 10,
+          "transform": {
+            "origin": [
+              393,
+              372
+            ],
+            "position": [
+              390,
+              384
+            ],
+            "degrees": -15
+          }
+        },
+        {
+          "drawing": "free-relaxed",
+          "z": 40,
+          "transform": {
+            "origin": [
+              165,
+              362
+            ],
+            "position": [
+              106,
+              397
+            ],
+            "degrees": -8
+          }
+        }
+      ],
+      "anchors": {
+        "neck": [
+          263,
+          373
+        ],
+        "shoulder-right": [
+          106,
+          397
+        ],
+        "shoulder-left": [
+          390,
+          384
+        ]
+      },
+      "contacts": [
+        {
+          "id": "seat",
+          "kind": "seat",
+          "point": [
+            350,
+            635
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-0",
+          "kind": "foot",
+          "point": [
+            372.0,
+            926
+          ],
+          "locked": false
+        },
+        {
+          "id": "foot-1",
+          "kind": "foot",
+          "point": [
+            462.0,
+            926
+          ],
+          "locked": false
+        }
+      ],
+      "attachments": {
+        "cigarette": [
+          626.0510256817076,
+          391.0549825475329
+        ]
+      },
+      "overlay_offsets": {
+        "mouth": [
+          -64,
+          15
+        ],
+        "eyes": [
+          -64,
+          15
+        ]
+      },
+      "anchor_bindings": {
+        "neck": {
+          "layers": [
+            2
+          ],
+          "overlays": [
+            "mouth",
+            "eyes"
+          ],
+          "attachments": []
+        },
+        "shoulder-right": {
+          "layers": [
+            5
+          ],
+          "overlays": [],
+          "attachments": []
+        },
+        "shoulder-left": {
+          "layers": [
+            4
+          ],
+          "overlays": [],
+          "attachments": [
+            "cigarette"
+          ]
+        }
+      }
+    },
+    "back-crossed-concede": {
+      "layers": [
+        {
+          "drawing": "posture-body-back-crossed",
+          "z": 20
+        },
+        {
+          "drawing": "posture-legs-front-back-crossed",
+          "z": 32
+        },
+        {
+          "drawing": "posture-head",
+          "z": 35,
+          "transform": {
+            "origin": [
+              0,
+              0
+            ],
+            "position": [
+              -64,
+              15
+            ],
+            "degrees": 0
+          }
+        },
+        {
+          "drawing": "posture-collar-back-crossed",
+          "z": 36
+        },
+        {
+          "drawing": "cigarette-down",
+          "z": 10,
+          "transform": {
+            "origin": [
+              393,
+              372
+            ],
+            "position": [
+              390,
+              384
+            ],
+            "degrees": -15
+          }
+        },
+        {
+          "drawing": "free-relaxed",
+          "z": 40,
+          "transform": {
+            "origin": [
+              165,
+              362
+            ],
+            "position": [
+              106,
+              397
+            ],
+            "degrees": -8
+          }
+        }
+      ],
+      "anchors": {
+        "neck": [
+          263,
+          373
+        ],
+        "shoulder-right": [
+          106,
+          397
+        ],
+        "shoulder-left": [
+          390,
+          384
+        ]
+      },
+      "contacts": [
+        {
+          "id": "seat",
+          "kind": "seat",
+          "point": [
+            350,
+            635
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-0",
+          "kind": "foot",
+          "point": [
+            372.0,
+            926
+          ],
+          "locked": false
+        },
+        {
+          "id": "foot-1",
+          "kind": "foot",
+          "point": [
+            462.0,
+            926
+          ],
+          "locked": false
+        }
+      ],
+      "attachments": {
+        "cigarette": [
+          649.3675396585345,
+          520.4486888086544
+        ]
+      },
+      "overlay_offsets": {
+        "mouth": [
+          -64,
+          15
+        ],
+        "eyes": [
+          -64,
+          15
+        ]
+      },
+      "anchor_bindings": {
+        "neck": {
+          "layers": [
+            2
+          ],
+          "overlays": [
+            "mouth",
+            "eyes"
+          ],
+          "attachments": []
+        },
+        "shoulder-right": {
+          "layers": [
+            5
+          ],
+          "overlays": [],
+          "attachments": []
+        },
+        "shoulder-left": {
+          "layers": [
+            4
+          ],
+          "overlays": [],
+          "attachments": [
+            "cigarette"
+          ]
+        }
+      }
+    },
+    "back-crossed-qualify-turn": {
+      "layers": [
+        {
+          "drawing": "posture-body-back-crossed",
+          "z": 20
+        },
+        {
+          "drawing": "posture-legs-front-back-crossed",
+          "z": 32
+        },
+        {
+          "drawing": "posture-head",
+          "z": 35,
+          "transform": {
+            "origin": [
+              0,
+              0
+            ],
+            "position": [
+              -64,
+              15
+            ],
+            "degrees": 0
+          }
+        },
+        {
+          "drawing": "posture-collar-back-crossed",
+          "z": 36
+        },
+        {
+          "drawing": "cigarette-relaxed",
+          "z": 10,
+          "transform": {
+            "origin": [
+              393,
+              372
+            ],
+            "position": [
+              390,
+              384
+            ],
+            "degrees": -15
+          }
+        },
+        {
+          "drawing": "free-turn",
+          "z": 40,
+          "transform": {
+            "origin": [
+              165,
+              362
+            ],
+            "position": [
+              106,
+              397
+            ],
+            "degrees": -8
+          }
+        }
+      ],
+      "anchors": {
+        "neck": [
+          263,
+          373
+        ],
+        "shoulder-right": [
+          106,
+          397
+        ],
+        "shoulder-left": [
+          390,
+          384
+        ]
+      },
+      "contacts": [
+        {
+          "id": "seat",
+          "kind": "seat",
+          "point": [
+            350,
+            635
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-0",
+          "kind": "foot",
+          "point": [
+            372.0,
+            926
+          ],
+          "locked": false
+        },
+        {
+          "id": "foot-1",
+          "kind": "foot",
+          "point": [
+            462.0,
+            926
+          ],
+          "locked": false
+        }
+      ],
+      "attachments": {
+        "cigarette": [
+          609.6706250988411,
+          373.38330341103546
+        ]
+      },
+      "overlay_offsets": {
+        "mouth": [
+          -64,
+          15
+        ],
+        "eyes": [
+          -64,
+          15
+        ]
+      },
+      "anchor_bindings": {
+        "neck": {
+          "layers": [
+            2
+          ],
+          "overlays": [
+            "mouth",
+            "eyes"
+          ],
+          "attachments": []
+        },
+        "shoulder-right": {
+          "layers": [
+            5
+          ],
+          "overlays": [],
+          "attachments": []
+        },
+        "shoulder-left": {
+          "layers": [
+            4
+          ],
+          "overlays": [],
+          "attachments": [
+            "cigarette"
+          ]
+        }
+      }
+    },
+    "back-crossed-qualify": {
+      "layers": [
+        {
+          "drawing": "posture-body-back-crossed",
+          "z": 20
+        },
+        {
+          "drawing": "posture-legs-front-back-crossed",
+          "z": 32
+        },
+        {
+          "drawing": "posture-head",
+          "z": 35,
+          "transform": {
+            "origin": [
+              0,
+              0
+            ],
+            "position": [
+              -64,
+              15
+            ],
+            "degrees": 0
+          }
+        },
+        {
+          "drawing": "posture-collar-back-crossed",
+          "z": 36
+        },
+        {
+          "drawing": "cigarette-relaxed",
+          "z": 10,
+          "transform": {
+            "origin": [
+              393,
+              372
+            ],
+            "position": [
+              390,
+              384
+            ],
+            "degrees": -15
+          }
+        },
+        {
+          "drawing": "free-up",
+          "z": 40,
+          "transform": {
+            "origin": [
+              165,
+              362
+            ],
+            "position": [
+              106,
+              397
+            ],
+            "degrees": -8
+          }
+        }
+      ],
+      "anchors": {
+        "neck": [
+          263,
+          373
+        ],
+        "shoulder-right": [
+          106,
+          397
+        ],
+        "shoulder-left": [
+          390,
+          384
+        ]
+      },
+      "contacts": [
+        {
+          "id": "seat",
+          "kind": "seat",
+          "point": [
+            350,
+            635
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-0",
+          "kind": "foot",
+          "point": [
+            372.0,
+            926
+          ],
+          "locked": false
+        },
+        {
+          "id": "foot-1",
+          "kind": "foot",
+          "point": [
+            462.0,
+            926
+          ],
+          "locked": false
+        }
+      ],
+      "attachments": {
+        "cigarette": [
+          609.6706250988411,
+          373.38330341103546
+        ]
+      },
+      "overlay_offsets": {
+        "mouth": [
+          -64,
+          15
+        ],
+        "eyes": [
+          -64,
+          15
+        ]
+      },
+      "anchor_bindings": {
+        "neck": {
+          "layers": [
+            2
+          ],
+          "overlays": [
+            "mouth",
+            "eyes"
+          ],
+          "attachments": []
+        },
+        "shoulder-right": {
+          "layers": [
+            5
+          ],
+          "overlays": [],
+          "attachments": []
+        },
+        "shoulder-left": {
+          "layers": [
+            4
+          ],
+          "overlays": [],
+          "attachments": [
+            "cigarette"
+          ]
+        }
+      }
+    },
+    "back-lifting-neutral": {
+      "layers": [
+        {
+          "drawing": "posture-body-back-lifting",
+          "z": 20
+        },
+        {
+          "drawing": "posture-legs-front-back-lifting",
+          "z": 32
+        },
+        {
+          "drawing": "posture-head",
+          "z": 35,
+          "transform": {
+            "origin": [
+              0,
+              0
+            ],
+            "position": [
+              -64,
+              15
+            ],
+            "degrees": 0
+          }
+        },
+        {
+          "drawing": "posture-collar-back-lifting",
+          "z": 36
+        },
+        {
+          "drawing": "cigarette-relaxed",
+          "z": 10,
+          "transform": {
+            "origin": [
+              393,
+              372
+            ],
+            "position": [
+              390,
+              384
+            ],
+            "degrees": -15
+          }
+        },
+        {
+          "drawing": "free-relaxed",
+          "z": 40,
+          "transform": {
+            "origin": [
+              165,
+              362
+            ],
+            "position": [
+              106,
+              397
+            ],
+            "degrees": -8
+          }
+        }
+      ],
+      "anchors": {
+        "neck": [
+          263,
+          373
+        ],
+        "shoulder-right": [
+          106,
+          397
+        ],
+        "shoulder-left": [
+          390,
+          384
+        ]
+      },
+      "contacts": [
+        {
+          "id": "seat",
+          "kind": "seat",
+          "point": [
+            350,
+            635
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-0",
+          "kind": "foot",
+          "point": [
+            347.5,
+            956
+          ],
+          "locked": false
+        },
+        {
+          "id": "foot-1",
+          "kind": "foot",
+          "point": [
+            441.0,
+            956
+          ],
+          "locked": false
+        }
+      ],
+      "attachments": {
+        "cigarette": [
+          609.6706250988411,
+          373.38330341103546
+        ]
+      },
+      "overlay_offsets": {
+        "mouth": [
+          -64,
+          15
+        ],
+        "eyes": [
+          -64,
+          15
+        ]
+      },
+      "anchor_bindings": {
+        "neck": {
+          "layers": [
+            2
+          ],
+          "overlays": [
+            "mouth",
+            "eyes"
+          ],
+          "attachments": []
+        },
+        "shoulder-right": {
+          "layers": [
+            5
+          ],
+          "overlays": [],
+          "attachments": []
+        },
+        "shoulder-left": {
+          "layers": [
+            4
+          ],
+          "overlays": [],
+          "attachments": [
+            "cigarette"
+          ]
+        }
+      }
+    },
+    "back-open-offer-turn": {
+      "layers": [
+        {
+          "drawing": "posture-body-back-open",
+          "z": 20
+        },
+        {
+          "drawing": "posture-legs-front-back-open",
+          "z": 32
+        },
+        {
+          "drawing": "posture-head",
+          "z": 35,
+          "transform": {
+            "origin": [
+              0,
+              0
+            ],
+            "position": [
+              -61,
+              15
+            ],
+            "degrees": 0
+          }
+        },
+        {
+          "drawing": "posture-collar-back-open",
+          "z": 36
+        },
+        {
+          "drawing": "cigarette-turn",
+          "z": 10,
+          "transform": {
+            "origin": [
+              393,
+              372
+            ],
+            "position": [
+              403,
+              391
+            ],
+            "degrees": -15
+          }
+        },
+        {
+          "drawing": "free-relaxed",
+          "z": 40,
+          "transform": {
+            "origin": [
+              165,
+              362
+            ],
+            "position": [
+              115,
+              393
+            ],
+            "degrees": -8
+          }
+        }
+      ],
+      "anchors": {
+        "neck": [
+          266,
+          373
+        ],
+        "shoulder-right": [
+          115,
+          393
+        ],
+        "shoulder-left": [
+          403,
+          391
+        ]
+      },
+      "contacts": [
+        {
+          "id": "seat",
+          "kind": "seat",
+          "point": [
+            350,
+            635
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-0",
+          "kind": "foot",
+          "point": [
+            288.5,
+            926
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-1",
+          "kind": "foot",
+          "point": [
+            365.5,
+            926
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-2",
+          "kind": "foot",
+          "point": [
+            476.0,
+            926
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-3",
+          "kind": "foot",
+          "point": [
+            553.5,
+            926
+          ],
+          "locked": true
+        }
+      ],
+      "attachments": {
+        "cigarette": [
+          613.902489095943,
+          368.65296231856115
+        ]
+      },
+      "overlay_offsets": {
+        "mouth": [
+          -61,
+          15
+        ],
+        "eyes": [
+          -61,
+          15
+        ]
+      },
+      "anchor_bindings": {
+        "neck": {
+          "layers": [
+            2
+          ],
+          "overlays": [
+            "mouth",
+            "eyes"
+          ],
+          "attachments": []
+        },
+        "shoulder-right": {
+          "layers": [
+            5
+          ],
+          "overlays": [],
+          "attachments": []
+        },
+        "shoulder-left": {
+          "layers": [
+            4
+          ],
+          "overlays": [],
+          "attachments": [
+            "cigarette"
+          ]
+        }
+      }
+    },
+    "back-open-offer": {
+      "layers": [
+        {
+          "drawing": "posture-body-back-open",
+          "z": 20
+        },
+        {
+          "drawing": "posture-legs-front-back-open",
+          "z": 32
+        },
+        {
+          "drawing": "posture-head",
+          "z": 35,
+          "transform": {
+            "origin": [
+              0,
+              0
+            ],
+            "position": [
+              -61,
+              15
+            ],
+            "degrees": 0
+          }
+        },
+        {
+          "drawing": "posture-collar-back-open",
+          "z": 36
+        },
+        {
+          "drawing": "cigarette-up",
+          "z": 10,
+          "transform": {
+            "origin": [
+              393,
+              372
+            ],
+            "position": [
+              403,
+              391
+            ],
+            "degrees": -15
+          }
+        },
+        {
+          "drawing": "free-relaxed",
+          "z": 40,
+          "transform": {
+            "origin": [
+              165,
+              362
+            ],
+            "position": [
+              115,
+              393
+            ],
+            "degrees": -8
+          }
+        }
+      ],
+      "anchors": {
+        "neck": [
+          266,
+          373
+        ],
+        "shoulder-right": [
+          115,
+          393
+        ],
+        "shoulder-left": [
+          403,
+          391
+        ]
+      },
+      "contacts": [
+        {
+          "id": "seat",
+          "kind": "seat",
+          "point": [
+            350,
+            635
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-0",
+          "kind": "foot",
+          "point": [
+            288.5,
+            926
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-1",
+          "kind": "foot",
+          "point": [
+            365.5,
+            926
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-2",
+          "kind": "foot",
+          "point": [
+            476.0,
+            926
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-3",
+          "kind": "foot",
+          "point": [
+            553.5,
+            926
+          ],
+          "locked": true
+        }
+      ],
+      "attachments": {
+        "cigarette": [
+          639.0510256817076,
+          398.0549825475329
+        ]
+      },
+      "overlay_offsets": {
+        "mouth": [
+          -61,
+          15
+        ],
+        "eyes": [
+          -61,
+          15
+        ]
+      },
+      "anchor_bindings": {
+        "neck": {
+          "layers": [
+            2
+          ],
+          "overlays": [
+            "mouth",
+            "eyes"
+          ],
+          "attachments": []
+        },
+        "shoulder-right": {
+          "layers": [
+            5
+          ],
+          "overlays": [],
+          "attachments": []
+        },
+        "shoulder-left": {
+          "layers": [
+            4
+          ],
+          "overlays": [],
+          "attachments": [
+            "cigarette"
+          ]
+        }
+      }
+    },
+    "back-open-concede": {
+      "layers": [
+        {
+          "drawing": "posture-body-back-open",
+          "z": 20
+        },
+        {
+          "drawing": "posture-legs-front-back-open",
+          "z": 32
+        },
+        {
+          "drawing": "posture-head",
+          "z": 35,
+          "transform": {
+            "origin": [
+              0,
+              0
+            ],
+            "position": [
+              -61,
+              15
+            ],
+            "degrees": 0
+          }
+        },
+        {
+          "drawing": "posture-collar-back-open",
+          "z": 36
+        },
+        {
+          "drawing": "cigarette-down",
+          "z": 10,
+          "transform": {
+            "origin": [
+              393,
+              372
+            ],
+            "position": [
+              403,
+              391
+            ],
+            "degrees": -15
+          }
+        },
+        {
+          "drawing": "free-relaxed",
+          "z": 40,
+          "transform": {
+            "origin": [
+              165,
+              362
+            ],
+            "position": [
+              115,
+              393
+            ],
+            "degrees": -8
+          }
+        }
+      ],
+      "anchors": {
+        "neck": [
+          266,
+          373
+        ],
+        "shoulder-right": [
+          115,
+          393
+        ],
+        "shoulder-left": [
+          403,
+          391
+        ]
+      },
+      "contacts": [
+        {
+          "id": "seat",
+          "kind": "seat",
+          "point": [
+            350,
+            635
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-0",
+          "kind": "foot",
+          "point": [
+            288.5,
+            926
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-1",
+          "kind": "foot",
+          "point": [
+            365.5,
+            926
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-2",
+          "kind": "foot",
+          "point": [
+            476.0,
+            926
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-3",
+          "kind": "foot",
+          "point": [
+            553.5,
+            926
+          ],
+          "locked": true
+        }
+      ],
+      "attachments": {
+        "cigarette": [
+          662.3675396585345,
+          527.4486888086544
+        ]
+      },
+      "overlay_offsets": {
+        "mouth": [
+          -61,
+          15
+        ],
+        "eyes": [
+          -61,
+          15
+        ]
+      },
+      "anchor_bindings": {
+        "neck": {
+          "layers": [
+            2
+          ],
+          "overlays": [
+            "mouth",
+            "eyes"
+          ],
+          "attachments": []
+        },
+        "shoulder-right": {
+          "layers": [
+            5
+          ],
+          "overlays": [],
+          "attachments": []
+        },
+        "shoulder-left": {
+          "layers": [
+            4
+          ],
+          "overlays": [],
+          "attachments": [
+            "cigarette"
+          ]
+        }
+      }
+    },
+    "back-open-qualify-turn": {
+      "layers": [
+        {
+          "drawing": "posture-body-back-open",
+          "z": 20
+        },
+        {
+          "drawing": "posture-legs-front-back-open",
+          "z": 32
+        },
+        {
+          "drawing": "posture-head",
+          "z": 35,
+          "transform": {
+            "origin": [
+              0,
+              0
+            ],
+            "position": [
+              -61,
+              15
+            ],
+            "degrees": 0
+          }
+        },
+        {
+          "drawing": "posture-collar-back-open",
+          "z": 36
+        },
+        {
+          "drawing": "cigarette-relaxed",
+          "z": 10,
+          "transform": {
+            "origin": [
+              393,
+              372
+            ],
+            "position": [
+              403,
+              391
+            ],
+            "degrees": -15
+          }
+        },
+        {
+          "drawing": "free-turn",
+          "z": 40,
+          "transform": {
+            "origin": [
+              165,
+              362
+            ],
+            "position": [
+              115,
+              393
+            ],
+            "degrees": -8
+          }
+        }
+      ],
+      "anchors": {
+        "neck": [
+          266,
+          373
+        ],
+        "shoulder-right": [
+          115,
+          393
+        ],
+        "shoulder-left": [
+          403,
+          391
+        ]
+      },
+      "contacts": [
+        {
+          "id": "seat",
+          "kind": "seat",
+          "point": [
+            350,
+            635
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-0",
+          "kind": "foot",
+          "point": [
+            288.5,
+            926
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-1",
+          "kind": "foot",
+          "point": [
+            365.5,
+            926
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-2",
+          "kind": "foot",
+          "point": [
+            476.0,
+            926
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-3",
+          "kind": "foot",
+          "point": [
+            553.5,
+            926
+          ],
+          "locked": true
+        }
+      ],
+      "attachments": {
+        "cigarette": [
+          622.6706250988411,
+          380.38330341103546
+        ]
+      },
+      "overlay_offsets": {
+        "mouth": [
+          -61,
+          15
+        ],
+        "eyes": [
+          -61,
+          15
+        ]
+      },
+      "anchor_bindings": {
+        "neck": {
+          "layers": [
+            2
+          ],
+          "overlays": [
+            "mouth",
+            "eyes"
+          ],
+          "attachments": []
+        },
+        "shoulder-right": {
+          "layers": [
+            5
+          ],
+          "overlays": [],
+          "attachments": []
+        },
+        "shoulder-left": {
+          "layers": [
+            4
+          ],
+          "overlays": [],
+          "attachments": [
+            "cigarette"
+          ]
+        }
+      }
+    },
+    "back-open-qualify": {
+      "layers": [
+        {
+          "drawing": "posture-body-back-open",
+          "z": 20
+        },
+        {
+          "drawing": "posture-legs-front-back-open",
+          "z": 32
+        },
+        {
+          "drawing": "posture-head",
+          "z": 35,
+          "transform": {
+            "origin": [
+              0,
+              0
+            ],
+            "position": [
+              -61,
+              15
+            ],
+            "degrees": 0
+          }
+        },
+        {
+          "drawing": "posture-collar-back-open",
+          "z": 36
+        },
+        {
+          "drawing": "cigarette-relaxed",
+          "z": 10,
+          "transform": {
+            "origin": [
+              393,
+              372
+            ],
+            "position": [
+              403,
+              391
+            ],
+            "degrees": -15
+          }
+        },
+        {
+          "drawing": "free-up",
+          "z": 40,
+          "transform": {
+            "origin": [
+              165,
+              362
+            ],
+            "position": [
+              115,
+              393
+            ],
+            "degrees": -8
+          }
+        }
+      ],
+      "anchors": {
+        "neck": [
+          266,
+          373
+        ],
+        "shoulder-right": [
+          115,
+          393
+        ],
+        "shoulder-left": [
+          403,
+          391
+        ]
+      },
+      "contacts": [
+        {
+          "id": "seat",
+          "kind": "seat",
+          "point": [
+            350,
+            635
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-0",
+          "kind": "foot",
+          "point": [
+            288.5,
+            926
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-1",
+          "kind": "foot",
+          "point": [
+            365.5,
+            926
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-2",
+          "kind": "foot",
+          "point": [
+            476.0,
+            926
+          ],
+          "locked": true
+        },
+        {
+          "id": "foot-3",
+          "kind": "foot",
+          "point": [
+            553.5,
+            926
+          ],
+          "locked": true
+        }
+      ],
+      "attachments": {
+        "cigarette": [
+          622.6706250988411,
+          380.38330341103546
+        ]
+      },
+      "overlay_offsets": {
+        "mouth": [
+          -61,
+          15
+        ],
+        "eyes": [
+          -61,
+          15
+        ]
+      },
+      "anchor_bindings": {
+        "neck": {
+          "layers": [
+            2
+          ],
+          "overlays": [
+            "mouth",
+            "eyes"
+          ],
+          "attachments": []
+        },
+        "shoulder-right": {
+          "layers": [
+            5
+          ],
+          "overlays": [],
+          "attachments": []
+        },
+        "shoulder-left": {
+          "layers": [
+            4
+          ],
+          "overlays": [],
+          "attachments": [
+            "cigarette"
+          ]
+        }
+      }
+    }
+  },
+  "actions": {
+    "idle-seated": {
+      "from": "seated",
+      "to": "seated",
+      "loop": true,
+      "frames": [
+        {
+          "pose": "upright-crossed-neutral",
+          "ticks": 24
+        }
+      ]
+    },
+    "offer": {
+      "label": "Offer",
+      "intent": "offer",
+      "from": "seated",
+      "to": "seated",
+      "loop": false,
+      "frames": [
+        {
+          "pose": "upright-crossed-neutral",
+          "ticks": 2
+        },
+        {
+          "pose": "upright-crossed-offer-turn",
+          "ticks": 2
+        },
+        {
+          "pose": "upright-crossed-offer",
+          "ticks": 23
+        },
+        {
+          "pose": "upright-crossed-offer-turn",
+          "ticks": 2
+        },
+        {
+          "pose": "upright-crossed-neutral",
+          "ticks": 3
+        }
+      ]
+    },
+    "concede": {
+      "label": "Concede",
+      "intent": "concede",
+      "from": "seated",
+      "to": "seated",
+      "loop": false,
+      "frames": [
+        {
+          "pose": "upright-crossed-neutral",
+          "ticks": 2
+        },
+        {
+          "pose": "upright-crossed-offer-turn",
+          "ticks": 2
+        },
+        {
+          "pose": "upright-crossed-concede",
+          "ticks": 23
+        },
+        {
+          "pose": "upright-crossed-offer-turn",
+          "ticks": 2
+        },
+        {
+          "pose": "upright-crossed-neutral",
+          "ticks": 3
+        }
+      ]
+    },
+    "qualify": {
+      "label": "Qualify",
+      "intent": "qualify",
+      "from": "seated",
+      "to": "seated",
+      "loop": false,
+      "frames": [
+        {
+          "pose": "upright-crossed-neutral",
+          "ticks": 2
+        },
+        {
+          "pose": "upright-crossed-qualify-turn",
+          "ticks": 2
+        },
+        {
+          "pose": "upright-crossed-qualify",
+          "ticks": 23
+        },
+        {
+          "pose": "upright-crossed-qualify-turn",
+          "ticks": 2
+        },
+        {
+          "pose": "upright-crossed-neutral",
+          "ticks": 3
+        }
+      ]
+    },
+    "uncross-seated": {
+      "label": "Uncross legs",
+      "intent": "uncross",
+      "from": "seated",
+      "to": "seated_uncrossed",
+      "loop": false,
+      "frames": [
+        {
+          "pose": "upright-crossed-neutral",
+          "ticks": 3
+        },
+        {
+          "pose": "upright-lifting-neutral",
+          "ticks": 5
+        },
+        {
+          "pose": "upright-open-neutral",
+          "ticks": 6
+        }
+      ]
+    },
+    "lean_back-seated": {
+      "label": "Lean back",
+      "intent": "lean_back",
+      "from": "seated",
+      "to": "reclined_crossed",
+      "loop": false,
+      "frames": [
+        {
+          "pose": "upright-crossed-neutral",
+          "ticks": 3
+        },
+        {
+          "pose": "leaning-crossed-neutral",
+          "ticks": 4
+        },
+        {
+          "pose": "back-crossed-neutral",
+          "ticks": 5
+        }
+      ]
+    },
+    "idle-seated_uncrossed": {
+      "from": "seated_uncrossed",
+      "to": "seated_uncrossed",
+      "loop": true,
+      "frames": [
+        {
+          "pose": "upright-open-neutral",
+          "ticks": 24
+        }
+      ]
+    },
+    "offer-seated_uncrossed": {
+      "label": "Offer",
+      "intent": "offer",
+      "from": "seated_uncrossed",
+      "to": "seated_uncrossed",
+      "loop": false,
+      "frames": [
+        {
+          "pose": "upright-open-neutral",
+          "ticks": 2
+        },
+        {
+          "pose": "upright-open-offer-turn",
+          "ticks": 2
+        },
+        {
+          "pose": "upright-open-offer",
+          "ticks": 23
+        },
+        {
+          "pose": "upright-open-offer-turn",
+          "ticks": 2
+        },
+        {
+          "pose": "upright-open-neutral",
+          "ticks": 3
+        }
+      ]
+    },
+    "concede-seated_uncrossed": {
+      "label": "Concede",
+      "intent": "concede",
+      "from": "seated_uncrossed",
+      "to": "seated_uncrossed",
+      "loop": false,
+      "frames": [
+        {
+          "pose": "upright-open-neutral",
+          "ticks": 2
+        },
+        {
+          "pose": "upright-open-offer-turn",
+          "ticks": 2
+        },
+        {
+          "pose": "upright-open-concede",
+          "ticks": 23
+        },
+        {
+          "pose": "upright-open-offer-turn",
+          "ticks": 2
+        },
+        {
+          "pose": "upright-open-neutral",
+          "ticks": 3
+        }
+      ]
+    },
+    "qualify-seated_uncrossed": {
+      "label": "Qualify",
+      "intent": "qualify",
+      "from": "seated_uncrossed",
+      "to": "seated_uncrossed",
+      "loop": false,
+      "frames": [
+        {
+          "pose": "upright-open-neutral",
+          "ticks": 2
+        },
+        {
+          "pose": "upright-open-qualify-turn",
+          "ticks": 2
+        },
+        {
+          "pose": "upright-open-qualify",
+          "ticks": 23
+        },
+        {
+          "pose": "upright-open-qualify-turn",
+          "ticks": 2
+        },
+        {
+          "pose": "upright-open-neutral",
+          "ticks": 3
+        }
+      ]
+    },
+    "cross-seated_uncrossed": {
+      "label": "Cross legs",
+      "intent": "cross",
+      "from": "seated_uncrossed",
+      "to": "seated",
+      "loop": false,
+      "frames": [
+        {
+          "pose": "upright-open-neutral",
+          "ticks": 6
+        },
+        {
+          "pose": "upright-lifting-neutral",
+          "ticks": 5
+        },
+        {
+          "pose": "upright-crossed-neutral",
+          "ticks": 3
+        }
+      ]
+    },
+    "lean_back-seated_uncrossed": {
+      "label": "Lean back",
+      "intent": "lean_back",
+      "from": "seated_uncrossed",
+      "to": "reclined_uncrossed",
+      "loop": false,
+      "frames": [
+        {
+          "pose": "upright-open-neutral",
+          "ticks": 3
+        },
+        {
+          "pose": "leaning-open-neutral",
+          "ticks": 4
+        },
+        {
+          "pose": "back-open-neutral",
+          "ticks": 5
+        }
+      ]
+    },
+    "idle-reclined_crossed": {
+      "from": "reclined_crossed",
+      "to": "reclined_crossed",
+      "loop": true,
+      "frames": [
+        {
+          "pose": "back-crossed-neutral",
+          "ticks": 24
+        }
+      ]
+    },
+    "offer-reclined_crossed": {
+      "label": "Offer",
+      "intent": "offer",
+      "from": "reclined_crossed",
+      "to": "reclined_crossed",
+      "loop": false,
+      "frames": [
+        {
+          "pose": "back-crossed-neutral",
+          "ticks": 2
+        },
+        {
+          "pose": "back-crossed-offer-turn",
+          "ticks": 2
+        },
+        {
+          "pose": "back-crossed-offer",
+          "ticks": 23
+        },
+        {
+          "pose": "back-crossed-offer-turn",
+          "ticks": 2
+        },
+        {
+          "pose": "back-crossed-neutral",
+          "ticks": 3
+        }
+      ]
+    },
+    "concede-reclined_crossed": {
+      "label": "Concede",
+      "intent": "concede",
+      "from": "reclined_crossed",
+      "to": "reclined_crossed",
+      "loop": false,
+      "frames": [
+        {
+          "pose": "back-crossed-neutral",
+          "ticks": 2
+        },
+        {
+          "pose": "back-crossed-offer-turn",
+          "ticks": 2
+        },
+        {
+          "pose": "back-crossed-concede",
+          "ticks": 23
+        },
+        {
+          "pose": "back-crossed-offer-turn",
+          "ticks": 2
+        },
+        {
+          "pose": "back-crossed-neutral",
+          "ticks": 3
+        }
+      ]
+    },
+    "qualify-reclined_crossed": {
+      "label": "Qualify",
+      "intent": "qualify",
+      "from": "reclined_crossed",
+      "to": "reclined_crossed",
+      "loop": false,
+      "frames": [
+        {
+          "pose": "back-crossed-neutral",
+          "ticks": 2
+        },
+        {
+          "pose": "back-crossed-qualify-turn",
+          "ticks": 2
+        },
+        {
+          "pose": "back-crossed-qualify",
+          "ticks": 23
+        },
+        {
+          "pose": "back-crossed-qualify-turn",
+          "ticks": 2
+        },
+        {
+          "pose": "back-crossed-neutral",
+          "ticks": 3
+        }
+      ]
+    },
+    "uncross-reclined_crossed": {
+      "label": "Uncross legs",
+      "intent": "uncross",
+      "from": "reclined_crossed",
+      "to": "reclined_uncrossed",
+      "loop": false,
+      "frames": [
+        {
+          "pose": "back-crossed-neutral",
+          "ticks": 3
+        },
+        {
+          "pose": "back-lifting-neutral",
+          "ticks": 5
+        },
+        {
+          "pose": "back-open-neutral",
+          "ticks": 6
+        }
+      ]
+    },
+    "sit_upright-reclined_crossed": {
+      "label": "Sit upright",
+      "intent": "sit_upright",
+      "from": "reclined_crossed",
+      "to": "seated",
+      "loop": false,
+      "frames": [
+        {
+          "pose": "back-crossed-neutral",
+          "ticks": 5
+        },
+        {
+          "pose": "leaning-crossed-neutral",
+          "ticks": 4
+        },
+        {
+          "pose": "upright-crossed-neutral",
+          "ticks": 3
+        }
+      ]
+    },
+    "idle-reclined_uncrossed": {
+      "from": "reclined_uncrossed",
+      "to": "reclined_uncrossed",
+      "loop": true,
+      "frames": [
+        {
+          "pose": "back-open-neutral",
+          "ticks": 24
+        }
+      ]
+    },
+    "offer-reclined_uncrossed": {
+      "label": "Offer",
+      "intent": "offer",
+      "from": "reclined_uncrossed",
+      "to": "reclined_uncrossed",
+      "loop": false,
+      "frames": [
+        {
+          "pose": "back-open-neutral",
+          "ticks": 2
+        },
+        {
+          "pose": "back-open-offer-turn",
+          "ticks": 2
+        },
+        {
+          "pose": "back-open-offer",
+          "ticks": 23
+        },
+        {
+          "pose": "back-open-offer-turn",
+          "ticks": 2
+        },
+        {
+          "pose": "back-open-neutral",
+          "ticks": 3
+        }
+      ]
+    },
+    "concede-reclined_uncrossed": {
+      "label": "Concede",
+      "intent": "concede",
+      "from": "reclined_uncrossed",
+      "to": "reclined_uncrossed",
+      "loop": false,
+      "frames": [
+        {
+          "pose": "back-open-neutral",
+          "ticks": 2
+        },
+        {
+          "pose": "back-open-offer-turn",
+          "ticks": 2
+        },
+        {
+          "pose": "back-open-concede",
+          "ticks": 23
+        },
+        {
+          "pose": "back-open-offer-turn",
+          "ticks": 2
+        },
+        {
+          "pose": "back-open-neutral",
+          "ticks": 3
+        }
+      ]
+    },
+    "qualify-reclined_uncrossed": {
+      "label": "Qualify",
+      "intent": "qualify",
+      "from": "reclined_uncrossed",
+      "to": "reclined_uncrossed",
+      "loop": false,
+      "frames": [
+        {
+          "pose": "back-open-neutral",
+          "ticks": 2
+        },
+        {
+          "pose": "back-open-qualify-turn",
+          "ticks": 2
+        },
+        {
+          "pose": "back-open-qualify",
+          "ticks": 23
+        },
+        {
+          "pose": "back-open-qualify-turn",
+          "ticks": 2
+        },
+        {
+          "pose": "back-open-neutral",
+          "ticks": 3
+        }
+      ]
+    },
+    "cross-reclined_uncrossed": {
+      "label": "Cross legs",
+      "intent": "cross",
+      "from": "reclined_uncrossed",
+      "to": "reclined_crossed",
+      "loop": false,
+      "frames": [
+        {
+          "pose": "back-open-neutral",
+          "ticks": 6
+        },
+        {
+          "pose": "back-lifting-neutral",
+          "ticks": 5
+        },
+        {
+          "pose": "back-crossed-neutral",
+          "ticks": 3
+        }
+      ]
+    },
+    "sit_upright-reclined_uncrossed": {
+      "label": "Sit upright",
+      "intent": "sit_upright",
+      "from": "reclined_uncrossed",
+      "to": "seated_uncrossed",
+      "loop": false,
+      "frames": [
+        {
+          "pose": "back-open-neutral",
+          "ticks": 5
+        },
+        {
+          "pose": "leaning-open-neutral",
+          "ticks": 4
+        },
+        {
+          "pose": "upright-open-neutral",
+          "ticks": 3
+        }
+      ]
+    }
+  },
+  "overlays": {
+    "mouth": {
+      "z": 50,
+      "drawings": {
+        "A": "mouth-A",
+        "B": "mouth-B",
+        "C": "mouth-C",
+        "D": "mouth-D",
+        "E": "mouth-E",
+        "F": "mouth-F",
+        "G": "mouth-G",
+        "H": "mouth-H",
+        "X": "mouth-X",
+        "AB-1": "mouth-AB-1",
+        "AB-2": "mouth-AB-2",
+        "AC-1": "mouth-AC-1",
+        "AC-2": "mouth-AC-2",
+        "AD-1": "mouth-AD-1",
+        "AD-2": "mouth-AD-2",
+        "AE-1": "mouth-AE-1",
+        "AE-2": "mouth-AE-2",
+        "AF-1": "mouth-AF-1",
+        "AF-2": "mouth-AF-2",
+        "AG-1": "mouth-AG-1",
+        "AG-2": "mouth-AG-2",
+        "AH-1": "mouth-AH-1",
+        "AH-2": "mouth-AH-2",
+        "AX-1": "mouth-AX-1",
+        "AX-2": "mouth-AX-2",
+        "BC-1": "mouth-BC-1",
+        "BC-2": "mouth-BC-2",
+        "BD-1": "mouth-BD-1",
+        "BD-2": "mouth-BD-2",
+        "BE-1": "mouth-BE-1",
+        "BE-2": "mouth-BE-2",
+        "BF-1": "mouth-BF-1",
+        "BF-2": "mouth-BF-2",
+        "BG-1": "mouth-BG-1",
+        "BG-2": "mouth-BG-2",
+        "BH-1": "mouth-BH-1",
+        "BH-2": "mouth-BH-2",
+        "BX-1": "mouth-BX-1",
+        "BX-2": "mouth-BX-2",
+        "CD-1": "mouth-CD-1",
+        "CD-2": "mouth-CD-2",
+        "CE-1": "mouth-CE-1",
+        "CE-2": "mouth-CE-2",
+        "CF-1": "mouth-CF-1",
+        "CF-2": "mouth-CF-2",
+        "CG-1": "mouth-CG-1",
+        "CG-2": "mouth-CG-2",
+        "CH-1": "mouth-CH-1",
+        "CH-2": "mouth-CH-2",
+        "CX-1": "mouth-CX-1",
+        "CX-2": "mouth-CX-2",
+        "DE-1": "mouth-DE-1",
+        "DE-2": "mouth-DE-2",
+        "DF-1": "mouth-DF-1",
+        "DF-2": "mouth-DF-2",
+        "DG-1": "mouth-DG-1",
+        "DG-2": "mouth-DG-2",
+        "DH-1": "mouth-DH-1",
+        "DH-2": "mouth-DH-2",
+        "DX-1": "mouth-DX-1",
+        "DX-2": "mouth-DX-2",
+        "EF-1": "mouth-EF-1",
+        "EF-2": "mouth-EF-2",
+        "EG-1": "mouth-EG-1",
+        "EG-2": "mouth-EG-2",
+        "EH-1": "mouth-EH-1",
+        "EH-2": "mouth-EH-2",
+        "EX-1": "mouth-EX-1",
+        "EX-2": "mouth-EX-2",
+        "FG-1": "mouth-FG-1",
+        "FG-2": "mouth-FG-2",
+        "FH-1": "mouth-FH-1",
+        "FH-2": "mouth-FH-2",
+        "FX-1": "mouth-FX-1",
+        "FX-2": "mouth-FX-2",
+        "GH-1": "mouth-GH-1",
+        "GH-2": "mouth-GH-2",
+        "GX-1": "mouth-GX-1",
+        "GX-2": "mouth-GX-2",
+        "HX-1": "mouth-HX-1",
+        "HX-2": "mouth-HX-2"
+      }
+    },
+    "eyes": {
+      "z": 60,
+      "drawings": {
+        "partner-open": "eyes-partner-open",
+        "partner-half": "eyes-partner-half",
+        "partner-closed": "eyes-partner-closed",
+        "camera-open": "eyes-camera-open",
+        "camera-half": "eyes-camera-half",
+        "camera-closed": "eyes-camera-closed"
+      }
+    }
+  },
+  "artwork": {
+    "status": "Existing interview test cast; not the original game cast.",
+    "hands": {
+      "free": "right",
+      "cigarette": "left"
+    },
+    "digits": 4,
+    "playback": "Saved drawings only; no bone/mesh deformation or crossfades.",
+    "postures": {
+      "registration_sha256": "784187dfc84459b1b4062ceaf0d8fee8308831d1126802588fbd556506e8a79d",
+      "sources": {
+        "krusty-bodies.png": "73cad9223ecb43866c52aa95e6340f5eb7b782b039b3727c53a01f1f8da1c307",
+        "krusty-body-transitions.png": "b4346ace1a37fbf54b9674457abfbd6aa5397eb66c7860e90a01ec9ed1e8e92f",
+        "krusty-bodies-uncrossed.png": "3a6c0aad5148008f227ddfc0ad5af3da35d3e00e2325a602aef71bfa73edb128",
+        "krusty-bodies-uncrossed-lean.png": "c9aa18782a4be02f794bad0cb66bfbc762a2ec748d3661fd8fa3f27b45e8f4ea",
+        "krusty-qualify.png": "d3c8601634a0905faf231aa6bfde2dca800b079dccb160c7d57f84475dcc2d96"
+      },
+      "construction": "Complete torso-and-leg drawings; identical-pixel masks control chair/head occlusion. Separate rigid whole arms."
+    }
+  },
+  "activities": {
+    "seated": {
+      "label": "Seated conversation",
+      "views": [
+        "three-quarter-right"
+      ]
+    }
+  }
+}

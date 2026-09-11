@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "id": "fromm-study",
+  "character": "character.json",
+  "model": {
+    "file": "model.png",
+    "sha256": "12b5a2de513fdd941b128dc10cb6ae402ac9b8285a1e6ab9360f8ae2cd80ea3f"
+  },
+  "design": "Seated interview test cast. Four settled body poses, separate whole arms, facial overlays, anatomical handedness and chair occlusion. Retain grayscale ink and four digits; review every complete pose and its face variants in context.",
+  "workflow": "Model and complete poses in context \u2192 individual drawings \u2192 visual review \u2192 atlas export.",
+  "reviews": {}
+}

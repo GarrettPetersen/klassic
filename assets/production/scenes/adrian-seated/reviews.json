@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "reviews": {
+    "scene:waiting-room": {
+      "decision": "approved",
+      "reviewer": "Codex visual review",
+      "notes": "Inspected the closer seated reference composition in the actual renderer: full head and both feet visible, pelvis meets the cushion, legs remain in front of chair, far hand lies on the thigh. Approval covers this reference composition only.",
+      "signature": "5e45824c88bbd77dd95da0e8dcbb209ede1af611de77cf04ee9f92d07c18794a",
+      "proof": {
+        "file": "proofs/eb066934cd5093d6f54296c983b2458508991356074e7c1cad44868f7e8f09c6.png",
+        "sha256": "eb066934cd5093d6f54296c983b2458508991356074e7c1cad44868f7e8f09c6"
+      }
+    }
+  }
+}

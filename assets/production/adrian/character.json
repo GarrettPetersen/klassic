@@ -1,0 +1,920 @@
+{
+  "version": 1,
+  "id": "adrian",
+  "name": "Adrian Vale",
+  "origin": [
+    360,
+    960
+  ],
+  "fps": 24,
+  "initial_state": "standing",
+  "activities": {
+    "standing": {
+      "label": "Standing",
+      "views": [
+        "three-quarter-right",
+        "front"
+      ]
+    },
+    "walking": {
+      "label": "Walking",
+      "views": [
+        "three-quarter-right"
+      ]
+    },
+    "seated": {
+      "label": "Seated",
+      "views": [
+        "three-quarter-right"
+      ]
+    }
+  },
+  "drawings": {
+    "standing": {
+      "file": "drawings/standing.png",
+      "sha256": "7941150c05bdd838098ae7fbda34c8266b557b2f7db4926a340132b3e161a887",
+      "position": [
+        69,
+        95
+      ],
+      "size": [
+        673,
+        898
+      ]
+    },
+    "walk-contact": {
+      "file": "drawings/walk-contact.png",
+      "sha256": "b91a0b95b19c33a50f180e50292225d633b48acaf97f86a5de673fabda38f29a",
+      "position": [
+        25,
+        95
+      ],
+      "size": [
+        673,
+        898
+      ]
+    },
+    "walk-pass": {
+      "file": "drawings/walk-pass.png",
+      "sha256": "5c9f09ad66d7aac434305987aaa9093db512ca495743f1808a77ae04fc175a4c",
+      "position": [
+        31,
+        95
+      ],
+      "size": [
+        673,
+        898
+      ]
+    },
+    "walk-opposite": {
+      "file": "drawings/walk-opposite.png",
+      "sha256": "ed7fdd74ce9a613a5d1b8234dbb5a04066f8b75c1f2cc5a56cc187975db0db16",
+      "position": [
+        25,
+        95
+      ],
+      "size": [
+        673,
+        898
+      ]
+    },
+    "sit-transition": {
+      "file": "drawings/sit-transition.png",
+      "sha256": "c707944ea1884a6bfbb3eebd164f42896b577671c4119233408dc17cf04671ba",
+      "position": [
+        -11,
+        189
+      ],
+      "size": [
+        630,
+        840
+      ]
+    },
+    "seated-base": {
+      "file": "drawings/seated-base.png",
+      "sha256": "49d9718ac0f7182c16481df55302f1c5629c5137fe1a3b96fc4d90c6a8de6da7",
+      "position": [
+        2,
+        221
+      ],
+      "size": [
+        608,
+        811
+      ]
+    },
+    "near-rest": {
+      "file": "drawings/near-rest.png",
+      "sha256": "0b17e8087461d44ea372e612b31b6eb986dcbe31290531f1dab5879d61ecdf71",
+      "position": [
+        2,
+        221
+      ],
+      "size": [
+        608,
+        811
+      ]
+    },
+    "near-offer": {
+      "file": "drawings/near-offer.png",
+      "sha256": "ee944f2c350984720637d368698005c10d981adf63e6bf00d1843e290fd7fef3",
+      "position": [
+        2,
+        221
+      ],
+      "size": [
+        608,
+        811
+      ]
+    },
+    "short-step": {
+      "file": "drawings/short-step.png",
+      "sha256": "0bfb1ca6257abfc27a6287b43880b01e9a55b056a9dd752925987c98965441e8",
+      "position": [
+        69,
+        95
+      ],
+      "size": [
+        673,
+        898
+      ]
+    },
+    "front": {
+      "file": "drawings/front.png",
+      "sha256": "541671ce6e373de43a254c6c9947326c9fc3e65698e80f22b8cdaa1467869400",
+      "position": [
+        27,
+        92
+      ],
+      "size": [
+        673,
+        898
+      ]
+    },
+    "near-low": {
+      "file": "drawings/near-low.png",
+      "sha256": "0630c8b45983543d4e33afc49391bff8907494c357fae496326a2ed25d721f52",
+      "position": [
+        2,
+        221
+      ],
+      "size": [
+        608,
+        811
+      ]
+    },
+    "far-rest-rear": {
+      "file": "drawings/far-rest-rear.png",
+      "sha256": "aa6fa2d6c85af076e7f5d5f7bd0e3a41561300b768e977dca84f76e3fe3e2a6e",
+      "position": [
+        -8,
+        148
+      ],
+      "size": [
+        608,
+        811
+      ]
+    },
+    "far-rest-front": {
+      "file": "drawings/far-rest-front.png",
+      "sha256": "f687f294dd083f8182b6130c48a870888ad6290af16846d704d881fee8fc3aa0",
+      "position": [
+        -8,
+        148
+      ],
+      "size": [
+        608,
+        811
+      ]
+    }
+  },
+  "poses": {
+    "standing": {
+      "layers": [
+        {
+          "drawing": "standing",
+          "z": 20
+        }
+      ],
+      "attachments": {},
+      "anchors": {
+        "root": [
+          360,
+          960
+        ]
+      },
+      "contacts": [
+        {
+          "id": "support",
+          "kind": "foot",
+          "point": [
+            360,
+            960
+          ],
+          "locked": true
+        }
+      ]
+    },
+    "walk-contact": {
+      "layers": [
+        {
+          "drawing": "walk-contact",
+          "z": 20
+        }
+      ],
+      "attachments": {},
+      "anchors": {
+        "root": [
+          360,
+          960
+        ]
+      },
+      "contacts": [
+        {
+          "id": "support",
+          "kind": "foot",
+          "point": [
+            360,
+            960
+          ],
+          "locked": false
+        }
+      ]
+    },
+    "walk-pass": {
+      "layers": [
+        {
+          "drawing": "walk-pass",
+          "z": 20
+        }
+      ],
+      "attachments": {},
+      "anchors": {
+        "root": [
+          360,
+          960
+        ]
+      },
+      "contacts": [
+        {
+          "id": "support",
+          "kind": "foot",
+          "point": [
+            360,
+            960
+          ],
+          "locked": false
+        }
+      ]
+    },
+    "walk-opposite": {
+      "layers": [
+        {
+          "drawing": "walk-opposite",
+          "z": 20
+        }
+      ],
+      "attachments": {},
+      "anchors": {
+        "root": [
+          360,
+          960
+        ]
+      },
+      "contacts": [
+        {
+          "id": "support",
+          "kind": "foot",
+          "point": [
+            360,
+            960
+          ],
+          "locked": false
+        }
+      ]
+    },
+    "sit-transition": {
+      "layers": [
+        {
+          "drawing": "sit-transition",
+          "z": 20
+        }
+      ],
+      "attachments": {},
+      "anchors": {
+        "root": [
+          360,
+          960
+        ]
+      },
+      "contacts": [
+        {
+          "id": "support",
+          "kind": "foot",
+          "point": [
+            360,
+            960
+          ],
+          "locked": false
+        }
+      ]
+    },
+    "seated": {
+      "layers": [
+        {
+          "drawing": "far-rest-rear",
+          "z": 10
+        },
+        {
+          "drawing": "seated-base",
+          "z": 20
+        },
+        {
+          "drawing": "near-rest",
+          "z": 40
+        },
+        {
+          "drawing": "far-rest-front",
+          "z": 35
+        }
+      ],
+      "anchors": {
+        "root": [
+          360,
+          960
+        ],
+        "neck": [
+          272,
+          402
+        ],
+        "shoulder-right": [
+          195,
+          437
+        ],
+        "shoulder-left": [
+          340,
+          441
+        ]
+      },
+      "attachments": {},
+      "contacts": [
+        {
+          "id": "right-foot",
+          "kind": "foot",
+          "point": [
+            360,
+            960
+          ],
+          "locked": true
+        },
+        {
+          "id": "left-foot",
+          "kind": "foot",
+          "point": [
+            467,
+            932
+          ],
+          "locked": true
+        },
+        {
+          "id": "seat",
+          "kind": "seat",
+          "point": [
+            198,
+            696
+          ],
+          "locked": true
+        }
+      ],
+      "anchor_bindings": {
+        "shoulder-right": {
+          "layers": [
+            2
+          ],
+          "overlays": [],
+          "attachments": []
+        },
+        "shoulder-left": {
+          "layers": [
+            0,
+            3
+          ],
+          "overlays": [],
+          "attachments": []
+        }
+      }
+    },
+    "offer": {
+      "layers": [
+        {
+          "drawing": "far-rest-rear",
+          "z": 10
+        },
+        {
+          "drawing": "seated-base",
+          "z": 20
+        },
+        {
+          "drawing": "near-offer",
+          "z": 40
+        },
+        {
+          "drawing": "far-rest-front",
+          "z": 35
+        }
+      ],
+      "anchors": {
+        "root": [
+          360,
+          960
+        ],
+        "neck": [
+          272,
+          402
+        ],
+        "shoulder-right": [
+          195,
+          437
+        ],
+        "shoulder-left": [
+          340,
+          441
+        ]
+      },
+      "attachments": {},
+      "contacts": [
+        {
+          "id": "right-foot",
+          "kind": "foot",
+          "point": [
+            360,
+            960
+          ],
+          "locked": true
+        },
+        {
+          "id": "left-foot",
+          "kind": "foot",
+          "point": [
+            467,
+            932
+          ],
+          "locked": true
+        },
+        {
+          "id": "seat",
+          "kind": "seat",
+          "point": [
+            198,
+            696
+          ],
+          "locked": true
+        }
+      ],
+      "anchor_bindings": {
+        "shoulder-right": {
+          "layers": [
+            2
+          ],
+          "overlays": [],
+          "attachments": []
+        },
+        "shoulder-left": {
+          "layers": [
+            0,
+            3
+          ],
+          "overlays": [],
+          "attachments": []
+        }
+      }
+    },
+    "offer-anticipate": {
+      "layers": [
+        {
+          "drawing": "far-rest-rear",
+          "z": 10
+        },
+        {
+          "drawing": "seated-base",
+          "z": 20
+        },
+        {
+          "drawing": "near-low",
+          "z": 40
+        },
+        {
+          "drawing": "far-rest-front",
+          "z": 35
+        }
+      ],
+      "anchors": {
+        "root": [
+          360,
+          960
+        ],
+        "neck": [
+          272,
+          402
+        ],
+        "shoulder-right": [
+          195,
+          437
+        ],
+        "shoulder-left": [
+          340,
+          441
+        ]
+      },
+      "attachments": {},
+      "contacts": [
+        {
+          "id": "right-foot",
+          "kind": "foot",
+          "point": [
+            360,
+            960
+          ],
+          "locked": true
+        },
+        {
+          "id": "left-foot",
+          "kind": "foot",
+          "point": [
+            467,
+            932
+          ],
+          "locked": true
+        },
+        {
+          "id": "seat",
+          "kind": "seat",
+          "point": [
+            198,
+            696
+          ],
+          "locked": true
+        }
+      ],
+      "anchor_bindings": {
+        "shoulder-right": {
+          "layers": [
+            2
+          ],
+          "overlays": [],
+          "attachments": []
+        },
+        "shoulder-left": {
+          "layers": [
+            0,
+            3
+          ],
+          "overlays": [],
+          "attachments": []
+        }
+      }
+    },
+    "short-step": {
+      "layers": [
+        {
+          "drawing": "short-step",
+          "z": 20
+        }
+      ],
+      "attachments": {},
+      "anchors": {
+        "root": [
+          360,
+          960
+        ]
+      },
+      "contacts": [
+        {
+          "id": "support",
+          "kind": "foot",
+          "point": [
+            360,
+            960
+          ],
+          "locked": false
+        }
+      ]
+    },
+    "front": {
+      "layers": [
+        {
+          "drawing": "front",
+          "z": 20
+        }
+      ],
+      "attachments": {},
+      "anchors": {
+        "root": [
+          360,
+          960
+        ]
+      },
+      "contacts": [
+        {
+          "id": "support",
+          "kind": "foot",
+          "point": [
+            360,
+            960
+          ],
+          "locked": true
+        }
+      ]
+    }
+  },
+  "overlays": {},
+  "actions": {
+    "stand": {
+      "from": "standing",
+      "to": "standing",
+      "loop": true,
+      "frames": [
+        {
+          "pose": "standing",
+          "ticks": 24
+        }
+      ]
+    },
+    "rest": {
+      "from": "seated",
+      "to": "seated",
+      "loop": true,
+      "frames": [
+        {
+          "pose": "seated",
+          "ticks": 24
+        }
+      ]
+    },
+    "stride": {
+      "from": "standing",
+      "to": "standing",
+      "loop": false,
+      "label": "Walk a stride",
+      "intent": "walk",
+      "frames": [
+        {
+          "pose": "standing",
+          "ticks": 1
+        },
+        {
+          "pose": "walk-contact",
+          "ticks": 5
+        },
+        {
+          "pose": "walk-pass",
+          "ticks": 5
+        },
+        {
+          "pose": "walk-opposite",
+          "ticks": 5
+        },
+        {
+          "pose": "walk-pass",
+          "ticks": 5
+        },
+        {
+          "pose": "standing",
+          "ticks": 3
+        }
+      ],
+      "capability": {
+        "activity": "walking",
+        "view": "three-quarter-right"
+      },
+      "motion": {
+        "displacement": [
+          220,
+          0
+        ],
+        "roots": [
+          [
+            0,
+            0
+          ],
+          [
+            20,
+            0
+          ],
+          [
+            70,
+            0
+          ],
+          [
+            125,
+            0
+          ],
+          [
+            180,
+            0
+          ],
+          [
+            220,
+            0
+          ]
+        ]
+      },
+      "navigation": {
+        "family": "walk",
+        "kind": "stride"
+      }
+    },
+    "sit": {
+      "from": "standing",
+      "to": "seated",
+      "loop": false,
+      "label": "Sit down",
+      "intent": "sit",
+      "frames": [
+        {
+          "pose": "standing",
+          "ticks": 4
+        },
+        {
+          "pose": "sit-transition",
+          "ticks": 8
+        },
+        {
+          "pose": "seated",
+          "ticks": 12
+        }
+      ]
+    },
+    "rise": {
+      "from": "seated",
+      "to": "standing",
+      "loop": false,
+      "label": "Stand up",
+      "intent": "stand",
+      "frames": [
+        {
+          "pose": "seated",
+          "ticks": 4
+        },
+        {
+          "pose": "sit-transition",
+          "ticks": 8
+        },
+        {
+          "pose": "standing",
+          "ticks": 12
+        }
+      ]
+    },
+    "offer": {
+      "from": "seated",
+      "to": "seated",
+      "loop": false,
+      "label": "Explain",
+      "intent": "offer",
+      "frames": [
+        {
+          "pose": "seated",
+          "ticks": 4
+        },
+        {
+          "pose": "offer-anticipate",
+          "ticks": 4
+        },
+        {
+          "pose": "offer",
+          "ticks": 24
+        },
+        {
+          "pose": "offer-anticipate",
+          "ticks": 5
+        },
+        {
+          "pose": "seated",
+          "ticks": 7
+        }
+      ]
+    },
+    "face-front": {
+      "from": "front",
+      "to": "front",
+      "loop": true,
+      "frames": [
+        {
+          "pose": "front",
+          "ticks": 24
+        }
+      ]
+    },
+    "short-step": {
+      "from": "standing",
+      "to": "standing",
+      "loop": false,
+      "intent": "short-step",
+      "label": "Short stopping step",
+      "navigation": {
+        "family": "walk",
+        "kind": "stop"
+      },
+      "capability": {
+        "activity": "walking",
+        "view": "three-quarter-right"
+      },
+      "frames": [
+        {
+          "pose": "standing",
+          "ticks": 3
+        },
+        {
+          "pose": "short-step",
+          "ticks": 6
+        },
+        {
+          "pose": "standing",
+          "ticks": 5
+        }
+      ],
+      "motion": {
+        "displacement": [
+          80,
+          0
+        ],
+        "roots": [
+          [
+            0,
+            0
+          ],
+          [
+            40,
+            0
+          ],
+          [
+            80,
+            0
+          ]
+        ]
+      }
+    },
+    "turn-front": {
+      "from": "standing",
+      "to": "front",
+      "loop": false,
+      "intent": "turn-front",
+      "label": "Face camera",
+      "navigation": {
+        "family": "walk",
+        "kind": "turn"
+      },
+      "frames": [
+        {
+          "pose": "standing",
+          "ticks": 3
+        },
+        {
+          "pose": "front",
+          "ticks": 5
+        }
+      ]
+    },
+    "turn-right": {
+      "from": "front",
+      "to": "standing",
+      "loop": false,
+      "intent": "turn-right",
+      "label": "Face right",
+      "navigation": {
+        "family": "walk",
+        "kind": "turn"
+      },
+      "frames": [
+        {
+          "pose": "front",
+          "ticks": 3
+        },
+        {
+          "pose": "standing",
+          "ticks": 5
+        }
+      ]
+    }
+  },
+  "states": {
+    "standing": {
+      "pose": "standing",
+      "idle": "stand",
+      "activity": "standing",
+      "view": "three-quarter-right"
+    },
+    "seated": {
+      "pose": "seated",
+      "idle": "rest",
+      "activity": "seated",
+      "view": "three-quarter-right"
+    },
+    "front": {
+      "pose": "front",
+      "idle": "face-front",
+      "activity": "standing",
+      "view": "front"
+    }
+  }
+}

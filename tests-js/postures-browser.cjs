@@ -23,11 +23,11 @@ const fs=require('node:fs/promises');
      assert(view.layers.some(l=>l.id.startsWith('free-')));assert(view.layers.some(l=>l.id.startsWith('cigarette-')));
      assert(!view.layers.some(l=>/posture.*arm/.test(l.id)),'Postures must reuse original arm sprites');
      if(state.startsWith('reclined'))assert(view.layers.some(l=>l.degrees!==0),'Reclined arms use rigid placements');
-     if(state.endsWith('_uncrossed')) {
-      const depth=prefix=>view.layers.find(l=>l.id.startsWith(prefix)).z;
-      assert(depth('posture-pelvis')<depth(state.startsWith('reclined')?'posture-torso-':'posture-upright'),'Waist and seat must stay behind the jacket');
-      assert(depth('posture-thighs-')>depth(state.startsWith('reclined')?'posture-torso-':'posture-upright'),'Forward thighs must overlap the jacket');
-     }
+     const bodies=view.layers.filter(l=>l.id.startsWith('posture-body-'));
+     assert.equal(bodies.length,1,'Every posture uses one complete torso-and-leg drawing');
+     assert(bodies[0].z<30,'The seated body belongs behind the chair front');
+     assert(view.layers.find(l=>l.id.startsWith('posture-legs-front-')).z>30,'Front legs overlap the cushion edge');
+     assert(!view.layers.some(l=>/posture-(pelvis|thighs|torso)|lap-front/.test(l.id)),'No stitched torso/hip/leg pieces remain');
      if(state.startsWith('reclined'))assert(view.layers.find(l=>l.id.startsWith('posture-collar-')).z>view.layers.find(l=>l.id==='posture-head').z,'Front collar overlaps the neck base');
      await step(30);assert.equal(await page.evaluate(id=>window.mvp.actors[id].state,actor),state);
     }
@@ -57,7 +57,7 @@ const fs=require('node:fs/promises');
    await page.getByRole('button',{name:'Lean back',exact:true}).click();await step(24);
   }
   await page.locator('canvas').screenshot({path:'build/seated-mvp/reclined-uncrossed-preview.png'});
-  assert(await page.evaluate(()=>window.mvp.project.scene.foregrounds.some(f=>f.file.includes('table')&&f.z>40)));
+  assert(await page.evaluate(()=>window.mvp.project.scenes[window.mvp.project.initial_scene].foregrounds.some(f=>f.file.includes('table')&&f.z>40)));
   await page.getByRole('button',{name:'Start over',exact:true}).click();
   assert(await page.evaluate(()=>Object.values(window.mvp.actors).every(a=>a.state==='seated')));
   await page.getByRole('button',{name:'Rehearsal room',exact:true}).click();

@@ -9,10 +9,16 @@ The first production source is **Erich Fromm on The Mike Wallace Interview (May 
 The narrative-game direction uses **saved poses and drawn transitions**, with
 separate character, action, dialogue and scene packages. See the
 [animation plan](docs/game-animation-pipeline.md) and
-[seated conversation MVP](examples/seated/README.md).
+[seated conversation MVP](examples/seated/README.md). The
+[production workflow](docs/production-workflow.md) adds individual source drawings,
+a review workbench, atlas export, movement and session persistence; the
+[seated reference and arrival study](examples/arrival/README.md) use an original character.
+The workbench edits registration and tracks independent art/pose/face/timing/scene
+reviews. Performance recordings now replay speech and support seeking.
 
 ```sh
 npm run build:mvp
+npm run build:production
 npm test
 npm run serve:mvp
 ```

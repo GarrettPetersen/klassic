@@ -71,7 +71,8 @@ const URL='http://127.0.0.1:8765/web/player/';
           }
           return [...new Set(observed)];
         },{actor});
-        assert(poses.includes('neutral')&&poses.length===3,`${actor}/${action}: ${poses}`);
+        const neutral=await page.evaluate(id=>{const a=window.mvp.actors[id];return a.spec.states[a.state].pose},actor);
+        assert(poses.includes(neutral)&&poses.length===3,`${actor}/${action}: ${poses}`);
         audit[`${actor}/${action}`]=poses;
       }
       await page.getByRole('button',{name:'Look at camera',exact:true}).click();
@@ -90,8 +91,9 @@ const URL='http://127.0.0.1:8765/web/player/';
     assert.equal(await page.locator('#error').isHidden(),true);
     assert.deepEqual(errors,[]);
     // Corrupt an asset deliberately: the player must show the actual failure.
+    const assetFile=await page.evaluate(()=>Object.values(Object.values(window.mvp.actors)[0].spec.drawings)[0].file);
     const broken=await browser.newPage();
-    await broken.route('**/krusty-study/body.png',route=>route.fulfill({status:200,contentType:'image/png',body:'corrupt'}));
+    await broken.route('**/krusty-study/'+assetFile,route=>route.fulfill({status:200,contentType:'image/png',body:'corrupt'}));
     await broken.goto(URL);
     await broken.waitForFunction(()=>!document.getElementById('error').hidden);
     assert.match(await broken.locator('#error').textContent(),/Asset changed after export/);

@@ -10,13 +10,13 @@
 <header class="masthead"><div><a class="wordmark" href="./index.html">On the record<span class="period">.</span></a><p>A conversation study</p></div><span class="signal" id="signal">Off air</span></header>
 <main>
 <section class="studio" aria-label="Interview stage">
-<div class="screen"><canvas id="stage" aria-label="Two seated characters in a television studio"></canvas><div id="loading" role="status">Preparing the studio…</div></div>
+<div class="screen"><canvas id="stage" aria-label="Animated scene"></canvas><div id="loading" role="status">Preparing the studio…</div></div>
 <div class="transport"><button id="pause" disabled>Pause</button><button id="skip" disabled>Skip line</button><button id="restart" disabled>Start over</button><button id="mute" disabled aria-pressed="false">Mute</button><button id="lab-toggle" disabled aria-expanded="false" aria-controls="lab">Rehearsal room</button></div>
 <fieldset id="performance" class="performance" disabled>
 <legend>Perform a gesture</legend>
 <label>Performer <select id="performer"></select></label>
 <div class="performance-actions"><div id="gestures" class="gesture-buttons"></div><button id="gaze" aria-pressed="false">Look at camera</button></div>
-<p>Choose either speaker. The interview keeps playing.</p>
+<p>Choose a performer. Actions return to the current posture.</p>
 </fieldset>
 </section>
 <section class="conversation" aria-label="Conversation">
@@ -30,9 +30,14 @@
 <button id="sample">Play speech sample</button><button id="step">Step one frame</button>
 <output id="pose-status"></output>
 </section>
+<details class="session-tools"><summary>Save, replay and animation tools</summary><div class="lab"><a id="workbench" href="../review/">Open animation workbench</a>
+<button id="save-session">Save session</button><button id="load-session">Load session</button>
+<button id="recording-export">Export performance</button><label>Replay performance <input id="recording-import" type="file" accept="application/json"></label>
+<label id="replay-position-wrap" hidden>Replay position<input id="replay-position" type="range" min="0" max="1" step="0.01" value="0"></label><button id="run-scene" hidden>Play scene study</button><output id="session-status" role="status"></output>
+</div></details>
 <div id="error" role="alert" hidden></div>
 </main>
-<footer><p>Seated conversation MVP · existing interview test cast</p><a href="../../docs/game-animation-pipeline.md">Animation plan</a></footer>
+<footer><p>Drawing-based narrative game study</p><a href="../../docs/game-animation-pipeline.md">Animation plan</a></footer>
 <audio id="voice" preload="auto"></audio>
 <script type="module" src="app.js"></script>
 </body></html>
