@@ -1,5 +1,11 @@
 # Klassic
 
+The current game direction is **The Nation Is Watching**: an original-cast talk
+show management game with a career spanning decades and a branching alternate
+history. See the [current plan and direction](docs/game-direction.md) for agreed
+decisions, the vertical-slice target, and open questions. The existing film and
+animation prototypes are documented below.
+
 Turn a two-person interview transcript into a black-and-white, limited-animation **Classic Krusty** fan parody. Keep the discussion dry. The incongruity of Krusty earnestly conducting it is the joke.
 
 The first production source is **Erich Fromm on The Mike Wallace Interview (May 25, 1958)**, discussing personality as a marketable product. The complete archive transcript has been retrieved and verified. See [the episode brief](docs/pilot.md) and [source record with excerpt boundaries](episodes/fromm/source.json).
