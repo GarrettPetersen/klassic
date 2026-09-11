@@ -1,0 +1,448 @@
+{
+  "audio_sha256": "379ffef63652b029274e5d847e705d13aee1b7b565cd30867de08a3e13abd9fd",
+  "expected": "Well, I'll try. By equality, one once understood equality in the very same sense in which the Bible speaks of equality: that we are all equal, inasmuch as we are created in the image of God. Or, if I don't use theological language: that we are all equal in the sense that no man must mean - must be - the means for the purposes of another man; but each individual is an end in itself.",
+  "model": "base.en",
+  "device": "cpu",
+  "comparison_version": 2,
+  "recovered": "Well, I'll try by a quality one-ones understood equality in the very same sense in which the Bible speaks of equality that we are all equal in as much as we are created in the image of God. Or, if I don't use theological language, that we are all equal in the sense that no man must mean, must be, the means for the purposes of another man. But each individual is an end in itself.",
+  "differences": [
+    {
+      "kind": "replace",
+      "expected": [
+        "equality"
+      ],
+      "recovered": [
+        "a",
+        "quality"
+      ]
+    },
+    {
+      "kind": "replace",
+      "expected": [
+        "once"
+      ],
+      "recovered": [
+        "ones"
+      ]
+    },
+    {
+      "kind": "replace",
+      "expected": [
+        "inasmuch"
+      ],
+      "recovered": [
+        "in",
+        "as",
+        "much"
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 10.18,
+      "text": " Well, I'll try by a quality one-ones understood equality in the very same sense in which the Bible speaks of equality that we are all equal in as much as we are created in the image of God.",
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.32,
+          "word": " Well,"
+        },
+        {
+          "start": 0.36,
+          "end": 0.52,
+          "word": " I'll"
+        },
+        {
+          "start": 0.52,
+          "end": 0.8,
+          "word": " try"
+        },
+        {
+          "start": 0.8,
+          "end": 1.64,
+          "word": " by"
+        },
+        {
+          "start": 1.64,
+          "end": 1.78,
+          "word": " a"
+        },
+        {
+          "start": 1.78,
+          "end": 2.08,
+          "word": " quality"
+        },
+        {
+          "start": 2.08,
+          "end": 2.4,
+          "word": " one"
+        },
+        {
+          "start": 2.4,
+          "end": 2.58,
+          "word": "-ones"
+        },
+        {
+          "start": 2.58,
+          "end": 3.0,
+          "word": " understood"
+        },
+        {
+          "start": 3.0,
+          "end": 3.26,
+          "word": " equality"
+        },
+        {
+          "start": 3.26,
+          "end": 3.78,
+          "word": " in"
+        },
+        {
+          "start": 3.78,
+          "end": 3.88,
+          "word": " the"
+        },
+        {
+          "start": 3.88,
+          "end": 4.08,
+          "word": " very"
+        },
+        {
+          "start": 4.08,
+          "end": 4.32,
+          "word": " same"
+        },
+        {
+          "start": 4.32,
+          "end": 4.6,
+          "word": " sense"
+        },
+        {
+          "start": 4.6,
+          "end": 4.82,
+          "word": " in"
+        },
+        {
+          "start": 4.82,
+          "end": 4.98,
+          "word": " which"
+        },
+        {
+          "start": 4.98,
+          "end": 5.14,
+          "word": " the"
+        },
+        {
+          "start": 5.14,
+          "end": 5.4,
+          "word": " Bible"
+        },
+        {
+          "start": 5.4,
+          "end": 5.68,
+          "word": " speaks"
+        },
+        {
+          "start": 5.68,
+          "end": 5.92,
+          "word": " of"
+        },
+        {
+          "start": 5.92,
+          "end": 6.24,
+          "word": " equality"
+        },
+        {
+          "start": 6.24,
+          "end": 7.04,
+          "word": " that"
+        },
+        {
+          "start": 7.04,
+          "end": 7.2,
+          "word": " we"
+        },
+        {
+          "start": 7.2,
+          "end": 7.32,
+          "word": " are"
+        },
+        {
+          "start": 7.32,
+          "end": 7.52,
+          "word": " all"
+        },
+        {
+          "start": 7.52,
+          "end": 7.76,
+          "word": " equal"
+        },
+        {
+          "start": 7.76,
+          "end": 8.24,
+          "word": " in"
+        },
+        {
+          "start": 8.24,
+          "end": 8.38,
+          "word": " as"
+        },
+        {
+          "start": 8.38,
+          "end": 8.54,
+          "word": " much"
+        },
+        {
+          "start": 8.54,
+          "end": 8.74,
+          "word": " as"
+        },
+        {
+          "start": 8.74,
+          "end": 8.88,
+          "word": " we"
+        },
+        {
+          "start": 8.88,
+          "end": 8.96,
+          "word": " are"
+        },
+        {
+          "start": 8.96,
+          "end": 9.24,
+          "word": " created"
+        },
+        {
+          "start": 9.24,
+          "end": 9.48,
+          "word": " in"
+        },
+        {
+          "start": 9.48,
+          "end": 9.6,
+          "word": " the"
+        },
+        {
+          "start": 9.6,
+          "end": 9.82,
+          "word": " image"
+        },
+        {
+          "start": 9.82,
+          "end": 9.98,
+          "word": " of"
+        },
+        {
+          "start": 9.98,
+          "end": 10.18,
+          "word": " God."
+        }
+      ]
+    },
+    {
+      "start": 10.78,
+      "end": 19.08,
+      "text": " Or, if I don't use theological language, that we are all equal in the sense that no man must mean, must be, the means for the purposes of another man.",
+      "words": [
+        {
+          "start": 10.78,
+          "end": 10.92,
+          "word": " Or,"
+        },
+        {
+          "start": 11.14,
+          "end": 11.46,
+          "word": " if"
+        },
+        {
+          "start": 11.46,
+          "end": 11.58,
+          "word": " I"
+        },
+        {
+          "start": 11.58,
+          "end": 11.86,
+          "word": " don't"
+        },
+        {
+          "start": 11.86,
+          "end": 11.98,
+          "word": " use"
+        },
+        {
+          "start": 11.98,
+          "end": 12.26,
+          "word": " theological"
+        },
+        {
+          "start": 12.26,
+          "end": 12.96,
+          "word": " language,"
+        },
+        {
+          "start": 13.46,
+          "end": 13.56,
+          "word": " that"
+        },
+        {
+          "start": 13.56,
+          "end": 13.7,
+          "word": " we"
+        },
+        {
+          "start": 13.7,
+          "end": 13.82,
+          "word": " are"
+        },
+        {
+          "start": 13.82,
+          "end": 14.02,
+          "word": " all"
+        },
+        {
+          "start": 14.02,
+          "end": 14.32,
+          "word": " equal"
+        },
+        {
+          "start": 14.32,
+          "end": 14.5,
+          "word": " in"
+        },
+        {
+          "start": 14.5,
+          "end": 14.6,
+          "word": " the"
+        },
+        {
+          "start": 14.6,
+          "end": 14.82,
+          "word": " sense"
+        },
+        {
+          "start": 14.82,
+          "end": 15.08,
+          "word": " that"
+        },
+        {
+          "start": 15.08,
+          "end": 15.28,
+          "word": " no"
+        },
+        {
+          "start": 15.28,
+          "end": 15.5,
+          "word": " man"
+        },
+        {
+          "start": 15.5,
+          "end": 15.74,
+          "word": " must"
+        },
+        {
+          "start": 15.74,
+          "end": 16.0,
+          "word": " mean,"
+        },
+        {
+          "start": 16.38,
+          "end": 16.5,
+          "word": " must"
+        },
+        {
+          "start": 16.5,
+          "end": 16.76,
+          "word": " be,"
+        },
+        {
+          "start": 17.32,
+          "end": 17.38,
+          "word": " the"
+        },
+        {
+          "start": 17.38,
+          "end": 17.56,
+          "word": " means"
+        },
+        {
+          "start": 17.56,
+          "end": 17.8,
+          "word": " for"
+        },
+        {
+          "start": 17.8,
+          "end": 17.92,
+          "word": " the"
+        },
+        {
+          "start": 17.92,
+          "end": 18.24,
+          "word": " purposes"
+        },
+        {
+          "start": 18.24,
+          "end": 18.5,
+          "word": " of"
+        },
+        {
+          "start": 18.5,
+          "end": 18.72,
+          "word": " another"
+        },
+        {
+          "start": 18.72,
+          "end": 19.08,
+          "word": " man."
+        }
+      ]
+    },
+    {
+      "start": 19.82,
+      "end": 21.52,
+      "text": " But each individual is an end in itself.",
+      "words": [
+        {
+          "start": 19.82,
+          "end": 19.86,
+          "word": " But"
+        },
+        {
+          "start": 19.86,
+          "end": 20.0,
+          "word": " each"
+        },
+        {
+          "start": 20.0,
+          "end": 20.4,
+          "word": " individual"
+        },
+        {
+          "start": 20.4,
+          "end": 20.8,
+          "word": " is"
+        },
+        {
+          "start": 20.8,
+          "end": 20.94,
+          "word": " an"
+        },
+        {
+          "start": 20.94,
+          "end": 21.1,
+          "word": " end"
+        },
+        {
+          "start": 21.1,
+          "end": 21.24,
+          "word": " in"
+        },
+        {
+          "start": 21.24,
+          "end": 21.52,
+          "word": " itself."
+        }
+      ]
+    }
+  ]
+}

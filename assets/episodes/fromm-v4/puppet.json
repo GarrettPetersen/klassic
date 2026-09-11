@@ -1,0 +1,464 @@
+{
+  "version": 2,
+  "canvas": [
+    1448,
+    1086
+  ],
+  "background": "background.png",
+  "performance": "performance.json",
+  "characters": {
+    "host": {
+      "mask": "host-mask.png",
+      "bounds": [
+        32,
+        55,
+        610,
+        766
+      ],
+      "waist": [
+        320,
+        625
+      ],
+      "joint_overlaps": [
+        {
+          "polygon": [
+            [
+              245,
+              580
+            ],
+            [
+              269,
+              588
+            ],
+            [
+              251,
+              650
+            ],
+            [
+              235,
+              681
+            ],
+            [
+              216,
+              700
+            ],
+            [
+              219,
+              625
+            ]
+          ],
+          "gray": 29
+        }
+      ],
+      "eyes": [
+        {
+          "polygon": [
+            [
+              330,
+              262
+            ],
+            [
+              333,
+              252
+            ],
+            [
+              341,
+              243
+            ],
+            [
+              351,
+              238
+            ],
+            [
+              360,
+              238
+            ],
+            [
+              372,
+              243
+            ],
+            [
+              380,
+              252
+            ],
+            [
+              386,
+              264
+            ],
+            [
+              383,
+              276
+            ],
+            [
+              376,
+              286
+            ],
+            [
+              365,
+              293
+            ],
+            [
+              354,
+              295
+            ],
+            [
+              344,
+              291
+            ],
+            [
+              336,
+              283
+            ],
+            [
+              331,
+              273
+            ]
+          ],
+          "lid_gray": 216
+        },
+        {
+          "polygon": [
+            [
+              385,
+              248
+            ],
+            [
+              392,
+              241
+            ],
+            [
+              402,
+              239
+            ],
+            [
+              412,
+              241
+            ],
+            [
+              421,
+              247
+            ],
+            [
+              426,
+              259
+            ],
+            [
+              424,
+              268
+            ],
+            [
+              418,
+              276
+            ],
+            [
+              408,
+              277
+            ],
+            [
+              391,
+              280
+            ],
+            [
+              390,
+              264
+            ]
+          ],
+          "lid_gray": 217
+        }
+      ],
+      "pupils": [
+        {
+          "rest": [
+            383,
+            267
+          ],
+          "camera": [
+            358,
+            267
+          ],
+          "radius": 5,
+          "white": 240
+        },
+        {
+          "rest": [
+            422,
+            265
+          ],
+          "camera": [
+            403,
+            263
+          ],
+          "radius": 4.5,
+          "white": 243
+        }
+      ],
+      "arms": {
+        "free": {
+          "elbow": [
+            111,
+            554
+          ],
+          "wrist": [
+            165.5,
+            569.9
+          ],
+          "joint_radius": 29,
+          "degrees": -32,
+          "mask": "host-free-arm.png",
+          "cuff_cap": "host-free-cuff-cap.png",
+          "library": "host-free/library.json"
+        },
+        "cigarette": {
+          "elbow": [
+            472,
+            553
+          ],
+          "wrist": [
+            494.1,
+            513.9
+          ],
+          "joint_radius": 22,
+          "degrees": 12,
+          "mask": "host-cigarette-arm.png",
+          "cuff_cap": "host-cigarette-cuff-cap.png",
+          "library": "host-cigarette/library.json"
+        }
+      },
+      "eye_plate": "host-eye-plate.png"
+    },
+    "guest": {
+      "mask": "guest-mask.png",
+      "bounds": [
+        843,
+        65,
+        1440,
+        770
+      ],
+      "waist": [
+        1150,
+        628
+      ],
+      "joint_overlaps": [
+        {
+          "polygon": [
+            [
+              1190,
+              578
+            ],
+            [
+              1272,
+              615
+            ],
+            [
+              1261,
+              705
+            ],
+            [
+              1208,
+              705
+            ],
+            [
+              1180,
+              700
+            ]
+          ],
+          "gray": 29
+        },
+        {
+          "polygon": [
+            [
+              970,
+              438
+            ],
+            [
+              975,
+              422
+            ],
+            [
+              995,
+              410
+            ],
+            [
+              1018,
+              407
+            ],
+            [
+              1018,
+              546
+            ],
+            [
+              969,
+              558
+            ],
+            [
+              969,
+              510
+            ],
+            [
+              966,
+              470
+            ]
+          ],
+          "gray": 27
+        }
+      ],
+      "eyes": [
+        {
+          "polygon": [
+            [
+              1008,
+              250
+            ],
+            [
+              1012,
+              245
+            ],
+            [
+              1020,
+              241
+            ],
+            [
+              1030,
+              242
+            ],
+            [
+              1040,
+              245
+            ],
+            [
+              1046,
+              250
+            ],
+            [
+              1030,
+              266
+            ],
+            [
+              1020,
+              265
+            ],
+            [
+              1013,
+              261
+            ],
+            [
+              1009,
+              256
+            ]
+          ],
+          "lid_gray": 197
+        },
+        {
+          "polygon": [
+            [
+              1076,
+              263
+            ],
+            [
+              1080,
+              257
+            ],
+            [
+              1088,
+              253
+            ],
+            [
+              1101,
+              253
+            ],
+            [
+              1113,
+              257
+            ],
+            [
+              1122,
+              263
+            ],
+            [
+              1126,
+              271
+            ],
+            [
+              1122,
+              277
+            ],
+            [
+              1112,
+              280
+            ],
+            [
+              1099,
+              280
+            ],
+            [
+              1088,
+              277
+            ],
+            [
+              1080,
+              271
+            ]
+          ],
+          "lid_gray": 197
+        }
+      ],
+      "pupils": [
+        {
+          "rest": [
+            1017,
+            253
+          ],
+          "camera": [
+            1029,
+            253
+          ],
+          "radius": 4.2
+        },
+        {
+          "rest": [
+            1086,
+            266
+          ],
+          "camera": [
+            1101,
+            266
+          ],
+          "radius": 5
+        }
+      ],
+      "arms": {
+        "free": {
+          "elbow": [
+            1361,
+            563
+          ],
+          "wrist": [
+            1301.7,
+            580.5
+          ],
+          "joint_radius": 29,
+          "degrees": 32,
+          "mask": "guest-free-arm.png",
+          "cuff_cap": "guest-free-cuff-cap.png",
+          "library": "guest-free/library.json"
+        },
+        "cigarette": {
+          "elbow": [
+            961,
+            567
+          ],
+          "wrist": [
+            931.0,
+            537.8
+          ],
+          "joint_radius": 22,
+          "degrees": -12,
+          "mask": "guest-cigarette-arm.png",
+          "cuff_cap": "guest-cigarette-cuff-cap.png",
+          "library": "guest-cigarette/library.json"
+        }
+      },
+      "eye_plate": "guest-eye-plate.png"
+    }
+  }
+}

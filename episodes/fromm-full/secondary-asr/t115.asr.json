@@ -1,0 +1,224 @@
+{
+  "audio_sha256": "9f35a5a05ed3ef770e07c85eff8b63a77c97a048c2915fae7435cd51dc584227",
+  "expected": "One final question, sir... In reading your Sane Society- and you only have, I'm sorry to say, a half a minute to answer this - I feel a certain despair in Erich Fromm, about the future of the world...",
+  "model": "base.en",
+  "device": "cpu",
+  "comparison_version": 2,
+  "recovered": "One final question, sir, in reading your sane society, and you only have, I'm sorry to say, half a minute to answer this, I feel a certain despair and eric from about the future of the world.",
+  "differences": [
+    {
+      "kind": "delete",
+      "expected": [
+        "a"
+      ],
+      "recovered": []
+    },
+    {
+      "kind": "replace",
+      "expected": [
+        "in",
+        "erich",
+        "fromm"
+      ],
+      "recovered": [
+        "and",
+        "eric",
+        "from"
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 12.96,
+      "text": " One final question, sir, in reading your sane society, and you only have, I'm sorry to say, half a minute to answer this, I feel a certain despair and eric from about the future of the world.",
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.34,
+          "word": " One"
+        },
+        {
+          "start": 0.34,
+          "end": 0.72,
+          "word": " final"
+        },
+        {
+          "start": 0.72,
+          "end": 1.1,
+          "word": " question,"
+        },
+        {
+          "start": 1.18,
+          "end": 1.5,
+          "word": " sir,"
+        },
+        {
+          "start": 1.76,
+          "end": 1.9,
+          "word": " in"
+        },
+        {
+          "start": 1.9,
+          "end": 2.22,
+          "word": " reading"
+        },
+        {
+          "start": 2.22,
+          "end": 2.58,
+          "word": " your"
+        },
+        {
+          "start": 2.58,
+          "end": 2.84,
+          "word": " sane"
+        },
+        {
+          "start": 2.84,
+          "end": 3.46,
+          "word": " society,"
+        },
+        {
+          "start": 4.34,
+          "end": 4.44,
+          "word": " and"
+        },
+        {
+          "start": 4.44,
+          "end": 4.6,
+          "word": " you"
+        },
+        {
+          "start": 4.6,
+          "end": 4.84,
+          "word": " only"
+        },
+        {
+          "start": 4.84,
+          "end": 5.14,
+          "word": " have,"
+        },
+        {
+          "start": 5.14,
+          "end": 5.66,
+          "word": " I'm"
+        },
+        {
+          "start": 5.66,
+          "end": 5.9,
+          "word": " sorry"
+        },
+        {
+          "start": 5.9,
+          "end": 6.1,
+          "word": " to"
+        },
+        {
+          "start": 6.1,
+          "end": 6.42,
+          "word": " say,"
+        },
+        {
+          "start": 6.78,
+          "end": 7.08,
+          "word": " half"
+        },
+        {
+          "start": 7.08,
+          "end": 7.28,
+          "word": " a"
+        },
+        {
+          "start": 7.28,
+          "end": 7.54,
+          "word": " minute"
+        },
+        {
+          "start": 7.54,
+          "end": 7.76,
+          "word": " to"
+        },
+        {
+          "start": 7.76,
+          "end": 7.94,
+          "word": " answer"
+        },
+        {
+          "start": 7.94,
+          "end": 8.38,
+          "word": " this,"
+        },
+        {
+          "start": 8.86,
+          "end": 8.98,
+          "word": " I"
+        },
+        {
+          "start": 8.98,
+          "end": 9.2,
+          "word": " feel"
+        },
+        {
+          "start": 9.2,
+          "end": 9.34,
+          "word": " a"
+        },
+        {
+          "start": 9.34,
+          "end": 9.66,
+          "word": " certain"
+        },
+        {
+          "start": 9.66,
+          "end": 10.08,
+          "word": " despair"
+        },
+        {
+          "start": 10.08,
+          "end": 10.4,
+          "word": " and"
+        },
+        {
+          "start": 10.4,
+          "end": 10.7,
+          "word": " eric"
+        },
+        {
+          "start": 10.7,
+          "end": 10.92,
+          "word": " from"
+        },
+        {
+          "start": 10.92,
+          "end": 11.78,
+          "word": " about"
+        },
+        {
+          "start": 11.78,
+          "end": 12.06,
+          "word": " the"
+        },
+        {
+          "start": 12.06,
+          "end": 12.3,
+          "word": " future"
+        },
+        {
+          "start": 12.3,
+          "end": 12.58,
+          "word": " of"
+        },
+        {
+          "start": 12.58,
+          "end": 12.66,
+          "word": " the"
+        },
+        {
+          "start": 12.66,
+          "end": 12.96,
+          "word": " world."
+        }
+      ]
+    }
+  ]
+}

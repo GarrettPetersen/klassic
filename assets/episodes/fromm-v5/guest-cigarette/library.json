@@ -1,0 +1,191 @@
+{
+  "version": 1,
+  "canvas": [
+    600,
+    450
+  ],
+  "construction": "Complete connected shoulder, sleeve, elbow, cuff, wrist and hand. No wrist join.",
+  "anatomical_hand": "right",
+  "poses": {
+    "relaxed": {
+      "file": "relaxed.png",
+      "anchor": [
+        300,
+        90
+      ],
+      "anatomical_hand": "right",
+      "digits": 4,
+      "source": "guest-cigarette-arms-handed.png",
+      "source_sha256": "271a650b960d15996fa2021366b32c233deb82e4561c8540995c1415e8ce4dff",
+      "registration": {
+        "source_shoulder": [
+          412.0,
+          35
+        ],
+        "scale": [
+          0.4411764705882353,
+          0.4411764705882353
+        ],
+        "offset": [
+          118,
+          75
+        ],
+        "green_key_strength": 234
+      },
+      "cigarette_tip": [
+        164.707410236822,
+        127.20779220779221
+      ]
+    },
+    "turn": {
+      "file": "turn.png",
+      "anchor": [
+        300,
+        90
+      ],
+      "anatomical_hand": "right",
+      "digits": 4,
+      "source": "guest-cigarette-arms-handed.png",
+      "source_sha256": "271a650b960d15996fa2021366b32c233deb82e4561c8540995c1415e8ce4dff",
+      "registration": {
+        "source_shoulder": [
+          444.0,
+          35
+        ],
+        "scale": [
+          0.4409722222222222,
+          0.4411764705882353
+        ],
+        "offset": [
+          104,
+          75
+        ],
+        "green_key_strength": 234
+      },
+      "cigarette_tip": [
+        146.70897633744855,
+        128.01742919389977
+      ]
+    },
+    "up": {
+      "file": "up.png",
+      "anchor": [
+        300,
+        90
+      ],
+      "anatomical_hand": "right",
+      "digits": 4,
+      "source": "guest-cigarette-arms-handed.png",
+      "source_sha256": "271a650b960d15996fa2021366b32c233deb82e4561c8540995c1415e8ce4dff",
+      "registration": {
+        "source_shoulder": [
+          443.0,
+          36
+        ],
+        "scale": [
+          0.4411764705882353,
+          0.4411764705882353
+        ],
+        "offset": [
+          105,
+          74
+        ],
+        "green_key_strength": 234
+      },
+      "cigarette_tip": [
+        120.64814814814815,
+        163.15032679738562
+      ]
+    },
+    "sweep": {
+      "file": "sweep.png",
+      "anchor": [
+        300,
+        90
+      ],
+      "anatomical_hand": "right",
+      "digits": 4,
+      "source": "guest-cigarette-arms-handed.png",
+      "source_sha256": "271a650b960d15996fa2021366b32c233deb82e4561c8540995c1415e8ce4dff",
+      "registration": {
+        "source_shoulder": [
+          412.0,
+          66
+        ],
+        "scale": [
+          0.4411764705882353,
+          0.4411764705882353
+        ],
+        "offset": [
+          118,
+          61
+        ],
+        "green_key_strength": 235
+      },
+      "cigarette_tip": [
+        133.8544891640867,
+        164.41176470588235
+      ]
+    },
+    "down": {
+      "file": "down.png",
+      "anchor": [
+        300,
+        90
+      ],
+      "anatomical_hand": "right",
+      "digits": 4,
+      "source": "guest-cigarette-arms-handed.png",
+      "source_sha256": "271a650b960d15996fa2021366b32c233deb82e4561c8540995c1415e8ce4dff",
+      "registration": {
+        "source_shoulder": [
+          443.0,
+          67
+        ],
+        "scale": [
+          0.4409722222222222,
+          0.4411764705882353
+        ],
+        "offset": [
+          105,
+          60
+        ],
+        "green_key_strength": 235
+      },
+      "cigarette_tip": [
+        150.8030884502924,
+        246.20743034055727
+      ]
+    },
+    "return": {
+      "file": "return.png",
+      "anchor": [
+        300,
+        90
+      ],
+      "anatomical_hand": "right",
+      "digits": 4,
+      "source": "guest-cigarette-arms-handed.png",
+      "source_sha256": "271a650b960d15996fa2021366b32c233deb82e4561c8540995c1415e8ce4dff",
+      "registration": {
+        "source_shoulder": [
+          443.0,
+          67
+        ],
+        "scale": [
+          0.4411764705882353,
+          0.4411764705882353
+        ],
+        "offset": [
+          105,
+          60
+        ],
+        "green_key_strength": 236
+      },
+      "cigarette_tip": [
+        152.5,
+        126.0446247464503
+      ]
+    }
+  }
+}

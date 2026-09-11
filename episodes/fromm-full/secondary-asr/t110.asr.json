@@ -1,0 +1,36 @@
+{
+  "audio_sha256": "643cf2c37ffa2a4929c0250b3bde854e42f73c64fe13d9c6b285b43a0a6a5ebc",
+  "expected": "The Sane Society.",
+  "model": "base.en",
+  "device": "cpu",
+  "comparison_version": 2,
+  "recovered": "Sane Society.",
+  "differences": [
+    {
+      "kind": "delete",
+      "expected": [
+        "the"
+      ],
+      "recovered": []
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 0.56,
+      "text": " Sane Society.",
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.18,
+          "word": " Sane"
+        },
+        {
+          "start": 0.18,
+          "end": 0.56,
+          "word": " Society."
+        }
+      ]
+    }
+  ]
+}

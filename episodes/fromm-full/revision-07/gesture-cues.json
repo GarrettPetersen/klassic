@@ -1,0 +1,210 @@
+[
+  {
+    "turn": "t005",
+    "offset": 3.2,
+    "arm": "cigarette",
+    "pose": "up",
+    "meaning": "question",
+    "phrase": "What do you mean by that?"
+  },
+  {
+    "turn": "t008",
+    "offset": 13.2,
+    "arm": "free",
+    "pose": "up",
+    "meaning": "question",
+    "phrase": "Now how? In what ways?"
+  },
+  {
+    "turn": "t011",
+    "offset": 12.9,
+    "arm": "cigarette",
+    "pose": "down",
+    "meaning": "question",
+    "phrase": "what would you say is happening to man"
+  },
+  {
+    "turn": "t014",
+    "offset": 0.3,
+    "arm": "cigarette",
+    "pose": "down",
+    "meaning": "concession",
+    "phrase": "Yes, but that is not quite enough"
+  },
+  {
+    "turn": "t015",
+    "offset": 2.8,
+    "arm": "free",
+    "pose": "up",
+    "meaning": "conciliatory",
+    "phrase": "maybe I am pressing this unnecessarily hard"
+  },
+  {
+    "turn": "t019",
+    "offset": 0.5,
+    "arm": "free",
+    "pose": "up",
+    "meaning": "qualification",
+    "phrase": "useless is a relative term"
+  },
+  {
+    "turn": "t020",
+    "offset": 7.4,
+    "arm": "cigarette",
+    "pose": "up",
+    "meaning": "question",
+    "phrase": "What do you mean by the marketing orientation?"
+  },
+  {
+    "turn": "t028",
+    "offset": 5.5,
+    "arm": "free",
+    "pose": "up",
+    "meaning": "question",
+    "phrase": "what is happening to man in those spheres?"
+  },
+  {
+    "turn": "t034",
+    "offset": 10.5,
+    "arm": "cigarette",
+    "pose": "down",
+    "meaning": "question",
+    "phrase": "in relationship to his politics"
+  },
+  {
+    "turn": "t041",
+    "offset": 0.5,
+    "arm": "free",
+    "pose": "up",
+    "meaning": "offering an alternative",
+    "phrase": "Or maybe ... maybe it simply is this"
+  },
+  {
+    "turn": "t043",
+    "offset": 0.7,
+    "arm": "cigarette",
+    "pose": "up",
+    "meaning": "agreement",
+    "phrase": "I think here you point out ... one of the basic defects"
+  },
+  {
+    "turn": "t048",
+    "offset": 0.5,
+    "arm": "free",
+    "pose": "up",
+    "meaning": "question",
+    "phrase": "Why is it so difficult for us to be in love?"
+  },
+  {
+    "turn": "t051",
+    "offset": 3.7,
+    "arm": "cigarette",
+    "pose": "up",
+    "meaning": "question",
+    "phrase": "What about man in relationship to his religion?"
+  },
+  {
+    "turn": "t055",
+    "offset": 0.4,
+    "arm": "free",
+    "pose": "up",
+    "meaning": "offering a rephrasing",
+    "phrase": "I could put it in another way"
+  },
+  {
+    "turn": "t056",
+    "offset": 1.1,
+    "arm": "free",
+    "pose": "up",
+    "meaning": "question",
+    "phrase": "what do you mean by that?"
+  },
+  {
+    "turn": "t059",
+    "offset": 12.9,
+    "arm": "cigarette",
+    "pose": "down",
+    "meaning": "question",
+    "phrase": "How does all that you have said affect our ability"
+  },
+  {
+    "turn": "t060",
+    "offset": 0.5,
+    "arm": "cigarette",
+    "pose": "sweep",
+    "meaning": "agreement",
+    "phrase": "you touch upon a very important point here"
+  },
+  {
+    "turn": "t066",
+    "offset": 0.5,
+    "arm": "free",
+    "pose": "up",
+    "meaning": "invitation",
+    "phrase": "if I may ask you now to define"
+  },
+  {
+    "turn": "t079",
+    "offset": 5.1,
+    "arm": "cigarette",
+    "pose": "up",
+    "meaning": "question",
+    "phrase": "Where did we get off the track?"
+  },
+  {
+    "turn": "t086",
+    "offset": 1.8,
+    "arm": "free",
+    "pose": "up",
+    "meaning": "question",
+    "phrase": "Which would better understand and help man?"
+  },
+  {
+    "turn": "t095",
+    "offset": 0.4,
+    "arm": "cigarette",
+    "pose": "down",
+    "meaning": "question",
+    "phrase": "then what is socialism?"
+  },
+  {
+    "turn": "t103",
+    "offset": 0.5,
+    "arm": "free",
+    "pose": "up",
+    "meaning": "concession",
+    "phrase": "I appreciate the tremendous difference"
+  },
+  {
+    "turn": "t105",
+    "offset": 1.2,
+    "arm": "cigarette",
+    "pose": "up",
+    "meaning": "concession",
+    "phrase": "I personally ... go with you"
+  },
+  {
+    "turn": "t108",
+    "offset": 0.3,
+    "arm": "free",
+    "pose": "up",
+    "meaning": "question",
+    "phrase": "Where can those looking in tonight find out more?"
+  },
+  {
+    "turn": "t114",
+    "offset": 0.4,
+    "arm": "cigarette",
+    "pose": "sweep",
+    "meaning": "gentle qualification",
+    "phrase": "Well, uh, not exactly"
+  },
+  {
+    "turn": "t115",
+    "offset": 4.2,
+    "arm": "free",
+    "pose": "up",
+    "meaning": "apology",
+    "phrase": "you only have, I am sorry to say, a half a minute"
+  }
+]

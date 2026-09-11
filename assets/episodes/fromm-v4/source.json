@@ -1,0 +1,112 @@
+{
+  "generation_mode": "built-in image_gen",
+  "sources": {
+    "guest-cigarette-atlas-four-digits.png": "5bea60291e1ab8559863a4a0bdc7715c27c227c844fdc2d41e395f0d88599bac",
+    "guest-cigarette-atlas.png": "fbcc153123ba460af44c2dd0be1762f4b59b40d4ff5c91c67fa774b97c915741",
+    "guest-cigarette-down.png": "d88a11457d6aee0461e7afd81f1436f68c410614a9974615409bdca343287e55",
+    "guest-eyes-clean.png": "bde869c0e3e40b1cb40b7b7defaf96e429bd93fb22f5f1636cdf80e0d84ca010",
+    "guest-free-atlas.png": "8061cf2a1e030f56b071c456827b35e616cabea348e75ef31fd2093044f77389",
+    "host-cigarette-atlas.png": "3a426a626ec0fad89d7287acdb00a6d61a1de98f11780a4bd9c106438238fe3d",
+    "host-cigarette-down.png": "719e77b71e4ca46d2f240454d12861e6ef1b43c3017b072f5ba64a3a2dfd651c",
+    "host-eyes-clean.png": "f53397eddcf68b48c0f46361e9fb3a35587d6083f51c78dc701a2afe597b804e",
+    "host-free-atlas.png": "130c4559078fb937d49cfb2474cc76ea857845f5fab8b958b3b5196db11dd8ba"
+  },
+  "prompts": "episodes/fromm-full/revision-04/*-prompt.txt",
+  "rejected_for_use": [
+    "guest-cigarette-atlas.png: five digits in top-right and bottom-right; use corrected sibling"
+  ],
+  "hand_audit": {
+    "host/free/relaxed": {
+      "digits": 4,
+      "file_sha256": "c5ccedfed3e558fa2b3be6f1542fafdff59e23cd1c74c99641db006105cd29f2",
+      "visual_check": "Three fingers and one thumb; continuous contour; cigarette between index and middle when present."
+    },
+    "host/free/turn": {
+      "digits": 4,
+      "file_sha256": "c447d17dd9b04026d542064202a1bd14ffc6e213adf9e0b7e4a2bbf7bd547973",
+      "visual_check": "Three fingers and one thumb; continuous contour; cigarette between index and middle when present."
+    },
+    "host/free/up": {
+      "digits": 4,
+      "file_sha256": "783bca1ccc97cb0c0276567516b4366d2bf37b51a391f99d9a0803069b9db69c",
+      "visual_check": "Three fingers and one thumb; continuous contour; cigarette between index and middle when present."
+    },
+    "host/free/sweep": {
+      "digits": 4,
+      "file_sha256": "416075d4fac043939b4b89c768f1d0f29b02f09062b8e90ff9014c0a1ff2fe81",
+      "visual_check": "Three fingers and one thumb; continuous contour; cigarette between index and middle when present."
+    },
+    "host/cigarette/relaxed": {
+      "digits": 4,
+      "file_sha256": "216f5d8e4887bd6c5febda15838dcc4fcf992ab729c75a6be0405bd1d9402153",
+      "visual_check": "Three fingers and one thumb; continuous contour; cigarette between index and middle when present."
+    },
+    "host/cigarette/turn": {
+      "digits": 4,
+      "file_sha256": "b9c7fcad39bfab058e9b5037f1d2d2d7dc8b09668714822708fe70e16fb5ae53",
+      "visual_check": "Three fingers and one thumb; continuous contour; cigarette between index and middle when present."
+    },
+    "host/cigarette/up": {
+      "digits": 4,
+      "file_sha256": "7d59c51e14657c894804b0c843dd651e968c111a8d3d181fec2ecae5c35c1498",
+      "visual_check": "Three fingers and one thumb; continuous contour; cigarette between index and middle when present."
+    },
+    "host/cigarette/sweep": {
+      "digits": 4,
+      "file_sha256": "ebdfa39de23e7361f425f190c3c38267db434caf2d56cb5b3845c7b6c2697c81",
+      "visual_check": "Three fingers and one thumb; continuous contour; cigarette between index and middle when present."
+    },
+    "host/cigarette/down": {
+      "digits": 4,
+      "file_sha256": "4578bc1755fa0660f2dad1fcf7d341806529d38920e39b9eb1d8f1b6c7aebe3e",
+      "visual_check": "Three fingers and one thumb; continuous contour; cigarette between index and middle when present."
+    },
+    "guest/free/relaxed": {
+      "digits": 4,
+      "file_sha256": "548cb315caf60f3101e65d4e52787a4ec42fba1b94bb0ae13eba825e59d9c31e",
+      "visual_check": "Three fingers and one thumb; continuous contour; cigarette between index and middle when present."
+    },
+    "guest/free/turn": {
+      "digits": 4,
+      "file_sha256": "5cdba0d43e2d3b145bf30c9aefeb796ecd52b5100afd369efc6143162a1deac2",
+      "visual_check": "Three fingers and one thumb; continuous contour; cigarette between index and middle when present."
+    },
+    "guest/free/up": {
+      "digits": 4,
+      "file_sha256": "fad6013ac6746585a6f7b3198af64f5602f17994ad2bbe2dcd80ba842d9ebcd3",
+      "visual_check": "Three fingers and one thumb; continuous contour; cigarette between index and middle when present."
+    },
+    "guest/free/sweep": {
+      "digits": 4,
+      "file_sha256": "1665ef0182de50e88680ce8a0d42cfcb58cd9b1b8f5c0f07aa35181b0467b1c5",
+      "visual_check": "Three fingers and one thumb; continuous contour; cigarette between index and middle when present."
+    },
+    "guest/cigarette/relaxed": {
+      "digits": 4,
+      "file_sha256": "5626deabf0c6feb47a3b208191c9eb79d47a247d062c324cbac69e3408c3a355",
+      "visual_check": "Three fingers and one thumb; continuous contour; cigarette between index and middle when present."
+    },
+    "guest/cigarette/turn": {
+      "digits": 4,
+      "file_sha256": "5f5124414ca3606c658a2f1c9f625e028fbf560a5a9a647a6b456eab7654767a",
+      "visual_check": "Three fingers and one thumb; continuous contour; cigarette between index and middle when present."
+    },
+    "guest/cigarette/up": {
+      "digits": 4,
+      "file_sha256": "6f81ea2a77c46d5b5d8fd905c3b029bb459039c5b247dd0cf39e915e1c433ea2",
+      "visual_check": "Three fingers and one thumb; continuous contour; cigarette between index and middle when present."
+    },
+    "guest/cigarette/sweep": {
+      "digits": 4,
+      "file_sha256": "b799b93989152f9c4f551f23c43d6f1dde24e1f3bbbbe9e2db9be5680b3431a2",
+      "visual_check": "Three fingers and one thumb; continuous contour; cigarette between index and middle when present."
+    },
+    "guest/cigarette/down": {
+      "digits": 4,
+      "file_sha256": "d7e6e19f770842629b1e48b72e8f2b48e1e1572928b031edf8990caae4b18b9f",
+      "visual_check": "Three fingers and one thumb; continuous contour; cigarette between index and middle when present."
+    }
+  },
+  "pupils": "Generated pupil-free eye plates with separate runtime pupil layers.",
+  "static_sip_audit": "Original cup grip and cigarette hand inspected; no extra visible digit."
+}

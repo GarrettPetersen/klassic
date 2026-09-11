@@ -1,0 +1,140 @@
+{
+  "audio_sha256": "a2d566005779f09ede2c76edeeeaf18d0987a11039cc676680ab7b9e9ce9525d",
+  "expected": "Well, you mention what we think about, or what we talk about anyway, on Sundays... What about man in relationship to his religion?",
+  "model": "base.en",
+  "device": "cpu",
+  "comparison_version": 2,
+  "recovered": "Well, you mention what we think about or what we talk about anyway. On Sundays, what about man in relationship to his religion?",
+  "differences": [],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.2,
+      "text": " Well, you mention what we think about or what we talk about anyway.",
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.2,
+          "word": " Well,"
+        },
+        {
+          "start": 0.72,
+          "end": 0.96,
+          "word": " you"
+        },
+        {
+          "start": 0.96,
+          "end": 1.12,
+          "word": " mention"
+        },
+        {
+          "start": 1.12,
+          "end": 1.36,
+          "word": " what"
+        },
+        {
+          "start": 1.36,
+          "end": 1.44,
+          "word": " we"
+        },
+        {
+          "start": 1.44,
+          "end": 1.6,
+          "word": " think"
+        },
+        {
+          "start": 1.6,
+          "end": 1.92,
+          "word": " about"
+        },
+        {
+          "start": 1.92,
+          "end": 2.14,
+          "word": " or"
+        },
+        {
+          "start": 2.14,
+          "end": 2.3,
+          "word": " what"
+        },
+        {
+          "start": 2.3,
+          "end": 2.4,
+          "word": " we"
+        },
+        {
+          "start": 2.4,
+          "end": 2.56,
+          "word": " talk"
+        },
+        {
+          "start": 2.56,
+          "end": 2.94,
+          "word": " about"
+        },
+        {
+          "start": 2.94,
+          "end": 3.2,
+          "word": " anyway."
+        }
+      ]
+    },
+    {
+      "start": 3.76,
+      "end": 6.56,
+      "text": " On Sundays, what about man in relationship to his religion?",
+      "words": [
+        {
+          "start": 3.76,
+          "end": 3.78,
+          "word": " On"
+        },
+        {
+          "start": 3.78,
+          "end": 4.0,
+          "word": " Sundays,"
+        },
+        {
+          "start": 4.56,
+          "end": 4.74,
+          "word": " what"
+        },
+        {
+          "start": 4.74,
+          "end": 4.88,
+          "word": " about"
+        },
+        {
+          "start": 4.88,
+          "end": 5.1,
+          "word": " man"
+        },
+        {
+          "start": 5.1,
+          "end": 5.32,
+          "word": " in"
+        },
+        {
+          "start": 5.32,
+          "end": 5.74,
+          "word": " relationship"
+        },
+        {
+          "start": 5.74,
+          "end": 6.1,
+          "word": " to"
+        },
+        {
+          "start": 6.1,
+          "end": 6.24,
+          "word": " his"
+        },
+        {
+          "start": 6.24,
+          "end": 6.56,
+          "word": " religion?"
+        }
+      ]
+    }
+  ]
+}

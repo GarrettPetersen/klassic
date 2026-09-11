@@ -1,0 +1,140 @@
+{
+  "version": 1,
+  "canvas": [
+    600,
+    450
+  ],
+  "construction": "Complete arm. Open four-digit cigarette grip; no tangled fist poses.",
+  "anatomical_hand": "right",
+  "poses": {
+    "relaxed": {
+      "file": "relaxed.png",
+      "anchor": [
+        300,
+        90
+      ],
+      "anatomical_hand": "right",
+      "digits": 4,
+      "source": "guest-cigarette-arms-handed.png",
+      "source_sha256": "271a650b960d15996fa2021366b32c233deb82e4561c8540995c1415e8ce4dff",
+      "registration": {
+        "source_shoulder": [
+          443.0,
+          36
+        ],
+        "scale": [
+          0.4411764705882353,
+          0.4411764705882353
+        ],
+        "offset": [
+          105,
+          74
+        ],
+        "green_key_strength": 234
+      },
+      "cigarette_tip": [
+        113.98436511082916,
+        144.00222819506263
+      ],
+      "registered_source": "assets/episodes/fromm-v5/guest-cigarette/up.png",
+      "registered_source_sha256": "5fbc823c6ac35e5d1c38b691b3e5755d85b29a281938e587cda436e3c5290961",
+      "shoulder_rotation_degrees": 6
+    },
+    "up": {
+      "file": "up.png",
+      "anchor": [
+        300,
+        90
+      ],
+      "anatomical_hand": "right",
+      "digits": 4,
+      "source": "guest-cigarette-arms-handed.png",
+      "source_sha256": "271a650b960d15996fa2021366b32c233deb82e4561c8540995c1415e8ce4dff",
+      "registration": {
+        "source_shoulder": [
+          443.0,
+          36
+        ],
+        "scale": [
+          0.4411764705882353,
+          0.4411764705882353
+        ],
+        "offset": [
+          105,
+          74
+        ],
+        "green_key_strength": 234
+      },
+      "cigarette_tip": [
+        120.64814814814815,
+        163.15032679738562
+      ],
+      "registered_source": "assets/episodes/fromm-v5/guest-cigarette/up.png",
+      "registered_source_sha256": "5fbc823c6ac35e5d1c38b691b3e5755d85b29a281938e587cda436e3c5290961"
+    },
+    "sweep": {
+      "file": "sweep.png",
+      "anchor": [
+        300,
+        90
+      ],
+      "anatomical_hand": "right",
+      "digits": 4,
+      "source": "guest-cigarette-arms-handed.png",
+      "source_sha256": "271a650b960d15996fa2021366b32c233deb82e4561c8540995c1415e8ce4dff",
+      "registration": {
+        "source_shoulder": [
+          412.0,
+          66
+        ],
+        "scale": [
+          0.4411764705882353,
+          0.4411764705882353
+        ],
+        "offset": [
+          118,
+          61
+        ],
+        "green_key_strength": 235
+      },
+      "cigarette_tip": [
+        133.8544891640867,
+        164.41176470588235
+      ],
+      "registered_source": "assets/episodes/fromm-v5/guest-cigarette/sweep.png",
+      "registered_source_sha256": "c879659c0afab4f15aad465bd95906300ddc961fa612d90ec9a5abdfe06bb926"
+    },
+    "down": {
+      "file": "down.png",
+      "anchor": [
+        300,
+        90
+      ],
+      "anatomical_hand": "right",
+      "digits": 4,
+      "source": "guest-cigarette-arms-handed.png",
+      "source_sha256": "271a650b960d15996fa2021366b32c233deb82e4561c8540995c1415e8ce4dff",
+      "registration": {
+        "source_shoulder": [
+          443.0,
+          67
+        ],
+        "scale": [
+          0.4409722222222222,
+          0.4411764705882353
+        ],
+        "offset": [
+          105,
+          60
+        ],
+        "green_key_strength": 235
+      },
+      "cigarette_tip": [
+        150.8030884502924,
+        246.20743034055727
+      ],
+      "registered_source": "assets/episodes/fromm-v5/guest-cigarette/down.png",
+      "registered_source_sha256": "a1cacf981f10cb707935f0dca2df39216de1fdc283c3dc937960d28bfcd587e0"
+    }
+  }
+}

@@ -34,13 +34,19 @@ def extract_cels(atlas_path, output):
         "cels": {shape: digest(output / f"{shape}.png") for shape in cells}})
 
 
-def remove_green_matte(source):
+def remove_green_matte(source, background_green=255):
     """Remove a chroma background without changing the drawn geometry."""
+    if not 128<=background_green<=255:
+        raise ValueError('Green key strength must be in 128..255')
     rgba = Image.new("RGBA", source.size)
     pixels = []
     for r, g, b in source.getdata():
         excess = max(0, g - max(r, b))
-        alpha = 0 if excess > 60 else 255 - excess
+        # Keep partially covered black edge pixels. A high chroma cutoff clips
+        # antialiased ink and makes fingers/mouth contours appear broken.
+        alpha = max(0,round(255*(1-excess/background_green)))
+        if alpha < 12:
+            alpha = 0
         gray = min(255, round((r+b)*255/(2*alpha))) if alpha else 0
         pixels.append((gray, gray, gray, alpha))
     rgba.putdata(pixels)

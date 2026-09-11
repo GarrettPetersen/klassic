@@ -1,0 +1,114 @@
+{
+  "version": 1,
+  "canvas": [
+    400,
+    400
+  ],
+  "digit_convention": "Three fingers and one thumb; four digits total.",
+  "poses": {
+    "relaxed": {
+      "file": "relaxed.png",
+      "anchor": [
+        200,
+        200
+      ],
+      "canonical_angle": 163.55816342317397,
+      "digits": 4,
+      "source": "guest-free-atlas.png",
+      "source_sha256": "8061cf2a1e030f56b071c456827b35e616cabea348e75ef31fd2093044f77389",
+      "registration": {
+        "source_cuff": [
+          527.9255058246474,
+          262.83660331085224
+        ],
+        "scale": [
+          0.2937158469945355,
+          0.2947761194029851
+        ],
+        "offset": [
+          45,
+          123
+        ],
+        "green_key_strength": 244
+      }
+    },
+    "turn": {
+      "file": "turn.png",
+      "anchor": [
+        200,
+        200
+      ],
+      "canonical_angle": 163.55816342317397,
+      "digits": 4,
+      "source": "guest-free-atlas.png",
+      "source_sha256": "8061cf2a1e030f56b071c456827b35e616cabea348e75ef31fd2093044f77389",
+      "registration": {
+        "source_cuff": [
+          514.3151743638077,
+          286.26616399623
+        ],
+        "scale": [
+          0.28240109140518416,
+          0.28171641791044777
+        ],
+        "offset": [
+          55,
+          119
+        ],
+        "green_key_strength": 243
+      }
+    },
+    "up": {
+      "file": "up.png",
+      "anchor": [
+        200,
+        200
+      ],
+      "canonical_angle": 163.55816342317397,
+      "digits": 4,
+      "source": "guest-free-atlas.png",
+      "source_sha256": "8061cf2a1e030f56b071c456827b35e616cabea348e75ef31fd2093044f77389",
+      "registration": {
+        "source_cuff": [
+          533.2994789005824,
+          264.9849800756105
+        ],
+        "scale": [
+          0.2937158469945355,
+          0.2942271880819367
+        ],
+        "offset": [
+          43,
+          122
+        ],
+        "green_key_strength": 245
+      }
+    },
+    "sweep": {
+      "file": "sweep.png",
+      "anchor": [
+        200,
+        200
+      ],
+      "canonical_angle": 163.55816342317397,
+      "digits": 4,
+      "source": "guest-free-atlas.png",
+      "source_sha256": "8061cf2a1e030f56b071c456827b35e616cabea348e75ef31fd2093044f77389",
+      "registration": {
+        "source_cuff": [
+          523.7504289799809,
+          263.8274547187798
+        ],
+        "scale": [
+          0.2837653478854025,
+          0.2849162011173184
+        ],
+        "offset": [
+          51,
+          125
+        ],
+        "green_key_strength": 245
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "audio_sha256": "c069dc8ba8107fa1d8005f9c2c0c1915956e02f0717b687eb0f862544df39c8b",
+  "expected": "Explain.",
+  "model": "base.en",
+  "device": "cpu",
+  "comparison_version": 2,
+  "recovered": "Explain.",
+  "differences": [],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 0.34,
+      "text": " Explain.",
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.34,
+          "word": " Explain."
+        }
+      ]
+    }
+  ]
+}

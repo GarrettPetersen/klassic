@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "title": "Classic Krusty \u2014 The Sane Society",
+  "source": {
+    "url": "https://hrc.contentdm.oclc.org/digital/collection/p15878coll90/id/64/rec/26",
+    "notes": "Complete discussion from the user-designated local transcript inputs/fromm-1958/transcript.txt (1958-05-25). Wallace recast as Krusty; network announcements, nonverbal stage directions, and obsolete next-week promotion omitted. Minor transcription spacing/typo corrections recorded in edit-map.json. All substantive questions and answers retained, including the final discussion of socialism, war, and hope. Long answers split into short sequential takes without added inter-take pauses. Historical assertions remain in their 1958 context. Two late transcript slips are corrected against transcription of the original recording: twenty or thirty years; a mass man. The initial synthesis dialogue is retained in synthesis-script.json. Two Krusty cues are lightly adapted for clear delivery: the introductory question is reordered, and the book-title cue adds Your book. All changes are recorded in edit-map.json."
+  },
+  "disclosure": "Unofficial fan parody. AI animation and recreated Krusty and Erich Fromm voices. Based on the May 25, 1958 Mike Wallace interview; host recast and broadcast framing edited. Not authentic archival audio.",
+  "turns": [
+    {
+      "id": "t015",
+      "speaker": "host",
+      "text": "By meaning and interest in work - maybe I'm pressing this unnecessarily hard - what specifically do you mean? When a man works at a factory, with a monkey wrench, let us say, what meaning, what, what deeper meaning are you looking for?",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    }
+  ]
+}

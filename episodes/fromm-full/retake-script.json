@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "title": "Classic Krusty — The Sane Society",
+  "source": {
+    "url": "https://hrc.contentdm.oclc.org/digital/collection/p15878coll90/id/64/rec/26",
+    "notes": "Complete discussion from the user-designated local transcript inputs/fromm-1958/transcript.txt (1958-05-25). Wallace recast as Krusty; network announcements, nonverbal stage directions, and obsolete next-week promotion omitted. Minor transcription spacing/typo corrections recorded in edit-map.json. All substantive questions and answers retained, including the final discussion of socialism, war, and hope. Long answers split into short sequential takes without added inter-take pauses. Historical assertions remain in their 1958 context. Two late transcript slips are corrected against transcription of the original recording: twenty or thirty years; a mass man. The initial synthesis dialogue is retained in synthesis-script.json."
+  },
+  "disclosure": "Unofficial fan parody. AI animation and recreated Krusty and Erich Fromm voices. Based on the May 25, 1958 Mike Wallace interview; host recast and broadcast framing edited. Not authentic archival audio.",
+  "turns": [
+    {
+      "id": "t004",
+      "speaker": "host",
+      "text": "Our guest is Dr. Erich Fromm, a psychoanalyst and social critic, who is internationally renowned for his studies of men and their search for freedom. Dr. Fromm, first let me ask you this; from many different quarters, the United States, I think you will agree, has been criticized as a materialistic society, perhaps even a shallow society. Yet only recently, you said this...",
+      "provenance": "adaptation",
+      "pause_after": 0
+    },
+    {
+      "id": "t019",
+      "speaker": "guest",
+      "text": "Well, useless is a relative term. For instance, if in order to make his quota, he has to make people buy things which he knows they shouldn't buy them, then indeed, in terms of the needs of these people, they are useless, even if in themselves, they are alright.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t034",
+      "speaker": "host",
+      "text": "Do you think that that is happening to American man - and of course we're speaking not only of American man, but of American woman as well here, Dr. Fromm - in relationship to his politics, to his political beliefs?",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t067",
+      "speaker": "guest",
+      "text": "Well, I'll try. By equality, one once understood equality in the very same sense in which the Bible speaks of equality: that we are all equal, inasmuch as we are created in the image of God. Or, if I don't use theological language: that we are all equal in the sense that no man must mean - must be - the means for the purposes of another man; but each individual is an end in itself.",
+      "provenance": "quotation",
+      "pause_after": 0
+    },
+    {
+      "id": "t099",
+      "speaker": "host",
+      "text": "And yet, you yourself complain about bureaucracy. You yourself complain that the individual is losing his way in this state in which we live; and at the same time, you call for more socialism...aren't you just adding poison to the poison that is already being injected into our systems, if indeed, socialism be poison?",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t110",
+      "speaker": "host",
+      "text": "The Sane Society.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t111",
+      "speaker": "guest",
+      "text": "The Sane Society. I want to mention that Marx shares something, if you don't mind the comparison, with the Old Testament: many people talk about him, but nobody has read him.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t115",
+      "speaker": "host",
+      "text": "One final question, sir... In reading your Sane Society- and you only have, I'm sorry to say, a half a minute to answer this - I feel a certain despair in Erich Fromm, about the future of the world...",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    }
+  ]
+}

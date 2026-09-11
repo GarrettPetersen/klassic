@@ -1,0 +1,288 @@
+{
+  "audio_sha256": "a3c75f7189e4ed253ec7a2c067e0a4ed8878030596aebad8ab12186d4e19f293",
+  "expected": "Well, useless is a relative term. For instance, if in order to make his quota, he has to make people buy things which he knows they shouldn't buy them, then indeed, in terms of the needs of these people, they are useless, even if in themselves, they are alright.",
+  "model": "base.en",
+  "device": "cpu",
+  "comparison_version": 2,
+  "recovered": "When useless is a relative term, for instance, if in order to make his quota, he has to make people buy things which he knows they shouldn't buy them, then indeed, in terms of the needs of these people, they are useless, even if in themselves they are all right.",
+  "differences": [
+    {
+      "kind": "replace",
+      "expected": [
+        "well"
+      ],
+      "recovered": [
+        "when"
+      ]
+    },
+    {
+      "kind": "replace",
+      "expected": [
+        "alright"
+      ],
+      "recovered": [
+        "all",
+        "right"
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 18.86,
+      "text": " When useless is a relative term, for instance, if in order to make his quota, he has to make people buy things which he knows they shouldn't buy them, then indeed, in terms of the needs of these people, they are useless, even if in themselves they are all right.",
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.44,
+          "word": " When"
+        },
+        {
+          "start": 0.44,
+          "end": 1.18,
+          "word": " useless"
+        },
+        {
+          "start": 1.18,
+          "end": 1.58,
+          "word": " is"
+        },
+        {
+          "start": 1.58,
+          "end": 1.74,
+          "word": " a"
+        },
+        {
+          "start": 1.74,
+          "end": 1.98,
+          "word": " relative"
+        },
+        {
+          "start": 1.98,
+          "end": 2.5,
+          "word": " term,"
+        },
+        {
+          "start": 3.46,
+          "end": 3.58,
+          "word": " for"
+        },
+        {
+          "start": 3.58,
+          "end": 3.86,
+          "word": " instance,"
+        },
+        {
+          "start": 4.94,
+          "end": 5.02,
+          "word": " if"
+        },
+        {
+          "start": 5.02,
+          "end": 5.14,
+          "word": " in"
+        },
+        {
+          "start": 5.14,
+          "end": 5.34,
+          "word": " order"
+        },
+        {
+          "start": 5.34,
+          "end": 5.62,
+          "word": " to"
+        },
+        {
+          "start": 5.62,
+          "end": 5.84,
+          "word": " make"
+        },
+        {
+          "start": 5.84,
+          "end": 6.08,
+          "word": " his"
+        },
+        {
+          "start": 6.08,
+          "end": 6.5,
+          "word": " quota,"
+        },
+        {
+          "start": 7.4,
+          "end": 7.58,
+          "word": " he"
+        },
+        {
+          "start": 7.58,
+          "end": 7.76,
+          "word": " has"
+        },
+        {
+          "start": 7.76,
+          "end": 7.92,
+          "word": " to"
+        },
+        {
+          "start": 7.92,
+          "end": 8.12,
+          "word": " make"
+        },
+        {
+          "start": 8.12,
+          "end": 8.52,
+          "word": " people"
+        },
+        {
+          "start": 8.52,
+          "end": 8.82,
+          "word": " buy"
+        },
+        {
+          "start": 8.82,
+          "end": 9.14,
+          "word": " things"
+        },
+        {
+          "start": 9.14,
+          "end": 9.44,
+          "word": " which"
+        },
+        {
+          "start": 9.44,
+          "end": 9.66,
+          "word": " he"
+        },
+        {
+          "start": 9.66,
+          "end": 9.94,
+          "word": " knows"
+        },
+        {
+          "start": 9.94,
+          "end": 10.16,
+          "word": " they"
+        },
+        {
+          "start": 10.16,
+          "end": 10.54,
+          "word": " shouldn't"
+        },
+        {
+          "start": 10.54,
+          "end": 10.78,
+          "word": " buy"
+        },
+        {
+          "start": 10.78,
+          "end": 11.06,
+          "word": " them,"
+        },
+        {
+          "start": 11.56,
+          "end": 12.04,
+          "word": " then"
+        },
+        {
+          "start": 12.04,
+          "end": 12.38,
+          "word": " indeed,"
+        },
+        {
+          "start": 13.12,
+          "end": 13.22,
+          "word": " in"
+        },
+        {
+          "start": 13.22,
+          "end": 13.5,
+          "word": " terms"
+        },
+        {
+          "start": 13.5,
+          "end": 13.78,
+          "word": " of"
+        },
+        {
+          "start": 13.78,
+          "end": 13.94,
+          "word": " the"
+        },
+        {
+          "start": 13.94,
+          "end": 14.22,
+          "word": " needs"
+        },
+        {
+          "start": 14.22,
+          "end": 14.5,
+          "word": " of"
+        },
+        {
+          "start": 14.5,
+          "end": 14.68,
+          "word": " these"
+        },
+        {
+          "start": 14.68,
+          "end": 15.12,
+          "word": " people,"
+        },
+        {
+          "start": 15.34,
+          "end": 15.56,
+          "word": " they"
+        },
+        {
+          "start": 15.56,
+          "end": 15.68,
+          "word": " are"
+        },
+        {
+          "start": 15.68,
+          "end": 16.0,
+          "word": " useless,"
+        },
+        {
+          "start": 16.7,
+          "end": 17.12,
+          "word": " even"
+        },
+        {
+          "start": 17.12,
+          "end": 17.32,
+          "word": " if"
+        },
+        {
+          "start": 17.32,
+          "end": 17.46,
+          "word": " in"
+        },
+        {
+          "start": 17.46,
+          "end": 17.84,
+          "word": " themselves"
+        },
+        {
+          "start": 17.84,
+          "end": 18.32,
+          "word": " they"
+        },
+        {
+          "start": 18.32,
+          "end": 18.48,
+          "word": " are"
+        },
+        {
+          "start": 18.48,
+          "end": 18.62,
+          "word": " all"
+        },
+        {
+          "start": 18.62,
+          "end": 18.86,
+          "word": " right."
+        }
+      ]
+    }
+  ]
+}

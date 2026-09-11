@@ -1,0 +1,394 @@
+{
+  "audio_sha256": "d86a3735bcf55895744249ee5dbdcc27effc6908b2d3680864446e0b4541ace4",
+  "expected": "Our guest is Dr. Erich Fromm, a psychoanalyst and social critic, who is internationally renowned for his studies of men and their search for freedom. Dr. Fromm, first let me ask you this; from many different quarters, the United States, I think you will agree, has been criticized as a materialistic society, perhaps even a shallow society. Yet only recently, you said this...",
+  "model": "base.en",
+  "device": "cpu",
+  "comparison_version": 2,
+  "recovered": "Our guest is Dr. Eric From, a psychoanalyst and social critic, who is internationally renowned for his studies of men and their search for freedom. Dr. From, first let me ask you this, from many different quarters of the United States, I think you will agree, has been criticized as a materialistic society, perhaps even a shallow society. Yet only recently, you said this.",
+  "differences": [
+    {
+      "kind": "replace",
+      "expected": [
+        "erich",
+        "fromm"
+      ],
+      "recovered": [
+        "eric",
+        "from"
+      ]
+    },
+    {
+      "kind": "replace",
+      "expected": [
+        "fromm"
+      ],
+      "recovered": [
+        "from"
+      ]
+    },
+    {
+      "kind": "insert",
+      "expected": [],
+      "recovered": [
+        "of"
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 5.66,
+      "text": " Our guest is Dr. Eric From, a psychoanalyst and social critic, who is internationally renowned",
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.32,
+          "word": " Our"
+        },
+        {
+          "start": 0.32,
+          "end": 0.58,
+          "word": " guest"
+        },
+        {
+          "start": 0.58,
+          "end": 0.82,
+          "word": " is"
+        },
+        {
+          "start": 0.82,
+          "end": 1.14,
+          "word": " Dr."
+        },
+        {
+          "start": 1.36,
+          "end": 1.52,
+          "word": " Eric"
+        },
+        {
+          "start": 1.52,
+          "end": 1.82,
+          "word": " From,"
+        },
+        {
+          "start": 2.14,
+          "end": 2.26,
+          "word": " a"
+        },
+        {
+          "start": 2.26,
+          "end": 3.0,
+          "word": " psychoanalyst"
+        },
+        {
+          "start": 3.0,
+          "end": 3.26,
+          "word": " and"
+        },
+        {
+          "start": 3.26,
+          "end": 3.52,
+          "word": " social"
+        },
+        {
+          "start": 3.52,
+          "end": 3.92,
+          "word": " critic,"
+        },
+        {
+          "start": 4.48,
+          "end": 4.58,
+          "word": " who"
+        },
+        {
+          "start": 4.58,
+          "end": 4.7,
+          "word": " is"
+        },
+        {
+          "start": 4.7,
+          "end": 5.32,
+          "word": " internationally"
+        },
+        {
+          "start": 5.32,
+          "end": 5.66,
+          "word": " renowned"
+        }
+      ]
+    },
+    {
+      "start": 5.66,
+      "end": 8.46,
+      "text": " for his studies of men and their search for freedom.",
+      "words": [
+        {
+          "start": 5.66,
+          "end": 6.06,
+          "word": " for"
+        },
+        {
+          "start": 6.06,
+          "end": 6.18,
+          "word": " his"
+        },
+        {
+          "start": 6.18,
+          "end": 6.44,
+          "word": " studies"
+        },
+        {
+          "start": 6.44,
+          "end": 6.66,
+          "word": " of"
+        },
+        {
+          "start": 6.66,
+          "end": 6.9,
+          "word": " men"
+        },
+        {
+          "start": 6.9,
+          "end": 7.52,
+          "word": " and"
+        },
+        {
+          "start": 7.52,
+          "end": 7.66,
+          "word": " their"
+        },
+        {
+          "start": 7.66,
+          "end": 7.82,
+          "word": " search"
+        },
+        {
+          "start": 7.82,
+          "end": 8.14,
+          "word": " for"
+        },
+        {
+          "start": 8.14,
+          "end": 8.46,
+          "word": " freedom."
+        }
+      ]
+    },
+    {
+      "start": 9.22,
+      "end": 14.0,
+      "text": " Dr. From, first let me ask you this, from many different quarters of the United States,",
+      "words": [
+        {
+          "start": 9.22,
+          "end": 9.46,
+          "word": " Dr."
+        },
+        {
+          "start": 9.62,
+          "end": 9.74,
+          "word": " From,"
+        },
+        {
+          "start": 10.1,
+          "end": 10.34,
+          "word": " first"
+        },
+        {
+          "start": 10.34,
+          "end": 10.56,
+          "word": " let"
+        },
+        {
+          "start": 10.56,
+          "end": 10.68,
+          "word": " me"
+        },
+        {
+          "start": 10.68,
+          "end": 10.9,
+          "word": " ask"
+        },
+        {
+          "start": 10.9,
+          "end": 11.08,
+          "word": " you"
+        },
+        {
+          "start": 11.08,
+          "end": 11.3,
+          "word": " this,"
+        },
+        {
+          "start": 11.84,
+          "end": 12.06,
+          "word": " from"
+        },
+        {
+          "start": 12.06,
+          "end": 12.32,
+          "word": " many"
+        },
+        {
+          "start": 12.32,
+          "end": 12.64,
+          "word": " different"
+        },
+        {
+          "start": 12.64,
+          "end": 13.08,
+          "word": " quarters"
+        },
+        {
+          "start": 13.08,
+          "end": 13.28,
+          "word": " of"
+        },
+        {
+          "start": 13.28,
+          "end": 13.36,
+          "word": " the"
+        },
+        {
+          "start": 13.36,
+          "end": 13.44,
+          "word": " United"
+        },
+        {
+          "start": 13.44,
+          "end": 14.0,
+          "word": " States,"
+        }
+      ]
+    },
+    {
+      "start": 14.54,
+      "end": 20.16,
+      "text": " I think you will agree, has been criticized as a materialistic society, perhaps even a",
+      "words": [
+        {
+          "start": 14.54,
+          "end": 14.62,
+          "word": " I"
+        },
+        {
+          "start": 14.62,
+          "end": 14.84,
+          "word": " think"
+        },
+        {
+          "start": 14.84,
+          "end": 15.02,
+          "word": " you"
+        },
+        {
+          "start": 15.02,
+          "end": 15.16,
+          "word": " will"
+        },
+        {
+          "start": 15.16,
+          "end": 15.48,
+          "word": " agree,"
+        },
+        {
+          "start": 15.98,
+          "end": 16.16,
+          "word": " has"
+        },
+        {
+          "start": 16.16,
+          "end": 16.34,
+          "word": " been"
+        },
+        {
+          "start": 16.34,
+          "end": 16.74,
+          "word": " criticized"
+        },
+        {
+          "start": 16.74,
+          "end": 17.24,
+          "word": " as"
+        },
+        {
+          "start": 17.24,
+          "end": 17.38,
+          "word": " a"
+        },
+        {
+          "start": 17.38,
+          "end": 18.14,
+          "word": " materialistic"
+        },
+        {
+          "start": 18.14,
+          "end": 18.58,
+          "word": " society,"
+        },
+        {
+          "start": 19.32,
+          "end": 19.68,
+          "word": " perhaps"
+        },
+        {
+          "start": 19.68,
+          "end": 20.0,
+          "word": " even"
+        },
+        {
+          "start": 20.0,
+          "end": 20.26,
+          "word": " a"
+        }
+      ]
+    },
+    {
+      "start": 20.26,
+      "end": 23.82,
+      "text": " shallow society. Yet only recently, you said this.",
+      "words": [
+        {
+          "start": 20.26,
+          "end": 20.56,
+          "word": " shallow"
+        },
+        {
+          "start": 20.56,
+          "end": 21.2,
+          "word": " society."
+        },
+        {
+          "start": 22.02,
+          "end": 22.12,
+          "word": " Yet"
+        },
+        {
+          "start": 22.12,
+          "end": 22.32,
+          "word": " only"
+        },
+        {
+          "start": 22.32,
+          "end": 22.76,
+          "word": " recently,"
+        },
+        {
+          "start": 23.18,
+          "end": 23.28,
+          "word": " you"
+        },
+        {
+          "start": 23.28,
+          "end": 23.5,
+          "word": " said"
+        },
+        {
+          "start": 23.5,
+          "end": 23.82,
+          "word": " this."
+        }
+      ]
+    }
+  ]
+}

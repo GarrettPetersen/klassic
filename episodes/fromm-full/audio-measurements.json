@@ -1,0 +1,1032 @@
+{
+  "takes": [
+    {
+      "id": "t001",
+      "peak_dbfs": -0.000265076359937666,
+      "rms_dbfs": -17.33504056930542,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 4,
+      "full_scale_samples": 22
+    },
+    {
+      "id": "t002",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -17.00119376182556,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 5,
+      "full_scale_samples": 177
+    },
+    {
+      "id": "t003",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -17.184547185897827,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 5,
+      "full_scale_samples": 92
+    },
+    {
+      "id": "t004",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -17.649540901184082,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 6,
+      "full_scale_samples": 127
+    },
+    {
+      "id": "t005",
+      "peak_dbfs": -0.000265076359937666,
+      "rms_dbfs": -19.31358814239502,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 1,
+      "full_scale_samples": 2
+    },
+    {
+      "id": "t006",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -12.42598295211792,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 17,
+      "full_scale_samples": 1063
+    },
+    {
+      "id": "t007",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -12.862246036529541,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 27,
+      "full_scale_samples": 1061
+    },
+    {
+      "id": "t008",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -16.54892921447754,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 5,
+      "full_scale_samples": 135
+    },
+    {
+      "id": "t009",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -11.743876934051514,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 22,
+      "full_scale_samples": 1898
+    },
+    {
+      "id": "t010",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -14.769973754882812,
+      "silences_over_1_5_seconds": [
+        {
+          "start": 6.254625,
+          "end": 8.123291666666667
+        },
+        {
+          "start": 9.615729166666666,
+          "end": 11.4321875
+        }
+      ],
+      "longest_full_scale_run_samples": 10,
+      "full_scale_samples": 373
+    },
+    {
+      "id": "t011",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -16.994969844818115,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 4,
+      "full_scale_samples": 80
+    },
+    {
+      "id": "t012",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -12.072855234146118,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 19,
+      "full_scale_samples": 1392
+    },
+    {
+      "id": "t013",
+      "peak_dbfs": -0.000265076359937666,
+      "rms_dbfs": -19.524779319763184,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 2,
+      "full_scale_samples": 10
+    },
+    {
+      "id": "t014",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -11.975882053375244,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 13,
+      "full_scale_samples": 773
+    },
+    {
+      "id": "t015",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -17.71492600440979,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 4,
+      "full_scale_samples": 60
+    },
+    {
+      "id": "t016",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -11.798722743988037,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 16,
+      "full_scale_samples": 1892
+    },
+    {
+      "id": "t017",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -14.45380449295044,
+      "silences_over_1_5_seconds": [
+        {
+          "start": 9.797083333333333,
+          "end": 11.515708333333333
+        }
+      ],
+      "longest_full_scale_run_samples": 7,
+      "full_scale_samples": 78
+    },
+    {
+      "id": "t018",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -19.914042949676514,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 3,
+      "full_scale_samples": 5
+    },
+    {
+      "id": "t019",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -11.782301664352417,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 21,
+      "full_scale_samples": 980
+    },
+    {
+      "id": "t020",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -16.963798999786377,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 6,
+      "full_scale_samples": 106
+    },
+    {
+      "id": "t021",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -12.15914249420166,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 17,
+      "full_scale_samples": 470
+    },
+    {
+      "id": "t022",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -12.800688743591309,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 14,
+      "full_scale_samples": 402
+    },
+    {
+      "id": "t023",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -12.858350276947021,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 19,
+      "full_scale_samples": 790
+    },
+    {
+      "id": "t024",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -13.693829774856567,
+      "silences_over_1_5_seconds": [
+        {
+          "start": 8.279666666666667,
+          "end": 10.49375
+        }
+      ],
+      "longest_full_scale_run_samples": 12,
+      "full_scale_samples": 301
+    },
+    {
+      "id": "t025",
+      "peak_dbfs": -0.000265076359937666,
+      "rms_dbfs": -19.13516640663147,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 1,
+      "full_scale_samples": 2
+    },
+    {
+      "id": "t026",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -12.517716884613037,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 15,
+      "full_scale_samples": 651
+    },
+    {
+      "id": "t027",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -13.702647686004639,
+      "silences_over_1_5_seconds": [
+        {
+          "start": 6.2048958333333335,
+          "end": 8.084520833333332
+        }
+      ],
+      "longest_full_scale_run_samples": 22,
+      "full_scale_samples": 231
+    },
+    {
+      "id": "t028",
+      "peak_dbfs": -0.000265076359937666,
+      "rms_dbfs": -17.909001111984253,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 4,
+      "full_scale_samples": 38
+    },
+    {
+      "id": "t029",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -11.90518856048584,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 20,
+      "full_scale_samples": 2296
+    },
+    {
+      "id": "t030",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -13.84788990020752,
+      "silences_over_1_5_seconds": [
+        {
+          "start": 9.664875,
+          "end": 11.435354166666666
+        }
+      ],
+      "longest_full_scale_run_samples": 8,
+      "full_scale_samples": 201
+    },
+    {
+      "id": "t031",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -13.792829513549805,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 12,
+      "full_scale_samples": 251
+    },
+    {
+      "id": "t032",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -12.13064432144165,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 11,
+      "full_scale_samples": 387
+    },
+    {
+      "id": "t033",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -12.763912677764893,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 13,
+      "full_scale_samples": 383
+    },
+    {
+      "id": "t034",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -17.55353093147278,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 7,
+      "full_scale_samples": 94
+    },
+    {
+      "id": "t035",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -12.2027587890625,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 21,
+      "full_scale_samples": 1820
+    },
+    {
+      "id": "t036",
+      "peak_dbfs": -0.000265076359937666,
+      "rms_dbfs": -22.899603843688965,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 1,
+      "full_scale_samples": 1
+    },
+    {
+      "id": "t037",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -12.226989269256592,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 24,
+      "full_scale_samples": 2622
+    },
+    {
+      "id": "t038",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -12.589855194091797,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 13,
+      "full_scale_samples": 429
+    },
+    {
+      "id": "t039",
+      "peak_dbfs": -0.000265076359937666,
+      "rms_dbfs": -18.426910638809204,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 2,
+      "full_scale_samples": 5
+    },
+    {
+      "id": "t040",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -11.974018812179565,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 12,
+      "full_scale_samples": 554
+    },
+    {
+      "id": "t041",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -17.857197523117065,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 4,
+      "full_scale_samples": 35
+    },
+    {
+      "id": "t042",
+      "peak_dbfs": -0.000265076359937666,
+      "rms_dbfs": -17.87560224533081,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 2,
+      "full_scale_samples": 7
+    },
+    {
+      "id": "t043",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -12.151421308517456,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 17,
+      "full_scale_samples": 960
+    },
+    {
+      "id": "t044",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -12.771104574203491,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 15,
+      "full_scale_samples": 932
+    },
+    {
+      "id": "t045",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -17.718510627746582,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 3,
+      "full_scale_samples": 36
+    },
+    {
+      "id": "t046",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -11.9324791431427,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 20,
+      "full_scale_samples": 846
+    },
+    {
+      "id": "t047",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -11.985353231430054,
+      "silences_over_1_5_seconds": [
+        {
+          "start": 15.016791666666666,
+          "end": 17.35333333333333
+        }
+      ],
+      "longest_full_scale_run_samples": 22,
+      "full_scale_samples": 1423
+    },
+    {
+      "id": "t048",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -18.566874265670776,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 5,
+      "full_scale_samples": 22
+    },
+    {
+      "id": "t049",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -13.008856773376465,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 17,
+      "full_scale_samples": 1101
+    },
+    {
+      "id": "t050",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -12.744247913360596,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 15,
+      "full_scale_samples": 385
+    },
+    {
+      "id": "t051",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -16.871893405914307,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 5,
+      "full_scale_samples": 73
+    },
+    {
+      "id": "t052",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -12.903585433959961,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 12,
+      "full_scale_samples": 605
+    },
+    {
+      "id": "t053",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -18.30186367034912,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 2,
+      "full_scale_samples": 14
+    },
+    {
+      "id": "t054",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -12.037034034729004,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 25,
+      "full_scale_samples": 1649
+    },
+    {
+      "id": "t055",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -12.859526872634888,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 20,
+      "full_scale_samples": 675
+    },
+    {
+      "id": "t056",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -20.08204460144043,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 1,
+      "full_scale_samples": 2
+    },
+    {
+      "id": "t057",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -12.221474647521973,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 15,
+      "full_scale_samples": 784
+    },
+    {
+      "id": "t058",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -16.691232919692993,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 6,
+      "full_scale_samples": 90
+    },
+    {
+      "id": "t059",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -16.02178454399109,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 8,
+      "full_scale_samples": 231
+    },
+    {
+      "id": "t060",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -11.274073123931885,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 23,
+      "full_scale_samples": 2234
+    },
+    {
+      "id": "t061",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -13.21593165397644,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 10,
+      "full_scale_samples": 125
+    },
+    {
+      "id": "t062",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -11.494976282119751,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 18,
+      "full_scale_samples": 1982
+    },
+    {
+      "id": "t063",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -13.781356811523438,
+      "silences_over_1_5_seconds": [
+        {
+          "start": 11.001958333333333,
+          "end": 14.556166666666666
+        }
+      ],
+      "longest_full_scale_run_samples": 15,
+      "full_scale_samples": 369
+    },
+    {
+      "id": "t064",
+      "peak_dbfs": -0.000265076359937666,
+      "rms_dbfs": -18.063069581985474,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 1,
+      "full_scale_samples": 2
+    },
+    {
+      "id": "t065",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -12.86492109298706,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 10,
+      "full_scale_samples": 529
+    },
+    {
+      "id": "t066",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -19.492576122283936,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 3,
+      "full_scale_samples": 10
+    },
+    {
+      "id": "t067",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -11.027543544769287,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 24,
+      "full_scale_samples": 2873
+    },
+    {
+      "id": "t068",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -12.745641469955444,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 10,
+      "full_scale_samples": 259
+    },
+    {
+      "id": "t069",
+      "peak_dbfs": -0.000265076359937666,
+      "rms_dbfs": -23.070664405822754,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 2,
+      "full_scale_samples": 2
+    },
+    {
+      "id": "t070",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -12.804735898971558,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 16,
+      "full_scale_samples": 503
+    },
+    {
+      "id": "t071",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -12.8610360622406,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 19,
+      "full_scale_samples": 534
+    },
+    {
+      "id": "t072",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -13.75373363494873,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 12,
+      "full_scale_samples": 148
+    },
+    {
+      "id": "t073",
+      "peak_dbfs": -0.000265076359937666,
+      "rms_dbfs": -19.96716856956482,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 3,
+      "full_scale_samples": 6
+    },
+    {
+      "id": "t074",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -12.51344919204712,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 13,
+      "full_scale_samples": 426
+    },
+    {
+      "id": "t075",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -14.108667373657227,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 12,
+      "full_scale_samples": 176
+    },
+    {
+      "id": "t076",
+      "peak_dbfs": -0.1217218954116106,
+      "rms_dbfs": -20.795531272888184,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 0,
+      "full_scale_samples": 0
+    },
+    {
+      "id": "t077",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -12.643899917602539,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 23,
+      "full_scale_samples": 1095
+    },
+    {
+      "id": "t078",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -12.19397783279419,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 11,
+      "full_scale_samples": 740
+    },
+    {
+      "id": "t079",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -17.539650201797485,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 4,
+      "full_scale_samples": 36
+    },
+    {
+      "id": "t080",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -12.21369743347168,
+      "silences_over_1_5_seconds": [
+        {
+          "start": 12.466875,
+          "end": 14.6075
+        }
+      ],
+      "longest_full_scale_run_samples": 14,
+      "full_scale_samples": 863
+    },
+    {
+      "id": "t081",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -12.114759683609009,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 19,
+      "full_scale_samples": 1462
+    },
+    {
+      "id": "t082",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -18.774338960647583,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 3,
+      "full_scale_samples": 8
+    },
+    {
+      "id": "t083",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -13.393008708953857,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 10,
+      "full_scale_samples": 235
+    },
+    {
+      "id": "t084",
+      "peak_dbfs": -0.000265076359937666,
+      "rms_dbfs": -20.32494068145752,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 3,
+      "full_scale_samples": 10
+    },
+    {
+      "id": "t085",
+      "peak_dbfs": -0.11043907143175602,
+      "rms_dbfs": -14.837256669998169,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 0,
+      "full_scale_samples": 0
+    },
+    {
+      "id": "t086",
+      "peak_dbfs": -0.000265076359937666,
+      "rms_dbfs": -18.96957039833069,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 1,
+      "full_scale_samples": 2
+    },
+    {
+      "id": "t087",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -12.858524322509766,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 15,
+      "full_scale_samples": 508
+    },
+    {
+      "id": "t088",
+      "peak_dbfs": -0.7425758242607117,
+      "rms_dbfs": -24.029808044433594,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 0,
+      "full_scale_samples": 0
+    },
+    {
+      "id": "t089",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -12.158505916595459,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 15,
+      "full_scale_samples": 1003
+    },
+    {
+      "id": "t090",
+      "peak_dbfs": -0.000265076359937666,
+      "rms_dbfs": -18.134909868240356,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 3,
+      "full_scale_samples": 15
+    },
+    {
+      "id": "t091",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -12.47238039970398,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 21,
+      "full_scale_samples": 727
+    },
+    {
+      "id": "t092",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -13.367564678192139,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 16,
+      "full_scale_samples": 334
+    },
+    {
+      "id": "t093",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -13.163021802902222,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 13,
+      "full_scale_samples": 237
+    },
+    {
+      "id": "t094",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -12.432502508163452,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 14,
+      "full_scale_samples": 432
+    },
+    {
+      "id": "t095",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -18.812214136123657,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 3,
+      "full_scale_samples": 9
+    },
+    {
+      "id": "t096",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -12.208969593048096,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 16,
+      "full_scale_samples": 1019
+    },
+    {
+      "id": "t097",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -13.982300758361816,
+      "silences_over_1_5_seconds": [
+        {
+          "start": 13.929645833333334,
+          "end": 15.470875
+        }
+      ],
+      "longest_full_scale_run_samples": 12,
+      "full_scale_samples": 387
+    },
+    {
+      "id": "t098",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -16.58485770225525,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 6,
+      "full_scale_samples": 136
+    },
+    {
+      "id": "t099",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -17.543444633483887,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 6,
+      "full_scale_samples": 109
+    },
+    {
+      "id": "t100",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -13.665823936462402,
+      "silences_over_1_5_seconds": [
+        {
+          "start": 9.88875,
+          "end": 11.503791666666666
+        }
+      ],
+      "longest_full_scale_run_samples": 14,
+      "full_scale_samples": 565
+    },
+    {
+      "id": "t101",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -18.30186367034912,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 2,
+      "full_scale_samples": 14
+    },
+    {
+      "id": "t102",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -13.581444025039673,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 17,
+      "full_scale_samples": 425
+    },
+    {
+      "id": "t103",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -11.89143419265747,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 21,
+      "full_scale_samples": 1076
+    },
+    {
+      "id": "t104",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -12.43074893951416,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 20,
+      "full_scale_samples": 327
+    },
+    {
+      "id": "t105",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -18.33342432975769,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 5,
+      "full_scale_samples": 51
+    },
+    {
+      "id": "t106",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -11.397169828414917,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 25,
+      "full_scale_samples": 2104
+    },
+    {
+      "id": "t107",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -11.998291015625,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 14,
+      "full_scale_samples": 1954
+    },
+    {
+      "id": "t108",
+      "peak_dbfs": -0.000265076359937666,
+      "rms_dbfs": -17.994781732559204,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 3,
+      "full_scale_samples": 6
+    },
+    {
+      "id": "t109",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -12.685725688934326,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 8,
+      "full_scale_samples": 66
+    },
+    {
+      "id": "t110",
+      "peak_dbfs": -0.8887416869401932,
+      "rms_dbfs": -20.84833860397339,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 0,
+      "full_scale_samples": 0
+    },
+    {
+      "id": "t111",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -12.07391619682312,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 16,
+      "full_scale_samples": 950
+    },
+    {
+      "id": "t112",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -12.408053874969482,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 25,
+      "full_scale_samples": 342
+    },
+    {
+      "id": "t113",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -20.17460823059082,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 1,
+      "full_scale_samples": 1
+    },
+    {
+      "id": "t114",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -11.991339921951294,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 11,
+      "full_scale_samples": 127
+    },
+    {
+      "id": "t115",
+      "peak_dbfs": -0.000265076359937666,
+      "rms_dbfs": -17.96403408050537,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 5,
+      "full_scale_samples": 53
+    },
+    {
+      "id": "t116",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -13.91979694366455,
+      "silences_over_1_5_seconds": [
+        {
+          "start": 9.621770833333333,
+          "end": 11.5054375
+        }
+      ],
+      "longest_full_scale_run_samples": 19,
+      "full_scale_samples": 646
+    },
+    {
+      "id": "t117",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -12.369663715362549,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 22,
+      "full_scale_samples": 1105
+    },
+    {
+      "id": "t118",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -18.08993101119995,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 4,
+      "full_scale_samples": 45
+    },
+    {
+      "id": "t119",
+      "peak_dbfs": 0.0,
+      "rms_dbfs": -18.87523651123047,
+      "silences_over_1_5_seconds": [],
+      "longest_full_scale_run_samples": 3,
+      "full_scale_samples": 5
+    }
+  ],
+  "long_silence_takes": [
+    "t010",
+    "t017",
+    "t024",
+    "t027",
+    "t030",
+    "t047",
+    "t063",
+    "t080",
+    "t097",
+    "t100",
+    "t116"
+  ],
+  "full_scale_sample_percent": 0.08452019572652615,
+  "longest_full_scale_run_samples": 27,
+  "notes": "Raw Chatterbox output reaches PCM full scale at brief peaks. Final render applies the existing filtered loudness normalization and limiter. These measurements do not establish subjective audio quality; listening review remains required. Measured long pauses are retained for the guest delivery.",
+  "full_scale_samples": 61531
+}

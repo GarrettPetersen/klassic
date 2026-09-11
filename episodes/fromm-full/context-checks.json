@@ -1,0 +1,164 @@
+[
+  {
+    "path": "build/fromm-context-01/context-1.wav",
+    "expected": "That is to say, I mean he has separated his private life from his existence as a member of his society, and leaves that to the specialists in the government to take care of. Do you think that that is happening to American man - and of course we're speaking not only of American man, but of American woman as well here, Dr. Fromm - in relationship to his politics, to his political beliefs? Yes, indeed. We have, in the same way, relegated our own responsibility in what happens to our country to the specialists, who are supposed to take care of it, and the individual citizen does not feel that he can judge, and even that he should judge, and take any responsibility. I think there are quite a number of recent developments which show that.",
+    "sources": [
+      {
+        "id": "t033",
+        "speaker": "guest",
+        "path": "voices/takes/fromm-full-01/t033.wav",
+        "sha256": "28a510b2b66d74dc0fbc5bf80a63f36c8d054295216d0e27cbfe8b2f2a254983"
+      },
+      {
+        "id": "t034",
+        "speaker": "host",
+        "path": "voices/takes/fromm-full-retakes-01/t034.wav",
+        "sha256": "b945d81330079bb47321ded9c83d15f2edec19dd7b7efdf99a97a670cfb0dd24"
+      },
+      {
+        "id": "t035",
+        "speaker": "guest",
+        "path": "voices/takes/fromm-full-01/t035.wav",
+        "sha256": "cc7b3772a8429e5f45ec6cf73753abb69322cc0ca172daef8dbc69c0fa8ce56b"
+      }
+    ],
+    "checks": [
+      {
+        "model": "small.en",
+        "recovered": "That is to say, I mean he has separated his private life from his existence as a member of his society, and leaves that to the specialists in the government to take care of. Do you think that that is happening to American man? And of course, we're speaking not only of American man, but of American woman as well here, Dr. Fromm, in relationship to his politics, to his political beliefs. Yes, indeed. We have, in the same way, relegated our own responsibility in what happens to our country to the specialists who are supposed to take care of it, and the individual citizen does not feel that he can judge, and even that he should judge, and take any responsibility. I think there are quite a number of recent developments which show that.",
+        "differences": []
+      },
+      {
+        "model": "base.en",
+        "recovered": "That is to say, I mean he has separated his private life from his existence as a member of his society and leads that to the specialists in the government to take care of. Do you think that that is happening to American man? And of course we're speaking not only of American man, but of American woman as well here, Dr. Fromm, in relationship to his politics, to his political beliefs. Yes indeed, we have in the same way relegated our own responsibility in what happens to our country to the specialists who are supposed to take care of it and the individual citizen does not feel that he can judge and even that he should judge and take any responsibility. I think there are quite a number of recent developments which show that.",
+        "differences": [
+          {
+            "kind": "replace",
+            "expected": [
+              "leaves"
+            ],
+            "recovered": [
+              "leads"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path": "build/fromm-context-01/context-2.wav",
+    "expected": "Well, I've tried in one book of mine to describe this. The Sane Society. The Sane Society. I want to mention that Marx shares something, if you don't mind the comparison, with the Old Testament: many people talk about him, but nobody has read him. And in fact, there are very important writings of Marx which are not even translated into English. So you suggest that we go to Dr. Erich Fromm, and to Karl Marx...",
+    "sources": [
+      {
+        "id": "t109",
+        "speaker": "guest",
+        "path": "voices/takes/fromm-full-01/t109.wav",
+        "sha256": "17d5791c3742309ed70290a998875a7e987d4a83bc7fa7166607df027f3893b6"
+      },
+      {
+        "id": "t110",
+        "speaker": "host",
+        "path": "voices/takes/fromm-full-retakes-01/t110.wav",
+        "sha256": "642a229f231a7192c2d460e9391c8b87f5a8639b88452b8b175924094254c922"
+      },
+      {
+        "id": "t111",
+        "speaker": "guest",
+        "path": "voices/takes/fromm-full-retakes-01/t111.wav",
+        "sha256": "94fff8ec3a6b663c5abd648685c6996e1bf1f2fc68b3291d6ea0352309a1deda"
+      },
+      {
+        "id": "t112",
+        "speaker": "guest",
+        "path": "voices/takes/fromm-full-01/t112.wav",
+        "sha256": "2a149e75d6800230da46763bc270f6b9d09fa6d5d9dc600eb3dea9ad626384d8"
+      },
+      {
+        "id": "t113",
+        "speaker": "host",
+        "path": "voices/takes/fromm-full-01/t113.wav",
+        "sha256": "73b1aaf53a24cbd3b6b694c87d2dc290d560efba04430aca1f2e1ab60e36088b"
+      }
+    ],
+    "checks": [
+      {
+        "model": "small.en",
+        "recovered": "Well, I've tried in one book of mine to describe this. Sane society. The sane society. I want to mention that Marx shares something. If you don't mind the comparison with the Old Testament, many people talk about him, but nobody has read him. And in fact, there are very important writings of Marx which are not even translated into English. So you suggest that we go to Dr. Eric Frum and to Karl Marx.",
+        "differences": [
+          {
+            "kind": "delete",
+            "expected": [
+              "the"
+            ],
+            "recovered": []
+          },
+          {
+            "kind": "replace",
+            "expected": [
+              "erich",
+              "fromm"
+            ],
+            "recovered": [
+              "eric",
+              "frum"
+            ]
+          }
+        ]
+      },
+      {
+        "model": "base.en",
+        "recovered": "Well, I've tried in one book of mine to describe this. Saying society. The saying society. I want to mention that Mark shares something. If you don't mind the comparison with the old testament, many people talk about him, but nobody has read him. And in fact, there are very important writings of Mark's which are not even translated into English. So you suggest that we go to Dr. Eric Frum and to Karl Marx.",
+        "differences": [
+          {
+            "kind": "replace",
+            "expected": [
+              "the",
+              "sane"
+            ],
+            "recovered": [
+              "saying"
+            ]
+          },
+          {
+            "kind": "replace",
+            "expected": [
+              "sane"
+            ],
+            "recovered": [
+              "saying"
+            ]
+          },
+          {
+            "kind": "replace",
+            "expected": [
+              "marx"
+            ],
+            "recovered": [
+              "mark"
+            ]
+          },
+          {
+            "kind": "replace",
+            "expected": [
+              "marx"
+            ],
+            "recovered": [
+              "mark's"
+            ]
+          },
+          {
+            "kind": "replace",
+            "expected": [
+              "erich",
+              "fromm"
+            ],
+            "recovered": [
+              "eric",
+              "frum"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

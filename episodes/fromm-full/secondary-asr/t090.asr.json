@@ -1,0 +1,207 @@
+{
+  "audio_sha256": "80c301c0d13009931f15094cd48b3a3c502a2963611bf0bc9848f43afd0b28c8",
+  "expected": "But he's going to be employed by the state, is he not, Dr. Fromm? Are you not putting the individual in socialism at the disposal of the state? Doesn't it devalue the individual?",
+  "model": "base.en",
+  "device": "cpu",
+  "comparison_version": 2,
+  "recovered": "But he's going to be employed by the state, is he not Dr. From? Are you not putting the individual in socialism at the disposal of the state? Doesn't it devalue the individual?",
+  "differences": [
+    {
+      "kind": "replace",
+      "expected": [
+        "fromm"
+      ],
+      "recovered": [
+        "from"
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.14,
+      "text": " But he's going to be employed by the state, is he not Dr. From?",
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.3,
+          "word": " But"
+        },
+        {
+          "start": 0.3,
+          "end": 0.5,
+          "word": " he's"
+        },
+        {
+          "start": 0.5,
+          "end": 0.62,
+          "word": " going"
+        },
+        {
+          "start": 0.62,
+          "end": 0.72,
+          "word": " to"
+        },
+        {
+          "start": 0.72,
+          "end": 0.84,
+          "word": " be"
+        },
+        {
+          "start": 0.84,
+          "end": 1.2,
+          "word": " employed"
+        },
+        {
+          "start": 1.2,
+          "end": 1.5,
+          "word": " by"
+        },
+        {
+          "start": 1.5,
+          "end": 1.66,
+          "word": " the"
+        },
+        {
+          "start": 1.66,
+          "end": 1.92,
+          "word": " state,"
+        },
+        {
+          "start": 1.96,
+          "end": 2.18,
+          "word": " is"
+        },
+        {
+          "start": 2.18,
+          "end": 2.26,
+          "word": " he"
+        },
+        {
+          "start": 2.26,
+          "end": 2.46,
+          "word": " not"
+        },
+        {
+          "start": 2.46,
+          "end": 2.76,
+          "word": " Dr."
+        },
+        {
+          "start": 3.06,
+          "end": 3.14,
+          "word": " From?"
+        }
+      ]
+    },
+    {
+      "start": 3.48,
+      "end": 7.44,
+      "text": " Are you not putting the individual in socialism at the disposal of the state?",
+      "words": [
+        {
+          "start": 3.48,
+          "end": 3.82,
+          "word": " Are"
+        },
+        {
+          "start": 3.82,
+          "end": 3.92,
+          "word": " you"
+        },
+        {
+          "start": 3.92,
+          "end": 4.06,
+          "word": " not"
+        },
+        {
+          "start": 4.06,
+          "end": 4.32,
+          "word": " putting"
+        },
+        {
+          "start": 4.32,
+          "end": 4.58,
+          "word": " the"
+        },
+        {
+          "start": 4.58,
+          "end": 5.06,
+          "word": " individual"
+        },
+        {
+          "start": 5.06,
+          "end": 5.3,
+          "word": " in"
+        },
+        {
+          "start": 5.3,
+          "end": 5.54,
+          "word": " socialism"
+        },
+        {
+          "start": 5.54,
+          "end": 6.16,
+          "word": " at"
+        },
+        {
+          "start": 6.16,
+          "end": 6.3,
+          "word": " the"
+        },
+        {
+          "start": 6.3,
+          "end": 6.7,
+          "word": " disposal"
+        },
+        {
+          "start": 6.7,
+          "end": 7.06,
+          "word": " of"
+        },
+        {
+          "start": 7.06,
+          "end": 7.16,
+          "word": " the"
+        },
+        {
+          "start": 7.16,
+          "end": 7.44,
+          "word": " state?"
+        }
+      ]
+    },
+    {
+      "start": 7.78,
+      "end": 9.08,
+      "text": " Doesn't it devalue the individual?",
+      "words": [
+        {
+          "start": 7.78,
+          "end": 8.02,
+          "word": " Doesn't"
+        },
+        {
+          "start": 8.02,
+          "end": 8.1,
+          "word": " it"
+        },
+        {
+          "start": 8.1,
+          "end": 8.62,
+          "word": " devalue"
+        },
+        {
+          "start": 8.62,
+          "end": 8.76,
+          "word": " the"
+        },
+        {
+          "start": 8.76,
+          "end": 9.08,
+          "word": " individual?"
+        }
+      ]
+    }
+  ]
+}

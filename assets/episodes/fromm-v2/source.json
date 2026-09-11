@@ -1,0 +1,7 @@
+{
+  "base_rig_sha256": "439ae40c70a761466e9b41e47fec8a7679e823722217fc4dd323d487310cd7c9",
+  "correction_spec_sha256": "c7f9422b20ea8206aecba861f7ea950b202d85c8d90fc6e7de4ba4f8a8400ba7",
+  "torso_art_sha256": "6a21bbc20a41486c8c475cfd39341a3e6ad5d09c782b328d07e819d0fcccd65d",
+  "hair_art_sha256": "f60603fe6bab21b3016207e898cdfbd26d7659bd06fc49cc72446b609bedb7b3",
+  "method": "Built-in image generation for collar, shoulders, and hair root; registered region compositing into both poses; corrected far-side hair retained as foreground above mouth cels."
+}

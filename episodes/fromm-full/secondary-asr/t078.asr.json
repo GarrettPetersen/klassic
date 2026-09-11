@@ -1,0 +1,180 @@
+{
+  "audio_sha256": "abe8351cefdbe110a47718cbaa5891723b9df5799a674ad84b37ddb24530af19",
+  "expected": "I think what democracy means today, in reality, is to a large extent, manipulated consent - not forced consent, manipulated consent -and manipulated more and more with the help of Madison Avenue.",
+  "model": "base.en",
+  "device": "cpu",
+  "comparison_version": 2,
+  "recovered": "I think what democracy means today in reality is to a large extent manipulated consent, not forced consent, manipulated consent and manipulated more and more with the help of Madison Avenue.",
+  "differences": [],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 9.74,
+      "text": " I think what democracy means today in reality is to a large extent manipulated consent, not",
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.3,
+          "word": " I"
+        },
+        {
+          "start": 0.3,
+          "end": 0.66,
+          "word": " think"
+        },
+        {
+          "start": 0.66,
+          "end": 1.08,
+          "word": " what"
+        },
+        {
+          "start": 1.08,
+          "end": 1.36,
+          "word": " democracy"
+        },
+        {
+          "start": 1.36,
+          "end": 2.24,
+          "word": " means"
+        },
+        {
+          "start": 2.24,
+          "end": 2.72,
+          "word": " today"
+        },
+        {
+          "start": 2.72,
+          "end": 3.32,
+          "word": " in"
+        },
+        {
+          "start": 3.32,
+          "end": 3.8,
+          "word": " reality"
+        },
+        {
+          "start": 3.8,
+          "end": 4.9,
+          "word": " is"
+        },
+        {
+          "start": 4.9,
+          "end": 5.16,
+          "word": " to"
+        },
+        {
+          "start": 5.16,
+          "end": 5.36,
+          "word": " a"
+        },
+        {
+          "start": 5.36,
+          "end": 5.64,
+          "word": " large"
+        },
+        {
+          "start": 5.64,
+          "end": 6.36,
+          "word": " extent"
+        },
+        {
+          "start": 6.36,
+          "end": 7.64,
+          "word": " manipulated"
+        },
+        {
+          "start": 7.64,
+          "end": 8.5,
+          "word": " consent,"
+        },
+        {
+          "start": 9.66,
+          "end": 9.74,
+          "word": " not"
+        }
+      ]
+    },
+    {
+      "start": 9.74,
+      "end": 17.38,
+      "text": " forced consent, manipulated consent and manipulated more and more with the help of Madison Avenue.",
+      "words": [
+        {
+          "start": 9.74,
+          "end": 10.1,
+          "word": " forced"
+        },
+        {
+          "start": 10.1,
+          "end": 10.72,
+          "word": " consent,"
+        },
+        {
+          "start": 11.5,
+          "end": 11.82,
+          "word": " manipulated"
+        },
+        {
+          "start": 11.82,
+          "end": 12.68,
+          "word": " consent"
+        },
+        {
+          "start": 12.68,
+          "end": 13.54,
+          "word": " and"
+        },
+        {
+          "start": 13.54,
+          "end": 13.9,
+          "word": " manipulated"
+        },
+        {
+          "start": 13.9,
+          "end": 14.62,
+          "word": " more"
+        },
+        {
+          "start": 14.62,
+          "end": 14.88,
+          "word": " and"
+        },
+        {
+          "start": 14.88,
+          "end": 15.26,
+          "word": " more"
+        },
+        {
+          "start": 15.26,
+          "end": 15.92,
+          "word": " with"
+        },
+        {
+          "start": 15.92,
+          "end": 16.06,
+          "word": " the"
+        },
+        {
+          "start": 16.06,
+          "end": 16.32,
+          "word": " help"
+        },
+        {
+          "start": 16.32,
+          "end": 16.56,
+          "word": " of"
+        },
+        {
+          "start": 16.56,
+          "end": 16.86,
+          "word": " Madison"
+        },
+        {
+          "start": 16.86,
+          "end": 17.38,
+          "word": " Avenue."
+        }
+      ]
+    }
+  ]
+}

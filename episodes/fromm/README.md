@@ -1,6 +1,6 @@
 # Fromm episode production
 
-The target is a full-length Classic Krusty episode based on the roughly half-hour May 25, 1958 Mike Wallace interview. **The full episode is not yet made.** The current script is a short production test adapted from Fromm's argument. The nine-turn script is a concise paraphrase with original opening, connecting remarks, and sign-off. It is not presented as a verbatim historical interview. Each turn records its provenance.
+This directory contains the short production test adapted from Fromm's argument. The full 26:54 interview is now rendered separately in [build/fromm-full-02](../../build/fromm-full-02/episode.mp4); see [its production notes](../fromm-full/README.md) for the complete script and review status. The nine-turn script is a concise paraphrase with original opening, connecting remarks, and sign-off. It is not presented as a verbatim historical interview. Each turn records its provenance.
 
 ## Voices
 
@@ -59,6 +59,6 @@ The music review is a copy of the short test, **not the full episode**. Its dura
 
 ## Full-length status
 
-Both the complete 4,441-word archive transcript and the 1,769.856-second source recording are already downloaded locally. Retrieval is complete. The current blocker is using the entire remotely retrieved copyrighted transcript in the recreated episode; the user has been asked to supply the transcript directly. No full-length speech generation has been started, and the short test must not be described as the finished full episode.
+The user-designated complete local transcript at `inputs/fromm-1958/transcript.txt` is the source for the full interview. The full script at `episodes/fromm-full/episode.json` contains 4,141 spoken words in 119 takes, with a source copy and explicit edit map. The complete film is `build/fromm-full-02/episode.mp4` (26:54). Export and visual checks passed; full listening review remains pending. See `episodes/fromm-full/README.md` for the production record. The short test remains separate.
 
-Voice generation now accepts an explicit episode, reference configuration, and output directory. It checks all saved takes before generating any new ones and loads the speech model only when needed. The assembly tool no longer restricts the edit to nine turns. Use a separate script, take directory, and build for the full episode when its text is supplied.
+Voice generation now accepts an explicit episode, reference configuration, and output directory. It checks all saved takes before generating any new ones and loads the speech model only when needed. The assembly tool no longer restricts the edit to nine turns. The full episode uses its own script, selected take directory, and build.

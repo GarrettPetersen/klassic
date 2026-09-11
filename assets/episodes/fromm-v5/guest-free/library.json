@@ -1,0 +1,115 @@
+{
+  "version": 1,
+  "canvas": [
+    600,
+    450
+  ],
+  "construction": "Complete connected shoulder, sleeve, elbow, cuff, wrist and hand. No wrist join.",
+  "anatomical_hand": "left",
+  "poses": {
+    "relaxed": {
+      "file": "relaxed.png",
+      "anchor": [
+        300,
+        90
+      ],
+      "anatomical_hand": "left",
+      "digits": 4,
+      "source": "guest-free-arms.png",
+      "source_sha256": "ecdf1e1de486cdfb04f4f0aec370483e2658984bbcebb66c021645ee80cb6f0d",
+      "registration": {
+        "source_shoulder": [
+          330.0,
+          34
+        ],
+        "scale": [
+          0.4134275618374558,
+          0.4135240572171652
+        ],
+        "offset": [
+          164,
+          76
+        ],
+        "green_key_strength": 244
+      }
+    },
+    "turn": {
+      "file": "turn.png",
+      "anchor": [
+        300,
+        90
+      ],
+      "anatomical_hand": "left",
+      "digits": 4,
+      "source": "guest-free-arms.png",
+      "source_sha256": "ecdf1e1de486cdfb04f4f0aec370483e2658984bbcebb66c021645ee80cb6f0d",
+      "registration": {
+        "source_shoulder": [
+          365.0,
+          34
+        ],
+        "scale": [
+          0.41415929203539825,
+          0.4135240572171652
+        ],
+        "offset": [
+          149,
+          76
+        ],
+        "green_key_strength": 242
+      }
+    },
+    "up": {
+      "file": "up.png",
+      "anchor": [
+        300,
+        90
+      ],
+      "anatomical_hand": "left",
+      "digits": 4,
+      "source": "guest-free-arms.png",
+      "source_sha256": "ecdf1e1de486cdfb04f4f0aec370483e2658984bbcebb66c021645ee80cb6f0d",
+      "registration": {
+        "source_shoulder": [
+          328.5,
+          34
+        ],
+        "scale": [
+          0.4134275618374558,
+          0.4135240572171652
+        ],
+        "offset": [
+          164,
+          76
+        ],
+        "green_key_strength": 244
+      }
+    },
+    "sweep": {
+      "file": "sweep.png",
+      "anchor": [
+        300,
+        90
+      ],
+      "anatomical_hand": "left",
+      "digits": 4,
+      "source": "guest-free-arms.png",
+      "source_sha256": "ecdf1e1de486cdfb04f4f0aec370483e2658984bbcebb66c021645ee80cb6f0d",
+      "registration": {
+        "source_shoulder": [
+          364.0,
+          34
+        ],
+        "scale": [
+          0.41415929203539825,
+          0.4135240572171652
+        ],
+        "offset": [
+          149,
+          76
+        ],
+        "green_key_strength": 244
+      }
+    }
+  }
+}

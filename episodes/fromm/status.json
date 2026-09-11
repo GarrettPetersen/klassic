@@ -1,11 +1,11 @@
 {
-  "full_episode_complete": false,
+  "full_episode_complete": true,
   "target": "Entire approximately half-hour interview; preserve long answers and pauses.",
   "source_duration_seconds": 1769.856,
   "source_transcript_words": 4441,
   "source_transcript_downloaded": true,
-  "full_length_synthesis_started": false,
-  "blocker": "Awaiting a user-supplied transcript for the full-text transformation; the remotely retrieved archive transcript is already present.",
+  "full_length_synthesis_started": true,
+  "blocker": null,
   "production_test": {
     "dialogue_seconds": 101.01,
     "with_music_and_credits_seconds": 147.26,
@@ -17,12 +17,16 @@
     "Silence-aware lip sync",
     "Licensed jazz cue with source record",
     "Requested creator, model, source, and music credits",
-    "Voice and assembly scripts accept a separate full-length episode"
+    "Voice and assembly scripts accept a separate full-length episode",
+    "Full 119-take interview rendered at 1440×1080 / 24 fps with music, titles, credits and captions",
+    "Complete decode, source mapping, selected audio integrity, frame-state and visual checks"
   ],
   "next_steps": [
-    "Receive user-supplied transcript",
-    "Prepare complete script without shortening its discussion",
-    "Generate and review all full-length voice takes",
-    "Edit full camera timeline, render, and inspect full film"
-  ]
+    "Listen through the full rendered cut for voice likeness, consonants, and audio joins."
+  ],
+  "full_length_episode": "episodes/fromm-full/episode.json",
+  "full_length_takes": "voices/takes/fromm-full-selected-01",
+  "full_length_build": "build/fromm-full-01",
+  "full_length_seconds": 1614.375,
+  "full_listening_review_complete": false
 }

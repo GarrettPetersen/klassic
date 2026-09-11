@@ -4,18 +4,37 @@ Turn a two-person interview transcript into a black-and-white, limited-animation
 
 The first production source is **Erich Fromm on The Mike Wallace Interview (May 25, 1958)**, discussing personality as a marketable product. The complete archive transcript has been retrieved and verified. See [the episode brief](docs/pilot.md) and [source record with excerpt boundaries](episodes/fromm/source.json).
 
+## Drawing-based game MVP
+
+The narrative-game direction uses **saved poses and drawn transitions**, with
+separate character, action, dialogue and scene packages. See the
+[animation plan](docs/game-animation-pipeline.md) and
+[seated conversation MVP](examples/seated/README.md).
+
+```sh
+npm run build:mvp
+npm test
+npm run serve:mvp
+```
+
+Open [On the record](http://127.0.0.1:8765/web/player/) to choose dialogue,
+hear responses and inspect gestures in the rehearsal room. The current cast
+reuses Krusty/Fromm as test artwork; the planned game cast is original.
+
 ## What runs today
 
 - Strict speaker-labeled transcript import and provenance for each turn.
 - Audio from supplied WAV takes, Chatterbox, XTTS, or explicitly selected macOS scratch voices.
 - Rhubarb phoneme recognition, nine chart-informed Krusty muzzle/jaw cels, independent character timing.
 - Generated grayscale set and matching drinking pose, camera crops, listening cutaways, moving cigarette smoke.
+- A layered 2D performance rig with torso leaning, complete arm drawings with fixed left/right anatomy, independent blinks, and Krusty's audience gaze. See the [motion preview](build/fromm-full-07/motion-preview.mp4) and [rig documentation](episodes/fromm-full/revision-07/README.md).
+- Local accent-embedding review with a known-drift calibration experiment; its results do not justify automatic rejection of takes.
 - 24fps playback with 72 authored Krusty in-between cels covering all 36 mouth-pose pairs, encoded as H.264/AAC MP4, burned captions, SRT, contact sheet, editable JSON camera timeline, and a local HTML review page.
 - Input hashes, retained takes, deterministic compositing, and errors for missing inputs or invalid timelines. No automatic replacement with a different voice provider.
 
-**The full-length episode is not finished.** The target is the entire roughly half-hour interview. **The Personality Market** is a 101-second dialogue production test with adapted discussion and original framing. It uses the preferred Cartoon Studio Krusty voice reference and a separate Fromm reference from his 1958 interview. The portrait has a foreground nose, guest-specific skin treatment, and all 72 authored mouth transitions. See [the production recipe](episodes/fromm/README.md).
+**The full-length episode is rendered:** [The Sane Society with burned captions](build/fromm-full-02/episode-captioned.mp4), 26:54, from the complete user-designated transcript. A [clean version](build/fromm-full-02/episode.mp4) and [sidecar captions](build/fromm-full-02/episode.srt) are also available. It preserves the full discussion in 119 takes; [production notes and review status](episodes/fromm-full/README.md) record the edits and checks. **The Personality Market** is a 101-second dialogue production test with adapted discussion and original framing. It uses the preferred Cartoon Studio Krusty voice reference and a separate Fromm reference from his 1958 interview. The portrait has a foreground nose, guest-specific skin treatment, and all 72 authored mouth transitions. See [the production recipe](episodes/fromm/README.md).
 
-The production test is 4:3 at 1440×1080 and 24 fps, with a jazz opening, clean picture, optional SRT captions, and end credits. Close-ups crop the master set; the drinking pose changes across cuts. Blinks and full arm animation are not implemented.
+The production test is 4:3 at 1440×1080 and 24 fps, with a jazz opening, clean picture, optional SRT captions, and end credits. Close-ups crop the master set; the drinking pose changes across cuts. The Fromm revision-07 rig adds blinking, held torso poses and discrete four-digit hand gestures.
 
 ## Run the included proof
 

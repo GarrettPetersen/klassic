@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "title": "Classic Krusty — The Sane Society",
+  "source": {
+    "url": "https://hrc.contentdm.oclc.org/digital/collection/p15878coll90/id/64/rec/26",
+    "notes": "Complete discussion from the user-designated local transcript inputs/fromm-1958/transcript.txt (1958-05-25). Wallace recast as Krusty; network announcements, nonverbal stage directions, and obsolete next-week promotion omitted. Minor transcription spacing/typo corrections recorded in edit-map.json. All substantive questions and answers retained, including the final discussion of socialism, war, and hope. Long answers split into short sequential takes without added inter-take pauses. Historical assertions remain in their 1958 context."
+  },
+  "disclosure": "Unofficial fan parody. AI animation and recreated Krusty and Erich Fromm voices. Based on the May 25, 1958 Mike Wallace interview; host recast and broadcast framing edited. Not authentic archival audio.",
+  "turns": [
+    {
+      "id": "t004",
+      "speaker": "host",
+      "text": "Our guest is Dr. Erich Fromm, a psychoanalyst and social critic, who is internationally renowned for his studies of men and their search for freedom. Dr. Fromm, first let me ask you this; from many different quarters, the United States, I think you will agree, has been criticized as a materialistic society, perhaps even a shallow society. Yet only recently, you said this...",
+      "provenance": "adaptation",
+      "pause_after": 0
+    },
+    {
+      "id": "t012",
+      "speaker": "guest",
+      "text": "I think his work is to a large extent, meaningless, because he is not related to it. He is increasingly part of a big machinery, social machinery, governed by a big bureaucracy......and I think American man unconsciously hates his work very often, because he feels trapped by it...imprisoned by it... because he feels that he is spending most of his energy for something which has no meaning in itself.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    }
+  ]
+}

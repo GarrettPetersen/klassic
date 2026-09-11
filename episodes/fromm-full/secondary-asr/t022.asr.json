@@ -1,0 +1,153 @@
+{
+  "audio_sha256": "81245322fe83216c57069fc318b1fe5c8b16d6271a4bf1729b8ddb11b68b8ace",
+  "expected": "Now, this is not so true for the manual worker. The manual worker does not have to sell his personality. He doesn't have to sell his smile.",
+  "model": "base.en",
+  "device": "cpu",
+  "comparison_version": 2,
+  "recovered": "Now, this is not so true for the manual worker, the manual worker does not have to sell his personality, he doesn't have to sell his smile.",
+  "differences": [],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 9.16,
+      "text": " Now, this is not so true for the manual worker, the manual worker does not have to sell his personality, he doesn't have to sell his smile.",
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.22,
+          "word": " Now,"
+        },
+        {
+          "start": 0.52,
+          "end": 0.94,
+          "word": " this"
+        },
+        {
+          "start": 0.94,
+          "end": 1.1,
+          "word": " is"
+        },
+        {
+          "start": 1.1,
+          "end": 1.34,
+          "word": " not"
+        },
+        {
+          "start": 1.34,
+          "end": 1.62,
+          "word": " so"
+        },
+        {
+          "start": 1.62,
+          "end": 1.9,
+          "word": " true"
+        },
+        {
+          "start": 1.9,
+          "end": 2.2,
+          "word": " for"
+        },
+        {
+          "start": 2.2,
+          "end": 2.36,
+          "word": " the"
+        },
+        {
+          "start": 2.36,
+          "end": 2.58,
+          "word": " manual"
+        },
+        {
+          "start": 2.58,
+          "end": 3.0,
+          "word": " worker,"
+        },
+        {
+          "start": 3.72,
+          "end": 3.88,
+          "word": " the"
+        },
+        {
+          "start": 3.88,
+          "end": 4.12,
+          "word": " manual"
+        },
+        {
+          "start": 4.12,
+          "end": 4.6,
+          "word": " worker"
+        },
+        {
+          "start": 4.6,
+          "end": 4.86,
+          "word": " does"
+        },
+        {
+          "start": 4.86,
+          "end": 5.08,
+          "word": " not"
+        },
+        {
+          "start": 5.08,
+          "end": 5.34,
+          "word": " have"
+        },
+        {
+          "start": 5.34,
+          "end": 5.52,
+          "word": " to"
+        },
+        {
+          "start": 5.52,
+          "end": 5.74,
+          "word": " sell"
+        },
+        {
+          "start": 5.74,
+          "end": 5.98,
+          "word": " his"
+        },
+        {
+          "start": 5.98,
+          "end": 6.54,
+          "word": " personality,"
+        },
+        {
+          "start": 7.44,
+          "end": 7.56,
+          "word": " he"
+        },
+        {
+          "start": 7.56,
+          "end": 7.94,
+          "word": " doesn't"
+        },
+        {
+          "start": 7.94,
+          "end": 8.12,
+          "word": " have"
+        },
+        {
+          "start": 8.12,
+          "end": 8.32,
+          "word": " to"
+        },
+        {
+          "start": 8.32,
+          "end": 8.56,
+          "word": " sell"
+        },
+        {
+          "start": 8.56,
+          "end": 8.82,
+          "word": " his"
+        },
+        {
+          "start": 8.82,
+          "end": 9.16,
+          "word": " smile."
+        }
+      ]
+    }
+  ]
+}

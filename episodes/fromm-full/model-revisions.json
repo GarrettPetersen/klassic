@@ -1,0 +1,14 @@
+{
+  "ResembleAI/chatterbox": {
+    "revision": "5bb1f6ee58e50c3b8d408bc82a6d3740c2db6e18",
+    "offline": true
+  },
+  "Systran/faster-whisper-small.en": {
+    "revision": "d1d751a5f8271d482d14ca55d9e2deeebbae577f",
+    "offline": true
+  },
+  "Systran/faster-whisper-base.en": {
+    "revision": "3d3d5dee26484f91867d81cb899cfcf72b96be6c",
+    "offline": true
+  }
+}

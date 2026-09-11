@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "title": "The interview",
+  "start": "topics",
+  "nodes": {
+    "topics": {"kind": "choice", "prompt": "Where do you want to begin?", "choices": [
+      {"label": "What makes this a good society?", "next": "society_question", "set": {"topic": "society"}},
+      {"label": "Surely earning a living gives work meaning?", "next": "work_question", "set": {"topic": "work"}}
+    ]},
+    "society_question": {"kind": "line", "actor": "interviewer", "take": "t005", "gesture": "offer", "gesture_at": 3.2, "next": "society_answer"},
+    "society_answer": {"kind": "line", "actor": "analyst", "take": "t006", "gesture": "qualify", "gesture_at": 0.6, "next": "follow_up"},
+    "work_question": {"kind": "line", "actor": "interviewer", "take": "t013", "gesture": "offer", "gesture_at": 1.0, "next": "work_answer"},
+    "work_answer": {"kind": "line", "actor": "analyst", "take": "t014", "gesture": "concede", "gesture_at": 0.3, "next": "follow_up"},
+    "follow_up": {"kind": "choice", "prompt": "Your next question", "choices": [
+      {"label": "Press him on what meaningful work actually means.", "next": "meaning_question", "when": {"topic": "work"}, "set": {}},
+      {"label": "Turn the conversation to work.", "next": "work_question", "when": {"topic": "society"}, "set": {"topic": "work"}},
+      {"label": "Finish the conversation.", "next": "finish", "set": {}}
+    ]},
+    "meaning_question": {"kind": "line", "actor": "interviewer", "take": "t015", "gesture": "qualify", "gesture_at": 2.8, "next": "meaning_answer"},
+    "meaning_answer": {"kind": "line", "actor": "analyst", "take": "t016", "gesture": null, "gesture_at": null, "next": "finish"},
+    "finish": {"kind": "end", "text": "The conversation is yours to direct."}
+  }
+}

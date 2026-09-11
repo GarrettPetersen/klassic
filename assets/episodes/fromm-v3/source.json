@@ -1,0 +1,7 @@
+{
+  "base_rig": "../fromm-v2/rig.json",
+  "base_scene_sha256": "e731e75ba895854afe38f49870fe1cacf8b41f79917e9a716c1bd878f4038631",
+  "generation_mode": "built-in image_gen",
+  "clean_plate_sha256": "672593f1491a10848f3e604be91c4a131adac73feba7f452ff9d2207b2cef21b",
+  "notes": "Original artwork retained; generated empty stage. Native cutout masks, eyelid geometry, pupil layer and inverse mesh rig. Separate generated blink drawing rejected by image tool; no rejected artwork used."
+}

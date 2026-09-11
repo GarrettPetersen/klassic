@@ -1,0 +1,355 @@
+{
+  "version": 4,
+  "canvas": [
+    1448,
+    1086
+  ],
+  "background": "../fromm-v4/background.png",
+  "performance": "performance.json",
+  "characters": {
+    "host": {
+      "mask": "host-body-mask.png",
+      "bounds": [
+        32,
+        55,
+        610,
+        766
+      ],
+      "waist": [
+        320,
+        625
+      ],
+      "eyes": [
+        {
+          "polygon": [
+            [
+              330,
+              262
+            ],
+            [
+              333,
+              252
+            ],
+            [
+              341,
+              243
+            ],
+            [
+              351,
+              238
+            ],
+            [
+              360,
+              238
+            ],
+            [
+              372,
+              243
+            ],
+            [
+              380,
+              252
+            ],
+            [
+              386,
+              264
+            ],
+            [
+              383,
+              276
+            ],
+            [
+              376,
+              286
+            ],
+            [
+              365,
+              293
+            ],
+            [
+              354,
+              295
+            ],
+            [
+              344,
+              291
+            ],
+            [
+              336,
+              283
+            ],
+            [
+              331,
+              273
+            ]
+          ],
+          "lid_gray": 216
+        },
+        {
+          "polygon": [
+            [
+              385,
+              248
+            ],
+            [
+              392,
+              241
+            ],
+            [
+              402,
+              239
+            ],
+            [
+              412,
+              241
+            ],
+            [
+              421,
+              247
+            ],
+            [
+              426,
+              259
+            ],
+            [
+              424,
+              268
+            ],
+            [
+              418,
+              276
+            ],
+            [
+              408,
+              277
+            ],
+            [
+              391,
+              280
+            ],
+            [
+              390,
+              264
+            ]
+          ],
+          "lid_gray": 217
+        }
+      ],
+      "pupils": [
+        {
+          "rest": [
+            383,
+            267
+          ],
+          "camera": [
+            358,
+            267
+          ],
+          "radius": 5,
+          "white": 240
+        },
+        {
+          "rest": [
+            422,
+            265
+          ],
+          "camera": [
+            403,
+            263
+          ],
+          "radius": 4.5,
+          "white": 243
+        }
+      ],
+      "arms": {
+        "free": {
+          "shoulder": [
+            165,
+            402
+          ],
+          "degrees": 0,
+          "layer": "near",
+          "anatomical_hand": "right",
+          "library": "host-free/library.json"
+        },
+        "cigarette": {
+          "shoulder": [
+            419,
+            412
+          ],
+          "degrees": 0,
+          "layer": "far",
+          "anatomical_hand": "left",
+          "library": "host-cigarette/library.json"
+        }
+      },
+      "eye_plate": "../fromm-v4/host-eye-plate.png",
+      "body_patch": "host-body-patch.png",
+      "body_ink": "host-body-ink.png",
+      "chair_front": "host-chair-front.png"
+    },
+    "guest": {
+      "mask": "guest-body-mask.png",
+      "bounds": [
+        843,
+        65,
+        1440,
+        770
+      ],
+      "waist": [
+        1150,
+        628
+      ],
+      "eyes": [
+        {
+          "polygon": [
+            [
+              1008,
+              250
+            ],
+            [
+              1012,
+              245
+            ],
+            [
+              1020,
+              241
+            ],
+            [
+              1030,
+              242
+            ],
+            [
+              1040,
+              245
+            ],
+            [
+              1046,
+              250
+            ],
+            [
+              1030,
+              266
+            ],
+            [
+              1020,
+              265
+            ],
+            [
+              1013,
+              261
+            ],
+            [
+              1009,
+              256
+            ]
+          ],
+          "lid_gray": 197
+        },
+        {
+          "polygon": [
+            [
+              1076,
+              263
+            ],
+            [
+              1080,
+              257
+            ],
+            [
+              1088,
+              253
+            ],
+            [
+              1101,
+              253
+            ],
+            [
+              1113,
+              257
+            ],
+            [
+              1122,
+              263
+            ],
+            [
+              1126,
+              271
+            ],
+            [
+              1122,
+              277
+            ],
+            [
+              1112,
+              280
+            ],
+            [
+              1099,
+              280
+            ],
+            [
+              1088,
+              277
+            ],
+            [
+              1080,
+              271
+            ]
+          ],
+          "lid_gray": 197
+        }
+      ],
+      "pupils": [
+        {
+          "rest": [
+            1017,
+            253
+          ],
+          "camera": [
+            1029,
+            253
+          ],
+          "radius": 4.2
+        },
+        {
+          "rest": [
+            1086,
+            266
+          ],
+          "camera": [
+            1101,
+            266
+          ],
+          "radius": 5
+        }
+      ],
+      "arms": {
+        "free": {
+          "shoulder": [
+            1324,
+            403
+          ],
+          "degrees": 0,
+          "layer": "near",
+          "anatomical_hand": "left",
+          "library": "guest-free/library.json"
+        },
+        "cigarette": {
+          "shoulder": [
+            1011,
+            406
+          ],
+          "degrees": 0,
+          "layer": "far",
+          "anatomical_hand": "right",
+          "library": "guest-cigarette/library.json"
+        }
+      },
+      "eye_plate": "../fromm-v4/guest-eye-plate.png",
+      "body_patch": "guest-body-patch.png",
+      "body_ink": "guest-body-ink.png",
+      "chair_front": "guest-chair-front.png"
+    }
+  }
+}

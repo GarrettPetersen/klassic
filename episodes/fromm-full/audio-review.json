@@ -1,0 +1,201 @@
+{
+  "listening_review_complete": false,
+  "recognizers": [
+    "faster-whisper small.en",
+    "faster-whisper base.en for selected flags"
+  ],
+  "accepted_recognition_variants": [
+    "Erich/Eric",
+    "Krusty/Crusty",
+    "Mmm-hm/Mm-hmm",
+    "alright/all right",
+    "Dr/Doctor",
+    "Fromm/Fromme",
+    "inasmuch/in as much",
+    "ninety percent/90%",
+    "Fromm/Froome",
+    "Fromm/From",
+    "Fromm/Frum",
+    "nationalized/nationalised",
+    "twenty/20",
+    "twenty-five/25",
+    "thirty/30"
+  ],
+  "status": "All 119 initial takes and selected replacements checked by speech recognition. Final selection ready for animation and listening review.",
+  "repairs": [
+    {
+      "id": "t012",
+      "selected_candidate": "voices/takes/fromm-full-edits-01/t012.wav",
+      "reason": "Removed first instance of repeated 13-word phrase at 23.66–27.66 seconds with 8ms crossfade; ASR of edited take exactly matches expected words."
+    },
+    {
+      "id": "t047",
+      "selected_candidate": "voices/takes/fromm-full-edits-01/t047.wav",
+      "reason": "Removed repeated and the ability to love becomes at 25.34–27.14 seconds with 8ms crossfade; edited ASR retains all substantive words."
+    },
+    {
+      "id": "t085",
+      "selected_candidate": "voices/takes/fromm-full-edits-01/t085.wav",
+      "reason": "Trimmed unintended second Well after the intervening silence; retained first 0.85 seconds. Edited ASR matches the one-word script."
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "id": "t004",
+      "path": "voices/takes/fromm-full-edits-01/t004.wav",
+      "reason": "Cut at ASR-aligned extra-word interval did not resolve the recognition difference; retain regeneration request."
+    },
+    {
+      "ids": [
+        "t004",
+        "t110"
+      ],
+      "directory": "voices/takes/fromm-full-retakes-01",
+      "reason": "These two original-wording retakes still had recognition differences; other selected takes from this directory are retained."
+    },
+    {
+      "ids": [
+        "t004",
+        "t110"
+      ],
+      "directory": "voices/takes/fromm-full-retakes-02",
+      "reason": "Punctuation-only delivery directions did not resolve flagged words."
+    },
+    {
+      "ids": [
+        "t004",
+        "t110"
+      ],
+      "directory": "voices/takes/fromm-full-splices-01",
+      "reason": "Isolated word insert experiments introduced recognition errors; neither is selected."
+    }
+  ],
+  "accepted_minor_variations": [
+    {
+      "id": "t013",
+      "reason": "Recognition omits one of two repeated hesitation words: he, he. No substantive content difference."
+    },
+    {
+      "id": "t015",
+      "reason": "Recognition omits one of two repeated hesitation words: what, what. Full substantive question is preserved."
+    },
+    {
+      "id": "t047",
+      "reason": "Recognition omits abandoned as a hesitation before as something; substantive wording preserved."
+    },
+    {
+      "id": "t059",
+      "reason": "Recognition renders repeated hesitation our, our once; substantive question preserved."
+    },
+    {
+      "id": "t067",
+      "reason": "Selected retake clearly recovers once; recognition omits abandoned mean must before the completed must be phrase."
+    }
+  ],
+  "secondary_checks_matching_script": [
+    "t022",
+    "t023",
+    "t051",
+    "t078",
+    "t088"
+  ],
+  "cross_recognizer_resolutions": [
+    {
+      "id": "t055",
+      "reason": "base.en recovers the final So omitted by small.en; small.en recovers has where base.en writes as. Both disputed words are supported by one recognizer."
+    },
+    {
+      "id": "t090",
+      "reason": "base.en recovers in as scripted; its remaining difference is Fromm/From spelling."
+    },
+    {
+      "id": "t034",
+      "reason": "Selected seed-43 retake matches all canonical words in the small.en check of actual adjacent takes t033–t035. Context-checks.json preserves the concatenated recording hashes and result."
+    },
+    {
+      "id": "t111",
+      "reason": "Selected seed-43 retake recovers Sane and Marx correctly in the small.en check of adjacent takes t109–t113. Context-checks.json preserves evidence."
+    },
+    {
+      "id": "t110",
+      "reason": "Selected seed-46 cue says Your book, The Sane Society. base.en recovers Your book without the extra Its inferred by small.en; small.en recovers Sane correctly. Both recover The. Recognizer disagreement is retained for listening review."
+    }
+  ],
+  "transcript_corrections": [
+    {
+      "id": "t103",
+      "correction": "twenty or thirty or years -> twenty or thirty years",
+      "evidence": "Original recording transcription, 1475–1477 seconds; corrected take check differs only in numerical formatting."
+    },
+    {
+      "id": "t104",
+      "correction": "a mass men -> a mass man",
+      "evidence": "Original recording transcription, 1481–1485 seconds; corrected take check matches."
+    }
+  ],
+  "host_cue_adaptations": [
+    {
+      "id": "t004",
+      "text": "Our guest is Dr. Erich Fromm, a psychoanalyst and social critic, who is internationally renowned for his studies of men and their search for freedom. Dr. Fromm, first let me ask you this. The United States, I think you will agree, has been criticized in many different quarters as a materialistic society, perhaps even a shallow society. Yet only recently, you said this...",
+      "reason": "Lightly adapted host wording for clearer delivery, recorded in edit-map.json."
+    },
+    {
+      "id": "t110",
+      "text": "Your book, The Sane Society.",
+      "reason": "Lightly adapted host wording for clearer delivery, recorded in edit-map.json."
+    }
+  ],
+  "selected_take_count": 119,
+  "full_listening_review_complete": false,
+  "retake_decisions": [
+    {
+      "id": "t004",
+      "reason": "Both recognizers report an extra \"of\" after \"quarters\", making the sentence ungrammatical. Regenerate before selection.",
+      "selected_candidate": "voices/takes/fromm-full-retakes-03/t004.wav",
+      "resolved_for_selection": true
+    },
+    {
+      "id": "t019",
+      "reason": "Both recognizers recover When instead of Well in the opening phrase; regenerate to clarify pronunciation.",
+      "selected_candidate": "voices/takes/fromm-full-retakes-01/t019.wav",
+      "resolved_for_selection": true
+    },
+    {
+      "id": "t034",
+      "reason": "Both recognizers hear men for the two occurrences of man; regenerate for script fidelity.",
+      "selected_candidate": "voices/takes/fromm-full-retakes-01/t034.wav",
+      "resolved_for_selection": true
+    },
+    {
+      "id": "t067",
+      "reason": "Unclear once in one once understood: small.en recovers wants and base.en recovers ones. Regenerate for clearer pronunciation.",
+      "selected_candidate": "voices/takes/fromm-full-retakes-01/t067.wav",
+      "resolved_for_selection": true
+    },
+    {
+      "id": "t099",
+      "reason": "Both recognizers recover poisoned for poison in the host challenge; regenerate for clearer pronunciation.",
+      "selected_candidate": "voices/takes/fromm-full-retakes-01/t099.wav",
+      "resolved_for_selection": true
+    },
+    {
+      "id": "t110",
+      "reason": "Both recognizers omit The from the three-word book title; regenerate the complete title.",
+      "selected_candidate": "voices/takes/fromm-full-retakes-03/t110.wav",
+      "resolved_for_selection": true
+    },
+    {
+      "id": "t111",
+      "reason": "Both recognizers find unclear book-title wording and recover Mark for Marx; regenerate for clarity.",
+      "selected_candidate": "voices/takes/fromm-full-retakes-01/t111.wav",
+      "resolved_for_selection": true
+    },
+    {
+      "id": "t115",
+      "reason": "Both recognizers omit an article and recover and instead of in before Erich Fromm; regenerate the final question for fidelity.",
+      "selected_candidate": "voices/takes/fromm-full-retakes-01/t115.wav",
+      "resolved_for_selection": true
+    }
+  ],
+  "signal_measurements": "audio-measurements.json"
+}

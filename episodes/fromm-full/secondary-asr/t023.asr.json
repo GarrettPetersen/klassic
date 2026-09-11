@@ -1,0 +1,220 @@
+{
+  "audio_sha256": "f7aa3294d576392af28659c9231cb80a871b9160473c5da15478d500b627b875",
+  "expected": "But, what you might call the \"symbol pushers\" - that is to say, all of the people who deal with figures, with paper, with men, who manipulate - to use a better or nicer word - manipulate men and signs and words.",
+  "model": "base.en",
+  "device": "cpu",
+  "comparison_version": 2,
+  "recovered": "But what you might call the symbol pushers, that is to say, all of the people who deal with figures, with paper, with men who manipulate, to use a better or nicer word, manipulate men and signs and words.",
+  "differences": [],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 7.36,
+      "text": " But what you might call the symbol pushers, that is to say, all of the people who deal with figures,",
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.3,
+          "word": " But"
+        },
+        {
+          "start": 0.3,
+          "end": 1.04,
+          "word": " what"
+        },
+        {
+          "start": 1.04,
+          "end": 1.24,
+          "word": " you"
+        },
+        {
+          "start": 1.24,
+          "end": 1.38,
+          "word": " might"
+        },
+        {
+          "start": 1.38,
+          "end": 1.7,
+          "word": " call"
+        },
+        {
+          "start": 1.7,
+          "end": 2.02,
+          "word": " the"
+        },
+        {
+          "start": 2.02,
+          "end": 2.3,
+          "word": " symbol"
+        },
+        {
+          "start": 2.3,
+          "end": 2.86,
+          "word": " pushers,"
+        },
+        {
+          "start": 3.58,
+          "end": 3.92,
+          "word": " that"
+        },
+        {
+          "start": 3.92,
+          "end": 4.04,
+          "word": " is"
+        },
+        {
+          "start": 4.04,
+          "end": 4.2,
+          "word": " to"
+        },
+        {
+          "start": 4.2,
+          "end": 4.46,
+          "word": " say,"
+        },
+        {
+          "start": 5.06,
+          "end": 5.4,
+          "word": " all"
+        },
+        {
+          "start": 5.4,
+          "end": 5.52,
+          "word": " of"
+        },
+        {
+          "start": 5.52,
+          "end": 5.64,
+          "word": " the"
+        },
+        {
+          "start": 5.64,
+          "end": 5.98,
+          "word": " people"
+        },
+        {
+          "start": 5.98,
+          "end": 6.54,
+          "word": " who"
+        },
+        {
+          "start": 6.54,
+          "end": 6.72,
+          "word": " deal"
+        },
+        {
+          "start": 6.72,
+          "end": 6.96,
+          "word": " with"
+        },
+        {
+          "start": 6.96,
+          "end": 7.36,
+          "word": " figures,"
+        }
+      ]
+    },
+    {
+      "start": 8.0,
+      "end": 16.32,
+      "text": " with paper, with men who manipulate, to use a better or nicer word, manipulate men and signs and words.",
+      "words": [
+        {
+          "start": 8.0,
+          "end": 8.02,
+          "word": " with"
+        },
+        {
+          "start": 8.02,
+          "end": 8.34,
+          "word": " paper,"
+        },
+        {
+          "start": 9.06,
+          "end": 9.24,
+          "word": " with"
+        },
+        {
+          "start": 9.24,
+          "end": 9.54,
+          "word": " men"
+        },
+        {
+          "start": 9.54,
+          "end": 10.2,
+          "word": " who"
+        },
+        {
+          "start": 10.2,
+          "end": 10.5,
+          "word": " manipulate,"
+        },
+        {
+          "start": 11.76,
+          "end": 11.84,
+          "word": " to"
+        },
+        {
+          "start": 11.84,
+          "end": 12.04,
+          "word": " use"
+        },
+        {
+          "start": 12.04,
+          "end": 12.24,
+          "word": " a"
+        },
+        {
+          "start": 12.24,
+          "end": 12.46,
+          "word": " better"
+        },
+        {
+          "start": 12.46,
+          "end": 12.72,
+          "word": " or"
+        },
+        {
+          "start": 12.72,
+          "end": 13.02,
+          "word": " nicer"
+        },
+        {
+          "start": 13.02,
+          "end": 13.38,
+          "word": " word,"
+        },
+        {
+          "start": 13.92,
+          "end": 14.06,
+          "word": " manipulate"
+        },
+        {
+          "start": 14.06,
+          "end": 14.62,
+          "word": " men"
+        },
+        {
+          "start": 14.62,
+          "end": 15.36,
+          "word": " and"
+        },
+        {
+          "start": 15.36,
+          "end": 15.62,
+          "word": " signs"
+        },
+        {
+          "start": 15.62,
+          "end": 16.06,
+          "word": " and"
+        },
+        {
+          "start": 16.06,
+          "end": 16.32,
+          "word": " words."
+        }
+      ]
+    }
+  ]
+}

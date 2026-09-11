@@ -1,0 +1,10 @@
+{
+  "name": "klassic-pose-player",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests-js/*.test.mjs",
+    "build:mvp": "PYTHONPATH=. python3 examples/seated/build.py",
+    "serve:mvp": "python3 -m http.server 8765 --bind 127.0.0.1"
+  }
+}

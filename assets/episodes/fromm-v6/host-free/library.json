@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "canvas": [
+    600,
+    450
+  ],
+  "construction": "Complete arm. Open four-digit cigarette grip; no tangled fist poses.",
+  "anatomical_hand": "right",
+  "poses": {
+    "relaxed": {
+      "file": "relaxed.png",
+      "anchor": [
+        300,
+        90
+      ],
+      "anatomical_hand": "right",
+      "digits": 4,
+      "source": "host-free-arms.png",
+      "source_sha256": "e32d7e64df68120c65d74a488fe818ea1cb16b7bd337d06fa567dd312e7bf9ed",
+      "registration": {
+        "source_shoulder": [
+          291.0,
+          39
+        ],
+        "scale": [
+          0.3833049403747871,
+          0.3837837837837838
+        ],
+        "offset": [
+          188,
+          75
+        ],
+        "green_key_strength": 244
+      },
+      "registered_source": "assets/episodes/fromm-v5/host-free/relaxed.png",
+      "registered_source_sha256": "c2412aa09bf79b3a342e5f3ad24a5c647fa7e3900bb347ebc4adee6c259cc8ae"
+    },
+    "turn": {
+      "file": "turn.png",
+      "anchor": [
+        300,
+        90
+      ],
+      "anatomical_hand": "right",
+      "digits": 4,
+      "source": "host-free-arms.png",
+      "source_sha256": "e32d7e64df68120c65d74a488fe818ea1cb16b7bd337d06fa567dd312e7bf9ed",
+      "registration": {
+        "source_shoulder": [
+          288.0,
+          39
+        ],
+        "scale": [
+          0.3833049403747871,
+          0.3837837837837838
+        ],
+        "offset": [
+          190,
+          75
+        ],
+        "green_key_strength": 243
+      },
+      "registered_source": "assets/episodes/fromm-v5/host-free/turn.png",
+      "registered_source_sha256": "fb42f0806feb00a185dca45d50826331dccff92e61c2e399ba049f43932027ab"
+    },
+    "up": {
+      "file": "up.png",
+      "anchor": [
+        300,
+        90
+      ],
+      "anatomical_hand": "right",
+      "digits": 4,
+      "source": "host-free-arms.png",
+      "source_sha256": "e32d7e64df68120c65d74a488fe818ea1cb16b7bd337d06fa567dd312e7bf9ed",
+      "registration": {
+        "source_shoulder": [
+          290.0,
+          53
+        ],
+        "scale": [
+          0.3833049403747871,
+          0.3832658569500675
+        ],
+        "offset": [
+          189,
+          70
+        ],
+        "green_key_strength": 245
+      },
+      "registered_source": "assets/episodes/fromm-v5/host-free/up.png",
+      "registered_source_sha256": "f47770fad665d75ccb1758b3e6f1736788153a186b6eb05048080f8ffb8cec94"
+    },
+    "sweep": {
+      "file": "sweep.png",
+      "anchor": [
+        300,
+        90
+      ],
+      "anatomical_hand": "right",
+      "digits": 4,
+      "source": "host-free-arms.png",
+      "source_sha256": "e32d7e64df68120c65d74a488fe818ea1cb16b7bd337d06fa567dd312e7bf9ed",
+      "registration": {
+        "source_shoulder": [
+          289.0,
+          52
+        ],
+        "scale": [
+          0.3833049403747871,
+          0.3832658569500675
+        ],
+        "offset": [
+          189,
+          70
+        ],
+        "green_key_strength": 245
+      },
+      "registered_source": "assets/episodes/fromm-v5/host-free/sweep.png",
+      "registered_source_sha256": "f2afff2e2a60f7e4c61edd32d0327b2e8d75357a8bf2c43aab8952d1fa1d7f91"
+    }
+  }
+}

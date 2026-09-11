@@ -1,0 +1,249 @@
+{
+  "audio_sha256": "69d7c9c617b48198ee776b99b3eae7296a6323dba61420517f24a97dc5d38158",
+  "expected": "I could put it in another way, Mr. Krusty. I could say this: man today being concerned with production and consumption as ends in themselves, has very little energy and time to devote himself to the true religious experience. So...",
+  "model": "base.en",
+  "device": "cpu",
+  "comparison_version": 2,
+  "recovered": "I could put it in another way, Mr. Krusty. I could say this, man today being concerned with production and consumption as ends in themselves as very little energy and time to devote himself to the true religious experience. So...",
+  "differences": [
+    {
+      "kind": "replace",
+      "expected": [
+        "has"
+      ],
+      "recovered": [
+        "as"
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.4,
+      "text": " I could put it in another way, Mr. Krusty.",
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.22,
+          "word": " I"
+        },
+        {
+          "start": 0.22,
+          "end": 0.38,
+          "word": " could"
+        },
+        {
+          "start": 0.38,
+          "end": 0.58,
+          "word": " put"
+        },
+        {
+          "start": 0.58,
+          "end": 0.76,
+          "word": " it"
+        },
+        {
+          "start": 0.76,
+          "end": 0.94,
+          "word": " in"
+        },
+        {
+          "start": 0.94,
+          "end": 1.16,
+          "word": " another"
+        },
+        {
+          "start": 1.16,
+          "end": 1.54,
+          "word": " way,"
+        },
+        {
+          "start": 1.54,
+          "end": 1.86,
+          "word": " Mr."
+        },
+        {
+          "start": 2.0,
+          "end": 2.4,
+          "word": " Krusty."
+        }
+      ]
+    },
+    {
+      "start": 3.1,
+      "end": 8.88,
+      "text": " I could say this, man today being concerned with production and consumption as ends in themselves",
+      "words": [
+        {
+          "start": 3.1,
+          "end": 3.18,
+          "word": " I"
+        },
+        {
+          "start": 3.18,
+          "end": 3.42,
+          "word": " could"
+        },
+        {
+          "start": 3.42,
+          "end": 3.62,
+          "word": " say"
+        },
+        {
+          "start": 3.62,
+          "end": 3.98,
+          "word": " this,"
+        },
+        {
+          "start": 4.66,
+          "end": 4.8,
+          "word": " man"
+        },
+        {
+          "start": 4.8,
+          "end": 5.1,
+          "word": " today"
+        },
+        {
+          "start": 5.1,
+          "end": 5.52,
+          "word": " being"
+        },
+        {
+          "start": 5.52,
+          "end": 5.98,
+          "word": " concerned"
+        },
+        {
+          "start": 5.98,
+          "end": 6.3,
+          "word": " with"
+        },
+        {
+          "start": 6.3,
+          "end": 6.64,
+          "word": " production"
+        },
+        {
+          "start": 6.64,
+          "end": 7.1,
+          "word": " and"
+        },
+        {
+          "start": 7.1,
+          "end": 7.56,
+          "word": " consumption"
+        },
+        {
+          "start": 7.56,
+          "end": 8.12,
+          "word": " as"
+        },
+        {
+          "start": 8.12,
+          "end": 8.36,
+          "word": " ends"
+        },
+        {
+          "start": 8.36,
+          "end": 8.58,
+          "word": " in"
+        },
+        {
+          "start": 8.58,
+          "end": 8.88,
+          "word": " themselves"
+        }
+      ]
+    },
+    {
+      "start": 9.72,
+      "end": 14.24,
+      "text": " as very little energy and time to devote himself to the true religious experience.",
+      "words": [
+        {
+          "start": 9.520000000000001,
+          "end": 9.84,
+          "word": " as"
+        },
+        {
+          "start": 9.84,
+          "end": 10.1,
+          "word": " very"
+        },
+        {
+          "start": 10.1,
+          "end": 10.46,
+          "word": " little"
+        },
+        {
+          "start": 10.46,
+          "end": 10.78,
+          "word": " energy"
+        },
+        {
+          "start": 10.78,
+          "end": 11.08,
+          "word": " and"
+        },
+        {
+          "start": 11.08,
+          "end": 11.38,
+          "word": " time"
+        },
+        {
+          "start": 11.38,
+          "end": 11.72,
+          "word": " to"
+        },
+        {
+          "start": 11.72,
+          "end": 11.92,
+          "word": " devote"
+        },
+        {
+          "start": 11.92,
+          "end": 12.32,
+          "word": " himself"
+        },
+        {
+          "start": 12.32,
+          "end": 12.7,
+          "word": " to"
+        },
+        {
+          "start": 12.7,
+          "end": 12.82,
+          "word": " the"
+        },
+        {
+          "start": 12.82,
+          "end": 13.06,
+          "word": " true"
+        },
+        {
+          "start": 13.06,
+          "end": 13.52,
+          "word": " religious"
+        },
+        {
+          "start": 13.52,
+          "end": 14.24,
+          "word": " experience."
+        }
+      ]
+    },
+    {
+      "start": 14.24,
+      "end": 16.56,
+      "text": " So...",
+      "words": [
+        {
+          "start": 14.24,
+          "end": 16.56,
+          "word": " So..."
+        }
+      ]
+    }
+  ]
+}

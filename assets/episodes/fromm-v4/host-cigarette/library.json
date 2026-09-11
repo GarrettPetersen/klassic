@@ -1,0 +1,160 @@
+{
+  "version": 1,
+  "canvas": [
+    400,
+    400
+  ],
+  "digit_convention": "Three fingers and one thumb; four digits total.",
+  "poses": {
+    "relaxed": {
+      "file": "relaxed.png",
+      "anchor": [
+        200,
+        200
+      ],
+      "canonical_angle": -60.52411099675425,
+      "digits": 4,
+      "source": "host-cigarette-atlas.png",
+      "source_sha256": "3a426a626ec0fad89d7287acdb00a6d61a1de98f11780a4bd9c106438238fe3d",
+      "registration": {
+        "source_cuff": [
+          271.6339912696906,
+          456.7656101727083
+        ],
+        "scale": [
+          0.2528548123980424,
+          0.2538940809968847
+        ],
+        "offset": [
+          131,
+          84
+        ],
+        "green_key_strength": 242
+      },
+      "cigarette_tip": [
+        239.59003057649196,
+        118.4712844132421
+      ]
+    },
+    "turn": {
+      "file": "turn.png",
+      "anchor": [
+        200,
+        200
+      ],
+      "canonical_angle": -60.52411099675425,
+      "digits": 4,
+      "source": "host-cigarette-atlas.png",
+      "source_sha256": "3a426a626ec0fad89d7287acdb00a6d61a1de98f11780a4bd9c106438238fe3d",
+      "registration": {
+        "source_cuff": [
+          224.59277108433736,
+          462.25457831325303
+        ],
+        "scale": [
+          0.28548123980424145,
+          0.2850467289719626
+        ],
+        "offset": [
+          136,
+          68
+        ],
+        "green_key_strength": 242
+      },
+      "cigarette_tip": [
+        261.18873966611704,
+        97.9324470654872
+      ]
+    },
+    "up": {
+      "file": "up.png",
+      "anchor": [
+        200,
+        200
+      ],
+      "canonical_angle": -60.52411099675425,
+      "digits": 4,
+      "source": "host-cigarette-atlas.png",
+      "source_sha256": "3a426a626ec0fad89d7287acdb00a6d61a1de98f11780a4bd9c106438238fe3d",
+      "registration": {
+        "source_cuff": [
+          241.8669698692439,
+          430.1882888004548
+        ],
+        "scale": [
+          0.27732463295269166,
+          0.27769110764430577
+        ],
+        "offset": [
+          133,
+          81
+        ],
+        "green_key_strength": 243
+      },
+      "cigarette_tip": [
+        256.7942598180042,
+        102.4804106323545
+      ]
+    },
+    "sweep": {
+      "file": "sweep.png",
+      "anchor": [
+        200,
+        200
+      ],
+      "canonical_angle": -60.52411099675425,
+      "digits": 4,
+      "source": "host-cigarette-atlas.png",
+      "source_sha256": "3a426a626ec0fad89d7287acdb00a6d61a1de98f11780a4bd9c106438238fe3d",
+      "registration": {
+        "source_cuff": [
+          204.4069942341439,
+          404.84407119578844
+        ],
+        "scale": [
+          0.2903752039151713,
+          0.2917316692667707
+        ],
+        "offset": [
+          141,
+          82
+        ],
+        "green_key_strength": 243
+      },
+      "cigarette_tip": [
+        292.60540414016464,
+        134.64475232010744
+      ]
+    },
+    "down": {
+      "file": "down.png",
+      "anchor": [
+        200,
+        200
+      ],
+      "canonical_angle": -60.52411099675425,
+      "digits": 4,
+      "source": "host-cigarette-down.png",
+      "source_sha256": "719e77b71e4ca46d2f240454d12861e6ef1b43c3017b072f5ba64a3a2dfd651c",
+      "registration": {
+        "source_cuff": [
+          258.77312905126695,
+          972.6416470241603
+        ],
+        "scale": [
+          0.15789473684210525,
+          0.15749039692701663
+        ],
+        "offset": [
+          159,
+          47
+        ],
+        "green_key_strength": 242
+      },
+      "cigarette_tip": [
+        295.01846153846157,
+        193.4150261006599
+      ]
+    }
+  }
+}

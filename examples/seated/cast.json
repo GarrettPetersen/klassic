@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "rig": "../../assets/episodes/fromm-v7/rig.json",
+  "timeline": "../../build/fromm-full-02/timeline.json",
+  "dialogue": "../../build/fromm-full-02/dialogue.wav",
+  "characters": [
+    {"id": "krusty-study", "name": "Krusty", "source_speaker": "host", "actor": "interviewer", "crop": [0,40,720,970], "legs": [333,688,656,953],
+      "mouth_background_cutouts": [[[386,314],[470,314],[470,435],[452,429],[435,416],[411,407],[379,397],[362,392],[385,374]]]},
+    {"id": "fromm-study", "name": "Erich Fromm", "source_speaker": "guest", "actor": "analyst", "crop": [730,40,1448,970], "legs": [837,688,1149,955]}
+  ]
+}

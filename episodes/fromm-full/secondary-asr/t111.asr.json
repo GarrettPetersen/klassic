@@ -1,0 +1,207 @@
+{
+  "audio_sha256": "155e6695ca9d0771fce84d6369484fa0e1dad3b61853fb4f75b35460568f6e2f",
+  "expected": "The Sane Society. I want to mention that Marx shares something, if you don't mind the comparison, with the Old Testament: many people talk about him, but nobody has read him.",
+  "model": "base.en",
+  "device": "cpu",
+  "comparison_version": 2,
+  "recovered": "They say in society, I want to mention that Mark shares something, if you don't mind the comparison with the old testament, many people talk about him but nobody has read him.",
+  "differences": [
+    {
+      "kind": "replace",
+      "expected": [
+        "the",
+        "sane"
+      ],
+      "recovered": [
+        "they",
+        "say",
+        "in"
+      ]
+    },
+    {
+      "kind": "replace",
+      "expected": [
+        "marx"
+      ],
+      "recovered": [
+        "mark"
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 6.54,
+      "text": " They say in society, I want to mention that Mark shares something, if you don't mind the",
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.18,
+          "word": " They"
+        },
+        {
+          "start": 0.18,
+          "end": 0.46,
+          "word": " say"
+        },
+        {
+          "start": 0.46,
+          "end": 0.66,
+          "word": " in"
+        },
+        {
+          "start": 0.66,
+          "end": 1.14,
+          "word": " society,"
+        },
+        {
+          "start": 1.72,
+          "end": 1.86,
+          "word": " I"
+        },
+        {
+          "start": 1.86,
+          "end": 2.14,
+          "word": " want"
+        },
+        {
+          "start": 2.14,
+          "end": 2.42,
+          "word": " to"
+        },
+        {
+          "start": 2.42,
+          "end": 2.98,
+          "word": " mention"
+        },
+        {
+          "start": 2.98,
+          "end": 3.46,
+          "word": " that"
+        },
+        {
+          "start": 3.46,
+          "end": 3.8,
+          "word": " Mark"
+        },
+        {
+          "start": 3.8,
+          "end": 4.6,
+          "word": " shares"
+        },
+        {
+          "start": 4.6,
+          "end": 5.14,
+          "word": " something,"
+        },
+        {
+          "start": 5.54,
+          "end": 5.58,
+          "word": " if"
+        },
+        {
+          "start": 5.58,
+          "end": 5.72,
+          "word": " you"
+        },
+        {
+          "start": 5.72,
+          "end": 6.02,
+          "word": " don't"
+        },
+        {
+          "start": 6.02,
+          "end": 6.28,
+          "word": " mind"
+        },
+        {
+          "start": 6.28,
+          "end": 6.54,
+          "word": " the"
+        }
+      ]
+    },
+    {
+      "start": 6.54,
+      "end": 11.96,
+      "text": " comparison with the old testament, many people talk about him but nobody has read him.",
+      "words": [
+        {
+          "start": 6.54,
+          "end": 6.94,
+          "word": " comparison"
+        },
+        {
+          "start": 6.94,
+          "end": 7.56,
+          "word": " with"
+        },
+        {
+          "start": 7.56,
+          "end": 7.74,
+          "word": " the"
+        },
+        {
+          "start": 7.74,
+          "end": 7.94,
+          "word": " old"
+        },
+        {
+          "start": 7.94,
+          "end": 8.3,
+          "word": " testament,"
+        },
+        {
+          "start": 9.14,
+          "end": 9.34,
+          "word": " many"
+        },
+        {
+          "start": 9.34,
+          "end": 9.8,
+          "word": " people"
+        },
+        {
+          "start": 9.8,
+          "end": 10.02,
+          "word": " talk"
+        },
+        {
+          "start": 10.02,
+          "end": 10.34,
+          "word": " about"
+        },
+        {
+          "start": 10.34,
+          "end": 10.6,
+          "word": " him"
+        },
+        {
+          "start": 10.6,
+          "end": 10.9,
+          "word": " but"
+        },
+        {
+          "start": 10.9,
+          "end": 11.16,
+          "word": " nobody"
+        },
+        {
+          "start": 11.16,
+          "end": 11.46,
+          "word": " has"
+        },
+        {
+          "start": 11.46,
+          "end": 11.68,
+          "word": " read"
+        },
+        {
+          "start": 11.68,
+          "end": 11.96,
+          "word": " him."
+        }
+      ]
+    }
+  ]
+}

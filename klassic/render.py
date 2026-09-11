@@ -12,6 +12,7 @@ from .audio import executable, run
 from .motion import CelTransitions, MouthTrack
 from .cels import load_cel, load_transition_library
 from .project import SHAPES, digest, load_episode, number, read_json, validate_cues, write_json
+from .puppet import PuppetStage
 
 
 def load_build(build):
@@ -210,6 +211,8 @@ class Compositor:
         self.subtitles = [c for turn in timeline["turns"] for c in subtitle_chunks(turn)]
         self.turn_starts = [t["start"] for t in timeline["turns"]]
         self.shot_starts = [s["start"] for s in timeline["shots"]]
+        self.puppet = (PuppetStage(self.rig_path.parent / self.rig["puppet"], timeline, self.scene.size)
+                       if "puppet" in self.rig else None)
 
     def paint_cel(self, image, speaker, cel):
         position, _ = self.cels[speaker]
@@ -223,6 +226,7 @@ class Compositor:
         image = (self.poses[pose] if pose else self.scene).copy()
         hidden = self.rig["poses"][pose]["hidden_mouths"] if pose else []
         turn = self.timeline["turns"][bisect.bisect_right(self.turn_starts, at)-1]
+        mouth_masks = {}
         for speaker, mouth in self.rig["mouths"].items():
             if speaker in hidden:
                 continue
@@ -231,9 +235,22 @@ class Compositor:
                 track, transitions, span = self.transitions[speaker]
                 cel = transitions.frame(*track.sample(at, span))
                 self.paint_cel(image, speaker, cel)
+                if self.puppet:
+                    mask = Image.new("L", self.scene.size)
+                    mask.paste(cel.getchannel("A"), self.cels[speaker][0])
+                    mouth_masks[speaker] = mask
             else:
                 draw_mouth(image, mouth, shape)
-        draw_smoke(image, self.rig["cigarettes"], at)
+        tips = self.rig["cigarettes"]
+        if self.puppet:
+            if pose:
+                # Authored drinking cutaways already contain the lifted arm/cup.
+                # Keep that complete pose intact, with live eyelids and pupils.
+                for speaker in ("host", "guest"):
+                    self.puppet.eyes(image, speaker, self.puppet.state(speaker, at))
+            else:
+                image, tips = self.puppet.frame(image, at, mouth_masks)
+        draw_smoke(image, tips, at)
         box = self.rig["cameras"][shot["camera"]]
         image = image.crop(tuple(round(v * image.size[i % 2]) for i, v in enumerate(box)))
         image = image.resize((self.width, self.height), Image.Resampling.LANCZOS)
@@ -293,6 +310,7 @@ def render(build, rig, width=960, burn_captions=True):
                 "cel_sha256": {speaker: {shape: digest(comp.rig_path.parent / filename) for shape, filename in mouth["cels"].items()}
                                for speaker, mouth in comp.rig["mouths"].items() if mouth["kind"] == "cels"},
                 "transitions": comp.transition_hashes,
+                "puppet_assets": comp.puppet.hashes() if comp.puppet else {},
                 "animation_fps": 24, "output_fps": 24, "width": width, "height": comp.height,
                 "burned_captions": burn_captions,
                 "ffmpeg_version": run([ffmpeg, "-version"]).splitlines()[0]})

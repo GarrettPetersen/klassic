@@ -1,0 +1,113 @@
+{
+  "processing": "Matting and uniform whole-arm registration of existing generated artwork; no new image generation.",
+  "supersedes": "Revision 06: inward far-hand thumbs, undersized arms, and open-palmed idle pose rejected by user.",
+  "selected_arm_sources": "Original revision-05 cigarette atlases with outward thumbs; revision-05 registered free arms.",
+  "scale": "Near arms 1.10x; far sleeve heights 204 and 214 pixels (previously 177 and 186); far shoulders moved inward by 26 and 28 pixels.",
+  "rest": "Original neutral cigarette grips; no open palm at idle.",
+  "tone": "Far cloth midtones matched to jacket gray 27 (host) and 25 (guest); black ink, skin, cuffs and alpha preserved.",
+  "occlusion": "Far arms beneath torso; original trouser-edge layer over far sleeves; near arms above.",
+  "gesture_cues": "episodes/fromm-full/revision-07/gesture-cues.json",
+  "named_poses": 16,
+  "source_drawings": 15,
+  "hand_audit": {
+    "host/free/relaxed": {
+      "digits": 4,
+      "anatomical_hand": "right",
+      "file_sha256": "b01fe31bf709932b36600cf695f7cc705789a0aace46921be54444ad7b521622",
+      "visual_check": "Three fingers and one thumb; continuous contour; cigarette held between fingers when present."
+    },
+    "host/free/turn": {
+      "digits": 4,
+      "anatomical_hand": "right",
+      "file_sha256": "13f82365a8461358243676fe32d53f88ba236ea47c333c9554abfe133c504f6d",
+      "visual_check": "Three fingers and one thumb; continuous contour; cigarette held between fingers when present."
+    },
+    "host/free/up": {
+      "digits": 4,
+      "anatomical_hand": "right",
+      "file_sha256": "e980748622ed74c3f25a9a02ad4195ed42d892e7ad63a704f83e2af879ce5c4f",
+      "visual_check": "Three fingers and one thumb; continuous contour; cigarette held between fingers when present."
+    },
+    "host/free/sweep": {
+      "digits": 4,
+      "anatomical_hand": "right",
+      "file_sha256": "07f007ad5ab1a50bb5c15b45ed6fb6c114164aeca986ef40c5d42b38b26714e7",
+      "visual_check": "Three fingers and one thumb; continuous contour; cigarette held between fingers when present."
+    },
+    "host/cigarette/relaxed": {
+      "digits": 4,
+      "anatomical_hand": "left",
+      "file_sha256": "5a069ebf365ab65fc3219296e2fc159f1e38020c2b8e1d83a63b63525a695292",
+      "visual_check": "Three fingers and one thumb; continuous contour; cigarette held between fingers when present."
+    },
+    "host/cigarette/up": {
+      "digits": 4,
+      "anatomical_hand": "left",
+      "file_sha256": "62a95c9418a526c87f328c1131de5a8c180baffd4f0f18babbfd83bdb0234910",
+      "visual_check": "Three fingers and one thumb; continuous contour; cigarette held between fingers when present."
+    },
+    "host/cigarette/sweep": {
+      "digits": 4,
+      "anatomical_hand": "left",
+      "file_sha256": "ea41494addd0badb3ff42b36dce74a68b1ba40a7a749233d417a7a43cb98e2ca",
+      "visual_check": "Three fingers and one thumb; continuous contour; cigarette held between fingers when present."
+    },
+    "host/cigarette/down": {
+      "digits": 4,
+      "anatomical_hand": "left",
+      "file_sha256": "4ed7528e6e5bf2affc65162b50ca7397693242c9d3b8fddd824791c044799b26",
+      "visual_check": "Three fingers and one thumb; continuous contour; cigarette held between fingers when present."
+    },
+    "guest/free/relaxed": {
+      "digits": 4,
+      "anatomical_hand": "left",
+      "file_sha256": "7409e768c59a2f1ebfb04e543e1a588d0681aa412691adca3d3aab247a0cba33",
+      "visual_check": "Three fingers and one thumb; continuous contour; cigarette held between fingers when present."
+    },
+    "guest/free/turn": {
+      "digits": 4,
+      "anatomical_hand": "left",
+      "file_sha256": "ed4377475667e41e26ba4b56e3df324144d8568ae4969680ffb012a784232d67",
+      "visual_check": "Three fingers and one thumb; continuous contour; cigarette held between fingers when present."
+    },
+    "guest/free/up": {
+      "digits": 4,
+      "anatomical_hand": "left",
+      "file_sha256": "f240f799c3dd10a106af1a0d5afff9d21b7cc33bd0a43279189f4278f9459c99",
+      "visual_check": "Three fingers and one thumb; continuous contour; cigarette held between fingers when present."
+    },
+    "guest/free/sweep": {
+      "digits": 4,
+      "anatomical_hand": "left",
+      "file_sha256": "55ab17efb2e073bbdf83469eda5fa8eeabb0b51ab2795a450cde99b00ef21b2b",
+      "visual_check": "Three fingers and one thumb; continuous contour; cigarette held between fingers when present."
+    },
+    "guest/cigarette/relaxed": {
+      "digits": 4,
+      "anatomical_hand": "right",
+      "file_sha256": "62f98cb66b3bcfd3bc953aa8b055d7da60d9802db2750a91025de7fb03fe2d51",
+      "visual_check": "Three fingers and one thumb; continuous contour; cigarette held between fingers when present."
+    },
+    "guest/cigarette/up": {
+      "digits": 4,
+      "anatomical_hand": "right",
+      "file_sha256": "3395f89f83f03b12d3289a02a10fffd54f11877e0132c502e2d4bd34254f0cd6",
+      "visual_check": "Three fingers and one thumb; continuous contour; cigarette held between fingers when present."
+    },
+    "guest/cigarette/sweep": {
+      "digits": 4,
+      "anatomical_hand": "right",
+      "file_sha256": "b4199e64336575e39b7843de90d97290958cd2b95770035acc6609dbb0784e9d",
+      "visual_check": "Three fingers and one thumb; continuous contour; cigarette held between fingers when present."
+    },
+    "guest/cigarette/down": {
+      "digits": 4,
+      "anatomical_hand": "right",
+      "file_sha256": "bfbfc2552d0d1ea02524ecd4fc03578b60def9e2e412de4e756f20cba9cf49b4",
+      "visual_check": "Three fingers and one thumb; continuous contour; cigarette held between fingers when present."
+    }
+  },
+  "user_visual_review_complete": false,
+  "pupils": "Generated pupil-free eye plates with separate runtime pupil layers.",
+  "static_sip": "Existing complete drinking cutaway retained; no new generated grip used."
+}

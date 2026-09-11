@@ -1,0 +1,30 @@
+{
+  "complete": true,
+  "stage": "revision 02 rendered and technically verified; captioned export complete",
+  "build_directory": "build/fromm-full-02",
+  "rig": "assets/episodes/fromm-v2/rig.json",
+  "replacement_turn": "t015",
+  "unchanged_fromm_takes": 72,
+  "tests_passed": 31,
+  "title_integration_export_passed": true,
+  "measured_atmosphere_duck_db": 18.020386695861816,
+  "updated_at": "2026-09-10T06:01:13.905432+00:00",
+  "guest_mouth_shapes_reviewed": 9,
+  "host_mouth_shapes_reviewed": [
+    "X",
+    "B",
+    "D",
+    "E",
+    "F",
+    "H"
+  ],
+  "picture_render_complete": true,
+  "full_decode_passed": true,
+  "visual_review_complete": true,
+  "captions_checked": 323,
+  "finished_seconds": 1614.294,
+  "output_sha256": "5a1fc479699b94b82f4884bc4bb5122882af62a9999d0760bd2cbb640f0b799e",
+  "clean_output_sha256": "0236a42729efd1e6812fe0d5808ca6a85321fc5fc3445d1a1cdf0ba4444d4d10",
+  "captioned_output_file": "build/fromm-full-02/episode-captioned.mp4",
+  "full_listening_review_complete": false
+}

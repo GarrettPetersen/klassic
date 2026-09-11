@@ -1,0 +1,100 @@
+{
+  "samples": [
+    {
+      "id": "baseline-t001",
+      "role": "baseline",
+      "file": "voices/takes/fromm-full-selected-01/t001.wav",
+      "sha256": "1b66f9b09a979fd4294544fcab87c1a9c052d7499511a80c6b0968f627c37e7c"
+    },
+    {
+      "id": "baseline-t003",
+      "role": "baseline",
+      "file": "voices/takes/fromm-full-selected-01/t003.wav",
+      "sha256": "e309dd4a2b235890b7dafbaacda3b34797b045ae15a5376b33e4cd9f922b4e23"
+    },
+    {
+      "id": "baseline-t011",
+      "role": "baseline",
+      "file": "voices/takes/fromm-full-selected-01/t011.wav",
+      "sha256": "19894b5d7a2d259b917541fd3880215163afdb1965ca2cabbf656c5af14b7777"
+    },
+    {
+      "id": "baseline-t034",
+      "role": "baseline",
+      "file": "voices/takes/fromm-full-selected-01/t034.wav",
+      "sha256": "b945d81330079bb47321ded9c83d15f2edec19dd7b7efdf99a97a670cfb0dd24"
+    },
+    {
+      "id": "holdout-t008",
+      "role": "holdout",
+      "file": "voices/takes/fromm-full-selected-01/t008.wav",
+      "sha256": "85cc31a32b6a3d0bf8fad3a31f152bee5696b288a206472bb042d11f5a44f610"
+    },
+    {
+      "id": "holdout-t020",
+      "role": "holdout",
+      "file": "voices/takes/fromm-full-selected-01/t020.wav",
+      "sha256": "a976f6f8738adda8d195078a7d1d7c4640314eec03237c73dd2d73d8cb3f799f"
+    },
+    {
+      "id": "holdout-t028",
+      "role": "holdout",
+      "file": "voices/takes/fromm-full-selected-01/t028.wav",
+      "sha256": "9eab725b16b0ec3e74255014dc3df0563b3ed3f17ab89c0a3414aa37f02e6b46"
+    },
+    {
+      "id": "holdout-t041",
+      "role": "holdout",
+      "file": "voices/takes/fromm-full-selected-01/t041.wav",
+      "sha256": "d84154119c646ad39687d6d25d70ac68f7d50aa57807358da7f02be2050f5f4f"
+    },
+    {
+      "id": "holdout-t059",
+      "role": "holdout",
+      "file": "voices/takes/fromm-full-selected-01/t059.wav",
+      "sha256": "2c27848fe113a09aa971b3841b34e2a9fb97c7ee4253f7bc3711b333e623327d"
+    },
+    {
+      "id": "holdout-t079",
+      "role": "holdout",
+      "file": "voices/takes/fromm-full-selected-01/t079.wav",
+      "sha256": "319890bba15da2b356716d28149b459ea6d2f4c8bd307deda7a049903cc74344"
+    },
+    {
+      "id": "holdout-t090",
+      "role": "holdout",
+      "file": "voices/takes/fromm-full-selected-01/t090.wav",
+      "sha256": "80c301c0d13009931f15094cd48b3a3c502a2963611bf0bc9848f43afd0b28c8"
+    },
+    {
+      "id": "holdout-t098",
+      "role": "holdout",
+      "file": "voices/takes/fromm-full-selected-01/t098.wav",
+      "sha256": "06d8a5b30ed5affc312e08a0877515a1f67856d06dbf61d2cd9d664dec6cadee"
+    },
+    {
+      "id": "holdout-t105",
+      "role": "holdout",
+      "file": "voices/takes/fromm-full-selected-01/t105.wav",
+      "sha256": "9e10299df9eee75fb08fc7733bf8871065d5af451930cfaa627694ce185cf063"
+    },
+    {
+      "id": "holdout-t118",
+      "role": "holdout",
+      "file": "voices/takes/fromm-full-selected-01/t118.wav",
+      "sha256": "94bfb9eeb5149d44d8bcd719422cebe00804580afae819752e423fd8fd95e280"
+    },
+    {
+      "id": "known_drift-t015",
+      "role": "known_drift",
+      "file": "voices/takes/fromm-full-selected-01/t015.wav",
+      "sha256": "4f8a2641d374761824f1678cc0a70f4a47aca9dedb87b2e9809b1b012e4f6f28"
+    },
+    {
+      "id": "candidate-t015",
+      "role": "candidate",
+      "file": "voices/takes/fromm-full-selected-02/t015.wav",
+      "sha256": "2d9d1000600cf2063de05379146a34a7fad5f54dba9422e14240216e80c3a9c6"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "source_sha256": "9e6db5edb0d271a4230dd32b61a2b0a786032da35069f68edc17255064d4d8a3",
+  "episode_sha256": "47e39bab8358a65e451ddab9c334506f84b1d5d2e8afcd7bef8f3b3810875ea2",
+  "source_speaker_blocks": 115,
+  "included_blocks": 112,
+  "omitted_blocks": 3,
+  "takes": 119,
+  "spoken_words": 4141,
+  "every_source_block_accounted_for": true,
+  "every_take_mapped_in_order": true,
+  "source_copy_matches_user_file": true
+}

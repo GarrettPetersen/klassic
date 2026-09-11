@@ -1,0 +1,845 @@
+{
+  "version": 1,
+  "title": "Classic Krusty — The Sane Society",
+  "source": {
+    "url": "https://hrc.contentdm.oclc.org/digital/collection/p15878coll90/id/64/rec/26",
+    "notes": "Complete discussion from the user-designated local transcript inputs/fromm-1958/transcript.txt (1958-05-25). Wallace recast as Krusty; network announcements, nonverbal stage directions, and obsolete next-week promotion omitted. Minor transcription spacing/typo corrections recorded in edit-map.json. All substantive questions and answers retained, including the final discussion of socialism, war, and hope. Long answers split into short sequential takes without added inter-take pauses. Historical assertions remain in their 1958 context. Two late transcript slips are corrected against transcription of the original recording: twenty or thirty years; a mass man. The initial synthesis dialogue is retained in synthesis-script.json. Two Krusty cues are lightly adapted for clear delivery: the introductory question is reordered, and the book-title cue adds Your book. All changes are recorded in edit-map.json."
+  },
+  "disclosure": "Unofficial fan parody. AI animation and recreated Krusty and Erich Fromm voices. Based on the May 25, 1958 Mike Wallace interview; host recast and broadcast framing edited. Not authentic archival audio.",
+  "turns": [
+    {
+      "id": "t001",
+      "speaker": "host",
+      "text": "This is Dr. Erich Fromm, one of the most influential psychoanalysts in the world. A man whose work has been hailed as a significant step forward from the theories of Sigmund Freud.",
+      "provenance": "quotation",
+      "pause_after": 0.45,
+      "shot": "wide"
+    },
+    {
+      "id": "t002",
+      "speaker": "host",
+      "text": "Recently, Dr. Fromm said: \"There has never been a better society than in the United States in 1958, but ...\"He added, \"if the United States goes on in the direction it is now taking, it is in serious danger of destroying itself.\" We'll find out why in a moment.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t003",
+      "speaker": "host",
+      "text": "Good evening. I'm Krusty. In recent weeks we've been discussing the problems of a free society and what it must do to survive. Tonight, we'll try to measure the impact of our free society on us as individuals. Whether we're as happy as we like to think we are, or as free to think and to feel.",
+      "provenance": "adaptation",
+      "pause_after": 0
+    },
+    {
+      "id": "t004",
+      "speaker": "host",
+      "text": "Our guest is Dr. Erich Fromm, a psychoanalyst and social critic, who is internationally renowned for his studies of men and their search for freedom. Dr. Fromm, first let me ask you this. The United States, I think you will agree, has been criticized in many different quarters as a materialistic society, perhaps even a shallow society. Yet only recently, you said this...",
+      "provenance": "adaptation",
+      "pause_after": 0
+    },
+    {
+      "id": "t005",
+      "speaker": "host",
+      "text": "You said: \"There has never been a better society than in the United States in 1958.\" What do you mean by that?",
+      "provenance": "adaptation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t006",
+      "speaker": "guest",
+      "text": "Well, I mean it, of course, in relative terms. The history of man so far is nothing to brag about, from the standpoint of our ideas--and what I mean is, that in comparison with most other societies, our present-day American society has achieved things which are remarkable: material wealth, greater than for any other nation; a relative freedom from oppression; a relative mobility;",
+      "provenance": "quotation",
+      "pause_after": 0
+    },
+    {
+      "id": "t007",
+      "speaker": "guest",
+      "text": "a spreading of art, of music, of thought, which is also rather unique. So, I would say, compared with the 19th century, compared with most previous history, this is as good or better a society than any which man has ever made. But that doesn't mean it is such a good one.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t008",
+      "speaker": "host",
+      "text": "Well, that's the point. At the same time you make this apparently contradictory statement, because you also said, earlier this week: \"If the United States goes on in the direction it is taking, it is in serious danger of destroying itself.\" Now how? In what ways?",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t009",
+      "speaker": "guest",
+      "text": "Well, Mr. Krusty, I would say, if I would put it generally, because in our enthusiasm to dominate nature and to produce more material good - goods - we have transformed means into ends. We've wanted to produce more in the 19th century and the 20th century in order to give man the possibility for more dignified human life;",
+      "provenance": "adaptation",
+      "pause_after": 0
+    },
+    {
+      "id": "t010",
+      "speaker": "guest",
+      "text": "but actually what has happened is that production and consumption have become means-- have ceased to be means and have become ends, and we are production crazy and consumption crazy.",
+      "provenance": "adaptation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t011",
+      "speaker": "host",
+      "text": "Well, I would like to get your views, with that as a background. I'd like to get your views as a psychoanalyst on specific instances - on what is happening to us as individuals. For instance, what would you say is happening to man, American man, in relationship to his work?",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t012",
+      "speaker": "guest",
+      "text": "I think his work is to a large extent, meaningless, because he is not related to it. He is increasingly part of a big machinery, social machinery, governed by a big bureaucracy......and I think American man unconsciously hates his work very often, because he feels trapped by it...imprisoned by it... because he feels that he is spending most of his energy for something which has no meaning in itself.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t013",
+      "speaker": "host",
+      "text": "By meaning in itself, he, he uses his work to make a living, so that is dignified, sensible and necessary.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t014",
+      "speaker": "guest",
+      "text": "Yes, but that is not quite enough to make one happy, if one spends eight hours a day in something which in itself has no meaning and interest, except that one gains money from it.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t015",
+      "speaker": "host",
+      "text": "By meaning and interest in work - maybe I'm pressing this unnecessarily hard - what specifically do you mean? When a man works at a factory, with a monkey wrench, let us say, what meaning, what, what deeper meaning are you looking for?",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t016",
+      "speaker": "guest",
+      "text": "Well, there is a creative pleasure, which, for instance, the artisan in the Middle Ages, or in a country like Mexico, still today has - namely the pleasure of creating something. You find quite a few skilled workers who still have that pleasure: maybe in a steel mill; maybe a worker who works with a complicated machine - he has a sense that he is creating something.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t017",
+      "speaker": "guest",
+      "text": "But if you take a salesman, who sells a useless commodity, he feels like a fraud, and he hates his commodity like... something...",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t018",
+      "speaker": "host",
+      "text": "Mmm-hm. But you say useless commodity. If he sells toothbrushes, or automobiles, or televisions...",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t019",
+      "speaker": "guest",
+      "text": "Well, useless is a relative term. For instance, if in order to make his quota, he has to make people buy things which he knows they shouldn't buy them, then indeed, in terms of the needs of these people, they are useless, even if in themselves, they are alright.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t020",
+      "speaker": "host",
+      "text": "In writing about men in America, you've said frequently - you've talked frequently - about what you call \"the marketing orientation.\" What do you mean by \"the marketing orientation,\" Dr. Fromm?",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t021",
+      "speaker": "guest",
+      "text": "I mean by that, that our main way of relating ourselves to others is like things relate themselves to things on the market. We want to exchange our own personality - or as one says sometimes, our \"personality package\" - for something.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t022",
+      "speaker": "guest",
+      "text": "Now, this is not so true for the manual worker. The manual worker does not have to sell his personality. He doesn't have to sell his smile.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t023",
+      "speaker": "guest",
+      "text": "But, what you might call the \"symbol pushers\" - that is to say, all of the people who deal with figures, with paper, with men, who manipulate - to use a better or nicer word - manipulate men and signs and words.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t024",
+      "speaker": "guest",
+      "text": "All those today have not only to sell their service, but in the bargain, they have to sell their personality, more or less. There are exceptions.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t025",
+      "speaker": "host",
+      "text": "So, his sense of his own value must, therefore, depend upon what the market, in this sense, is willing to pay for it...",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t026",
+      "speaker": "guest",
+      "text": "Exactly, just as a handbag which cannot be sold because there is not enough demand is, economically speaking, useless. And if the handbag could think, it would have a terrific inferiority feeling, because, not having been bought, it would feel useless.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t027",
+      "speaker": "guest",
+      "text": "So does a man who considers himself as a thing, and if he is not successful to sell himself, he feels he is a failure.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t028",
+      "speaker": "host",
+      "text": "Alright, let's move to our social relationships, in our feelings toward our neighbors, toward our friends - what's happening to man in those spheres?",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t029",
+      "speaker": "guest",
+      "text": "Well, in the first place, I would say our social relationships are relatively shallow. We are actually afraid to be intimate, with people - many people even with their wives and husbands. And we substitute, or we rather hide, this fear of real intimacy by a superficial kind of friendliness, which is quite nice, but nevertheless, very shallow. But I think there is another answer to your question, which I should like to give.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t030",
+      "speaker": "guest",
+      "text": "Actually, if you take the average American, and studies have shown that, he is really concerned only with private affairs; that is to say, with his health, his money and family affairs.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t031",
+      "speaker": "guest",
+      "text": "He is not concerned with his society. He talks about it, but you know if one speaks of being concerned, I mean something about which one loses one's sleep, sometimes.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t032",
+      "speaker": "guest",
+      "text": "And the average American never loses his sleep about affairs which relate to his society and to our whole country.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t033",
+      "speaker": "guest",
+      "text": "That is to say, I mean he has separated his private life from his existence as a member of his society, and leaves that to the specialists in the government to take care of.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t034",
+      "speaker": "host",
+      "text": "Do you think that that is happening to American man - and of course we're speaking not only of American man, but of American woman as well here, Dr. Fromm - in relationship to his politics, to his political beliefs?",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t035",
+      "speaker": "guest",
+      "text": "Yes, indeed. We have, in the same way, relegated our own responsibility in what happens to our country to the specialists, who are supposed to take care of it, and the individual citizen does not feel that he can judge, and even that he should judge, and take any responsibility. I think there are quite a number of recent developments which show that.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t036",
+      "speaker": "host",
+      "text": "Like for instance...",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t037",
+      "speaker": "guest",
+      "text": "Like for instance, that we are confronted with the possibility of a war of such destruction that the whole existence of our nation and of the whole world is at stake. And yet, people know it - people read it in the newspapers, people read that at the first attack, a hundred million Americans might be killed. And yet, they talk about it as if they were talking about something being wrong with the carburetor of their car, perhaps.",
+      "provenance": "adaptation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t038",
+      "speaker": "guest",
+      "text": "Actually, they have paid more attention to the danger of a flu epidemic than to the danger of the atomic bomb, because...",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t039",
+      "speaker": "host",
+      "text": "Don't you think that's a little overstatement, Dr. Fromm?",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t040",
+      "speaker": "guest",
+      "text": "Well, I wish it were, because what I see is relatively few people who experience, who feel, the danger, which we are threatened with, and who feel the responsibility of doing something about it.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t041",
+      "speaker": "host",
+      "text": "Or maybe, when you talk about the responsibility of doing something, maybe it simply is this: that we find it very difficult to make ourselves felt in this amorphous society in which we live.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t042",
+      "speaker": "host",
+      "text": "Each individual would want to do something but would find it difficult to make himself felt.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t043",
+      "speaker": "guest",
+      "text": "Well, I think here you point out to one, really, of the basic defects of our system: that the individual citizen has very little possibility of having any influence - of making his opinion felt in the decision-making.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t044",
+      "speaker": "guest",
+      "text": "And I think that, in itself, leads to a good deal of political lethargy and stupidity. It is true that one has to think first and then to act -but it's also true that if one has no possibility of acting, one's thinking kind of becomes empty and stupid.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t045",
+      "speaker": "host",
+      "text": "Let's talk about man in relation to his love, his marriage.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t046",
+      "speaker": "guest",
+      "text": "Well, I would say love is something everybody talks about, and the need for love is one of the most basic needs of man, namely the experience of union with another being -of becoming one with another being.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t047",
+      "speaker": "guest",
+      "text": "And yet, I would say that love today is a relatively rare phenomenon, that we have a great deal of sentimentality; we have a great deal of illusion about love, namely as a...as something one falls in. But the question is that one cannot fall in love, really; one has to be in love. And that means that loving becomes, and the ability to love, becomes one of the most important things in life.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t048",
+      "speaker": "host",
+      "text": "Why is it so difficult for us to be in love, as human beings? What is wrong with us, as you see it?",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t049",
+      "speaker": "guest",
+      "text": "Because we are concerned with things. We are concerned with success. We are concerned with money. We are concerned with instrumentalities. And the most important things we talk about on Sundays are things to which we pay very little attention. Love is not easy. All great religions postulate love as one of the greatest accomplishments.",
+      "provenance": "adaptation",
+      "pause_after": 0
+    },
+    {
+      "id": "t050",
+      "speaker": "guest",
+      "text": "If it were that easy, or as easy as most people think, certainly, the great religious leaders would have been rather naive.",
+      "provenance": "adaptation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t051",
+      "speaker": "host",
+      "text": "Well, you mention what we think about, or what we talk about anyway, on Sundays... What about man in relationship to his religion?",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t052",
+      "speaker": "guest",
+      "text": "Well, I think here we find the same phenomenon. We have a religious renaissance today in America, as many people say. I would say this religious renaissance, ninety percent of it is the greatest danger true religious experience has ever been confronted with.",
+      "provenance": "adaptation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t053",
+      "speaker": "host",
+      "text": "Why?",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t054",
+      "speaker": "guest",
+      "text": "Because, what is attempted in this religious so-called \" renaissance\" is kind of a mixture-- between Dale Carnegie, \"How to Win Friends and be Successful\" and the norms of the Bible, of the Old and the New Testament. And in a kind of a clever, and sometimes not so clever way, people try to combine the two. Well, that is actually very much the contrary of the spirit of our true religious tradition.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t055",
+      "speaker": "guest",
+      "text": "I could put it in another way, Mr. Krusty. I could say this: man today being concerned with production and consumption as ends in themselves, has very little energy and time to devote himself to the true religious experience. So...",
+      "provenance": "adaptation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t056",
+      "speaker": "host",
+      "text": "When you say \"the true religious experience\" - what do you mean by that, Dr. Fromm?",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t057",
+      "speaker": "guest",
+      "text": "I mean by that, the capacity to feel deep love, deep oneness with my fellow man, with nature, and if I were religious in the conventional sense, I would say, with God. But it doesn't matter whether one uses God or doesn't. What matters is which experience a person has.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t058",
+      "speaker": "host",
+      "text": "The picture that you draw is of a society - and we're talking now basically of Western society, of American society - the picture that you draw is a very dismal one. Now, one of our main concerns... Let me differentiate... One...",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t059",
+      "speaker": "host",
+      "text": "Of course, our, our main concern as human beings, certainly in this part of the world, is to survive, and to stay free, and to realize ourselves. How does all that you've said affect our ability to survive, and to stay free, in this world that is now in crisis?",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t060",
+      "speaker": "guest",
+      "text": "Well, I think you touch upon a very important point here: namely, we must make a decision of values...If our supreme value is the development of the Western tradition - of a man for whom the highest thing in life is man, for whom love for man, respect for man, and the dignity of man, are supreme values - then we cannot ask the question that says, \"if it is better for our survival, might we drop these values?\"",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t061",
+      "speaker": "guest",
+      "text": "If these are supreme values, then they are there, and whether we live or we die, we shall not change these values.",
+      "provenance": "quotation",
+      "pause_after": 0
+    },
+    {
+      "id": "t062",
+      "speaker": "guest",
+      "text": "But if we begin to say, \"Well, maybe we can cope better with the Russians if we also transform ourselves into a managed society......if we, as somebody put it the other day, train our soldiers to be like the Turks, who have fought so bravely in Korea...if we are willing to change our whole way of life for the sake of so-called \"survival,\" then I think we do exactly that which threatens our survival.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t063",
+      "speaker": "guest",
+      "text": "Because our vitality, and the vitality of each nation, rests on the sincerity and depth of the faith in the ideas which it announces, or pronounces. I think our danger is that we talk one thing, and we feel and act another thing.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t064",
+      "speaker": "host",
+      "text": "How do you mean?",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t065",
+      "speaker": "guest",
+      "text": "I mean, we talk about equality, about happiness, about freedom - and about the spiritual values of religion, and about God - and in our daily life, we act on principles which are different, and partly contradictory.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t066",
+      "speaker": "host",
+      "text": "Alright, if I may ask you now to define: you mention equality, happiness and freedom.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t067",
+      "speaker": "guest",
+      "text": "Well, I'll try. By equality, one once understood equality in the very same sense in which the Bible speaks of equality: that we are all equal, inasmuch as we are created in the image of God. Or, if I don't use theological language: that we are all equal in the sense that no man must mean - must be - the means for the purposes of another man; but each individual is an end in itself.",
+      "provenance": "quotation",
+      "pause_after": 0
+    },
+    {
+      "id": "t068",
+      "speaker": "guest",
+      "text": "Today, we talk a lot about equality, but I think what most people mean by it is sameness - that everybody is the same - and they are afraid if they are not the same, they are not equal.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t069",
+      "speaker": "host",
+      "text": "And happiness.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t070",
+      "speaker": "guest",
+      "text": "Well, happiness is a very proud word of our whole cultural heritage. I think if you ask what people really mean by happiness today, it is the experience of unlimited consumption - the kind of thing Mr. Huxley described in “Brave New World.”",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t071",
+      "speaker": "guest",
+      "text": "I think if you would ask people what their concept of Heaven is, and if they were honest, they would say it's a kind of big department store with new things every week, and enough money to buy everything new.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t072",
+      "speaker": "guest",
+      "text": "Happiness today, I think, is for most people the satisfaction of the eternal suckling: to drink in more this, that, or the other.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t073",
+      "speaker": "host",
+      "text": "And what should happiness be?",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t074",
+      "speaker": "guest",
+      "text": "Happiness should be something which results from the creative, genuine, intense relatedness - awareness, responsiveness, to everything in life - to man, to nature.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t075",
+      "speaker": "guest",
+      "text": "Happiness does not exclude sadness - if a person responds to life, he's sometimes happy and sometimes sad. What matters is he responds.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t076",
+      "speaker": "host",
+      "text": "And the third, was it democracy or freedom?",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t077",
+      "speaker": "guest",
+      "text": "Well, it's... all these words are used now rather indiscriminately. I would say democracy once meant an organizational society and a state, in which the individual citizen is - feels - responsible, and acts responsibly, and participates in decision-making.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t078",
+      "speaker": "guest",
+      "text": "I think what democracy means today, in reality, is to a large extent, manipulated consent - not forced consent, manipulated consent -and manipulated more and more with the help of Madison Avenue.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t079",
+      "speaker": "host",
+      "text": "Well now. Now that we have stated the indictment, tell me: how did we get this way? What happened to us? Where did we get off the track, Dr. Fromm?",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t080",
+      "speaker": "guest",
+      "text": "I think we got off the track, as many societies do, who follow successfully one aim, and yet are not capable of seeing at what point the pursuit of this aim prevents them from following a more total aim. That is to say, they get into a blind alley.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t081",
+      "speaker": "guest",
+      "text": "I think, to be specific, we got off the track when we concentrated more and more on production of things. Thereby, we created a split between intellect and emotion, because, in order to produce a modern technique, you have to use intellect, and we have created men who are very brilliant, who are very clever, but our emotional life has become impoverished.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t082",
+      "speaker": "host",
+      "text": "Are you talking about capitalism? Is that...",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t083",
+      "speaker": "guest",
+      "text": "Yes. I talk about capitalism. I talk about the industrial system, as it has been created since a hundred, two hundred years.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t084",
+      "speaker": "host",
+      "text": "Would you suggest another system? Which...",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t085",
+      "speaker": "guest",
+      "text": "Well...",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t086",
+      "speaker": "host",
+      "text": "Which would better fortify man? Which would better understand and help man to realize himself?",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t087",
+      "speaker": "guest",
+      "text": "Yes, indeed. I am a socialist, and... however, I have to add that what I understand by socialism is exactly the opposite of what many people, or most people, today mean by socialism.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t088",
+      "speaker": "host",
+      "text": "Explain.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t089",
+      "speaker": "guest",
+      "text": "I understand by socialism a society in which the aim of production is not profit, but the use. In which the individual citizen participates responsibly in his work, and in the whole social organization, and in which he is not a means who is employed by capital.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t090",
+      "speaker": "host",
+      "text": "But he's going to be employed by the state, is he not, Dr. Fromm? Are you not putting the individual in socialism at the disposal of the state? Doesn't it devalue the individual?",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t091",
+      "speaker": "guest",
+      "text": "Well, we must clarify one thing: socialism - if the Russians claim they are Socialist, this is just, I would say, a lie. They have no socialism at all. They have what I would call a state capitalism.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t092",
+      "speaker": "guest",
+      "text": "Their system is the most reactionary, conservative system anywhere in Europe today, or in America, for that matter.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t093",
+      "speaker": "guest",
+      "text": "And actually, the ownership of industry by the state - that is not socialism - actually, if you take nationalized British industry -",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t094",
+      "speaker": "guest",
+      "text": "...it is not different from Ford and General Motors, as far as the realistic situation of the worker in the factory.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t095",
+      "speaker": "host",
+      "text": "Well, then what is socialism? If that is not socialism, what is?",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t096",
+      "speaker": "guest",
+      "text": "Well, I would say it is, to be quite specific - I see socialism in the direction, of management, of enterprise, by all who work in the enterprise. I would consider a socialism a mixture of the minimum of centralization necessary for a modern industrial state, and a maximum of decentralization.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t097",
+      "speaker": "guest",
+      "text": "I would have to say this, Mr. Krusty: we are terribly imaginative, as far as technique in science is concerned. As far as changes in social arrangements are concerned, we lack utterly in imagination. If we were to...",
+      "provenance": "adaptation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t098",
+      "speaker": "host",
+      "text": "But Dr. Fromm, I keep thinking as you talk-- we have been told by certain persons that we have a creeping socialism now going on in the United States, and certainly it is a more socialistic country today than it was, let's say, twenty or twenty-five years ago.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t099",
+      "speaker": "host",
+      "text": "And yet, you yourself complain about bureaucracy. You yourself complain that the individual is losing his way in this state in which we live; and at the same time, you call for more socialism...aren't you just adding poison to the poison that is already being injected into our systems, if indeed, socialism be poison?",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t100",
+      "speaker": "guest",
+      "text": "Yes, but what is for me socialism is exactly the opposite of a bureaucratically-managed culture. We talk a great deal about Russia today, and I'm afraid that in twenty years, we and Russia will be more similar than different.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t101",
+      "speaker": "host",
+      "text": "Why?",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t102",
+      "speaker": "guest",
+      "text": "Because, what is common to both societies is the development into a managed mass society, with big bureaucracy, managing people. The Russians do it by force. We do it by persuasion.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t103",
+      "speaker": "guest",
+      "text": "I appreciate the tremendous difference, that we can express ideas without being afraid of being killed or imprisoned. But I think the Russians might do away with the terror in twenty or thirty years, when they are richer, and when they don't need these repressive methods so much.",
+      "provenance": "adaptation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t104",
+      "speaker": "guest",
+      "text": "What we have in common is a mass man, a mass bureaucracy, and a manipulation of everyone to act smoothly, but with the illusion that he follows his own decisions and opinions.",
+      "provenance": "adaptation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t105",
+      "speaker": "host",
+      "text": "So far, I personally, if I may express an opinion, go with you, but I find it difficult to go with your solution. I go with your diagnosis, but not to your cure, because I don't understand your socialism, I guess.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t106",
+      "speaker": "guest",
+      "text": "Well, you see, that is so difficult, because the general, the Russians have succeeded in one thing: they have sold the world the idea that they represent socialism and the ideas of Marx, and we have done the greatest service to their propaganda by agreeing that that's what it is.",
+      "provenance": "adaptation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t107",
+      "speaker": "guest",
+      "text": "We would, I would need much more time to explain that socialism in the sense - in the humanistic, democratic sense - in which Marx meant it, and which I understand by it - is exactly the opposite of a managed society by, managed by big bureaucracy. How this could be done - how individual responsibility can be aroused, can be created - that is a matter of social organization which would lead us into detail.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t108",
+      "speaker": "host",
+      "text": "Where can I, where can those looking in tonight, find out more about this?",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t109",
+      "speaker": "guest",
+      "text": "Well, I've tried in one book of mine to describe this.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t110",
+      "speaker": "host",
+      "text": "Your book, The Sane Society.",
+      "provenance": "adaptation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t111",
+      "speaker": "guest",
+      "text": "The Sane Society. I want to mention that Marx shares something, if you don't mind the comparison, with the Old Testament: many people talk about him, but nobody has read him.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t112",
+      "speaker": "guest",
+      "text": "And in fact, there are very important writings of Marx which are not even translated into English.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t113",
+      "speaker": "host",
+      "text": "So you suggest that we go to Dr. Erich Fromm, and to Karl Marx...",
+      "provenance": "adaptation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t114",
+      "speaker": "guest",
+      "text": "Well, uh, not exactly. I would be in very good company though.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t115",
+      "speaker": "host",
+      "text": "One final question, sir... In reading your Sane Society- and you only have, I'm sorry to say, a half a minute to answer this - I feel a certain despair in Erich Fromm, about the future of the world...",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t116",
+      "speaker": "guest",
+      "text": "Mr. Krusty, I feel worried, deeply worried, only about one thing - the possibility that we fall... that we cannot avoid an atomic war. And the only concern which I have today is that we have a policy, a foreign policy, which enables us to avoid a catastrophe; which, if one understands it properly, is indescribable .",
+      "provenance": "adaptation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t117",
+      "speaker": "guest",
+      "text": "Short of that, I have a tremendous faith in the possibilities of man, which have shown in his past, and I believe if we avoid war, we shall be able to revive our real vision of life, but that we must see it, and therefore, that we must be critical to where we are.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t118",
+      "speaker": "host",
+      "text": "Thank you, Dr. Fromm, for coming and spending this time with us. Whether or not one agrees with his solution, Dr. Erich Fromm points to a pressing problem. As he sees it, America tends to worship machines instead of men; we seem to prefer success to sanity.",
+      "provenance": "quotation",
+      "pause_after": 0.45
+    },
+    {
+      "id": "t119",
+      "speaker": "host",
+      "text": "A society that is politically free, says Dr. Fromm, should guard against this kind of spiritual enslavement. Till then, Krusty, good night.",
+      "provenance": "adaptation",
+      "pause_after": 1.5
+    }
+  ]
+}
